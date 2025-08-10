@@ -29,8 +29,14 @@ class SignalEngine:
         self.market_conditions = {}
         self.use_enhanced_signals = True  # Enable enhanced signals
         
-        # Initialize components
-        asyncio.create_task(self._initialize_async())
+        # Initialize components (async initialization will be called separately)
+        self.initialization_task = None
+        
+    async def initialize_async(self):
+        """Public method to initialize async components"""
+        if self.initialization_task is None:
+            self.initialization_task = asyncio.create_task(self._initialize_async())
+        await self.initialization_task
         
     def _setup_logger(self):
         logger = logging.getLogger('SignalEngine')

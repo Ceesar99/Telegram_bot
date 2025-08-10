@@ -36,7 +36,7 @@ warnings.filterwarnings('ignore')
 sys.path.append('/workspace')
 
 # Import core components
-from telegram_bot import TradingBot
+from simple_telegram_bot import SimpleTelegramBot as TradingBot
 from signal_engine import SignalEngine
 from pocket_option_api import PocketOptionAPI
 from performance_tracker import PerformanceTracker
@@ -226,20 +226,25 @@ class UnifiedTradingSystem:
         """Initialize core trading bot components"""
         self.logger.info("Initializing core components...")
         
-        # Initialize Telegram bot
-        self.telegram_bot = TradingBot()
-        
-        # Initialize signal engine
+        # Initialize signal engine first (needed by TradingBot)
         self.signal_engine = SignalEngine()
-        
-        # Initialize Pocket Option API
-        self.pocket_api = PocketOptionAPI()
+        await self.signal_engine.initialize_async()
         
         # Initialize performance tracker
         self.performance_tracker = PerformanceTracker()
         
         # Initialize risk manager
         self.risk_manager = RiskManager()
+        
+        # Initialize Telegram bot with components
+        self.telegram_bot = TradingBot(
+            signal_engine=self.signal_engine,
+            performance_tracker=self.performance_tracker,
+            risk_manager=self.risk_manager
+        )
+        
+        # Initialize Pocket Option API
+        self.pocket_api = PocketOptionAPI()
         
         self.logger.info("Core components initialized")
     
@@ -293,6 +298,19 @@ class UnifiedTradingSystem:
         self.logger.info("Starting Unified Trading System...")
         
         try:
+            # Start Telegram bot in a separate thread
+            def run_telegram_bot():
+                try:
+                    if self.telegram_bot:
+                        self.telegram_bot.run()
+                except Exception as e:
+                    self.logger.error(f"Error running Telegram bot: {e}")
+            
+            import threading
+            bot_thread = threading.Thread(target=run_telegram_bot, daemon=True)
+            bot_thread.start()
+            self.logger.info("Telegram bot started in separate thread")
+            
             # Start main trading loop
             await self._main_trading_loop()
         except Exception as e:

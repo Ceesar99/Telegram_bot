@@ -1,0 +1,8 @@
+2025-08-10 23:18:39,618 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-10 23:19:32,107 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-10 23:21:27,935 - SimpleTelegramBot - INFO - Bot connected: @CEESARBOT
+2025-08-10 23:21:27,936 - SimpleTelegramBot - INFO - Starting Simple Telegram Bot polling...
+2025-08-10 23:21:28,208 - SimpleTelegramBot - INFO - Processing command: /start from user 8093708320
+2025-08-10 23:21:28,502 - SimpleTelegramBot - INFO - Processing command: /start from user 8093708320
+2025-08-10 23:22:06,383 - SimpleTelegramBot - INFO - Bot connected: @CEESARBOT
+2025-08-10 23:22:06,384 - SimpleTelegramBot - INFO - Starting Simple Telegram Bot polling...

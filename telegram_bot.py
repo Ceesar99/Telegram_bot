@@ -22,10 +22,10 @@ from performance_tracker import PerformanceTracker
 from risk_manager import RiskManager
 
 class TradingBot:
-    def __init__(self):
+    def __init__(self, signal_engine=None):
         self.token = TELEGRAM_BOT_TOKEN
         self.authorized_users = [int(TELEGRAM_USER_ID)]
-        self.signal_engine = SignalEngine()
+        self.signal_engine = signal_engine or SignalEngine()
         self.performance_tracker = PerformanceTracker()
         self.risk_manager = RiskManager()
         self.app = None
@@ -681,11 +681,14 @@ These settings help protect your account from excessive losses.
             # Add callback query handler
             self.app.add_handler(CallbackQueryHandler(self.button_callback))
             
-            # Start periodic tasks
-            asyncio.create_task(self.setup_periodic_tasks())
-            
             # Start bot
             self.logger.info("Starting Telegram bot...")
+            
+            # Set up post init callback for periodic tasks
+            async def post_init(application):
+                asyncio.create_task(self.setup_periodic_tasks())
+            
+            self.app.post_init = post_init
             self.app.run_polling()
             
         except Exception as e:

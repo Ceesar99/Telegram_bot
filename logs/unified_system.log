@@ -215,3 +215,78 @@
 2025-08-10 23:14:36,402 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
 2025-08-10 23:15:06,469 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
 2025-08-10 23:15:36,541 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:16:06,615 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:16:36,681 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:17:06,736 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:17:27,705 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 23:17:46,852 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 23:17:46,852 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 23:17:47,771 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 23:17:47,771 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 23:17:47,808 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 23:17:47,808 - UnifiedTradingSystem - INFO - Started new trading session: session_1754867867
+2025-08-10 23:17:47,808 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 23:17:47,808 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 23:17:47,808 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 23:17:47,845 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:18:17,912 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:18:38,515 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 23:18:38,515 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 23:18:39,567 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 23:18:39,567 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 23:18:39,603 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 23:18:39,603 - UnifiedTradingSystem - INFO - Started new trading session: session_1754867919
+2025-08-10 23:18:39,603 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 23:18:39,603 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 23:18:39,604 - UnifiedTradingSystem - INFO - Telegram bot started in separate thread
+2025-08-10 23:18:39,604 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 23:18:39,618 - UnifiedTradingSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-10 23:18:39,640 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:19:09,704 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:19:31,129 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 23:19:31,129 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 23:19:32,061 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 23:19:32,061 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - Started new trading session: session_1754867972
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - Telegram bot started in separate thread
+2025-08-10 23:19:32,096 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 23:19:32,108 - UnifiedTradingSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-10 23:19:32,134 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:20:02,176 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:20:32,245 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:21:02,282 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:21:32,347 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:21:54,386 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 23:22:02,356 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 23:22:02,356 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754867972_report.json
+2025-08-10 23:22:02,356 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 23:22:02,356 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754868122.json
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754867972_report.json
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754868122.json
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754867972_report.json
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 23:22:02,357 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 23:22:02,358 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754868122.json
+2025-08-10 23:22:02,358 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 23:22:04,881 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 23:22:04,881 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 23:22:06,079 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 23:22:06,079 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 23:22:06,115 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 23:22:06,115 - UnifiedTradingSystem - INFO - Started new trading session: session_1754868126
+2025-08-10 23:22:06,115 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 23:22:06,115 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 23:22:06,116 - UnifiedTradingSystem - INFO - Telegram bot started in separate thread
+2025-08-10 23:22:06,116 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 23:22:06,151 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:22:36,191 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
