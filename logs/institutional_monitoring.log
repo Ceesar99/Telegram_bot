@@ -1,0 +1,60 @@
+2025-08-10 10:52:40,576 - InstitutionalMonitoringSystem - INFO - Monitoring system started
+2025-08-10 10:52:41,581 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:53:12,589 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:53:43,597 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:54:14,605 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:54:45,615 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:54:45,670 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.2ms)
+2025-08-10 10:54:45,670 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (52.2ms)
+2025-08-10 10:54:45,670 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (0.7ms)
+2025-08-10 10:55:16,676 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:55:47,682 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:56:18,691 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:56:49,700 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:57:20,709 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:57:20,739 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.1ms)
+2025-08-10 10:57:20,740 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (26.6ms)
+2025-08-10 10:57:20,740 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (0.5ms)
+2025-08-10 10:57:51,746 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:58:22,754 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:58:53,763 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:59:24,771 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:59:55,778 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 10:59:55,819 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.2ms)
+2025-08-10 10:59:55,819 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (37.5ms)
+2025-08-10 10:59:55,819 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (0.6ms)
+2025-08-10 11:00:26,825 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:00:57,834 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:01:28,843 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:01:59,850 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:02:30,857 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:02:30,887 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.1ms)
+2025-08-10 11:02:30,888 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (27.2ms)
+2025-08-10 11:02:30,888 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (0.5ms)
+2025-08-10 11:03:01,894 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:03:32,902 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:04:03,911 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:04:34,918 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:05:05,925 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:05:05,967 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.1ms)
+2025-08-10 11:05:05,968 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (38.4ms)
+2025-08-10 11:05:05,968 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (0.7ms)
+2025-08-10 11:05:36,973 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:06:07,981 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:06:38,989 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:07:09,999 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:07:40,002 - InstitutionalMonitoringSystem - INFO - Monitoring system stopped
+2025-08-10 11:07:40,003 - InstitutionalMonitoringSystem - INFO - Monitoring system stopped
+2025-08-10 11:07:40,003 - InstitutionalMonitoringSystem - INFO - Monitoring system stopped
+2025-08-10 11:07:40,004 - InstitutionalMonitoringSystem - INFO - Monitoring system stopped
+2025-08-10 11:07:48,261 - InstitutionalMonitoringSystem - INFO - Monitoring system started
+2025-08-10 11:07:49,275 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:08:20,281 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:08:51,289 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:09:22,298 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:09:53,305 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:09:53,355 - InstitutionalMonitoringSystem - INFO - Health check - database: healthy (0.2ms)
+2025-08-10 11:09:53,355 - InstitutionalMonitoringSystem - INFO - Health check - data_feed: degraded (44.0ms)
+2025-08-10 11:09:53,356 - InstitutionalMonitoringSystem - INFO - Health check - risk_engine: healthy (2.3ms)
+2025-08-10 11:10:24,362 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-10 11:10:55,370 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop

@@ -1,0 +1,94 @@
+2025-08-10 10:52:35,499 - InstitutionalTradingSystem - INFO - 🚀 Initializing Institutional Trading System...
+2025-08-10 10:52:35,499 - InstitutionalTradingSystem - INFO - 📊 Initializing professional data feeds...
+2025-08-10 10:52:40,508 - InstitutionalTradingSystem - WARNING - ⚠️ Data feeds not responding, using fallback data
+2025-08-10 10:52:40,508 - InstitutionalTradingSystem - INFO - 🧠 Initializing enhanced signal engine...
+2025-08-10 10:52:40,560 - InstitutionalTradingSystem - INFO - ⚡ Initializing smart order router...
+2025-08-10 10:52:40,561 - InstitutionalTradingSystem - INFO - 🛡️ Initializing institutional risk manager...
+2025-08-10 10:52:40,570 - InstitutionalTradingSystem - INFO - 📡 Initializing monitoring system...
+2025-08-10 10:52:40,576 - InstitutionalTradingSystem - INFO - 🤖 Initializing Telegram interface...
+2025-08-10 10:52:40,625 - InstitutionalTradingSystem - INFO - 📈 Started new trading session: session_20250810_105240
+2025-08-10 10:52:40,625 - InstitutionalTradingSystem - INFO - ✅ All components initialized successfully!
+2025-08-10 10:52:40,625 - InstitutionalTradingSystem - INFO - 🟢 Institutional Trading System STARTED
+2025-08-10 10:52:46,733 - InstitutionalTradingSystem - WARNING - ⚠️ System health: degraded - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 52, 46, 733917), overall_status='degraded', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='healthy', active_alerts=0, uptime_hours=0.003120733888888889)
+2025-08-10 10:53:01,753 - InstitutionalTradingSystem - WARNING - ⚠️ Market data quality below threshold: 0.000
+2025-08-10 10:53:01,753 - InstitutionalTradingSystem - WARNING - ⚠️ Market data quality issues, skipping cycle
+2025-08-10 10:53:36,770 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 53, 36, 770602), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=2, uptime_hours=0.017019811666666666)
+2025-08-10 10:53:36,771 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 10:54:41,829 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 54, 41, 829236), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=4, uptime_hours=0.03509165527777778)
+2025-08-10 10:54:41,829 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 10:55:46,888 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 55, 46, 888371), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=6, uptime_hours=0.05316363666666667)
+2025-08-10 10:55:46,888 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 10:56:51,946 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 56, 51, 946186), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=8, uptime_hours=0.07123525166666667)
+2025-08-10 10:56:51,946 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 10:57:57,003 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 57, 57, 3487), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=11, uptime_hours=0.089306725)
+2025-08-10 10:57:57,003 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 10:59:02,037 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 10, 59, 2, 37815), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=13, uptime_hours=0.10737181555555556)
+2025-08-10 10:59:02,037 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:00:07,095 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 0, 7, 95957), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=15, uptime_hours=0.12544352166666667)
+2025-08-10 11:00:07,096 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:01:12,154 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 1, 12, 154597), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=17, uptime_hours=0.14351536694444444)
+2025-08-10 11:01:12,155 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:02:17,213 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 2, 17, 213285), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=19, uptime_hours=0.16158722444444445)
+2025-08-10 11:02:17,214 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:03:22,272 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 3, 22, 272339), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=21, uptime_hours=0.17965918333333333)
+2025-08-10 11:03:22,272 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:04:27,294 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 4, 27, 294327), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=23, uptime_hours=0.19772084305555554)
+2025-08-10 11:04:27,294 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:05:32,307 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 5, 32, 307385), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=25, uptime_hours=0.21578002277777777)
+2025-08-10 11:05:32,308 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:06:37,367 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 6, 37, 367821), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=27, uptime_hours=0.23385237250000002)
+2025-08-10 11:06:37,367 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:07:32,943 - InstitutionalTradingSystem - INFO - Received signal 2, initiating graceful shutdown...
+2025-08-10 11:07:37,373 - InstitutionalTradingSystem - INFO - 🔄 Initiating graceful shutdown...
+2025-08-10 11:07:37,373 - InstitutionalTradingSystem - INFO - ⏸️ Stopping signal generation...
+2025-08-10 11:07:37,373 - InstitutionalTradingSystem - INFO - ⏳ Completing pending trades...
+2025-08-10 11:07:37,373 - InstitutionalTradingSystem - INFO - 📊 Session completed: session_20250810_105240
+2025-08-10 11:07:37,374 - InstitutionalTradingSystem - INFO - 🔄 Initiating graceful shutdown...
+2025-08-10 11:07:37,374 - InstitutionalTradingSystem - INFO - ⏸️ Stopping signal generation...
+2025-08-10 11:07:37,374 - InstitutionalTradingSystem - INFO - ⏳ Completing pending trades...
+2025-08-10 11:07:37,374 - InstitutionalTradingSystem - INFO - 📊 Session completed: session_20250810_105240
+2025-08-10 11:07:37,374 - InstitutionalTradingSystem - INFO - 📊 Data manager closed
+2025-08-10 11:07:37,719 - InstitutionalTradingSystem - INFO - Received signal 2, initiating graceful shutdown...
+2025-08-10 11:07:40,002 - InstitutionalTradingSystem - INFO - 📡 Monitoring system stopped
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📋 Session report saved: /workspace/logs/session_report_session_20250810_105240.json
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - ✅ Institutional Trading System shutdown complete
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📊 Data manager closed
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📡 Monitoring system stopped
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📋 Session report saved: /workspace/logs/session_report_session_20250810_105240.json
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - ✅ Institutional Trading System shutdown complete
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 🔄 Initiating graceful shutdown...
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - ⏸️ Stopping signal generation...
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - ⏳ Completing pending trades...
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📊 Session completed: session_20250810_105240
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📊 Data manager closed
+2025-08-10 11:07:40,003 - InstitutionalTradingSystem - INFO - 📡 Monitoring system stopped
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 📋 Session report saved: /workspace/logs/session_report_session_20250810_105240.json
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - ✅ Institutional Trading System shutdown complete
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 🔄 Initiating graceful shutdown...
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - ⏸️ Stopping signal generation...
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - ⏳ Completing pending trades...
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 📊 Session completed: session_20250810_105240
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 📊 Data manager closed
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 📡 Monitoring system stopped
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - 📋 Session report saved: /workspace/logs/session_report_session_20250810_105240.json
+2025-08-10 11:07:40,004 - InstitutionalTradingSystem - INFO - ✅ Institutional Trading System shutdown complete
+2025-08-10 11:07:43,214 - InstitutionalTradingSystem - INFO - 🚀 Initializing Institutional Trading System...
+2025-08-10 11:07:43,214 - InstitutionalTradingSystem - INFO - 📊 Initializing professional data feeds...
+2025-08-10 11:07:48,222 - InstitutionalTradingSystem - WARNING - ⚠️ Data feeds not responding, using fallback data
+2025-08-10 11:07:48,222 - InstitutionalTradingSystem - INFO - 🧠 Initializing enhanced signal engine...
+2025-08-10 11:07:48,259 - InstitutionalTradingSystem - INFO - ⚡ Initializing smart order router...
+2025-08-10 11:07:48,259 - InstitutionalTradingSystem - INFO - 🛡️ Initializing institutional risk manager...
+2025-08-10 11:07:48,260 - InstitutionalTradingSystem - INFO - 📡 Initializing monitoring system...
+2025-08-10 11:07:48,261 - InstitutionalTradingSystem - INFO - 🤖 Initializing Telegram interface...
+2025-08-10 11:07:48,297 - InstitutionalTradingSystem - INFO - 📈 Started new trading session: session_20250810_110748
+2025-08-10 11:07:48,297 - InstitutionalTradingSystem - INFO - ✅ All components initialized successfully!
+2025-08-10 11:07:48,297 - InstitutionalTradingSystem - INFO - 🟢 Institutional Trading System STARTED
+2025-08-10 11:07:54,364 - InstitutionalTradingSystem - WARNING - ⚠️ System health: degraded - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 7, 54, 364711), overall_status='degraded', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='healthy', active_alerts=0, uptime_hours=0.003097379166666667)
+2025-08-10 11:08:09,381 - InstitutionalTradingSystem - WARNING - ⚠️ Market data quality below threshold: 0.000
+2025-08-10 11:08:09,381 - InstitutionalTradingSystem - WARNING - ⚠️ Market data quality issues, skipping cycle
+2025-08-10 11:08:44,397 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 8, 44, 396962), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=2, uptime_hours=0.016995225833333336)
+2025-08-10 11:08:44,397 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:09:49,440 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 9, 49, 440035), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=4, uptime_hours=0.03506274611111111)
+2025-08-10 11:09:49,440 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading
+2025-08-10 11:10:54,500 - InstitutionalTradingSystem - WARNING - ⚠️ System health: critical - SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 11, 10, 54, 500459), overall_status='critical', data_feeds_status='degraded', execution_status='healthy', risk_status='healthy', monitoring_status='critical', active_alerts=6, uptime_hours=0.053135084166666666)
+2025-08-10 11:10:54,500 - InstitutionalTradingSystem - ERROR - 🔴 Critical system health issues detected, pausing trading

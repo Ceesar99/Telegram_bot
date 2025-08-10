@@ -1,0 +1,90 @@
+2025-08-10 10:52:35,499 - ProfessionalDataManager - INFO - Initialized bloomberg data provider
+2025-08-10 10:52:35,499 - ProfessionalDataManager - INFO - Initialized refinitiv data provider
+2025-08-10 10:52:35,500 - ProfessionalDataManager - INFO - Initialized polygon data provider
+2025-08-10 10:52:35,500 - ProfessionalDataManager - INFO - Initialized alpha_vantage data provider
+2025-08-10 10:52:35,500 - ProfessionalDataManager - INFO - Initialized iex_cloud data provider
+2025-08-10 10:52:35,500 - ProfessionalDataManager - INFO - Initialized quandl data provider
+2025-08-10 10:52:35,501 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:52:40,508 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:52:40,508 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:52:40,625 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:52:46,733 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:52:46,733 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:52:46,734 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:52:51,737 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:52:51,738 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:52:51,738 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:52:56,745 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for GBPUSD
+2025-08-10 10:52:56,745 - ProfessionalDataManager - WARNING - No quality data available for GBPUSD
+2025-08-10 10:52:56,746 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:53:01,752 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for USDJPY
+2025-08-10 10:53:01,753 - ProfessionalDataManager - WARNING - No quality data available for USDJPY
+2025-08-10 10:53:31,763 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:53:36,770 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:53:36,770 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:54:36,822 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:54:41,828 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:54:41,829 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:55:41,880 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:55:46,888 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:55:46,888 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:56:46,939 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:56:51,945 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:56:51,946 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:57:51,996 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:57:57,003 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:57:57,003 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 10:58:57,031 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 10:59:02,037 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 10:59:02,037 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:00:02,088 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:00:07,095 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:00:07,095 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:01:07,147 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:01:12,154 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:01:12,154 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:02:12,206 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:02:17,213 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:02:17,213 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:03:17,265 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:03:22,272 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:03:22,272 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:04:22,288 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:04:27,294 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:04:27,294 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:05:27,300 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:05:32,307 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:05:32,307 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:06:32,359 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:06:37,366 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:06:37,367 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:07:43,214 - ProfessionalDataManager - INFO - Initialized bloomberg data provider
+2025-08-10 11:07:43,214 - ProfessionalDataManager - INFO - Initialized refinitiv data provider
+2025-08-10 11:07:43,215 - ProfessionalDataManager - INFO - Initialized polygon data provider
+2025-08-10 11:07:43,215 - ProfessionalDataManager - INFO - Initialized alpha_vantage data provider
+2025-08-10 11:07:43,215 - ProfessionalDataManager - INFO - Initialized iex_cloud data provider
+2025-08-10 11:07:43,215 - ProfessionalDataManager - INFO - Initialized quandl data provider
+2025-08-10 11:07:43,216 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:07:48,222 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:07:48,222 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:07:48,297 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:07:54,364 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:07:54,364 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:07:54,365 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:07:59,367 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:07:59,367 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:07:59,367 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:08:04,373 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for GBPUSD
+2025-08-10 11:08:04,373 - ProfessionalDataManager - WARNING - No quality data available for GBPUSD
+2025-08-10 11:08:04,374 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:08:09,380 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for USDJPY
+2025-08-10 11:08:09,381 - ProfessionalDataManager - WARNING - No quality data available for USDJPY
+2025-08-10 11:08:39,389 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:08:44,396 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:08:44,396 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:09:44,430 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:09:49,439 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:09:49,439 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
+2025-08-10 11:10:49,492 - ProfessionalDataManager - WARNING - Error reading from cache: Error 111 connecting to localhost:6379. Connection refused.
+2025-08-10 11:10:54,500 - ProfessionalDataManager - WARNING - Timeout fetching data from iex_cloud for EURUSD
+2025-08-10 11:10:54,500 - ProfessionalDataManager - WARNING - No quality data available for EURUSD
