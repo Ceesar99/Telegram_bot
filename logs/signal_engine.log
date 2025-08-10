@@ -106,3 +106,417 @@
 2025-08-10 12:07:52,486 - SignalEngine - INFO - No pre-trained model found. Training new model...
 2025-08-10 12:07:53,564 - SignalEngine - ERROR - No training data available
 2025-08-10 12:07:53,564 - SignalEngine - ERROR - No training data available
+2025-08-10 14:43:26,504 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:43:26,505 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:43:27,472 - SignalEngine - ERROR - No training data available
+2025-08-10 14:43:29,548 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:43:29,548 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:43:29,548 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:43:29,548 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:43:30,742 - SignalEngine - ERROR - No training data available
+2025-08-10 14:43:30,742 - SignalEngine - ERROR - No training data available
+2025-08-10 14:43:49,777 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:43:49,777 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:45:06,862 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:45:06,982 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:45:08,110 - SignalEngine - ERROR - No training data available
+2025-08-10 14:45:09,899 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:45:09,899 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:45:09,967 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:45:09,967 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:45:10,006 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:10,006 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:10,997 - SignalEngine - ERROR - No training data available
+2025-08-10 14:45:10,997 - SignalEngine - ERROR - No training data available
+2025-08-10 14:45:11,037 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:11,037 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:12,040 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:12,040 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:13,056 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:13,056 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:14,042 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:14,042 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:15,045 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:15,045 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:16,062 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:16,062 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:17,046 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:17,046 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:18,046 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:18,046 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:19,050 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:19,050 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:20,052 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:20,052 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:21,053 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:21,053 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:22,067 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:22,067 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:23,060 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:23,060 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:24,059 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:24,059 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:25,060 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:25,060 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:26,064 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:26,064 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:27,064 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:27,064 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:28,065 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:28,065 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:29,096 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:29,096 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:30,065 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:30,065 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:31,071 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:31,071 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:32,069 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:32,069 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:33,071 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:33,071 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:34,073 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:34,073 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:35,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:35,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:36,080 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:36,080 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:37,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:37,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:38,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:38,082 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:39,085 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:39,085 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:40,084 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:40,084 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:41,084 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:41,084 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:42,086 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:42,086 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:43,098 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:43,098 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:44,089 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:44,089 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:45,164 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:45,164 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:46,092 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:46,092 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:47,094 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:47,094 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:48,099 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:48,099 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:49,100 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:49,100 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:50,102 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:50,102 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:51,103 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:51,103 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:52,104 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:52,104 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:53,107 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:53,107 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:54,110 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:54,110 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:55,110 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:55,110 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:56,112 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:56,112 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:57,119 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:57,119 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:58,116 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:58,116 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:59,123 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:45:59,123 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:46:00,085 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:46:00,085 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:52:45,169 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:52:45,306 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:52:46,379 - SignalEngine - ERROR - No training data available
+2025-08-10 14:52:46,501 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:53:55,390 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:53:55,390 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:54:20,893 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:20,893 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:21,018 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:21,018 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:22,109 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:22,109 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:22,232 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:22,232 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:27,874 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:27,874 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:27,912 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:27,912 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:28,647 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:28,647 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:28,678 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:28,678 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:34,882 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:34,882 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:34,918 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:34,918 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:35,640 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:35,640 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:35,670 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:35,670 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:41,891 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:41,891 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:41,928 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:41,928 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:42,669 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:42,669 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:42,698 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:42,698 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:48,898 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:48,898 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:48,945 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:48,945 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:49,712 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:49,712 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:49,741 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:49,741 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:55,907 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:55,907 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:54:55,943 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:55,943 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:54:56,674 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:56,674 - SignalEngine - ERROR - No training data available
+2025-08-10 14:54:56,704 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:54:56,704 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:55:02,915 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:55:02,915 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:55:02,952 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:55:02,952 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:55:03,682 - SignalEngine - ERROR - No training data available
+2025-08-10 14:55:03,682 - SignalEngine - ERROR - No training data available
+2025-08-10 14:55:03,710 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:55:03,710 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:55:09,924 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:55:09,924 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:55:09,961 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:55:09,961 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:55:10,685 - SignalEngine - ERROR - No training data available
+2025-08-10 14:55:10,685 - SignalEngine - ERROR - No training data available
+2025-08-10 14:55:10,714 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:55:10,714 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:55:16,923 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:55:16,923 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:59:07,081 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:59:07,081 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 14:59:07,206 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 14:59:07,206 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 14:59:07,330 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:07,330 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:13,127 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:13,127 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:19,149 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:19,149 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:25,159 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:25,159 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:31,179 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:31,179 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:37,190 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:37,190 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:43,210 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:43,210 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:49,224 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:49,224 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:55,246 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:55,246 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 14:59:57,364 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 14:59:57,364 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:00:26,068 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:00:26,068 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:00:46,217 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:00:46,217 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:00:46,341 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:00:46,341 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:00:46,457 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:00:46,457 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:00:52,262 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:00:52,262 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:00:58,309 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:00:58,309 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:04,294 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:04,294 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:10,316 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:10,316 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:16,327 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:16,327 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:22,348 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:22,348 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:28,359 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:28,359 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:34,380 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:34,380 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:01:36,384 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:01:36,384 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:02:06,401 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:02:06,401 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:02:06,526 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:02:06,526 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:02:06,639 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:06,639 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:12,447 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:12,447 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:18,472 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:18,472 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:24,481 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:24,481 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:30,495 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:30,495 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:36,515 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:36,515 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:42,527 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:42,527 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:48,549 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:48,549 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:54,560 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:54,560 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:02:56,588 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:02:56,588 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:07:41,004 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:07:41,004 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:07:41,128 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:07:41,128 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:07:41,239 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:07:41,239 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:08:41,269 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:08:41,269 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:09:31,423 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:09:31,423 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:10:16,448 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:10:16,448 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:10:16,567 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:10:16,567 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:10:16,717 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:10:16,717 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:11:07,777 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:11:07,777 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:12:01,207 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:12:01,207 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:12:01,334 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:12:01,334 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:12:01,459 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:12:01,459 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:12:52,532 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:12:52,532 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:13:09,389 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:13:09,389 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:13:09,513 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:13:09,513 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:13:09,625 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:13:09,625 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:14:00,723 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:14:00,723 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:18:59,426 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:18:59,426 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:18:59,554 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:18:59,554 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:18:59,879 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:18:59,879 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:19:49,743 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:19:49,743 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:20:29,662 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:20:29,662 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:20:29,782 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:20:29,782 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:20:29,897 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:20:29,897 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:21:20,426 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:21:20,426 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:21:44,104 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:21:44,104 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-10 15:21:44,227 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:21:44,227 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:21:44,340 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:21:44,340 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:22:34,600 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:22:34,600 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:36:28,792 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 15:36:28,792 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 15:36:28,914 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:36:28,914 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:36:29,163 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:36:29,163 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:37:29,535 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:37:29,535 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:38:29,903 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:38:29,903 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:39:30,255 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:39:30,255 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:40:30,625 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:40:30,625 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:41:26,456 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:41:26,456 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:45:19,980 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 15:45:19,980 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 15:45:20,103 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:45:20,103 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:45:20,309 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:45:20,309 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:46:20,534 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:46:20,534 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:47:20,911 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:47:20,911 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:48:21,122 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:48:21,122 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:49:21,528 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:49:21,528 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:50:21,730 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:50:21,730 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:51:21,953 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:51:21,953 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:52:22,363 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:52:22,363 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:53:22,764 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:53:22,764 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:54:23,335 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:54:23,335 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:55:23,573 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:55:23,573 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:56:23,929 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:56:23,929 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:57:24,576 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:57:24,576 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:58:24,772 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:58:24,772 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:59:25,182 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:59:25,182 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:00:14,346 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 16:00:14,346 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 16:00:33,881 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 16:00:33,881 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 16:00:34,001 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 16:00:34,001 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 16:00:34,384 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:00:34,384 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:01:34,730 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:01:34,730 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:02:35,670 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:02:35,670 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:03:35,901 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:03:35,901 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:04:36,114 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:04:36,114 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:05:36,341 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:05:36,341 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:06:36,554 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:06:36,554 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:07:36,807 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:07:36,807 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:08:37,302 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:08:37,302 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:09:37,493 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:09:37,493 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:10:37,716 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:10:37,716 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:11:37,908 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:11:37,908 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:12:38,286 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:12:38,286 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:13:38,749 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:13:38,749 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:14:39,150 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:14:39,150 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 16:15:25,254 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 16:15:25,254 - SignalEngine - INFO - SignalEngine cleanup completed

@@ -24,17 +24,25 @@ def check_python_version():
 
 def check_dependencies():
     """Check if all required dependencies are installed"""
-    required_packages = [
-        'tensorflow', 'pandas', 'numpy', 'scikit-learn',
-        'python-telegram-bot', 'requests', 'websocket-client',
-        'matplotlib', 'seaborn', 'talib', 'psutil'
-    ]
+    package_mappings = {
+        'tensorflow': 'tensorflow',
+        'pandas': 'pandas',
+        'numpy': 'numpy',
+        'scikit-learn': 'sklearn',
+        'python-telegram-bot': 'telegram',
+        'requests': 'requests',
+        'websocket-client': 'websocket',
+        'matplotlib': 'matplotlib',
+        'seaborn': 'seaborn',
+        'talib': 'talib',
+        'psutil': 'psutil'
+    }
     
     missing_packages = []
     
-    for package in required_packages:
+    for package, import_name in package_mappings.items():
         try:
-            __import__(package.replace('-', '_'))
+            __import__(import_name)
             print(f"✅ {package}")
         except ImportError:
             print(f"❌ {package} - MISSING")

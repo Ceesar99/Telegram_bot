@@ -29,8 +29,8 @@ class SignalEngine:
         self.market_conditions = {}
         self.use_enhanced_signals = True  # Enable enhanced signals
         
-        # Initialize components
-        asyncio.create_task(self._initialize_async())
+        # Don't initialize async components in constructor
+        # They will be initialized when first needed
         
     def _setup_logger(self):
         logger = logging.getLogger('SignalEngine')
@@ -44,11 +44,13 @@ class SignalEngine:
     async def _initialize_async(self):
         """Initialize async components"""
         try:
-            # Connect to Pocket Option API
+            # Connect to Pocket Option API (now uses REST API polling instead of WebSocket)
             success = self.pocket_api.connect_websocket()
             if success:
                 self.data_connected = True
-                self.logger.info("Connected to Pocket Option API")
+                self.logger.info("Connected to Pocket Option API via REST API polling")
+            else:
+                self.logger.warning("Failed to connect to Pocket Option API")
             
             # Load or train LSTM model
             if not self.lstm_model.load_model():
@@ -90,6 +92,10 @@ class SignalEngine:
     async def generate_signal(self) -> Optional[Dict]:
         """Generate high-accuracy trading signal"""
         try:
+            # Ensure components are initialized
+            if not self.model_loaded or not self.data_connected:
+                await self._initialize_async()
+            
             # Use enhanced signal engine if available
             if self.use_enhanced_signals and hasattr(self, 'enhanced_engine'):
                 return await self._generate_enhanced_signal()

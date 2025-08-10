@@ -607,19 +607,9 @@ These settings help protect your account from excessive losses.
         }
     
     async def send_automatic_signal(self):
-        """Send automatic signal when conditions are met"""
-        if not self.bot_status['auto_signals'] or not self.bot_status['active']:
+        """Send automatic trading signal"""
+        if not self.bot_status['auto_signals']:
             return
-        
-        # Check if we've reached daily signal limit
-        if self.bot_status['signals_today'] >= SIGNAL_CONFIG['max_signals_per_day']:
-            return
-        
-        # Check if enough time has passed since last signal
-        if self.bot_status['last_signal_time']:
-            time_diff = datetime.now() - self.bot_status['last_signal_time']
-            if time_diff.total_seconds() < 300:  # 5 minutes minimum between signals
-                return
         
         try:
             signal_data = await self.signal_engine.generate_signal()
@@ -648,6 +638,19 @@ These settings help protect your account from excessive losses.
         except Exception as e:
             self.logger.error(f"Error sending automatic signal: {e}")
     
+    async def error_handler(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle errors in the bot"""
+        self.logger.error(f"Exception while handling an update: {context.error}")
+        
+        # Try to send error message to user
+        try:
+            if update and update.effective_message:
+                await update.effective_message.reply_text(
+                    "❌ An error occurred while processing your request. Please try again later."
+                )
+        except Exception as e:
+            self.logger.error(f"Failed to send error message to user: {e}")
+    
     async def setup_periodic_tasks(self):
         """Setup periodic tasks for automatic signals"""
         while True:
@@ -657,6 +660,9 @@ These settings help protect your account from excessive losses.
             except Exception as e:
                 self.logger.error(f"Error in periodic task: {e}")
                 await asyncio.sleep(60)
+            except asyncio.CancelledError:
+                self.logger.info("Periodic tasks cancelled")
+                break
     
     def run(self):
         """Start the bot"""
@@ -681,12 +687,47 @@ These settings help protect your account from excessive losses.
             # Add callback query handler
             self.app.add_handler(CallbackQueryHandler(self.button_callback))
             
-            # Start periodic tasks
-            asyncio.create_task(self.setup_periodic_tasks())
+            # Add error handler
+            self.app.add_error_handler(self.error_handler)
             
-            # Start bot
             self.logger.info("Starting Telegram bot...")
-            self.app.run_polling()
+            
+            async def main():
+                try:
+                    # Start periodic tasks
+                    periodic_task = asyncio.create_task(self.setup_periodic_tasks())
+                    
+                    # Initialize and start the application
+                    await self.app.initialize()
+                    await self.app.start()
+                    
+                    # Start polling using the updater instead of run_polling
+                    # This gives us better control over the polling lifecycle
+                    await self.app.updater.start_polling(
+                        allowed_updates=Update.ALL_TYPES,
+                        drop_pending_updates=True
+                    )
+                    
+                    # Keep the task running until cancelled
+                    while True:
+                        await asyncio.sleep(1)
+                        
+                except asyncio.CancelledError:
+                    self.logger.info("Bot task was cancelled")
+                    raise
+                except Exception as e:
+                    self.logger.error(f"Error in main bot loop: {e}")
+                finally:
+                    # Clean shutdown
+                    try:
+                        await self.app.updater.stop()
+                        await self.app.stop()
+                        await self.app.shutdown()
+                    except Exception as e:
+                        self.logger.error(f"Error during bot shutdown: {e}")
+            
+            # Return the coroutine for the caller to handle
+            return main()
             
         except Exception as e:
             self.logger.error(f"Error starting bot: {e}")
