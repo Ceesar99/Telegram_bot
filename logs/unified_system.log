@@ -1,0 +1,184 @@
+2025-08-10 11:58:43,148 - UnifiedTradingSystem - WARNING - Invalid mode '--test', defaulting to hybrid
+2025-08-10 11:58:43,148 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 11:58:43,148 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827123
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - ERROR - Error processing original signals: 'SignalEngine' object has no attribute 'generate_signals'
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - ERROR - Error updating performance metrics: 'PerformanceTracker' object has no attribute 'get_performance_summary'
+2025-08-10 11:58:43,251 - UnifiedTradingSystem - ERROR - Error monitoring portfolio risk: 'RiskManager' object has no attribute 'monitor_risk'
+2025-08-10 11:58:50,509 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 11:59:13,275 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827123_report.json
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - ERROR - Error during shutdown: 'TradingBot' object has no attribute 'shutdown'
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827123_report.json
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - ERROR - Error during shutdown: 'TradingBot' object has no attribute 'shutdown'
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827123_report.json
+2025-08-10 11:59:13,276 - UnifiedTradingSystem - ERROR - Error during shutdown: 'TradingBot' object has no attribute 'shutdown'
+2025-08-10 12:00:03,950 - UnifiedTradingSystem - WARNING - Invalid mode '--test', defaulting to hybrid
+2025-08-10 12:00:03,950 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 12:00:03,950 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:00:04,020 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:00:04,020 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827204
+2025-08-10 12:00:04,020 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:00:04,020 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:00:04,020 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:00:11,163 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827204_report.json
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - ERROR - Error during shutdown: 'PocketOptionAPI' object has no attribute 'close'
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827204_report.json
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - ERROR - Error during shutdown: 'PocketOptionAPI' object has no attribute 'close'
+2025-08-10 12:00:36,177 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:00:36,178 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827204_report.json
+2025-08-10 12:00:36,178 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:00:36,178 - UnifiedTradingSystem - ERROR - Error during shutdown: 'PocketOptionAPI' object has no attribute 'close'
+2025-08-10 12:00:45,180 - UnifiedTradingSystem - WARNING - Invalid mode '--test', defaulting to hybrid
+2025-08-10 12:00:45,180 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 12:00:45,180 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:00:45,250 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:00:45,250 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827245
+2025-08-10 12:00:45,250 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:00:45,250 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:00:45,250 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:00:57,647 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 12:01:17,383 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:01:17,383 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827245_report.json
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827277.json
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827245_report.json
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827277.json
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:01:17,384 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:01:17,385 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827245_report.json
+2025-08-10 12:01:17,385 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:01:17,385 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:01:17,385 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827277.json
+2025-08-10 12:01:17,385 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:05:38,306 - UnifiedTradingSystem - WARNING - Invalid mode '--mode', defaulting to hybrid
+2025-08-10 12:05:38,306 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 12:05:38,306 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:05:38,378 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:05:38,378 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 12:05:38,412 - UnifiedTradingSystem - ERROR - Failed to initialize institutional components: SmartOrderRouter.__init__() missing 1 required positional argument: 'market_data_feed'
+2025-08-10 12:05:38,413 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827538
+2025-08-10 12:05:38,413 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:05:38,413 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:05:38,413 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:05:55,425 - UnifiedTradingSystem - INFO - Received signal 15, initiating shutdown...
+2025-08-10 12:06:10,689 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827538_report.json
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827570.json
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827538_report.json
+2025-08-10 12:06:10,690 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827570.json
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827538_report.json
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827570.json
+2025-08-10 12:06:10,691 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:06:28,862 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 12:06:28,862 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:06:28,934 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:06:28,934 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 12:06:28,987 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 12:06:28,987 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827588
+2025-08-10 12:06:28,987 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:06:28,987 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:06:28,987 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:06:31,121 - UnifiedTradingSystem - ERROR - Error processing institutional signals: 'EnhancedSignalEngine' object has no attribute 'generate_institutional_signals'
+2025-08-10 12:06:31,122 - UnifiedTradingSystem - ERROR - Error monitoring portfolio risk: 'InstitutionalRiskManager' object has no attribute 'monitor_portfolio_risk'
+2025-08-10 12:06:43,862 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:06:43,862 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827588_report.json
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827603.json
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827588_report.json
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827603.json
+2025-08-10 12:06:43,863 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:07:08,487 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 12:07:08,487 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:07:08,560 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:07:08,560 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 12:07:08,595 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 12:07:08,595 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827628
+2025-08-10 12:07:08,595 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:07:08,595 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:07:08,595 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:07:10,627 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 12:07:23,488 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:07:23,488 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827628_report.json
+2025-08-10 12:07:23,488 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:07:23,488 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827643.json
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827628_report.json
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827643.json
+2025-08-10 12:07:23,489 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:07:30,633 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Original mode
+2025-08-10 12:07:30,633 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:07:30,706 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:07:30,706 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827650
+2025-08-10 12:07:30,706 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:07:30,706 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:07:30,706 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:07:45,634 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:07:45,634 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827650_report.json
+2025-08-10 12:07:45,634 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:07:45,634 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827665.json
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827650_report.json
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827665.json
+2025-08-10 12:07:45,635 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:07:51,376 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Institutional mode
+2025-08-10 12:07:51,376 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 12:07:51,449 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 12:07:51,449 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 12:07:51,484 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 12:07:51,484 - UnifiedTradingSystem - INFO - Started new trading session: session_1754827671
+2025-08-10 12:07:51,484 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 12:07:51,484 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 12:07:51,484 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 12:07:53,579 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 12:08:06,377 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:08:06,377 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827671_report.json
+2025-08-10 12:08:06,377 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:08:06,377 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827686.json
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754827671_report.json
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827686.json
+2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - System shutdown completed

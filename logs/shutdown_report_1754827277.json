@@ -1,0 +1,15 @@
+{
+  "shutdown_time": "2025-08-10T12:01:17.385159",
+  "total_uptime_hours": 0.008945693888888889,
+  "mode": "Hybrid",
+  "total_sessions": 3,
+  "final_performance_metrics": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "total_pnl": 0.0,
+    "daily_accuracy": 0.0,
+    "system_uptime": 0.0006062725,
+    "mode": "Hybrid"
+  },
+  "system_health": "SystemHealth(timestamp=datetime.datetime(2025, 8, 10, 12, 1, 17, 385163), overall_status='healthy', original_bot_status='healthy', institutional_status='not_available', data_feeds_status='healthy', execution_status='healthy', risk_status='healthy', monitoring_status='healthy', active_alerts=0, uptime_hours=0.008945695)"
+}
