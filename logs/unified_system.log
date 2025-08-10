@@ -182,3 +182,24 @@
 2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
 2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754827686.json
 2025-08-10 12:08:06,378 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-10 23:04:02,932 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-10 23:04:02,932 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-10 23:04:03,003 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-10 23:04:03,003 - UnifiedTradingSystem - INFO - Initializing institutional components...
+2025-08-10 23:04:03,037 - UnifiedTradingSystem - INFO - Institutional components initialized
+2025-08-10 23:04:03,037 - UnifiedTradingSystem - INFO - Started new trading session: session_1754867043
+2025-08-10 23:04:03,037 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-10 23:04:03,037 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-10 23:04:03,037 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-10 23:04:05,030 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:04:35,096 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:05:05,164 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:05:35,234 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:06:05,301 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:06:35,356 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:07:05,423 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:07:35,480 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:08:05,548 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:08:35,616 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:09:05,682 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-10 23:09:35,750 - UnifiedTradingSystem - INFO - Institutional risk report: N/A

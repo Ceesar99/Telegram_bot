@@ -22,3 +22,9 @@
 2025-08-10 12:07:51,450 - ProfessionalDataManager - INFO - Initialized alpha_vantage data provider
 2025-08-10 12:07:51,450 - ProfessionalDataManager - INFO - Initialized iex_cloud data provider
 2025-08-10 12:07:51,450 - ProfessionalDataManager - INFO - Initialized quandl data provider
+2025-08-10 23:04:03,003 - ProfessionalDataManager - INFO - Initialized bloomberg data provider
+2025-08-10 23:04:03,003 - ProfessionalDataManager - INFO - Initialized refinitiv data provider
+2025-08-10 23:04:03,004 - ProfessionalDataManager - INFO - Initialized polygon data provider
+2025-08-10 23:04:03,004 - ProfessionalDataManager - INFO - Initialized alpha_vantage data provider
+2025-08-10 23:04:03,004 - ProfessionalDataManager - INFO - Initialized iex_cloud data provider
+2025-08-10 23:04:03,004 - ProfessionalDataManager - INFO - Initialized quandl data provider
