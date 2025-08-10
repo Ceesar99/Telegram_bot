@@ -1,0 +1,128 @@
+2025-08-10 14:48:18,028 - INFO - 🚀 Starting Trading Bot in ENHANCED DEMO MODE
+2025-08-10 14:48:18,029 - INFO - 📊 Using completely simulated market data
+2025-08-10 14:48:18,029 - INFO - 🤖 Telegram bot will be available for testing
+2025-08-10 14:48:18,029 - INFO - 🔧 Bypassing all external API dependencies
+2025-08-10 14:48:25,771 - INFO - Demo data created with 525601 records
+2025-08-10 14:48:25,771 - INFO - Data saved to /workspace/data/demo_eurusd_data.csv
+2025-08-10 14:48:25,826 - INFO - Demo models already exist, skipping creation
+2025-08-10 14:48:25,863 - INFO - ✅ Enhanced demo mode initialized successfully
+2025-08-10 14:48:25,863 - INFO - 📱 Send /start to your Telegram bot to begin testing
+2025-08-10 14:48:25,863 - INFO - 🎯 Bot will use simulated data for all operations
+2025-08-10 14:48:25,863 - INFO - 🚫 No external market data will be fetched
+2025-08-10 14:48:25,896 - INFO - Starting Telegram bot...
+2025-08-10 14:48:25,896 - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:48:25,896 - ERROR - ❌ Error in demo mode: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:12,625 - INFO - 🚀 Starting Trading Bot in ENHANCED DEMO MODE
+2025-08-10 14:52:12,625 - INFO - 📊 Using completely simulated market data
+2025-08-10 14:52:12,625 - INFO - 🤖 Telegram bot will be available for testing
+2025-08-10 14:52:12,625 - INFO - 🔧 Bypassing all external API dependencies
+2025-08-10 14:52:20,224 - INFO - Demo data created with 525601 records
+2025-08-10 14:52:20,224 - INFO - Data saved to /workspace/data/demo_eurusd_data.csv
+2025-08-10 14:52:20,285 - INFO - Demo models already exist, skipping creation
+2025-08-10 14:52:20,322 - INFO - ✅ Enhanced demo mode initialized successfully
+2025-08-10 14:52:20,322 - INFO - 📱 Send /start to your Telegram bot to begin testing
+2025-08-10 14:52:20,322 - INFO - 🎯 Bot will use simulated data for all operations
+2025-08-10 14:52:20,322 - INFO - 🚫 No external market data will be fetched
+2025-08-10 14:52:20,322 - INFO - Event loop already running, using existing loop
+2025-08-10 14:52:20,355 - INFO - Starting Telegram bot...
+2025-08-10 14:52:20,355 - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:20,355 - INFO - No event loop running, creating new one
+2025-08-10 14:52:20,365 - INFO - Starting Telegram bot...
+2025-08-10 14:52:20,365 - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:20,365 - ERROR - ❌ Error in demo mode: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:37,630 - INFO - 🚀 Starting Trading Bot in ENHANCED DEMO MODE
+2025-08-10 14:52:37,630 - INFO - 📊 Using completely simulated market data
+2025-08-10 14:52:37,630 - INFO - 🤖 Telegram bot will be available for testing
+2025-08-10 14:52:37,630 - INFO - 🔧 Bypassing all external API dependencies
+2025-08-10 14:52:44,973 - INFO - Demo data created with 525601 records
+2025-08-10 14:52:44,973 - INFO - Data saved to /workspace/data/demo_eurusd_data.csv
+2025-08-10 14:52:45,085 - INFO - Demo models already exist, skipping creation
+2025-08-10 14:52:45,128 - INFO - ✅ Enhanced demo mode initialized successfully
+2025-08-10 14:52:45,128 - INFO - 📱 Send /start to your Telegram bot to begin testing
+2025-08-10 14:52:45,128 - INFO - 🎯 Bot will use simulated data for all operations
+2025-08-10 14:52:45,128 - INFO - 🚫 No external market data will be fetched
+2025-08-10 14:52:45,128 - INFO - Event loop already running, using existing loop
+2025-08-10 14:52:45,167 - INFO - Starting Telegram bot...
+2025-08-10 14:52:45,167 - INFO - Event loop already running, creating task
+2025-08-10 14:52:45,169 - INFO - Connected to Pocket Option API
+2025-08-10 14:52:45,303 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-10 14:52:45,306 - ERROR - Failed to load model: [Errno 2] No such file or directory: '/workspace/models//feature_scaler.pkl'
+2025-08-10 14:52:45,306 - INFO - No pre-trained model found. Training new model...
+2025-08-10 14:52:45,534 - ERROR - WebSocket error: scheme https is invalid
+2025-08-10 14:52:45,534 - ERROR - scheme https is invalid - goodbye
+2025-08-10 14:52:45,534 - INFO - WebSocket connection closed
+2025-08-10 14:52:45,799 - ERROR - Failed to get market data: 404
+2025-08-10 14:52:46,005 - ERROR - Failed to get market data: 404
+2025-08-10 14:52:46,190 - ERROR - Failed to get market data: 404
+2025-08-10 14:52:46,379 - ERROR - Failed to get market data: 404
+2025-08-10 14:52:46,379 - ERROR - No training data available
+2025-08-10 14:52:46,379 - INFO - Using OTC pairs for weekend trading
+2025-08-10 14:52:46,379 - INFO - Scanning 10 symbols for signals
+2025-08-10 14:52:46,379 - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 14:52:46,381 - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 14:52:46,381 - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 14:52:46,383 - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 14:52:46,384 - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 14:52:46,385 - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 14:52:46,387 - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 14:52:46,388 - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 14:52:46,388 - ERROR - Failed to get ticker 'EUR/USD OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,389 - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 14:52:46,389 - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 14:52:46,393 - ERROR - Failed to get ticker 'GBP/USD OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,398 - ERROR - Failed to get ticker 'USD/JPY OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,399 - ERROR - Failed to get ticker 'AUD/USD OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,400 - ERROR - Failed to get ticker 'USD/CAD OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,401 - WARNING - Yahoo Finance failed for EUR/USD OTC: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,403 - ERROR - Failed to get ticker 'GBP/JPY OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,404 - ERROR - Failed to get ticker 'EUR/GBP OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,405 - WARNING - Yahoo Finance failed for GBP/USD OTC: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,406 - ERROR - Failed to get ticker 'EUR/JPY OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,407 - ERROR - Failed to get ticker 'AUD/JPY OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,408 - ERROR - Failed to get ticker 'NZD/USD OTC' reason: Impersonating chrome136 is not supported
+2025-08-10 14:52:46,410 - ERROR - $USD/JPY OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,411 - ERROR - $AUD/USD OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,412 - ERROR - $USD/CAD OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,413 - WARNING - Empty data from Yahoo Finance for USD/JPY OTC
+2025-08-10 14:52:46,413 - ERROR - $GBP/JPY OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,414 - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 14:52:46,414 - ERROR - $EUR/GBP OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,415 - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 14:52:46,415 - ERROR - $EUR/JPY OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,417 - ERROR - $AUD/JPY OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,418 - ERROR - $NZD/USD OTC: possibly delisted; no price data found  (period=1d)
+2025-08-10 14:52:46,418 - WARNING - Empty data from Yahoo Finance for AUD/USD OTC
+2025-08-10 14:52:46,418 - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 14:52:46,418 - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 14:52:46,418 - WARNING - Empty data from Yahoo Finance for USD/CAD OTC
+2025-08-10 14:52:46,419 - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 14:52:46,419 - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 14:52:46,419 - WARNING - Empty data from Yahoo Finance for GBP/JPY OTC
+2025-08-10 14:52:46,419 - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 14:52:46,419 - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 14:52:46,419 - WARNING - Empty data from Yahoo Finance for EUR/GBP OTC
+2025-08-10 14:52:46,419 - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 14:52:46,419 - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 14:52:46,419 - WARNING - Empty data from Yahoo Finance for EUR/JPY OTC
+2025-08-10 14:52:46,419 - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 14:52:46,419 - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 14:52:46,419 - WARNING - Empty data from Yahoo Finance for AUD/JPY OTC
+2025-08-10 14:52:46,419 - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 14:52:46,419 - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 14:52:46,420 - WARNING - Empty data from Yahoo Finance for NZD/USD OTC
+2025-08-10 14:52:46,420 - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 14:52:46,420 - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 14:52:46,488 - WARNING - Yahoo API returned status 500
+2025-08-10 14:52:46,489 - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 14:52:46,489 - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 14:52:46,500 - WARNING - Yahoo API returned status 500
+2025-08-10 14:52:46,501 - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 14:52:46,501 - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 14:52:46,501 - INFO - Found 0 high-quality signals
+2025-08-10 14:52:46,501 - INFO - No high-quality enhanced signals found
+2025-08-10 14:52:46,644 - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getMe "HTTP/1.1 200 OK"
+2025-08-10 14:52:46,644 - INFO - Application started
+2025-08-10 14:52:46,645 - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:52:46,645 - INFO - Application is stopping. This might take a moment.
+2025-08-10 14:52:46,645 - INFO - Application.stop() complete
+2025-08-10 14:52:46,646 - INFO - Periodic tasks cancelled

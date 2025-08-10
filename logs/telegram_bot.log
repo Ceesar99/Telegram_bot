@@ -1,0 +1,333 @@
+2025-08-10 14:43:29,589 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:30,754 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:31,755 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:32,756 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:33,758 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:34,760 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:35,762 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:36,763 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:37,765 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:38,767 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:39,768 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:40,770 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:41,772 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:42,774 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:43,775 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:44,777 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:45,779 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:46,781 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:47,783 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:43:48,785 - TradingBot - ERROR - Error starting bot: no running event loop
+2025-08-10 14:45:09,968 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:10,260 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:10,261 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:11,008 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:11,290 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:11,291 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:12,013 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:12,284 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:12,284 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:13,012 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:13,315 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:13,316 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:14,014 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:14,282 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:14,283 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:15,015 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:15,307 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:15,308 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:16,016 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:16,333 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:16,335 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:17,019 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:17,289 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:17,291 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:18,019 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:18,299 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:18,301 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:19,021 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:19,301 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:19,302 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:20,024 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:20,290 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:20,291 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:21,026 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:21,302 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:21,303 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:22,030 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:22,312 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:22,313 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:23,030 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:23,326 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:23,326 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:24,031 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:24,289 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:24,290 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:25,034 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:25,310 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:25,311 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:26,036 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:26,303 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:26,304 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:27,037 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:27,300 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:27,300 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:28,038 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:28,310 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:28,311 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:29,039 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:29,313 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:29,313 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:30,040 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:30,317 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:30,318 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:31,042 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:31,319 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:31,320 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:32,043 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:32,297 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:32,298 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:33,045 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:33,321 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:33,321 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:34,047 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:34,318 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:34,319 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:35,050 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:35,326 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:35,327 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:36,052 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:36,330 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:36,332 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:37,054 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:37,322 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:37,324 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:38,056 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:38,335 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:38,336 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:39,057 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:39,329 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:39,329 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:40,058 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:40,347 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:40,348 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:41,059 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:41,333 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:41,334 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:42,061 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:42,337 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:42,338 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:43,066 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:43,335 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:43,336 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:44,064 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:44,346 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:44,348 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:45,067 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:45,393 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:45,394 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:46,067 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:46,345 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:46,346 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:47,068 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:47,342 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:47,343 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:48,071 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:48,340 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:48,341 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:49,072 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:49,362 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:49,363 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:50,074 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:50,350 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:50,352 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:51,076 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:51,361 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:51,361 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:52,078 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:52,355 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:52,356 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:53,080 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:53,357 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:53,358 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:54,082 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:54,380 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:54,381 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:55,083 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:55,369 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:55,370 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:56,085 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:56,360 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:56,361 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:57,088 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:57,376 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:57,377 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:58,089 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:58,352 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:58,353 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:45:59,091 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:45:59,362 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:45:59,363 - TradingBot - ERROR - Error starting bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:48:25,896 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:48:25,896 - TradingBot - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:20,355 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:52:20,355 - TradingBot - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:20,365 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:52:20,365 - TradingBot - ERROR - Error starting bot: asyncio.run() cannot be called from a running event loop
+2025-08-10 14:52:45,167 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:52:45,167 - TradingBot - INFO - Event loop already running, creating task
+2025-08-10 14:52:46,645 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:52:46,646 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:20,892 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:20,892 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:22,396 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:22,396 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:27,873 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:27,873 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:28,919 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:28,920 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:34,881 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:34,881 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:35,900 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:35,900 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:41,890 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:41,890 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:42,951 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:42,951 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:48,897 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:48,897 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:49,983 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:49,984 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:54:55,906 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:54:55,906 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:54:56,953 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:54:56,954 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:55:02,914 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:55:02,914 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:55:03,960 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:55:03,961 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:55:09,923 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:55:09,923 - TradingBot - INFO - No event loop running, creating new one
+2025-08-10 14:55:10,969 - TradingBot - ERROR - Error in main bot loop: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-10 14:55:10,970 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:07,080 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:07,464 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:13,096 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:13,386 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:19,113 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:19,379 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:25,130 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:25,416 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:31,146 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:31,425 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:37,162 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:37,418 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:43,179 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:43,441 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:49,196 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:49,464 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:55,213 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 14:59:55,483 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,364 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 14:59:57,367 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:00:26,067 - TradingBot - ERROR - Error starting bot: 'TradingBot' object has no attribute 'error_handler'
+2025-08-10 15:00:46,216 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:00:46,622 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:00:46,622 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:00:52,232 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:00:52,507 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:00:52,507 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:00:58,249 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:00:58,553 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:00:58,553 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:04,267 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:04,542 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:04,542 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:10,283 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:10,579 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:10,579 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:16,299 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:16,586 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:16,586 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:22,316 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:22,597 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:22,597 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:28,332 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:28,626 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:28,626 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:34,349 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:01:34,638 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:01:34,638 - TradingBot - ERROR - Error during bot shutdown: 'Application' object has no attribute 'is_stopping'
+2025-08-10 15:01:36,384 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,384 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,384 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,384 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,384 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,387 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,387 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,387 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:01:36,387 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:06,400 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:06,802 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:12,417 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:12,682 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:18,433 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:18,707 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:24,449 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:24,742 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:30,466 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:30,734 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:36,483 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:36,757 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:42,500 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:42,775 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:48,516 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:48,796 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:54,532 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:02:54,798 - TradingBot - ERROR - Error in main bot loop: Cannot close a running event loop
+2025-08-10 15:02:56,588 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,588 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:02:56,593 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:07:41,003 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:09:31,137 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:09:31,427 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:10:16,447 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:11:07,510 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:11:07,780 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:12:01,206 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:12:52,277 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:12:52,535 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:13:09,389 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:14:00,457 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:14:00,726 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:18:59,425 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:19:49,489 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:19:49,747 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:20:29,095 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:21:20,168 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:21:20,429 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:21:43,276 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:22:34,348 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:22:34,603 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:36:28,790 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:41:23,176 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:41:26,469 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 15:45:19,978 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 16:00:11,081 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 16:00:14,354 - TradingBot - INFO - Periodic tasks cancelled
+2025-08-10 16:00:33,879 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 16:15:24,992 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 16:15:25,262 - TradingBot - INFO - Periodic tasks cancelled

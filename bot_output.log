@@ -1,0 +1,1013 @@
+2025-08-10 15:36:19.165025: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-10 15:36:19.165309: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-10 15:36:19.202223: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/resource_handle.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_shape.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/types.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/full_type.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/function.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/node_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/op_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph_debug_info.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/versions.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at xla/tsl/protobuf/coordination_config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/cost_graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/step_stats.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/allocation_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/cluster.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/workspace/trading_bot_env/lib/python3.13/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/debug.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+2025-08-10 15:36:20.158819: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-10 15:36:20.159146: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+
+╔══════════════════════════════════════════════════════════════╗
+║              BINARY OPTIONS TRADING BOT - STARTUP            ║
+╚══════════════════════════════════════════════════════════════╝
+
+🤖 AI-Powered Trading Signal System
+📊 95%+ Accuracy LSTM Neural Network
+⚡ Real-time Market Data Integration
+📱 Telegram Bot Interface
+
+Starting system checks...
+
+✅ Python version: 3.13.3
+
+📁 Setting up directories...
+✅ Directory: /workspace/logs
+✅ Directory: /workspace/data
+✅ Directory: /workspace/models
+✅ Directory: /workspace/backup
+
+📦 Checking dependencies...
+✅ tensorflow
+✅ pandas
+✅ numpy
+✅ scikit-learn
+✅ python-telegram-bot
+✅ requests
+✅ websocket-client
+✅ matplotlib
+✅ seaborn
+✅ talib
+✅ psutil
+
+⚙️  Checking configuration...
+✅ Telegram Bot Token: Configured
+✅ Telegram User ID: Configured
+✅ Pocket Option SSID: Configured
+
+╔══════════════════════════════════════════════════════════════╗
+║                   🚀 STARTING TRADING BOT 🚀                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+All systems ready! Launching trading bot...
+
+📱 TELEGRAM COMMANDS:
+   /start - Initialize bot
+   /signal - Get trading signal  
+   /stats - View performance
+   /status - System status
+   /help - Show all commands
+
+🎯 The bot will automatically generate signals when:
+   ✅ Market volatility is optimal
+   ✅ AI confidence > 85%
+   ✅ Signal accuracy > 95%
+   ✅ Risk conditions are met
+
+═══════════════════════════════════════════════════════════════
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                    BINARY OPTIONS TRADING BOT                ║
+║                     AI-Powered Signal System                 ║
+╠══════════════════════════════════════════════════════════════╣
+║  🤖 LSTM Neural Network Analysis                             ║
+║  📊 95%+ Accuracy Signal Generation                          ║
+║  ⚡ Real-time Market Data Integration                        ║
+║  📱 Telegram Bot Interface                                   ║
+║  🛡️  Advanced Risk Management                               ║
+║  📈 Comprehensive Performance Tracking                      ║
+╠══════════════════════════════════════════════════════════════╣
+║  Status: Starting up...                                      ║
+║  Time: 2025-08-10 15:36:23 UTC                             ║
+║  User ID: 8093708320                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 Initializing components...
+
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Trading Bot System starting up...
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Validating configuration...
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Configuration validation completed successfully
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Initializing trading bot components...
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Initializing Performance Tracker...
+2025-08-10 15:36:23,673 - TradingBotSystem - INFO - Initializing Risk Manager...
+2025-08-10 15:36:23,674 - TradingBotSystem - INFO - Initializing Pocket Option API...
+2025-08-10 15:36:25,676 - TradingBotSystem - INFO - Initializing Signal Engine...
+2025-08-10 15:36:28,715 - TradingBotSystem - INFO - Initializing Telegram Bot...
+2025-08-10 15:36:28,751 - TradingBotSystem - INFO - All components initialized successfully
+
+╔══════════════════════════════════════════════════════════════╗
+║                      🟢 SYSTEM READY 🟢                       ║
+╠══════════════════════════════════════════════════════════════╣
+║  ✅ All components initialized successfully                   ║
+║  ✅ LSTM model loaded and ready                              ║
+║  ✅ Market data connection established                       ║
+║  ✅ Telegram bot running                                     ║
+║  ✅ Risk management active                                   ║
+║  ✅ Performance tracking enabled                             ║
+╠══════════════════════════════════════════════════════════════╣
+║  📱 Send /start to your Telegram bot to begin               ║
+║  🎯 Automatic signals: ENABLED                              ║
+║  📊 Signal accuracy target: 95%+                            ║
+║  ⏰ Signal advance time: 1 minute                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 Ready to generate high-accuracy trading signals!
+
+2025-08-10 15:36:28,751 - TradingBotSystem - INFO - Trading Bot System is fully operational
+2025-08-10 15:36:28,751 - TradingBotSystem - INFO - Starting Telegram bot in main event loop...
+2025-08-10 15:36:28,790 - TradingBot - INFO - Starting Telegram bot...
+2025-08-10 15:36:28,791 - TradingBotSystem - WARNING - Critical issues detected: ['LSTM model not loaded', 'Pocket Option API disconnected']
+2025-08-10 15:36:28,791 - PocketOptionAPI - INFO - WebSocket endpoints are not working with Pocket Option. Using REST API polling instead.
+2025-08-10 15:36:28,791 - PocketOptionAPI - INFO - Setting up REST API polling fallback
+2025-08-10 15:36:28,791 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:36:28,792 - PocketOptionAPI - INFO - REST API fallback setup completed
+2025-08-10 15:36:28,792 - SignalEngine - INFO - Connected to Pocket Option API via REST API polling
+2025-08-10 15:36:28.798213: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+2025-08-10 15:36:28,911 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-10 15:36:28,914 - LSTM_Model - INFO - Model loaded from /workspace/models//lstm_trading_model.h5
+2025-08-10 15:36:28,914 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-10 15:36:28,914 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:36:28,914 - EnhancedSignalEngine - INFO - Scanning 10 symbols for signals
+2025-08-10 15:36:28,915 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 15:36:28,915 - MultiSourceDataProvider - INFO - OTC symbol EUR/USD OTC detected, using alternative data source
+2025-08-10 15:36:28,915 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 15:36:28,915 - MultiSourceDataProvider - INFO - OTC symbol GBP/USD OTC detected, using alternative data source
+2025-08-10 15:36:28,919 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 15:36:28,919 - MultiSourceDataProvider - INFO - OTC symbol USD/JPY OTC detected, using alternative data source
+2025-08-10 15:36:28,920 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 15:36:28,921 - MultiSourceDataProvider - INFO - OTC symbol AUD/USD OTC detected, using alternative data source
+2025-08-10 15:36:28,921 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 15:36:28,921 - MultiSourceDataProvider - INFO - OTC symbol USD/CAD OTC detected, using alternative data source
+2025-08-10 15:36:28,923 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 15:36:28,923 - MultiSourceDataProvider - INFO - OTC symbol EUR/GBP OTC detected, using alternative data source
+2025-08-10 15:36:28,924 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 15:36:28,924 - MultiSourceDataProvider - INFO - OTC symbol GBP/JPY OTC detected, using alternative data source
+2025-08-10 15:36:28,924 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 15:36:28,924 - MultiSourceDataProvider - INFO - OTC symbol EUR/JPY OTC detected, using alternative data source
+2025-08-10 15:36:28,924 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 15:36:28,924 - MultiSourceDataProvider - INFO - OTC symbol AUD/JPY OTC detected, using alternative data source
+2025-08-10 15:36:28,925 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 15:36:28,925 - MultiSourceDataProvider - INFO - OTC symbol NZD/USD OTC detected, using alternative data source
+2025-08-10 15:36:29,059 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDUSD=X
+2025-08-10 15:36:29,059 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 15:36:29,059 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 15:36:29,065 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDCAD=X
+2025-08-10 15:36:29,065 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 15:36:29,065 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 15:36:29,066 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDJPY=X
+2025-08-10 15:36:29,066 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 15:36:29,066 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 15:36:29,073 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURGBP=X
+2025-08-10 15:36:29,073 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 15:36:29,074 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 15:36:29,091 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPUSD=X
+2025-08-10 15:36:29,091 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 15:36:29,091 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 15:36:29,103 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURUSD=X
+2025-08-10 15:36:29,103 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 15:36:29,103 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 15:36:29,105 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURJPY=X
+2025-08-10 15:36:29,105 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 15:36:29,105 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 15:36:29,106 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPJPY=X
+2025-08-10 15:36:29,106 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 15:36:29,106 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 15:36:29,109 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for NZDUSD=X
+2025-08-10 15:36:29,110 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 15:36:29,110 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 15:36:29,163 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDJPY=X
+2025-08-10 15:36:29,163 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 15:36:29,163 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 15:36:29,163 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-10 15:36:29,163 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:36:29,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getMe "HTTP/1.1 200 OK"
+2025-08-10 15:36:29,213 - telegram.ext.Application - INFO - Application started
+2025-08-10 15:36:29,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-10 15:36:29,323 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:29,547 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:29,745 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:29,944 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:30,145 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:30,345 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:30,559 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:30,757 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:30,951 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:31,144 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:31,859 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:32,060 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:32,249 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:32,444 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:32,649 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:38,149 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:36:38,357 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:38,562 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:38,758 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:38,957 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:39,160 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:39,363 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:39,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:36:39,561 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:39,768 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:39,987 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:40,187 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:40,905 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:41,110 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:41,306 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:41,518 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:41,718 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:47,219 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:36:47,473 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:47,784 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:48,009 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:48,254 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:48,455 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:48,649 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:48,857 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:49,049 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:49,243 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:49,444 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:49,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:36:50,150 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:50,356 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:50,563 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:50,769 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:50,962 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:56,462 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:36:56,762 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:56,979 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:57,177 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:57,384 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:57,587 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:57,801 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:58,007 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:58,212 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:58,414 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:58,601 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:36:59,309 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:59,541 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:59,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:36:59,744 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:36:59,950 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:00,146 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:05,647 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:05,858 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:06,055 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:06,251 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:06,458 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:06,654 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:06,861 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:07,136 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:07,371 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:07,608 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:07,820 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:08,538 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:08,737 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:09,042 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:09,239 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:09,441 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:09,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:37:14,942 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:15,143 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:15,349 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:15,553 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:15,804 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:15,999 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:16,200 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:16,402 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:16,599 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:16,919 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:17,120 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:17,851 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:18,047 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:18,249 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:18,444 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:18,644 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:19,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:37:24,145 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:24,355 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:24,559 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:24,763 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:24,968 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:25,169 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:25,379 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:25,569 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:25,771 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:26,084 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:26,283 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:27,232 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:27,412 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:27,580 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:27,748 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:27,919 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:29,164 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:29,165 - EnhancedSignalEngine - INFO - Scanning 10 symbols for signals
+2025-08-10 15:37:29,165 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 15:37:29,165 - MultiSourceDataProvider - INFO - OTC symbol EUR/USD OTC detected, using alternative data source
+2025-08-10 15:37:29,165 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 15:37:29,165 - MultiSourceDataProvider - INFO - OTC symbol GBP/USD OTC detected, using alternative data source
+2025-08-10 15:37:29,166 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 15:37:29,166 - MultiSourceDataProvider - INFO - OTC symbol USD/JPY OTC detected, using alternative data source
+2025-08-10 15:37:29,166 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 15:37:29,168 - MultiSourceDataProvider - INFO - OTC symbol AUD/USD OTC detected, using alternative data source
+2025-08-10 15:37:29,169 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 15:37:29,169 - MultiSourceDataProvider - INFO - OTC symbol USD/CAD OTC detected, using alternative data source
+2025-08-10 15:37:29,169 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 15:37:29,169 - MultiSourceDataProvider - INFO - OTC symbol EUR/GBP OTC detected, using alternative data source
+2025-08-10 15:37:29,169 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 15:37:29,169 - MultiSourceDataProvider - INFO - OTC symbol GBP/JPY OTC detected, using alternative data source
+2025-08-10 15:37:29,169 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 15:37:29,169 - MultiSourceDataProvider - INFO - OTC symbol EUR/JPY OTC detected, using alternative data source
+2025-08-10 15:37:29,172 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 15:37:29,172 - MultiSourceDataProvider - INFO - OTC symbol AUD/JPY OTC detected, using alternative data source
+2025-08-10 15:37:29,172 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 15:37:29,172 - MultiSourceDataProvider - INFO - OTC symbol NZD/USD OTC detected, using alternative data source
+2025-08-10 15:37:29,318 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDUSD=X
+2025-08-10 15:37:29,318 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 15:37:29,318 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 15:37:29,324 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPUSD=X
+2025-08-10 15:37:29,324 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 15:37:29,324 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 15:37:29,332 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDJPY=X
+2025-08-10 15:37:29,332 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 15:37:29,332 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 15:37:29,348 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDCAD=X
+2025-08-10 15:37:29,348 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 15:37:29,348 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 15:37:29,359 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURUSD=X
+2025-08-10 15:37:29,360 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 15:37:29,360 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 15:37:29,366 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURGBP=X
+2025-08-10 15:37:29,366 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 15:37:29,366 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 15:37:29,401 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURJPY=X
+2025-08-10 15:37:29,401 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 15:37:29,401 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 15:37:29,405 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDJPY=X
+2025-08-10 15:37:29,405 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 15:37:29,405 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 15:37:29,438 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for NZDUSD=X
+2025-08-10 15:37:29,439 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 15:37:29,439 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 15:37:29,534 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPJPY=X
+2025-08-10 15:37:29,534 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 15:37:29,534 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 15:37:29,535 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-10 15:37:29,535 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:37:29,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:37:33,419 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:33,597 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:33,769 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:33,936 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:34,103 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:34,270 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:34,438 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:34,608 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:34,778 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:34,944 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:35,223 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:35,901 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:36,073 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:36,305 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:36,474 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:36,641 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:40,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:37:42,142 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:42,321 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:42,489 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:42,657 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:42,854 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:43,020 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:43,206 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:43,380 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:43,549 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:43,717 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:43,884 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:44,563 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:44,729 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:44,903 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:45,069 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:45,237 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:50,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:37:50,737 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:50,915 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:51,081 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:51,254 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:51,428 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:51,596 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:51,763 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:51,943 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:52,110 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:52,285 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:52,451 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:53,128 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:53,296 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:53,463 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:53,629 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:53,797 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:59,298 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:37:59,475 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:59,641 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:37:59,807 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:37:59,974 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:00,144 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:00,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:00,310 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:00,476 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:00,644 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:00,814 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:00,981 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:01,658 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:01,824 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:01,994 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:02,161 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:02,330 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:07,830 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:08,007 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:08,175 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:08,343 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:08,510 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:08,677 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:08,847 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:09,015 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:09,182 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:09,446 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:09,614 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:10,291 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:10,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:10,463 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:10,630 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:10,798 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:11,135 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:16,636 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:16,813 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:16,985 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:17,155 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:17,325 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:17,491 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:17,658 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:17,825 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:17,990 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:18,266 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:18,432 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:19,113 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:19,283 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:19,451 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:19,616 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:19,782 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:20,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:25,282 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:25,462 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:25,633 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:25,802 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:25,969 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:26,135 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:26,631 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:26,826 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:27,032 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:27,231 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:27,430 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:28,137 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:28,334 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:28,535 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:28,725 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:28,918 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:29,536 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:29,536 - EnhancedSignalEngine - INFO - Scanning 10 symbols for signals
+2025-08-10 15:38:29,536 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 15:38:29,536 - MultiSourceDataProvider - INFO - OTC symbol EUR/USD OTC detected, using alternative data source
+2025-08-10 15:38:29,536 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 15:38:29,536 - MultiSourceDataProvider - INFO - OTC symbol GBP/USD OTC detected, using alternative data source
+2025-08-10 15:38:29,536 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 15:38:29,536 - MultiSourceDataProvider - INFO - OTC symbol USD/JPY OTC detected, using alternative data source
+2025-08-10 15:38:29,537 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 15:38:29,538 - MultiSourceDataProvider - INFO - OTC symbol AUD/USD OTC detected, using alternative data source
+2025-08-10 15:38:29,538 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 15:38:29,538 - MultiSourceDataProvider - INFO - OTC symbol USD/CAD OTC detected, using alternative data source
+2025-08-10 15:38:29,538 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 15:38:29,538 - MultiSourceDataProvider - INFO - OTC symbol EUR/GBP OTC detected, using alternative data source
+2025-08-10 15:38:29,539 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 15:38:29,539 - MultiSourceDataProvider - INFO - OTC symbol GBP/JPY OTC detected, using alternative data source
+2025-08-10 15:38:29,539 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 15:38:29,543 - MultiSourceDataProvider - INFO - OTC symbol EUR/JPY OTC detected, using alternative data source
+2025-08-10 15:38:29,543 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 15:38:29,543 - MultiSourceDataProvider - INFO - OTC symbol AUD/JPY OTC detected, using alternative data source
+2025-08-10 15:38:29,543 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 15:38:29,543 - MultiSourceDataProvider - INFO - OTC symbol NZD/USD OTC detected, using alternative data source
+2025-08-10 15:38:29,673 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPUSD=X
+2025-08-10 15:38:29,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 15:38:29,673 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 15:38:29,687 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURGBP=X
+2025-08-10 15:38:29,688 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 15:38:29,688 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 15:38:29,708 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDUSD=X
+2025-08-10 15:38:29,708 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 15:38:29,708 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 15:38:29,718 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPJPY=X
+2025-08-10 15:38:29,718 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 15:38:29,718 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 15:38:29,731 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDCAD=X
+2025-08-10 15:38:29,732 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 15:38:29,732 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 15:38:29,732 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDJPY=X
+2025-08-10 15:38:29,732 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 15:38:29,732 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 15:38:29,732 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for NZDUSD=X
+2025-08-10 15:38:29,733 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 15:38:29,733 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 15:38:29,735 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDJPY=X
+2025-08-10 15:38:29,735 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 15:38:29,735 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 15:38:29,753 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURUSD=X
+2025-08-10 15:38:29,753 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 15:38:29,753 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 15:38:29,903 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURJPY=X
+2025-08-10 15:38:29,903 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 15:38:29,903 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 15:38:29,903 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-10 15:38:29,903 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:38:30,468 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:34,418 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:34,611 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:34,793 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:34,987 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:35,177 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:35,391 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:35,590 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:35,799 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:35,979 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:36,172 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:36,367 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:37,091 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:37,277 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:37,475 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:37,685 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:37,911 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:40,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:43,411 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:43,638 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:43,821 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:44,012 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:44,212 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:44,403 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:44,605 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:44,798 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:44,989 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:45,175 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:45,368 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:46,061 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:46,249 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:46,444 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:46,641 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:46,832 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:50,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:38:52,333 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:38:52,537 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:52,731 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:52,937 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:53,133 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:53,344 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:53,534 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:53,737 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:53,924 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:54,112 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:54,301 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:38:54,999 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:55,183 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:55,372 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:55,565 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:38:55,780 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:00,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:01,280 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:01,486 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:01,678 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:01,871 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:02,061 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:02,288 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:02,483 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:02,698 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:02,896 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:03,091 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:03,287 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:03,989 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:04,176 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:04,365 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:04,564 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:04,766 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:10,266 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:10,471 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:10,796 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:10,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:11,015 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:11,198 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:11,384 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:11,600 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:11,818 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:12,036 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:12,231 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:12,450 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:13,153 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:13,345 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:13,560 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:13,757 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:13,954 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:19,454 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:19,658 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:19,849 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:20,051 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:20,248 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:20,439 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:20,629 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:20,823 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:20,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:21,029 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:21,222 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:21,410 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:22,122 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:22,301 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:22,508 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:22,699 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:22,897 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:28,397 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:28,891 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:29,079 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:29,258 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:29,438 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:29,617 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:29,819 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:29,905 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:29,905 - EnhancedSignalEngine - INFO - Scanning 10 symbols for signals
+2025-08-10 15:39:29,905 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 15:39:29,905 - MultiSourceDataProvider - INFO - OTC symbol EUR/USD OTC detected, using alternative data source
+2025-08-10 15:39:29,905 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 15:39:29,906 - MultiSourceDataProvider - INFO - OTC symbol GBP/USD OTC detected, using alternative data source
+2025-08-10 15:39:29,906 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 15:39:29,906 - MultiSourceDataProvider - INFO - OTC symbol USD/JPY OTC detected, using alternative data source
+2025-08-10 15:39:29,906 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 15:39:29,906 - MultiSourceDataProvider - INFO - OTC symbol AUD/USD OTC detected, using alternative data source
+2025-08-10 15:39:29,906 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 15:39:29,908 - MultiSourceDataProvider - INFO - OTC symbol USD/CAD OTC detected, using alternative data source
+2025-08-10 15:39:29,908 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 15:39:29,908 - MultiSourceDataProvider - INFO - OTC symbol EUR/GBP OTC detected, using alternative data source
+2025-08-10 15:39:29,908 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 15:39:29,908 - MultiSourceDataProvider - INFO - OTC symbol GBP/JPY OTC detected, using alternative data source
+2025-08-10 15:39:29,910 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 15:39:29,910 - MultiSourceDataProvider - INFO - OTC symbol EUR/JPY OTC detected, using alternative data source
+2025-08-10 15:39:29,910 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 15:39:29,910 - MultiSourceDataProvider - INFO - OTC symbol AUD/JPY OTC detected, using alternative data source
+2025-08-10 15:39:29,911 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 15:39:29,911 - MultiSourceDataProvider - INFO - OTC symbol NZD/USD OTC detected, using alternative data source
+2025-08-10 15:39:29,998 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:30,068 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURUSD=X
+2025-08-10 15:39:30,068 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 15:39:30,068 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 15:39:30,071 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPJPY=X
+2025-08-10 15:39:30,071 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 15:39:30,071 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 15:39:30,085 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPUSD=X
+2025-08-10 15:39:30,085 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 15:39:30,085 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 15:39:30,097 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURJPY=X
+2025-08-10 15:39:30,097 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 15:39:30,097 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 15:39:30,098 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURGBP=X
+2025-08-10 15:39:30,098 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 15:39:30,098 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 15:39:30,107 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDUSD=X
+2025-08-10 15:39:30,107 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 15:39:30,107 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 15:39:30,113 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDJPY=X
+2025-08-10 15:39:30,114 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 15:39:30,114 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 15:39:30,130 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for NZDUSD=X
+2025-08-10 15:39:30,130 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 15:39:30,130 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 15:39:30,179 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:30,250 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDJPY=X
+2025-08-10 15:39:30,250 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 15:39:30,250 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 15:39:30,255 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDCAD=X
+2025-08-10 15:39:30,255 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 15:39:30,255 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 15:39:30,255 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-10 15:39:30,255 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:39:30,359 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:30,539 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:30,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:31,232 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:31,411 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:31,590 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:31,769 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:31,949 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:37,450 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:37,641 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:37,819 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:37,999 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:38,178 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:38,360 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:38,540 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:38,734 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:38,920 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:39,100 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:39,279 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:39,967 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:40,147 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:40,330 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:40,509 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:40,791 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:41,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:46,291 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:46,486 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:46,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:46,849 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:47,032 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:47,212 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:47,391 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:47,570 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:47,752 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:47,931 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:48,110 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:48,799 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:48,978 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:49,159 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:49,338 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:49,519 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:51,136 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:39:55,019 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:39:55,210 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:55,396 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:55,576 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:55,754 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:55,933 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:56,112 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:56,292 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:56,477 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:56,657 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:56,840 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:39:57,534 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:57,713 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:57,892 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:58,074 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:39:58,253 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:01,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:03,753 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:03,942 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:04,122 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:04,307 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:04,485 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:04,664 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:04,843 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:05,027 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:05,206 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:05,385 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:05,566 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:06,268 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:06,448 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:06,628 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:06,807 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:06,987 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:11,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:12,487 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:12,676 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:12,856 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:13,039 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:13,221 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:13,402 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:13,582 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:13,764 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:13,942 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:14,122 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:14,302 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:14,993 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:15,171 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:15,351 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:15,531 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:15,711 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:21,211 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:21,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:21,399 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:21,578 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:21,757 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:21,941 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:22,121 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:22,300 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:22,479 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:22,658 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:22,838 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:23,018 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:24,016 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:24,216 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:24,415 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:24,616 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:24,809 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:30,256 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:30,256 - EnhancedSignalEngine - INFO - Scanning 10 symbols for signals
+2025-08-10 15:40:30,256 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD OTC
+2025-08-10 15:40:30,256 - MultiSourceDataProvider - INFO - OTC symbol EUR/USD OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol GBP/USD OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol USD/JPY OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol AUD/USD OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol USD/CAD OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol EUR/GBP OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY OTC
+2025-08-10 15:40:30,257 - MultiSourceDataProvider - INFO - OTC symbol GBP/JPY OTC detected, using alternative data source
+2025-08-10 15:40:30,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY OTC
+2025-08-10 15:40:30,259 - MultiSourceDataProvider - INFO - OTC symbol EUR/JPY OTC detected, using alternative data source
+2025-08-10 15:40:30,259 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY OTC
+2025-08-10 15:40:30,259 - MultiSourceDataProvider - INFO - OTC symbol AUD/JPY OTC detected, using alternative data source
+2025-08-10 15:40:30,259 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD OTC
+2025-08-10 15:40:30,260 - MultiSourceDataProvider - INFO - OTC symbol NZD/USD OTC detected, using alternative data source
+2025-08-10 15:40:30,309 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:30,397 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDJPY=X
+2025-08-10 15:40:30,397 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY OTC from all sources
+2025-08-10 15:40:30,397 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY OTC
+2025-08-10 15:40:30,398 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDUSD=X
+2025-08-10 15:40:30,398 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD OTC from all sources
+2025-08-10 15:40:30,398 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD OTC
+2025-08-10 15:40:30,401 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for USDCAD=X
+2025-08-10 15:40:30,401 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD OTC from all sources
+2025-08-10 15:40:30,401 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD OTC
+2025-08-10 15:40:30,435 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURJPY=X
+2025-08-10 15:40:30,435 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY OTC from all sources
+2025-08-10 15:40:30,435 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY OTC
+2025-08-10 15:40:30,438 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURGBP=X
+2025-08-10 15:40:30,438 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP OTC from all sources
+2025-08-10 15:40:30,438 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP OTC
+2025-08-10 15:40:30,446 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for NZDUSD=X
+2025-08-10 15:40:30,446 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD OTC from all sources
+2025-08-10 15:40:30,446 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD OTC
+2025-08-10 15:40:30,449 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPJPY=X
+2025-08-10 15:40:30,449 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY OTC from all sources
+2025-08-10 15:40:30,449 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY OTC
+2025-08-10 15:40:30,462 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for AUDJPY=X
+2025-08-10 15:40:30,462 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY OTC from all sources
+2025-08-10 15:40:30,462 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY OTC
+2025-08-10 15:40:30,471 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for GBPUSD=X
+2025-08-10 15:40:30,471 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD OTC from all sources
+2025-08-10 15:40:30,471 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD OTC
+2025-08-10 15:40:30,524 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:30,624 - MultiSourceDataProvider - WARNING - All Yahoo Finance API endpoints failed for EURUSD=X
+2025-08-10 15:40:30,624 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD OTC from all sources
+2025-08-10 15:40:30,624 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD OTC
+2025-08-10 15:40:30,625 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-10 15:40:30,625 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-10 15:40:30,722 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:30,924 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:31,126 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:31,321 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:31,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:31,521 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:31,716 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:32,096 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:32,288 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:32,506 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:33,232 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:33,459 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:33,667 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:33,861 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:34,051 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:39,552 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:39,757 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:39,959 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:40,165 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:40,357 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:40,573 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:40,770 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:40,974 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:41,173 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:41,380 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:41,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:41,581 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:42,299 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:42,632 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:42,840 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:43,033 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:43,228 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:48,729 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:48,966 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:49,167 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:49,366 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:49,554 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:49,763 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:49,959 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:50,149 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:50,345 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:50,534 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:50,735 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:51,450 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:51,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:40:51,708 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:51,902 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:52,136 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:52,356 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:57,857 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:40:58,077 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:58,291 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:58,499 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:58,695 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:58,895 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:59,092 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:59,287 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:59,495 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:40:59,704 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:40:59,903 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:00,616 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:00,941 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:01,188 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:01,395 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:01,602 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:01,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:41:07,102 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:41:07,312 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:07,517 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:07,720 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:07,914 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:08,121 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:08,327 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:08,529 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:08,878 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:09,082 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:09,275 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:09,989 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:10,191 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:10,402 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:10,601 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:10,799 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:11,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:41:16,299 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:41:16,518 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:16,737 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:16,943 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:17,169 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:17,371 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:17,592 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:17,781 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:17,981 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:18,198 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:18,402 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:19,124 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:19,327 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:19,556 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:19,763 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:19,964 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:21,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:41:22,979 - TradingBotSystem - INFO - Received signal 15, initiating graceful shutdown...
+2025-08-10 15:41:23,176 - TradingBot - INFO - Bot task was cancelled
+2025-08-10 15:41:25,465 - PocketOptionAPI - INFO - Using OTC pairs for weekend trading
+2025-08-10 15:41:25,668 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:25,874 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:26,080 - PocketOptionAPI - ERROR - Failed to get current price: 404
+2025-08-10 15:41:26,295 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-10 15:41:26,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-10 15:41:26,454 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-10 15:41:26,455 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-10 15:41:26,456 - TradingBotSystem - INFO - Initiating graceful shutdown...
+2025-08-10 15:41:26,456 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-10 15:41:26,456 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-10 15:41:26,456 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-10 15:41:26,469 - PerformanceTracker - INFO - Performance data exported to /workspace/backup/performance_export_20250810_154126.csv
+2025-08-10 15:41:26,469 - TradingBotSystem - INFO - Final backup saved to /workspace/backup/performance_export_20250810_154126.csv
+2025-08-10 15:41:26,469 - TradingBotSystem - INFO - Graceful shutdown completed
+2025-08-10 15:41:26,469 - TradingBot - INFO - Periodic tasks cancelled

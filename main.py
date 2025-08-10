@@ -352,27 +352,31 @@ class TradingBotSystem:
                 asyncio.create_task(self.backup_system())
             ]
             
-            # Start Telegram bot in a separate thread
-            def run_telegram_bot():
-                try:
-                    if self.telegram_bot:
-                        self.telegram_bot.run()
-                except Exception as e:
-                    self.logger.error(f"Error running Telegram bot: {e}")
-            
-            bot_thread = threading.Thread(target=run_telegram_bot, daemon=True)
-            bot_thread.start()
+            # Start Telegram bot in the same event loop
+            bot_task = None
+            if self.telegram_bot:
+                self.logger.info("Starting Telegram bot in main event loop...")
+                bot_task = asyncio.create_task(self.telegram_bot.run())
+                tasks.append(bot_task)
             
             # Main application loop
             while self.running:
                 try:
                     await asyncio.sleep(1)
                     
-                    # Check if bot thread is alive
-                    if not bot_thread.is_alive():
-                        self.logger.error("Telegram bot thread died, attempting restart...")
-                        bot_thread = threading.Thread(target=run_telegram_bot, daemon=True)
-                        bot_thread.start()
+                    # Check if bot task is still running (only if we have one)
+                    if bot_task and bot_task.done():
+                        if bot_task.exception():
+                            self.logger.error(f"Telegram bot task failed: {bot_task.exception()}")
+                            # Don't restart immediately, let the main loop continue
+                            # The bot will be properly cleaned up during shutdown
+                        else:
+                            self.logger.info("Telegram bot task completed normally")
+                        
+                        # Remove the completed bot task from the list
+                        if bot_task in tasks:
+                            tasks.remove(bot_task)
+                        bot_task = None
                 
                 except KeyboardInterrupt:
                     self.logger.info("Keyboard interrupt received")
@@ -383,9 +387,17 @@ class TradingBotSystem:
             
             # Cancel background tasks
             for task in tasks:
-                task.cancel()
+                if not task.done():
+                    task.cancel()
             
-            await asyncio.gather(*tasks, return_exceptions=True)
+            # Wait for tasks to complete with timeout
+            try:
+                await asyncio.wait_for(
+                    asyncio.gather(*tasks, return_exceptions=True),
+                    timeout=10.0
+                )
+            except asyncio.TimeoutError:
+                self.logger.warning("Some tasks did not complete within timeout during shutdown")
             
         except Exception as e:
             self.logger.error(f"Critical error in main application: {e}")
@@ -421,6 +433,12 @@ def main():
     try:
         # Create and run the trading bot system
         bot_system = TradingBotSystem()
+        
+        # Register signal handlers for graceful shutdown
+        import signal
+        signal.signal(signal.SIGINT, bot_system.signal_handler)
+        signal.signal(signal.SIGTERM, bot_system.signal_handler)
+        
         asyncio.run(bot_system.run())
         
     except KeyboardInterrupt:
