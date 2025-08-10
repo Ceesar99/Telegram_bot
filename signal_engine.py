@@ -10,6 +10,7 @@ import time
 
 from lstm_model import LSTMTradingModel
 from pocket_option_api import PocketOptionAPI
+from enhanced_signal_engine import EnhancedSignalEngine, EnhancedSignal
 from config import (
     SIGNAL_CONFIG, CURRENCY_PAIRS, OTC_PAIRS, TECHNICAL_INDICATORS,
     TIMEZONE, MARKET_TIMEZONE
@@ -19,12 +20,14 @@ class SignalEngine:
     def __init__(self):
         self.lstm_model = LSTMTradingModel()
         self.pocket_api = PocketOptionAPI()
+        self.enhanced_engine = EnhancedSignalEngine()
         self.logger = self._setup_logger()
         self.last_signals = {}
         self.model_loaded = False
         self.data_connected = False
         self.signal_cache = {}
         self.market_conditions = {}
+        self.use_enhanced_signals = True  # Enable enhanced signals
         
         # Initialize components
         asyncio.create_task(self._initialize_async())
@@ -87,6 +90,11 @@ class SignalEngine:
     async def generate_signal(self) -> Optional[Dict]:
         """Generate high-accuracy trading signal"""
         try:
+            # Use enhanced signal engine if available
+            if self.use_enhanced_signals and hasattr(self, 'enhanced_engine'):
+                return await self._generate_enhanced_signal()
+            
+            # Fallback to original method
             if not self.model_loaded:
                 self.logger.warning("Model not loaded, cannot generate signal")
                 return None
@@ -601,6 +609,88 @@ class SignalEngine:
         """Check if data connection is active"""
         return self.data_connected
     
+    async def _generate_enhanced_signal(self) -> Optional[Dict]:
+        """Generate signal using enhanced signal engine"""
+        try:
+            # Get available pairs
+            available_pairs = self.get_available_pairs()
+            
+            # Scan for high-quality signals
+            enhanced_signals = await self.enhanced_engine.scan_for_signals(available_pairs)
+            
+            if not enhanced_signals:
+                self.logger.info("No high-quality enhanced signals found")
+                return None
+            
+            # Get the best signal
+            best_signal = enhanced_signals[0]  # Already sorted by signal strength
+            
+            # Convert enhanced signal to standard format for compatibility
+            standard_signal = self._convert_enhanced_to_standard(best_signal)
+            
+            # Cache the signal
+            self.last_signals[best_signal.symbol] = {
+                'signal': standard_signal,
+                'timestamp': datetime.now()
+            }
+            
+            self.logger.info(f"Generated enhanced signal: {best_signal.symbol} {best_signal.direction} "
+                           f"(Strength: {best_signal.signal_strength:.1f}/10, "
+                           f"Confidence: {best_signal.confidence:.1%})")
+            
+            return standard_signal
+            
+        except Exception as e:
+            self.logger.error(f"Error generating enhanced signal: {e}")
+            return None
+    
+    def _convert_enhanced_to_standard(self, enhanced_signal: EnhancedSignal) -> Dict:
+        """Convert enhanced signal to standard signal format"""
+        try:
+            # Map enhanced signal direction to standard format
+            direction_map = {'BUY': 'CALL', 'SELL': 'PUT'}
+            
+            # Calculate expiry string
+            entry_str = enhanced_signal.entry_time.strftime("%H:%M")
+            expiry_str = enhanced_signal.expiry_time.strftime("%H:%M")
+            
+            standard_signal = {
+                'pair': enhanced_signal.symbol,
+                'direction': direction_map.get(enhanced_signal.direction, enhanced_signal.direction),
+                'accuracy': enhanced_signal.accuracy_prediction * 100,  # Convert to percentage
+                'confidence': enhanced_signal.confidence * 100,  # Convert to percentage
+                'time_expiry': f"{entry_str} - {expiry_str}",
+                'duration': enhanced_signal.expiry_duration,
+                'signal_strength': enhanced_signal.signal_strength,
+                'technical_strength': enhanced_signal.technical_strength,
+                'trend_alignment': enhanced_signal.trend_alignment,
+                'volatility_level': enhanced_signal.volatility_level,
+                'risk_level': enhanced_signal.risk_level,
+                'market_session': enhanced_signal.market_session,
+                'position_size_rec': enhanced_signal.position_size_recommendation,
+                'execution_urgency': enhanced_signal.execution_urgency,
+                
+                # Alternative data
+                'news_sentiment': enhanced_signal.news_sentiment_score,
+                'social_sentiment': enhanced_signal.social_sentiment_score,
+                'economic_impact': enhanced_signal.economic_impact_score,
+                
+                # Enhanced metadata
+                'enhanced': True,
+                'quality_grade': enhanced_signal.backtest_performance.get('quality_grade', 'A'),
+                'model_consensus': enhanced_signal.ensemble_prediction.consensus_level,
+                'individual_models': enhanced_signal.individual_model_scores,
+                
+                # Formatted message for Telegram
+                'formatted_message': self.enhanced_engine.format_signal_for_telegram(enhanced_signal)
+            }
+            
+            return standard_signal
+            
+        except Exception as e:
+            self.logger.error(f"Error converting enhanced signal: {e}")
+            return {}
+
     def cleanup(self):
         """Cleanup resources"""
         try:

@@ -27,3 +27,8 @@ sqlite3
 json5==0.9.14
 beautifulsoup4==4.12.2
 cryptography==41.0.8
+xgboost==2.0.3
+optuna==3.5.0
+scipy==1.11.4
+textblob==0.17.1
+feedparser==6.0.10
