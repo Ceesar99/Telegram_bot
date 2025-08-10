@@ -3,9 +3,7 @@ import asyncio
 import json
 import sqlite3
 from datetime import datetime, timedelta
-import pandas as pd
 from typing import Dict, List
-import matplotlib.pyplot as plt
 import io
 import base64
 

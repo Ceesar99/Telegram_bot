@@ -26,7 +26,7 @@ from institutional_config import (
 
 # Import existing components
 from enhanced_signal_engine import EnhancedSignalEngine
-from telegram_bot import TelegramBot
+from telegram_bot import TradingBot
 
 @dataclass
 class TradingSession:
@@ -71,7 +71,7 @@ class InstitutionalTradingSystem:
         self.order_router: Optional[SmartOrderRouter] = None
         self.risk_manager: Optional[InstitutionalRiskManager] = None
         self.monitoring_system: Optional[InstitutionalMonitoringSystem] = None
-        self.telegram_bot: Optional[TelegramBot] = None
+        self.telegram_bot: Optional[TradingBot] = None
         
         # Session tracking
         self.current_session: Optional[TradingSession] = None
