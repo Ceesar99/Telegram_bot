@@ -142,3 +142,17 @@
 2025-08-10 23:09:05,670 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-10 23:09:35,740 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-10 23:09:35,740 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:24:00,489 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:24:00,489 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:24:00,490 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:24:00,490 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:24:01,354 - SignalEngine - ERROR - No training data available
+2025-08-11 00:24:01,354 - SignalEngine - ERROR - No training data available
+2025-08-11 00:24:01,355 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:24:01,355 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:24:01,355 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:24:01,355 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:24:02,131 - SignalEngine - ERROR - No training data available
+2025-08-11 00:24:02,131 - SignalEngine - ERROR - No training data available
+2025-08-11 00:24:02,288 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:24:02,288 - SignalEngine - INFO - No high-quality enhanced signals found

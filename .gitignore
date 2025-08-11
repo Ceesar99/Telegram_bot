@@ -39,3 +39,57 @@
 
 # debug information files
 *.dwo
+
+# Environment and Security Files
+.env
+.env.local
+.env.production
+config_local.py
+credentials.json
+secrets.yaml
+
+# API Keys and Tokens
+*_token.txt
+*_key.txt
+*_secret.txt
+
+# Trading Data and Logs
+*.db-journal
+*.db-wal
+trading_history/
+backtest_results/
+model_checkpoints/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Coverage and Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution and Build
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+*.tmp
+*.temp
+temp_*
+test_*
