@@ -1,0 +1,46 @@
+2025-08-11 02:27:19,529 - __main__ - INFO - Starting persistent bot (attempt 1)
+2025-08-11 02:27:19,564 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:19,564 - __main__ - ERROR - ❌ Bot error (restart 1): Cannot close a running event loop
+2025-08-11 02:27:19,564 - __main__ - INFO - 🔄 Restarting in 5 seconds... (1/10)
+2025-08-11 02:27:23,449 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<PersistentTradingBot.run_bot() done, defined at /workspace/persistent_telegram_bot.py:442> wait_for=<Future cancelled> cb=[gather.<locals>._done_callback() at /usr/lib/python3.13/asyncio/tasks.py:820]>
+2025-08-11 02:27:23,758 - __main__ - INFO - Starting persistent bot (attempt 1)
+2025-08-11 02:27:23,795 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:23,795 - __main__ - ERROR - ❌ Bot error (restart 1): Cannot close a running event loop
+2025-08-11 02:27:23,795 - __main__ - INFO - 🔄 Restarting in 5 seconds... (1/10)
+2025-08-11 02:27:28,802 - __main__ - INFO - Starting persistent bot (attempt 2)
+2025-08-11 02:27:28,813 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:28,813 - __main__ - ERROR - ❌ Bot error (restart 2): Cannot close a running event loop
+2025-08-11 02:27:28,813 - __main__ - INFO - 🔄 Restarting in 5 seconds... (2/10)
+2025-08-11 02:27:33,818 - __main__ - INFO - Starting persistent bot (attempt 3)
+2025-08-11 02:27:33,829 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:33,829 - __main__ - ERROR - ❌ Bot error (restart 3): Cannot close a running event loop
+2025-08-11 02:27:33,829 - __main__ - INFO - 🔄 Restarting in 5 seconds... (3/10)
+2025-08-11 02:27:38,835 - __main__ - INFO - Starting persistent bot (attempt 4)
+2025-08-11 02:27:38,845 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:38,846 - __main__ - ERROR - ❌ Bot error (restart 4): Cannot close a running event loop
+2025-08-11 02:27:38,846 - __main__ - INFO - 🔄 Restarting in 5 seconds... (4/10)
+2025-08-11 02:27:43,851 - __main__ - INFO - Starting persistent bot (attempt 5)
+2025-08-11 02:27:43,862 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:43,862 - __main__ - ERROR - ❌ Bot error (restart 5): Cannot close a running event loop
+2025-08-11 02:27:43,862 - __main__ - INFO - 🔄 Restarting in 5 seconds... (5/10)
+2025-08-11 02:27:48,867 - __main__ - INFO - Starting persistent bot (attempt 6)
+2025-08-11 02:27:48,878 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:48,878 - __main__ - ERROR - ❌ Bot error (restart 6): Cannot close a running event loop
+2025-08-11 02:27:48,878 - __main__ - INFO - 🔄 Restarting in 5 seconds... (6/10)
+2025-08-11 02:27:53,884 - __main__ - INFO - Starting persistent bot (attempt 7)
+2025-08-11 02:27:53,894 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:53,895 - __main__ - ERROR - ❌ Bot error (restart 7): Cannot close a running event loop
+2025-08-11 02:27:53,895 - __main__ - INFO - 🔄 Restarting in 5 seconds... (7/10)
+2025-08-11 02:27:58,900 - __main__ - INFO - Starting persistent bot (attempt 8)
+2025-08-11 02:27:58,911 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:27:58,911 - __main__ - ERROR - ❌ Bot error (restart 8): Cannot close a running event loop
+2025-08-11 02:27:58,911 - __main__ - INFO - 🔄 Restarting in 5 seconds... (8/10)
+2025-08-11 02:28:03,916 - __main__ - INFO - Starting persistent bot (attempt 9)
+2025-08-11 02:28:03,927 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:28:03,927 - __main__ - ERROR - ❌ Bot error (restart 9): Cannot close a running event loop
+2025-08-11 02:28:03,927 - __main__ - INFO - 🔄 Restarting in 5 seconds... (9/10)
+2025-08-11 02:28:08,932 - __main__ - INFO - Starting persistent bot (attempt 10)
+2025-08-11 02:28:08,944 - __main__ - INFO - ✅ Persistent bot initialized - starting polling...
+2025-08-11 02:28:08,944 - __main__ - ERROR - ❌ Bot error (restart 10): Cannot close a running event loop
+2025-08-11 02:28:08,944 - __main__ - ERROR - ❌ Max restarts (10) reached. Stopping.
