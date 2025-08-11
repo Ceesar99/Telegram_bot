@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Dict, List
 import io
 import base64
+import psutil
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -593,7 +594,6 @@ These settings help protect your account from excessive losses.
     
     def get_system_status(self):
         """Get current system status"""
-        import psutil
         
         return {
             'model_loaded': self.signal_engine.is_model_loaded(),
@@ -658,8 +658,8 @@ These settings help protect your account from excessive losses.
                 self.logger.error(f"Error in periodic task: {e}")
                 await asyncio.sleep(60)
     
-    def run(self):
-        """Start the bot"""
+    async def start_bot(self):
+        """Start the Telegram bot"""
         try:
             # Create application
             self.app = Application.builder().token(self.token).build()
@@ -686,7 +686,11 @@ These settings help protect your account from excessive losses.
             
             # Start bot
             self.logger.info("Starting Telegram bot...")
-            self.app.run_polling()
+            await self.app.initialize()
+            await self.app.start()
+            await self.app.updater.start_polling()
+            
+            self.logger.info("Telegram bot started successfully")
             
         except Exception as e:
             self.logger.error(f"Error starting bot: {e}")
@@ -694,4 +698,4 @@ These settings help protect your account from excessive losses.
 
 if __name__ == "__main__":
     bot = TradingBot()
-    bot.run()
+    asyncio.run(bot.start_bot())
