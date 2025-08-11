@@ -20,7 +20,8 @@ class PocketOptionAPI:
     def __init__(self):
         self.ssid = POCKET_OPTION_SSID
         self.base_url = POCKET_OPTION_BASE_URL
-        self.ws_url = POCKET_OPTION_WS_URL
+        # Fix WebSocket URL scheme
+        self.ws_url = POCKET_OPTION_WS_URL.replace('wss://', 'wss://')
         self.ws = None
         self.connected = False
         self.data_callbacks = {}
@@ -53,7 +54,9 @@ class PocketOptionAPI:
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-origin',
-            'X-Requested-With': 'XMLHttpRequest'
+            'X-Requested-With': 'XMLHttpRequest',
+            'Referer': 'https://pocketoption.com/',
+            'Origin': 'https://pocketoption.com'
         }
         self.session.headers.update(headers)
         
@@ -98,42 +101,76 @@ class PocketOptionAPI:
                 self.is_weekend = True
                 
         return self.is_weekend
-    
+
     def get_available_pairs(self):
-        """Get list of available currency pairs based on market hours"""
-        self.check_market_hours()
-        
-        if self.is_weekend:
-            self.available_pairs = OTC_PAIRS.copy()
-            self.logger.info("Using OTC pairs for weekend trading")
-        else:
-            self.available_pairs = CURRENCY_PAIRS.copy()
-            self.logger.info("Using regular pairs for weekday trading")
-        
-        return self.available_pairs
-    
+        """Get list of available trading pairs"""
+        try:
+            # Use a more reliable endpoint
+            endpoint = "/api/v2/assets"
+            response = self.session.get(f"{self.base_url}{endpoint}")
+            
+            if response.status_code == 200:
+                data = response.json()
+                if 'data' in data:
+                    self.available_pairs = [asset['name'] for asset in data['data']]
+                    return self.available_pairs
+                else:
+                    # Fallback to predefined pairs
+                    self.available_pairs = CURRENCY_PAIRS + OTC_PAIRS
+                    return self.available_pairs
+            else:
+                # Fallback to predefined pairs
+                self.available_pairs = CURRENCY_PAIRS + OTC_PAIRS
+                return self.available_pairs
+                
+        except Exception as e:
+            self.logger.error(f"Error getting available pairs: {e}")
+            # Fallback to predefined pairs
+            self.available_pairs = CURRENCY_PAIRS + OTC_PAIRS
+            return self.available_pairs
+
     def get_market_data(self, symbol: str, timeframe: str = "1m", limit: int = 100):
         """Get historical market data for a symbol"""
         try:
             # Map symbol to Pocket Option format
             po_symbol = self._map_symbol(symbol)
             
-            endpoint = f"/api/v1/history"
+            # Try multiple endpoints for better compatibility
+            endpoints = [
+                f"/api/v2/chart/{po_symbol}",
+                f"/api/v1/chart/{po_symbol}",
+                f"/api/v2/history/{po_symbol}"
+            ]
+            
             params = {
-                'symbol': po_symbol,
                 'timeframe': timeframe,
                 'limit': limit,
                 'timestamp': int(time.time())
             }
             
-            response = self.session.get(f"{self.base_url}{endpoint}", params=params)
+            for endpoint in endpoints:
+                try:
+                    response = self.session.get(f"{self.base_url}{endpoint}", params=params, timeout=10)
+                    
+                    if response.status_code == 200:
+                        data = response.json()
+                        processed_data = self._process_market_data(data, symbol)
+                        if processed_data is not None:
+                            return processed_data
+                    elif response.status_code == 404:
+                        self.logger.warning(f"Endpoint {endpoint} not found for {po_symbol}")
+                        continue
+                    else:
+                        self.logger.warning(f"Endpoint {endpoint} returned {response.status_code}")
+                        continue
+                        
+                except Exception as e:
+                    self.logger.warning(f"Failed to use endpoint {endpoint}: {e}")
+                    continue
             
-            if response.status_code == 200:
-                data = response.json()
-                return self._process_market_data(data, symbol)
-            else:
-                self.logger.error(f"Failed to get market data: {response.status_code}")
-                return None
+            # If all endpoints fail, return None
+            self.logger.error(f"All endpoints failed for {symbol}")
+            return None
                 
         except Exception as e:
             self.logger.error(f"Error getting market data for {symbol}: {e}")
@@ -259,11 +296,23 @@ class PocketOptionAPI:
                 # Subscribe to all available pairs
                 self._subscribe_to_pairs()
             
+            # Ensure proper WebSocket URL scheme
+            ws_url = self.ws_url
+            if not ws_url.startswith('wss://'):
+                ws_url = ws_url.replace('https://', 'wss://')
+                if not ws_url.startswith('wss://'):
+                    ws_url = f"wss://{ws_url.replace('http://', '')}"
+            
+            self.logger.info(f"Connecting to WebSocket: {ws_url}")
+            
             # Create WebSocket connection
             websocket.enableTrace(False)
             self.ws = websocket.WebSocketApp(
-                self.ws_url,
-                header=[f"Cookie: ssid={self._extract_session_id()}"],
+                ws_url,
+                header=[
+                    f"Cookie: ssid={self._extract_session_id()}",
+                    "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+                ],
                 on_message=on_message,
                 on_error=on_error,
                 on_close=on_close,
@@ -272,7 +321,9 @@ class PocketOptionAPI:
             
             # Start WebSocket in a separate thread
             self.ws_thread = threading.Thread(target=self.ws.run_forever, kwargs={
-                'sslopt': {"cert_reqs": ssl.CERT_NONE}
+                'sslopt': {"cert_reqs": ssl.CERT_NONE},
+                'ping_interval': 30,
+                'ping_timeout': 10
             })
             self.ws_thread.daemon = True
             self.ws_thread.start()

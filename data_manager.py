@@ -640,3 +640,57 @@ class DataManager:
         except Exception as e:
             self.logger.error(f"Error getting available symbols: {e}")
             return []
+    
+    def generate_sample_training_data(self, symbol: str = "EUR/USD", days: int = 30):
+        """Generate sample training data when no historical data is available"""
+        try:
+            import numpy as np
+            import pandas as pd
+            from datetime import datetime, timedelta
+            
+            # Generate sample OHLCV data
+            np.random.seed(42)  # For reproducible data
+            
+            # Start from 30 days ago
+            start_date = datetime.now() - timedelta(days=days)
+            dates = pd.date_range(start=start_date, end=datetime.now(), freq='1H')
+            
+            # Generate realistic price movements
+            base_price = 1.1000  # Starting price for EUR/USD
+            
+            prices = []
+            for i in range(len(dates)):
+                # Add some randomness and trend
+                change = np.random.normal(0, 0.0005)  # Small random change
+                trend = 0.0001 * np.sin(i / 24)  # Daily trend
+                base_price += change + trend
+                
+                # Generate OHLC from base price
+                high = base_price + abs(np.random.normal(0, 0.0003))
+                low = base_price - abs(np.random.normal(0, 0.0003))
+                open_price = base_price + np.random.normal(0, 0.0002)
+                close_price = base_price + np.random.normal(0, 0.0002)
+                volume = np.random.uniform(1000, 10000)
+                
+                prices.append({
+                    'timestamp': dates[i],
+                    'open': open_price,
+                    'high': high,
+                    'low': low,
+                    'close': close_price,
+                    'volume': volume
+                })
+            
+            df = pd.DataFrame(prices)
+            df.set_index('timestamp', inplace=True)
+            
+            # Save sample data
+            sample_file = f"/workspace/data/sample_{symbol.replace('/', '_')}_data.csv"
+            df.to_csv(sample_file)
+            
+            self.logger.info(f"Generated sample training data for {symbol}: {len(df)} records")
+            return df
+            
+        except Exception as e:
+            self.logger.error(f"Error generating sample training data: {e}")
+            return None

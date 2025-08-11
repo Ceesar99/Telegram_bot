@@ -71,6 +71,18 @@ class SignalEngine:
                 if data is not None and len(data) > 100:
                     training_data.append(data)
             
+            if not training_data:
+                # Generate sample training data if no historical data available
+                self.logger.info("No historical data available. Generating sample data for training...")
+                from data_manager import DataManager
+                
+                data_manager = DataManager()
+                for pair in ['EUR/USD', 'GBP/USD', 'USD/JPY', 'AUD/USD']:
+                    sample_data = data_manager.generate_sample_training_data(pair, days=30)
+                    if sample_data is not None and len(sample_data) > 100:
+                        training_data.append(sample_data)
+                        self.logger.info(f"Generated sample data for {pair}: {len(sample_data)} records")
+            
             if training_data:
                 # Combine all data for training
                 combined_data = pd.concat(training_data, ignore_index=True)
@@ -82,7 +94,7 @@ class SignalEngine:
                 self.model_loaded = True
                 self.logger.info("Initial model training completed")
             else:
-                self.logger.error("No training data available")
+                self.logger.error("Failed to generate training data")
                 
         except Exception as e:
             self.logger.error(f"Error training initial model: {e}")

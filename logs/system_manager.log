@@ -1,0 +1,45 @@
+2025-08-10 23:56:18,399 - SystemManager - INFO - 🚀 Initializing Unified Trading System...
+2025-08-10 23:56:18,399 - SystemManager - INFO - 📊 Initializing Data Manager...
+2025-08-10 23:56:18,405 - SystemManager - INFO - 📈 Initializing Performance Tracker...
+2025-08-10 23:56:18,406 - SystemManager - INFO - ⚠️ Initializing Risk Manager...
+2025-08-10 23:56:18,406 - SystemManager - INFO - 🧠 Initializing Signal Engine...
+2025-08-10 23:56:23,443 - SystemManager - INFO - 🤖 Initializing Telegram Bot...
+2025-08-10 23:56:23,477 - SystemManager - INFO - ✅ All components initialized successfully!
+2025-08-10 23:56:23,477 - SystemManager - INFO - 🚀 Starting system components...
+2025-08-10 23:56:23,477 - SystemManager - INFO - ✅ Telegram bot started
+2025-08-10 23:56:23,477 - SystemManager - INFO - ✅ Signal generation started
+2025-08-10 23:56:23,477 - SystemManager - INFO - ✅ System monitoring started
+2025-08-10 23:56:23,477 - SystemManager - INFO - 🎉 All components started successfully!
+2025-08-10 23:56:26,690 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-10 23:56:26,690 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-10 23:56:26,690 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-10 23:57:26,702 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-10 23:57:26,702 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-10 23:57:26,702 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-10 23:58:26,710 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-10 23:58:26,710 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-10 23:58:26,710 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-10 23:59:26,714 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-10 23:59:26,714 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-10 23:59:26,714 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:00:26,717 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:00:26,717 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:00:26,717 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:01:26,718 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:01:26,718 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:01:26,718 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:02:26,729 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:02:26,729 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:02:26,729 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:03:26,740 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:03:26,740 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:03:26,740 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:04:26,750 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:04:26,750 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:04:26,750 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:05:26,760 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:05:26,760 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:05:26,760 - SystemManager - WARNING -   data_manager: No symbols available
+2025-08-11 00:06:26,769 - SystemManager - WARNING - ⚠️ System health issues detected
+2025-08-11 00:06:26,769 - SystemManager - WARNING -   signal_engine: Model not loaded
+2025-08-11 00:06:26,769 - SystemManager - WARNING -   data_manager: No symbols available
