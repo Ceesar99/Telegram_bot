@@ -203,3 +203,22 @@
 2025-08-10 23:08:35,616 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
 2025-08-10 23:09:05,682 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
 2025-08-10 23:09:35,750 - UnifiedTradingSystem - INFO - Institutional risk report: N/A
+2025-08-11 00:24:00,419 - UnifiedTradingSystem - INFO - Initializing Unified Trading System in Hybrid mode
+2025-08-11 00:24:00,419 - UnifiedTradingSystem - INFO - Initializing core components...
+2025-08-11 00:24:00,488 - UnifiedTradingSystem - INFO - Core components initialized
+2025-08-11 00:24:00,488 - UnifiedTradingSystem - INFO - Started new trading session: session_1754871840
+2025-08-11 00:24:00,488 - UnifiedTradingSystem - INFO - System initialization completed successfully
+2025-08-11 00:24:00,488 - UnifiedTradingSystem - INFO - Starting Unified Trading System...
+2025-08-11 00:24:00,488 - UnifiedTradingSystem - INFO - Entering main trading loop...
+2025-08-11 00:24:15,419 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754871840_report.json
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754871855.json
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Initiating system shutdown...
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Session report saved: /workspace/logs/session_session_1754871840_report.json
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Telegram bot shutdown method not available
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754871855.json
+2025-08-11 00:24:15,420 - UnifiedTradingSystem - INFO - System shutdown completed
