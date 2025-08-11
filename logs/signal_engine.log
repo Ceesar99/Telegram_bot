@@ -228,3 +228,39 @@
 2025-08-11 00:06:28,857 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-11 00:06:33,829 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-11 00:06:33,829 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:06:59,553 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-11 00:06:59,553 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-11 00:07:55,552 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:07:55,552 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:07:58,106 - SignalEngine - INFO - No historical data available. Generating sample data for training...
+2025-08-11 00:07:58,126 - SignalEngine - INFO - Generated sample data for EUR/USD: 721 records
+2025-08-11 00:07:58,138 - SignalEngine - INFO - Generated sample data for GBP/USD: 721 records
+2025-08-11 00:07:58,150 - SignalEngine - INFO - Generated sample data for USD/JPY: 721 records
+2025-08-11 00:07:58,162 - SignalEngine - INFO - Generated sample data for AUD/USD: 721 records
+2025-08-11 00:07:58,431 - SignalEngine - ERROR - Error training initial model: Input 0 of layer "functional" is incompatible with the layer: expected shape=(None, 60, 20), found shape=(None, 60, 24)
+2025-08-11 00:08:00,588 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:08:00,588 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-11 00:08:00,589 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:08:00,589 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-11 00:08:02,969 - SignalEngine - INFO - No historical data available. Generating sample data for training...
+2025-08-11 00:08:02,969 - SignalEngine - INFO - No historical data available. Generating sample data for training...
+2025-08-11 00:08:02,986 - SignalEngine - INFO - Generated sample data for EUR/USD: 721 records
+2025-08-11 00:08:02,986 - SignalEngine - INFO - Generated sample data for EUR/USD: 721 records
+2025-08-11 00:08:02,997 - SignalEngine - INFO - Generated sample data for GBP/USD: 721 records
+2025-08-11 00:08:02,997 - SignalEngine - INFO - Generated sample data for GBP/USD: 721 records
+2025-08-11 00:08:03,008 - SignalEngine - INFO - Generated sample data for USD/JPY: 721 records
+2025-08-11 00:08:03,008 - SignalEngine - INFO - Generated sample data for USD/JPY: 721 records
+2025-08-11 00:08:03,019 - SignalEngine - INFO - Generated sample data for AUD/USD: 721 records
+2025-08-11 00:08:03,019 - SignalEngine - INFO - Generated sample data for AUD/USD: 721 records
+2025-08-11 00:08:03,184 - SignalEngine - ERROR - Error training initial model: Input 0 of layer "functional_1" is incompatible with the layer: expected shape=(None, 60, 20), found shape=(None, 60, 24)
+2025-08-11 00:08:03,184 - SignalEngine - ERROR - Error training initial model: Input 0 of layer "functional_1" is incompatible with the layer: expected shape=(None, 60, 20), found shape=(None, 60, 24)
+2025-08-11 00:08:03,903 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:03,903 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:04,018 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:04,018 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:05,285 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:05,285 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:05,964 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:05,964 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-11 00:08:23,362 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-11 00:08:23,362 - SignalEngine - INFO - SignalEngine cleanup completed

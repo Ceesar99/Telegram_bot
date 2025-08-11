@@ -547,3 +547,64 @@
 2025-08-10 23:56:26,259 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/AUDUSD not found for AUDUSD
 2025-08-10 23:56:26,259 - PocketOptionAPI - ERROR - All endpoints failed for AUD/USD
 2025-08-10 23:56:26,259 - PocketOptionAPI - ERROR - All endpoints failed for AUD/USD
+2025-08-11 00:06:59,553 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-11 00:06:59,553 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-11 00:07:55,551 - PocketOptionAPI - INFO - Connecting to WebSocket: wss://pocketoption.com/ws
+2025-08-11 00:07:55,877 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-11 00:07:55,877 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-11 00:07:56,042 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/EURUSD not found for EURUSD
+2025-08-11 00:07:56,236 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/EURUSD not found for EURUSD
+2025-08-11 00:07:56,422 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/EURUSD not found for EURUSD
+2025-08-11 00:07:56,422 - PocketOptionAPI - ERROR - All endpoints failed for EUR/USD
+2025-08-11 00:07:56,604 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:07:56,785 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:07:56,967 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/GBPUSD not found for GBPUSD
+2025-08-11 00:07:56,968 - PocketOptionAPI - ERROR - All endpoints failed for GBP/USD
+2025-08-11 00:07:57,149 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/USDJPY not found for USDJPY
+2025-08-11 00:07:57,333 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/USDJPY not found for USDJPY
+2025-08-11 00:07:57,519 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/USDJPY not found for USDJPY
+2025-08-11 00:07:57,519 - PocketOptionAPI - ERROR - All endpoints failed for USD/JPY
+2025-08-11 00:07:57,701 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:07:57,884 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:07:58,106 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/AUDUSD not found for AUDUSD
+2025-08-11 00:07:58,106 - PocketOptionAPI - ERROR - All endpoints failed for AUD/USD
+2025-08-11 00:08:00,588 - PocketOptionAPI - INFO - Connecting to WebSocket: wss://pocketoption.com/ws
+2025-08-11 00:08:00,588 - PocketOptionAPI - INFO - Connecting to WebSocket: wss://pocketoption.com/ws
+2025-08-11 00:08:00,911 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-11 00:08:00,911 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-11 00:08:00,911 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-11 00:08:00,911 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-11 00:08:01,042 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/EURUSD not found for EURUSD
+2025-08-11 00:08:01,042 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/EURUSD not found for EURUSD
+2025-08-11 00:08:01,228 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/EURUSD not found for EURUSD
+2025-08-11 00:08:01,228 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/EURUSD not found for EURUSD
+2025-08-11 00:08:01,401 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/EURUSD not found for EURUSD
+2025-08-11 00:08:01,401 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/EURUSD not found for EURUSD
+2025-08-11 00:08:01,401 - PocketOptionAPI - ERROR - All endpoints failed for EUR/USD
+2025-08-11 00:08:01,401 - PocketOptionAPI - ERROR - All endpoints failed for EUR/USD
+2025-08-11 00:08:01,574 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,574 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,749 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,749 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,923 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,923 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/GBPUSD not found for GBPUSD
+2025-08-11 00:08:01,923 - PocketOptionAPI - ERROR - All endpoints failed for GBP/USD
+2025-08-11 00:08:01,923 - PocketOptionAPI - ERROR - All endpoints failed for GBP/USD
+2025-08-11 00:08:02,095 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/USDJPY not found for USDJPY
+2025-08-11 00:08:02,095 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/USDJPY not found for USDJPY
+2025-08-11 00:08:02,268 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/USDJPY not found for USDJPY
+2025-08-11 00:08:02,268 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/USDJPY not found for USDJPY
+2025-08-11 00:08:02,442 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/USDJPY not found for USDJPY
+2025-08-11 00:08:02,442 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/USDJPY not found for USDJPY
+2025-08-11 00:08:02,442 - PocketOptionAPI - ERROR - All endpoints failed for USD/JPY
+2025-08-11 00:08:02,442 - PocketOptionAPI - ERROR - All endpoints failed for USD/JPY
+2025-08-11 00:08:02,614 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,614 - PocketOptionAPI - WARNING - Endpoint /api/v2/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,794 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,794 - PocketOptionAPI - WARNING - Endpoint /api/v1/chart/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,968 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,968 - PocketOptionAPI - WARNING - Endpoint /api/v2/history/AUDUSD not found for AUDUSD
+2025-08-11 00:08:02,969 - PocketOptionAPI - ERROR - All endpoints failed for AUD/USD
+2025-08-11 00:08:02,969 - PocketOptionAPI - ERROR - All endpoints failed for AUD/USD
+2025-08-11 00:08:23,362 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-11 00:08:23,362 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
