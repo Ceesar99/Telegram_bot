@@ -1,0 +1,55 @@
+2025-08-11 03:00:28,458 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:00:28,458 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:00:30,643 - SimpleBotManager - INFO - 🛑 Stopping all running trading bots...
+2025-08-11 03:00:30,646 - SimpleBotManager - INFO - No processes found for: python3 main.py
+2025-08-11 03:00:30,648 - SimpleBotManager - INFO - No processes found for: python3 start_bot.py
+2025-08-11 03:00:30,650 - SimpleBotManager - INFO - No processes found for: python3 telegram_bot.py
+2025-08-11 03:00:30,652 - SimpleBotManager - INFO - No processes found for: python3 unified_trading_system.py
+2025-08-11 03:00:33,652 - SimpleBotManager - INFO - ✅ Bot stopping process completed
+2025-08-11 03:00:33,652 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:00:33,652 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:00:35,983 - SimpleBotManager - INFO - 🚀 Starting LSTM AI-powered signal system...
+2025-08-11 03:00:35,983 - SimpleBotManager - INFO - 🛑 Stopping all running trading bots...
+2025-08-11 03:00:35,985 - SimpleBotManager - INFO - No processes found for: python3 main.py
+2025-08-11 03:00:35,987 - SimpleBotManager - INFO - No processes found for: python3 start_bot.py
+2025-08-11 03:00:35,989 - SimpleBotManager - INFO - No processes found for: python3 telegram_bot.py
+2025-08-11 03:00:35,991 - SimpleBotManager - INFO - No processes found for: python3 unified_trading_system.py
+2025-08-11 03:00:38,991 - SimpleBotManager - INFO - ✅ Bot stopping process completed
+2025-08-11 03:00:41,992 - SimpleBotManager - INFO - LSTM AI system started with PID: 2082
+2025-08-11 03:00:41,992 - SimpleBotManager - INFO - ✅ LSTM AI-powered signal system started successfully
+2025-08-11 03:00:41,992 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:00:43,992 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:00:59,162 - SimpleBotManager - INFO - 🛑 Stopping all running trading bots...
+2025-08-11 03:00:59,164 - SimpleBotManager - INFO - No processes found for: python3 main.py
+2025-08-11 03:00:59,167 - SimpleBotManager - INFO - No processes found for: python3 start_bot.py
+2025-08-11 03:00:59,168 - SimpleBotManager - INFO - No processes found for: python3 telegram_bot.py
+2025-08-11 03:00:59,171 - SimpleBotManager - INFO - No processes found for: python3 unified_trading_system.py
+2025-08-11 03:01:02,171 - SimpleBotManager - INFO - ✅ Bot stopping process completed
+2025-08-11 03:01:02,171 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:01:02,171 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:01:02,228 - SimpleBotManager - INFO - 🚀 Starting LSTM AI-powered signal system...
+2025-08-11 03:01:02,228 - SimpleBotManager - INFO - 🛑 Stopping all running trading bots...
+2025-08-11 03:01:02,230 - SimpleBotManager - INFO - No processes found for: python3 main.py
+2025-08-11 03:01:02,232 - SimpleBotManager - INFO - No processes found for: python3 start_bot.py
+2025-08-11 03:01:02,235 - SimpleBotManager - INFO - No processes found for: python3 telegram_bot.py
+2025-08-11 03:01:02,237 - SimpleBotManager - INFO - No processes found for: python3 unified_trading_system.py
+2025-08-11 03:01:05,237 - SimpleBotManager - INFO - ✅ Bot stopping process completed
+2025-08-11 03:01:07,231 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:01:07,231 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:01:08,238 - SimpleBotManager - INFO - LSTM AI system started with PID: 2171
+2025-08-11 03:01:08,238 - SimpleBotManager - INFO - ✅ LSTM AI-powered signal system started successfully
+2025-08-11 03:01:08,238 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:01:10,238 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:01:25,815 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:01:25,815 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed
+2025-08-11 03:01:28,262 - SimpleBotManager - INFO - 🚀 Starting LSTM AI-powered signal system...
+2025-08-11 03:01:28,262 - SimpleBotManager - INFO - 🛑 Stopping all running trading bots...
+2025-08-11 03:01:28,265 - SimpleBotManager - INFO - No processes found for: python3 main.py
+2025-08-11 03:01:28,267 - SimpleBotManager - INFO - No processes found for: python3 start_bot.py
+2025-08-11 03:01:28,269 - SimpleBotManager - INFO - No processes found for: python3 telegram_bot.py
+2025-08-11 03:01:28,271 - SimpleBotManager - INFO - No processes found for: python3 unified_trading_system.py
+2025-08-11 03:01:31,271 - SimpleBotManager - INFO - ✅ Bot stopping process completed
+2025-08-11 03:01:34,272 - SimpleBotManager - INFO - LSTM AI system started with PID: 2283
+2025-08-11 03:01:34,272 - SimpleBotManager - INFO - ✅ LSTM AI-powered signal system started successfully
+2025-08-11 03:01:34,272 - SimpleBotManager - INFO - 🧹 Cleaning up simple bot manager...
+2025-08-11 03:01:36,272 - SimpleBotManager - INFO - ✅ Simple bot manager cleanup completed

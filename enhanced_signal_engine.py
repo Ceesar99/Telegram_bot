@@ -17,6 +17,7 @@ from advanced_features import AdvancedFeatureEngine
 from alternative_data import AlternativeDataManager
 from backtesting_engine import BacktestingEngine
 import sqlite3
+import talib
 
 @dataclass
 class EnhancedSignal:
