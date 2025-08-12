@@ -1,0 +1,14 @@
+2025-08-12 21:46:14,208 - __main__ - INFO - 🚀 Starting Simple Telegram Bot...
+2025-08-12 21:46:14,696 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-12 21:46:14,776 - __main__ - ERROR - ❌ Bot startup failed: 'TradingBot' object has no attribute 'history'
+2025-08-12 21:46:14,777 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 21:46:14,778 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-12 21:46:14,778 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 21:46:14,966 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,085 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 21:46:15,085 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-12 21:46:15,085 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 21:46:15,143 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,320 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,500 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,500 - SignalEngine - ERROR - No training data available

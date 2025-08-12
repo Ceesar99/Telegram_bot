@@ -1,0 +1,39 @@
+2025-08-12 21:46:11.170940: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-12 21:46:11.173114: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-12 21:46:11.287757: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-12 21:46:12.476575: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-12 21:46:12.477424: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-12 21:46:14,208 - __main__ - INFO - 🚀 Starting Simple Telegram Bot...
+2025-08-12 21:46:14,696 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-12 21:46:14,776 - __main__ - ERROR - ❌ Bot startup failed: 'TradingBot' object has no attribute 'history'
+2025-08-12 21:46:14,777 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 21:46:14,778 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-12 21:46:14,778 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 21:46:14,966 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,085 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 21:46:15,085 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-12 21:46:15,085 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 21:46:15,143 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,320 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,500 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:46:15,500 - SignalEngine - ERROR - No training data available
+Traceback (most recent call last):
+  File "/workspace/simple_bot_start.py", line 67, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/workspace/simple_bot_start.py", line 39, in main
+    app = bot.build_application()
+  File "/workspace/telegram_bot.py", line 706, in build_application
+    self.app.add_handler(CommandHandler("history", self.history))
+                                                   ^^^^^^^^^^^^
+AttributeError: 'TradingBot' object has no attribute 'history'

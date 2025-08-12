@@ -1,0 +1,25 @@
+2025-08-12 21:48:26,370 - __main__ - INFO - 🚀 Starting Working Telegram Bot...
+2025-08-12 21:48:26,880 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-12 21:48:26,947 - __main__ - INFO - ✅ Bot initialized successfully
+2025-08-12 21:48:26,948 - __main__ - INFO - 🤖 Bot Token: 8226952507...
+2025-08-12 21:48:26,948 - __main__ - INFO - 📱 Bot is ready to receive commands!
+2025-08-12 21:48:26,948 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 21:48:26,949 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-12 21:48:26,949 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 21:48:27,136 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:48:27,262 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 21:48:27,262 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-12 21:48:27,263 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 21:48:27,327 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:48:27,501 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:48:27,684 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 21:48:27,684 - SignalEngine - ERROR - No training data available
+2025-08-12 21:48:27,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getMe "HTTP/1.1 200 OK"
+2025-08-12 21:48:27,943 - telegram.ext.Application - INFO - Application started
+2025-08-12 21:48:28,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-12 21:48:28,025 - __main__ - INFO - ✅ Bot is now running and polling for messages...
+2025-08-12 21:48:28,025 - __main__ - INFO - 📱 Send /start to your bot to begin trading!
+2025-08-12 21:48:38,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 21:48:48,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 21:48:58,457 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 21:49:08,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
