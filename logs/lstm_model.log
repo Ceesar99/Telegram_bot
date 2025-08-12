@@ -49,3 +49,5 @@
 2025-08-12 10:45:35,052 - LSTM_Model - INFO - Training accuracy: 0.5181
 2025-08-12 10:45:35,052 - LSTM_Model - INFO - Test accuracy: 0.4980
 2025-08-12 10:45:35,088 - LSTM_Model - INFO - Model saved to /workspace/models//lstm_model_quick_20250812_104535.h5
+2025-08-12 20:53:04,433 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-12 20:53:51,099 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

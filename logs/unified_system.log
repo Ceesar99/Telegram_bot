@@ -241,3 +241,5 @@
 2025-08-11 01:51:15,104 - UnifiedTradingSystem - INFO - PocketOptionAPI close method not available
 2025-08-11 01:51:15,104 - UnifiedTradingSystem - INFO - Shutdown report saved: /workspace/logs/shutdown_report_1754877075.json
 2025-08-11 01:51:15,104 - UnifiedTradingSystem - INFO - System shutdown completed
+2025-08-12 20:54:34,991 - UnifiedTradingSystem - WARNING - Institutional mode requested but components not available, defaulting to original
+2025-08-12 20:54:34,991 - UnifiedTradingSystem - WARNING - Institutional mode requested but components not available, defaulting to original
