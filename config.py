@@ -43,7 +43,7 @@ OTC_PAIRS = [
 # LSTM Model Configuration
 LSTM_CONFIG = {
     "sequence_length": 60,
-    "features": 20,
+    "features": 24,
     "lstm_units": [50, 50, 50],
     "dropout_rate": 0.2,
     "learning_rate": 0.001,

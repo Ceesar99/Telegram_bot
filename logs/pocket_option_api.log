@@ -454,3 +454,27 @@
 2025-08-11 01:51:02,148 - PocketOptionAPI - ERROR - Failed to get market data: 404
 2025-08-11 01:51:02,148 - PocketOptionAPI - ERROR - Failed to get market data: 404
 2025-08-11 01:51:02,148 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:43,916 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 10:17:43,916 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 10:17:43,916 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 10:17:43,916 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 10:17:44,128 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,128 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,312 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,312 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,489 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,489 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,667 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:44,667 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,003 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 10:17:45,003 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 10:17:45,003 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 10:17:45,003 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 10:17:45,136 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,136 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,280 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,280 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,414 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,414 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,546 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 10:17:45,546 - PocketOptionAPI - ERROR - Failed to get market data: 404

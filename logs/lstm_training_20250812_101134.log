@@ -1,0 +1,36 @@
+2025-08-12 10:11:34,748 - LSTMTraining - INFO - 🚀 LSTM Model Training Started
+2025-08-12 10:11:34,748 - LSTMTraining - INFO - Training mode: quick
+2025-08-12 10:11:34,748 - LSTMTraining - INFO - Validation split: 0.2
+2025-08-12 10:11:34,748 - LSTMTraining - INFO - Starting quick training: Quick training for testing
+2025-08-12 10:11:34,748 - LSTMTraining - INFO - Configuration: 50 epochs, batch size 32
+2025-08-12 10:11:34,753 - LSTMTraining - WARNING - Could not load data for EUR/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:34,754 - LSTMTraining - WARNING - Could not load data for GBP/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:34,754 - LSTMTraining - WARNING - Could not load data for USD/JPY: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:34,754 - LSTMTraining - WARNING - Could not load data for AUD/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:34,754 - LSTMTraining - INFO - Using sample data for training
+2025-08-12 10:11:34,754 - LSTMTraining - INFO - Creating sample training data...
+2025-08-12 10:11:34,776 - LSTMTraining - INFO - Created sample data: 8785 samples from 2024-01-01 00:00:00 to 2025-01-01 00:00:00
+2025-08-12 10:11:34,776 - LSTMTraining - INFO - Training data shape: (8785, 6)
+2025-08-12 10:11:34,776 - LSTMTraining - INFO - Starting model training...
+2025-08-12 10:11:34,776 - LSTM_Model - INFO - Starting model training...
+2025-08-12 10:11:45,512 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:11:54,170 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:12:02,828 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:12:25,729 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:12:50,418 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:14:14,419 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:16:15,773 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:16:33,406 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:17:09,078 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:17:12,409 - LSTM_Model - INFO - Training accuracy: 0.5256
+2025-08-12 10:17:12,410 - LSTM_Model - INFO - Test accuracy: 0.5135
+2025-08-12 10:17:12,414 - LSTMTraining - INFO - Training completed in 0:05:37.637076
+2025-08-12 10:17:12,414 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 10:17:12,441 - LSTM_Model - INFO - Model saved to /workspace/models//lstm_model_quick_20250812_101712.h5
+2025-08-12 10:17:12,441 - LSTMTraining - INFO - Model saved to: /workspace/models//lstm_model_quick_20250812_101712.h5
+2025-08-12 10:17:12,441 - LSTMTraining - INFO - Testing trained model...
+2025-08-12 10:17:12,726 - LSTMTraining - INFO - Test prediction: BUY (confidence: 47.98%)
+2025-08-12 10:17:12,726 - LSTMTraining - INFO - ✅ Model training successful!
+2025-08-12 10:17:12,727 - LSTMTraining - INFO - 🎉 Training completed successfully!
+2025-08-12 10:17:12,727 - LSTMTraining - INFO - Model saved in: /workspace/models/
+2025-08-12 10:17:12,727 - LSTMTraining - INFO - You can now use the trained model with your trading system!
