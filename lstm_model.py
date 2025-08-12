@@ -332,8 +332,32 @@ class LSTMTradingModel:
             filepath = f"{DATABASE_CONFIG['models_dir']}/lstm_trading_model.h5"
         
         try:
+            import os
+            from glob import glob
+            
+            # If the default path does not exist, try common alternatives
+            if not os.path.exists(filepath):
+                candidate_paths = []
+                models_dir = DATABASE_CONFIG['models_dir']
+                # Common fixed names
+                candidate_paths.extend([
+                    os.path.join(models_dir, 'best_model.h5'),
+                    os.path.join(models_dir, 'lstm_model.h5')
+                ])
+                # Any .h5 files in models dir
+                candidate_paths.extend(sorted(glob(os.path.join(models_dir, '*.h5')), key=os.path.getmtime, reverse=True))
+                
+                # Pick the first existing file
+                filepath = next((p for p in candidate_paths if os.path.exists(p)), filepath)
+            
+            # Load model
             self.model = tf.keras.models.load_model(filepath)
-            self.feature_scaler = joblib.load(f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl")
+            
+            # Load feature scaler if present
+            scaler_path = f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl"
+            if os.path.exists(scaler_path):
+                self.feature_scaler = joblib.load(scaler_path)
+            
             self.is_trained = True
             self.logger.info(f"Model loaded from {filepath}")
             return True
