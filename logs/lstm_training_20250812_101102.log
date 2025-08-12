@@ -1,0 +1,38 @@
+2025-08-12 10:11:02,435 - LSTMTraining - INFO - 🚀 LSTM Model Training Started
+2025-08-12 10:11:02,436 - LSTMTraining - INFO - Training mode: quick
+2025-08-12 10:11:02,436 - LSTMTraining - INFO - Validation split: 0.2
+2025-08-12 10:11:02,436 - LSTMTraining - INFO - Starting quick training: Quick training for testing
+2025-08-12 10:11:02,436 - LSTMTraining - INFO - Configuration: 50 epochs, batch size 32
+2025-08-12 10:11:02,441 - LSTMTraining - WARNING - Could not load data for EUR/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:02,442 - LSTMTraining - WARNING - Could not load data for GBP/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:02,442 - LSTMTraining - WARNING - Could not load data for USD/JPY: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:02,442 - LSTMTraining - WARNING - Could not load data for AUD/USD: 'DataManager' object has no attribute 'get_market_data'
+2025-08-12 10:11:02,442 - LSTMTraining - INFO - Using sample data for training
+2025-08-12 10:11:02,442 - LSTMTraining - INFO - Creating sample training data...
+2025-08-12 10:11:02,464 - LSTMTraining - INFO - Created sample data: 8785 samples from 2024-01-01 00:00:00 to 2025-01-01 00:00:00
+2025-08-12 10:11:02,465 - LSTMTraining - INFO - Training data shape: (8785, 6)
+2025-08-12 10:11:02,465 - LSTMTraining - INFO - Starting model training...
+2025-08-12 10:11:02,465 - LSTM_Model - INFO - Starting model training...
+2025-08-12 10:11:02,972 - LSTMTraining - ERROR - ❌ Training failed with error: Input 0 of layer "functional" is incompatible with the layer: expected shape=(None, 60, 20), found shape=(None, 60, 24)
+2025-08-12 10:11:02,973 - LSTMTraining - ERROR - Traceback (most recent call last):
+  File "/workspace/train_lstm.py", line 165, in train_model
+    history = lstm_model.train_model(
+        data=training_data,
+        validation_split=validation_split,
+        epochs=config['epochs']
+    )
+  File "/workspace/lstm_model.py", line 260, in train_model
+    history = self.model.fit(
+        X_train, y_train,
+    ...<4 lines>...
+        verbose=1
+    )
+  File "/workspace/venv/lib/python3.13/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/workspace/venv/lib/python3.13/site-packages/keras/src/layers/input_spec.py", line 245, in assert_input_compatibility
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Input 0 of layer "functional" is incompatible with the layer: expected shape=(None, 60, 20), found shape=(None, 60, 24)
+
+2025-08-12 10:11:02,974 - LSTMTraining - ERROR - 💥 Training failed!
