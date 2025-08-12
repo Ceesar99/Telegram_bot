@@ -691,6 +691,59 @@ These settings help protect your account from excessive losses.
         except Exception as e:
             self.logger.error(f"Error starting bot: {e}")
             raise
+    
+    def build_application(self):
+        """Build and return the Telegram application for external use"""
+        if self.app is None:
+            self.app = Application.builder().token(self.token).build()
+            
+            # Add all handlers
+            self.app.add_handler(CommandHandler("start", self.start))
+            self.app.add_handler(CommandHandler("help", self.help))
+            self.app.add_handler(CommandHandler("signal", self.get_signal))
+            self.app.add_handler(CommandHandler("status", self.status))
+            self.app.add_handler(CommandHandler("performance", self.performance))
+            self.app.add_handler(CommandHandler("history", self.history))
+            self.app.add_handler(CommandHandler("pairs", self.pairs))
+            self.app.add_handler(CommandHandler("market_status", self.market_status))
+            self.app.add_handler(CommandHandler("settings", self.settings))
+            self.app.add_handler(CommandHandler("auto_on", self.auto_on))
+            self.app.add_handler(CommandHandler("auto_off", self.auto_off))
+            self.app.add_handler(CommandHandler("stats", self.stats))
+            self.app.add_handler(CommandHandler("win_rate", self.win_rate))
+            self.app.add_handler(CommandHandler("analyze", self.analyze))
+            self.app.add_handler(CommandHandler("volatility", self.volatility))
+            self.app.add_handler(CommandHandler("support_resistance", self.support_resistance))
+            self.app.add_handler(CommandHandler("technical", self.technical))
+            self.app.add_handler(CommandHandler("health", self.health))
+            self.app.add_handler(CommandHandler("backup", self.backup))
+            self.app.add_handler(CommandHandler("restart", self.restart))
+            self.app.add_handler(CommandHandler("risk_settings", self.risk_settings))
+            self.app.add_handler(CommandHandler("alerts_on", self.alerts_on))
+            self.app.add_handler(CommandHandler("alerts_off", self.alerts_off))
+            self.app.add_handler(CommandHandler("about", self.about))
+            self.app.add_handler(CommandHandler("commands", self.commands))
+            
+            # Add callback query handler
+            self.app.add_handler(CallbackQueryHandler(self.button_callback))
+            
+        return self.app
+    
+    async def send_signal_to_users(self, signal_data):
+        """Send signal to authorized users"""
+        try:
+            signal_message = self._format_signal(signal_data)
+            for user_id in self.authorized_users:
+                try:
+                    await self.app.bot.send_message(
+                        chat_id=user_id, 
+                        text=f"🚨 **AUTOMATIC SIGNAL** 🚨\n\n{signal_message}",
+                        parse_mode='Markdown'
+                    )
+                except Exception as e:
+                    self.logger.error(f"Failed to send signal to user {user_id}: {e}")
+        except Exception as e:
+            self.logger.error(f"Error sending signal to users: {e}")
 
 if __name__ == "__main__":
     bot = TradingBot()

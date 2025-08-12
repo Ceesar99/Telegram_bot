@@ -414,12 +414,18 @@ class SignalEngine:
             return 5  # 5 minutes
     
     def _calculate_expiry_time(self, duration_minutes: int) -> str:
-        """Calculate and format expiry time"""
-        now = datetime.now(TIMEZONE)
-        
-        # Add 1 minute advance time as specified
-        signal_time = now + timedelta(minutes=SIGNAL_CONFIG['signal_advance_time'])
-        expiry_time = signal_time + timedelta(minutes=duration_minutes)
+        """Calculate and format expiry time using Pocket Option server time"""
+        try:
+            # Get precise entry time from Pocket Option server
+            entry_time = self.pocket_api.get_entry_time(SIGNAL_CONFIG['signal_advance_time'])
+            signal_time = entry_time
+            expiry_time = signal_time + timedelta(minutes=duration_minutes)
+        except Exception as e:
+            self.logger.warning(f"Failed to get server time, using local time: {e}")
+            # Fallback to local time
+            now = datetime.now(TIMEZONE)
+            signal_time = now + timedelta(minutes=SIGNAL_CONFIG['signal_advance_time'])
+            expiry_time = signal_time + timedelta(minutes=duration_minutes)
         
         start_time = signal_time.strftime("%H:%M")
         end_time = expiry_time.strftime("%H:%M")
