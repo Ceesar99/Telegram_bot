@@ -256,3 +256,6 @@
 2025-08-12 21:48:26,948 - SignalEngine - INFO - Connected to Pocket Option API
 2025-08-12 21:48:26,949 - SignalEngine - INFO - No pre-trained model found. Training new model...
 2025-08-12 21:48:27,684 - SignalEngine - ERROR - No training data available
+2025-08-12 22:23:38,615 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 22:23:38,615 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 22:23:39,324 - SignalEngine - ERROR - No training data available

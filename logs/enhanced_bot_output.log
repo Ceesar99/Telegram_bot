@@ -1,0 +1,37 @@
+2025-08-12 22:23:34.781532: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-12 22:23:34.784269: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-12 22:23:34.968620: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-12 22:23:35.987233: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-12 22:23:35.987699: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2025-08-12 22:23:37,552 - __main__ - INFO - 🚀 Starting Enhanced Trading Bot...
+2025-08-12 22:23:38,043 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-12 22:23:38,575 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-12 22:23:38,614 - __main__ - INFO - ✅ Enhanced bot initialized successfully
+2025-08-12 22:23:38,614 - __main__ - INFO - 🤖 Bot Token: 8226952507...
+2025-08-12 22:23:38,614 - __main__ - INFO - 📱 Bot is ready with interactive features!
+2025-08-12 22:23:38,615 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 22:23:38,615 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-12 22:23:38,615 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 22:23:38,804 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 22:23:38,945 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-12 22:23:38,945 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-12 22:23:38,945 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-12 22:23:38,976 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 22:23:39,152 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 22:23:39,324 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-12 22:23:39,324 - SignalEngine - ERROR - No training data available
+2025-08-12 22:23:39,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:23:39,585 - telegram.ext.Application - INFO - Application started
+2025-08-12 22:23:39,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-12 22:23:39,670 - __main__ - INFO - ✅ Enhanced bot is now running with all features!
+2025-08-12 22:23:39,670 - __main__ - INFO - 📱 Send /start to test all interactive features!
+2025-08-12 22:23:49,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:00,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:10,126 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:20,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:30,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:40,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:24:50,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:25:00,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:25:10,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
