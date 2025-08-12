@@ -29,9 +29,14 @@ class PocketOptionAPI:
         self.logger = self._setup_logger()
         self.is_weekend = False
         self.available_pairs = []
+        self.server_time_offset = 0  # Server time offset in seconds
+        self.last_time_sync = None
         
         # Initialize session
         self._setup_session()
+        
+        # Synchronize with server time
+        self._sync_server_time()
         
     def _setup_logger(self):
         logger = logging.getLogger('PocketOptionAPI')
@@ -80,6 +85,38 @@ class PocketOptionAPI:
         except Exception as e:
             self.logger.error(f"Failed to extract session ID: {e}")
             return "8ddc70c84462c00f33c4e55cd07348c2"
+    
+    def _sync_server_time(self):
+        """Synchronize with Pocket Option server time"""
+        try:
+            response = self.session.get(f"{self.base_url}/api/v1/time")
+            if response.status_code == 200:
+                server_time = response.json().get('time', time.time())
+                local_time = time.time()
+                self.server_time_offset = server_time - local_time
+                self.last_time_sync = datetime.now(TIMEZONE)
+                self.logger.info(f"Server time synchronized. Offset: {self.server_time_offset:.3f}s")
+            else:
+                self.logger.warning("Failed to sync with server time, using local time")
+        except Exception as e:
+            self.logger.error(f"Error syncing server time: {e}")
+    
+    def get_server_time(self):
+        """Get current server time"""
+        # Re-sync every hour
+        if (self.last_time_sync is None or 
+            (datetime.now(TIMEZONE) - self.last_time_sync).total_seconds() > 3600):
+            self._sync_server_time()
+        
+        return datetime.fromtimestamp(time.time() + self.server_time_offset, tz=TIMEZONE)
+    
+    def get_entry_time(self, advance_minutes=1):
+        """Get precise entry time for signals"""
+        server_time = self.get_server_time()
+        # Round to next minute boundary and add advance time
+        next_minute = server_time.replace(second=0, microsecond=0) + timedelta(minutes=1)
+        entry_time = next_minute + timedelta(minutes=advance_minutes)
+        return entry_time
     
     def check_market_hours(self):
         """Check if we're in weekend/OTC hours"""
