@@ -184,7 +184,7 @@ class LSTMTradingModel:
         model.compile(
             optimizer=optimizer,
             loss='sparse_categorical_crossentropy',
-            metrics=['accuracy', 'precision', 'recall']
+            metrics=['accuracy']
         )
         
         self.model = model

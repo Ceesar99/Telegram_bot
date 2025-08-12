@@ -106,6 +106,35 @@ def create_sample_data():
     logger.info(f"Created sample data: {len(data)} samples from {data['timestamp'].min()} to {data['timestamp'].max()}")
     return data
 
+def add_target_labels(data, lookahead_minutes=2):
+    """Add target labels for ensemble training"""
+    labels = []
+    
+    for i in range(len(data)):
+        if i + lookahead_minutes >= len(data):
+            labels.append(2)  # HOLD for insufficient data
+            continue
+            
+        current_price = data['close'].iloc[i]
+        future_price = data['close'].iloc[i + lookahead_minutes]
+        
+        # Calculate price change percentage
+        price_change = (future_price - current_price) / current_price
+        
+        # Define thresholds for binary options
+        threshold = 0.0001  # 0.01% threshold
+        
+        if price_change > threshold:
+            labels.append(0)  # BUY signal
+        elif price_change < -threshold:
+            labels.append(1)  # SELL signal
+        else:
+            labels.append(2)  # HOLD signal
+    
+    data = data.copy()
+    data['target'] = labels
+    return data
+
 def get_training_data():
     """Get training data from various sources"""
     logger = logging.getLogger('EnsembleTraining')
@@ -174,6 +203,10 @@ def train_ensemble(mode='standard', models=None, validation_split=0.2):
         # Train the ensemble
         logger.info("Starting ensemble training...")
         start_time = datetime.now()
+        
+        # Add target column for ensemble training
+        logger.info("Generating target labels...")
+        training_data = add_target_labels(training_data)
         
         # Train all models
         ensemble.train_ensemble(
