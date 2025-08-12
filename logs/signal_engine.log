@@ -170,3 +170,37 @@
 2025-08-11 01:51:02,148 - SignalEngine - ERROR - No training data available
 2025-08-11 01:51:02,310 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-11 01:51:02,310 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:10:07,657 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:10:07,657 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:10:07,658 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 12:10:07,658 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 12:10:08,781 - SignalEngine - ERROR - No training data available
+2025-08-12 12:10:08,781 - SignalEngine - ERROR - No training data available
+2025-08-12 12:10:08,781 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:10:08,781 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:10:08,782 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 12:10:08,782 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-12 12:10:09,543 - SignalEngine - ERROR - No training data available
+2025-08-12 12:10:09,543 - SignalEngine - ERROR - No training data available
+2025-08-12 12:10:09,709 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:10:09,709 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:12:30,704 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:12:30,704 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:12:30,874 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:12:30,874 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:12:30,874 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:12:30,874 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:12:30,938 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:12:30,938 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:12:31,089 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:12:31,089 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:14:01,795 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:14:01,795 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:14:01,966 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:14:01,966 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:14:01,967 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:14:01,967 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-12 12:14:02,029 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:14:02,029 - SignalEngine - INFO - LSTM model loaded successfully
+2025-08-12 12:14:02,197 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-12 12:14:02,197 - SignalEngine - INFO - No high-quality enhanced signals found
