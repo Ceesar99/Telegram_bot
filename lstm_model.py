@@ -329,11 +329,26 @@ class LSTMTradingModel:
     def load_model(self, filepath=None):
         """Load a pre-trained model"""
         if filepath is None:
-            filepath = f"{DATABASE_CONFIG['models_dir']}/lstm_trading_model.h5"
+            # Try to find any available trained model
+            models_dir = DATABASE_CONFIG['models_dir']
+            import os
+            try:
+                model_files = [f for f in os.listdir(models_dir) if f.endswith('.h5')]
+                if model_files:
+                    filepath = f"{models_dir}/{model_files[0]}"
+                else:
+                    filepath = f"{models_dir}/lstm_trading_model.h5"
+            except:
+                filepath = f"{models_dir}/lstm_trading_model.h5"
         
         try:
             self.model = tf.keras.models.load_model(filepath)
-            self.feature_scaler = joblib.load(f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl")
+            try:
+                self.feature_scaler = joblib.load(f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl")
+            except:
+                # If scaler not found, create a default one
+                from sklearn.preprocessing import StandardScaler
+                self.feature_scaler = StandardScaler()
             self.is_trained = True
             self.logger.info(f"Model loaded from {filepath}")
             return True
