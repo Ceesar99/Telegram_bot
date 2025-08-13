@@ -736,3 +736,66 @@
 2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:38:16,471 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:16,982 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:16,982 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:17,562 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:17,562 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:17,562 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:38:17,793 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:17,793 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:17,793 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:17,954 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:17,954 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:17,954 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:17,954 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:17,954 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:17,954 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:17,968 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:17,968 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:17,968 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,142 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,142 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,142 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,322 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,322 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,322 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,511 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,511 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,511 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,670 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:18,670 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:18,670 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:38:18,670 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:18,670 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:18,670 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:38:18,687 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,687 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,687 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,863 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,863 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:18,863 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:19,039 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:19,039 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:38:19,039 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:00,806 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:40:01,292 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:40:01,292 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 01:40:01,559 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:01,559 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:01,696 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:40:01,696 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 01:40:01,696 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:40:01,696 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 01:40:01,743 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:01,743 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:01,927 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:01,927 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:02,111 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 01:40:02,111 - PocketOptionAPI - ERROR - Failed to get market data: 404

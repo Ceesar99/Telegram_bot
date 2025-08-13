@@ -19956,3 +19956,9 @@
 2025-08-13 01:35:48,944 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
 2025-08-13 01:35:48,944 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
 2025-08-13 01:35:48,944 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 01:36:38,690 - TradingSystemLauncher - INFO - Received signal 15, shutting down...
+2025-08-13 01:36:48,947 - TradingSystemLauncher - INFO - 🔄 Shutting down trading system...
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-13 01:36:48,948 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 01:36:48,948 - TradingSystemLauncher - INFO - ✅ Trading system shutdown complete
