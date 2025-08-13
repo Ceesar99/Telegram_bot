@@ -687,3 +687,52 @@
 2025-08-13 00:34:12,900 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
 2025-08-13 00:34:12,900 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
 2025-08-13 00:34:12,900 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-13 00:34:47,578 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:56,681 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,189 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,189 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,463 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,463 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,463 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:34:57,683 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:57,683 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:57,683 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:57,818 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:57,818 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:57,818 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:57,818 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:57,818 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:57,818 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:57,857 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:57,857 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:57,857 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,032 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,032 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,032 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,208 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,208 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,208 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,418 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,418 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,418 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,542 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,542 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,542 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,554 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:58,554 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:58,554 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:34:58,554 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:58,554 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:58,554 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:34:58,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,786 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,786 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:34:58,786 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-13 00:35:13,063 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
