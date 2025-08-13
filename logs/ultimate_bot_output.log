@@ -1,0 +1,9 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/workspace/ultimate_telegram_bot.py", line 45, in <module>
+    from signal_engine import SignalEngine
+  File "/workspace/signal_engine.py", line 11, in <module>
+    from lstm_model import LSTMTradingModel
+  File "/workspace/lstm_model.py", line 3, in <module>
+    import tensorflow as tf
+ModuleNotFoundError: No module named 'tensorflow'
