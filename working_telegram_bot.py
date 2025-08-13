@@ -342,6 +342,28 @@ Use the buttons below or type commands directly."""
             "❓ **Unknown command!**\n\nUse /help to see available commands or /start to begin."
         )
 
+    def build_application(self):
+        """Build and configure the Telegram application"""
+        # Create application
+        application = Application.builder().token(self.token).build()
+        
+        # Add command handlers
+        application.add_handler(CommandHandler("start", self.start))
+        application.add_handler(CommandHandler("signal", self.signal))
+        application.add_handler(CommandHandler("status", self.status))
+        application.add_handler(CommandHandler("auto_on", self.auto_on))
+        application.add_handler(CommandHandler("auto_off", self.auto_off))
+        application.add_handler(CommandHandler("test", self.test))
+        application.add_handler(CommandHandler("help", self.help_command))
+        
+        # Add callback query handler
+        application.add_handler(CallbackQueryHandler(self.button_callback))
+        
+        # Add unknown command handler
+        application.add_handler(MessageHandler(filters.COMMAND, self.unknown_command))
+        
+        return application
+
 def main():
     """Main function to run the bot"""
     print("🚀 Starting Working Trading Bot...")
