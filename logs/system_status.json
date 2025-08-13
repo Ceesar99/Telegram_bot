@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-13T16:39:15.137014",
+  "uptime_minutes": 2.0670398333333333,
+  "processes": {},
+  "logs": {
+    "trading_system.log": {
+      "exists": true,
+      "last_modified": "2025-08-06T13:07:28.854081",
+      "size_bytes": 36977,
+      "is_active": false
+    },
+    "telegram_bot.log": {
+      "exists": true,
+      "last_modified": "2025-08-06T13:07:28.854081",
+      "size_bytes": 0,
+      "is_active": false
+    },
+    "signal_engine.log": {
+      "exists": true,
+      "last_modified": "2025-08-06T13:07:28.854081",
+      "size_bytes": 15956,
+      "is_active": false
+    },
+    "ultimate_ai_system.log": {
+      "exists": true,
+      "last_modified": "2025-08-06T13:07:28.854081",
+      "size_bytes": 17804,
+      "is_active": false
+    },
+    "pocket_option_api.log": {
+      "exists": true,
+      "last_modified": "2025-08-06T13:07:28.850081",
+      "size_bytes": 43471,
+      "is_active": false
+    }
+  },
+  "telegram_bot": {
+    "token_configured": true,
+    "user_id_configured": true,
+    "status": "configured"
+  },
+  "system_resources": {
+    "cpu_percent": 0.7,
+    "memory_percent": 7.8,
+    "memory_available_gb": 14.423763275146484,
+    "disk_percent": 7.6,
+    "disk_free_gb": 110.41604995727539,
+    "status": "healthy"
+  },
+  "overall_status": "stopped"
+}

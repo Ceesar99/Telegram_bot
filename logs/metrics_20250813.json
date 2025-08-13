@@ -2,9 +2,9 @@
   "total_signals_generated": 1,
   "successful_predictions": 0,
   "total_commands_processed": 0,
-  "system_uptime": 0,
+  "system_uptime": 0.001197,
   "errors_handled": 0,
-  "last_signal_time": "2025-08-13 15:25:21.579806",
+  "last_signal_time": "2025-08-13 16:37:26.308873",
   "accuracy_rate": 95.7,
   "system_restarts": 0
 }

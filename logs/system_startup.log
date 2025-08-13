@@ -1,0 +1,70 @@
+2025-08-13 16:38:05,961 - INFO - 🚀 ULTIMATE AI TRADING SYSTEM - STARTUP
+2025-08-13 16:38:05,961 - INFO - ============================================================
+2025-08-13 16:38:05,961 - INFO - 🚀 Starting Telegram Bot Interface...
+2025-08-13 16:38:05,963 - INFO - ✅ Telegram Bot Interface started (PID: 4719)
+2025-08-13 16:38:07,963 - INFO - 🚀 Starting AI Trading System...
+2025-08-13 16:38:07,964 - INFO - ✅ AI Trading System started (PID: 4738)
+2025-08-13 16:38:09,965 - INFO - 🚀 Starting System Monitor...
+2025-08-13 16:38:09,966 - INFO - ✅ System Monitor started (PID: 4763)
+2025-08-13 16:38:11,967 - INFO - 🔍 Starting process monitoring...
+2025-08-13 16:38:11,967 - INFO - ✅ All components started
+2025-08-13 16:38:11,967 - INFO - 📊 SYSTEM STATUS:
+2025-08-13 16:38:11,967 - INFO -   🟢 RUNNING Telegram Bot Interface (PID: 4719, Uptime: 0.1m, Restarts: 0)
+2025-08-13 16:38:11,967 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:38:11,967 - INFO -   🔴 STOPPED AI Trading System (PID: 4738, Uptime: 0.1m, Restarts: 0)
+2025-08-13 16:38:11,967 - INFO -   🟢 RUNNING System Monitor (PID: 4763, Uptime: 0.0m, Restarts: 0)
+2025-08-13 16:38:11,967 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:38:11,967 - WARNING - 🚨 Critical component telegram_bot failed, restarting...
+2025-08-13 16:38:11,967 - INFO - 🔄 Restarting Telegram Bot Interface (attempt 1)
+2025-08-13 16:38:16,967 - INFO - 🚀 Starting Telegram Bot Interface...
+2025-08-13 16:38:16,969 - INFO - ✅ Telegram Bot Interface started (PID: 4828)
+2025-08-13 16:38:16,969 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:38:16,969 - WARNING - 🚨 Critical component trading_system failed, restarting...
+2025-08-13 16:38:16,969 - INFO - 🔄 Restarting AI Trading System (attempt 1)
+2025-08-13 16:38:21,970 - INFO - 🚀 Starting AI Trading System...
+2025-08-13 16:38:21,972 - INFO - ✅ AI Trading System started (PID: 4868)
+2025-08-13 16:38:31,972 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:38:31,972 - WARNING - 🚨 Critical component telegram_bot failed, restarting...
+2025-08-13 16:38:31,972 - INFO - 🔄 Restarting Telegram Bot Interface (attempt 1)
+2025-08-13 16:38:36,973 - INFO - 🚀 Starting Telegram Bot Interface...
+2025-08-13 16:38:36,975 - INFO - ✅ Telegram Bot Interface started (PID: 5063)
+2025-08-13 16:38:36,975 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:38:36,975 - WARNING - 🚨 Critical component trading_system failed, restarting...
+2025-08-13 16:38:36,975 - INFO - 🔄 Restarting AI Trading System (attempt 1)
+2025-08-13 16:38:41,967 - INFO - 📊 SYSTEM STATUS:
+2025-08-13 16:38:41,967 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:38:41,968 - INFO -   🔴 STOPPED Telegram Bot Interface (PID: 5063, Uptime: 0.1m, Restarts: 0)
+2025-08-13 16:38:41,968 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:38:41,968 - INFO -   🔴 STOPPED AI Trading System (PID: 4868, Uptime: 0.3m, Restarts: 1)
+2025-08-13 16:38:41,968 - INFO -   🟢 RUNNING System Monitor (PID: 4763, Uptime: 0.5m, Restarts: 0)
+2025-08-13 16:38:41,975 - INFO - 🚀 Starting AI Trading System...
+2025-08-13 16:38:41,977 - INFO - ✅ AI Trading System started (PID: 5085)
+2025-08-13 16:38:51,977 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:38:51,977 - WARNING - 🚨 Critical component telegram_bot failed, restarting...
+2025-08-13 16:38:51,978 - INFO - 🔄 Restarting Telegram Bot Interface (attempt 1)
+2025-08-13 16:38:56,978 - INFO - 🚀 Starting Telegram Bot Interface...
+2025-08-13 16:38:56,980 - INFO - ✅ Telegram Bot Interface started (PID: 5182)
+2025-08-13 16:38:56,980 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:38:56,980 - WARNING - 🚨 Critical component trading_system failed, restarting...
+2025-08-13 16:38:56,980 - INFO - 🔄 Restarting AI Trading System (attempt 1)
+2025-08-13 16:39:01,980 - INFO - 🚀 Starting AI Trading System...
+2025-08-13 16:39:01,982 - INFO - ✅ AI Trading System started (PID: 5219)
+2025-08-13 16:39:11,968 - INFO - 📊 SYSTEM STATUS:
+2025-08-13 16:39:11,968 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:39:11,968 - INFO -   🔴 STOPPED Telegram Bot Interface (PID: 5182, Uptime: 0.2m, Restarts: 0)
+2025-08-13 16:39:11,968 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:39:11,968 - INFO -   🔴 STOPPED AI Trading System (PID: 5219, Uptime: 0.2m, Restarts: 0)
+2025-08-13 16:39:11,968 - INFO -   🟢 RUNNING System Monitor (PID: 4763, Uptime: 1.0m, Restarts: 0)
+2025-08-13 16:39:11,982 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:39:11,982 - WARNING - 🚨 Critical component telegram_bot failed, restarting...
+2025-08-13 16:39:11,982 - INFO - 🔄 Restarting Telegram Bot Interface (attempt 1)
+2025-08-13 16:39:16,983 - INFO - 🚀 Starting Telegram Bot Interface...
+2025-08-13 16:39:16,985 - INFO - ✅ Telegram Bot Interface started (PID: 5306)
+2025-08-13 16:39:16,985 - WARNING - ⚠️  AI Trading System has stopped
+2025-08-13 16:39:16,985 - WARNING - 🚨 Critical component trading_system failed, restarting...
+2025-08-13 16:39:16,985 - INFO - 🔄 Restarting AI Trading System (attempt 1)
+2025-08-13 16:39:21,986 - INFO - 🚀 Starting AI Trading System...
+2025-08-13 16:39:21,988 - INFO - ✅ AI Trading System started (PID: 5355)
+2025-08-13 16:39:31,988 - WARNING - ⚠️  Telegram Bot Interface has stopped
+2025-08-13 16:39:31,988 - WARNING - 🚨 Critical component telegram_bot failed, restarting...
+2025-08-13 16:39:31,988 - INFO - 🔄 Restarting Telegram Bot Interface (attempt 1)
