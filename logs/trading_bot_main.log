@@ -1,0 +1,81 @@
+2025-08-13 00:01:56,479 - TradingBotSystem - INFO - Trading Bot System starting up...
+2025-08-13 00:01:56,479 - TradingBotSystem - INFO - Validating configuration...
+2025-08-13 00:01:56,479 - TradingBotSystem - INFO - Configuration validation completed successfully
+2025-08-13 00:01:56,479 - TradingBotSystem - INFO - Initializing trading bot components...
+2025-08-13 00:01:56,479 - TradingBotSystem - INFO - Initializing Performance Tracker...
+2025-08-13 00:01:56,480 - TradingBotSystem - INFO - Initializing Risk Manager...
+2025-08-13 00:01:56,480 - TradingBotSystem - INFO - Initializing Pocket Option API...
+2025-08-13 00:01:56,974 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:01:58,977 - TradingBotSystem - INFO - Initializing Signal Engine...
+2025-08-13 00:01:59,458 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:01:59,494 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:01:59,494 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-13 00:01:59,494 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:01:59,679 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:01:59,840 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:01:59,841 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-13 00:01:59,841 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:01:59,859 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:00,219 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:00,394 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:00,394 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:02,495 - TradingBotSystem - INFO - Initializing Telegram Bot...
+2025-08-13 00:02:02,991 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-13 00:02:03,025 - TradingBotSystem - INFO - All components initialized successfully
+2025-08-13 00:02:03,026 - TradingBotSystem - INFO - Trading Bot System is fully operational
+2025-08-13 00:02:03,027 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:03,027 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-13 00:02:03,028 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:03,036 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:03,036 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:03,240 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:03,369 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-13 00:02:03,369 - websocket - ERROR - scheme https is invalid - goodbye
+2025-08-13 00:02:03,369 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-13 00:02:03,445 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:03,645 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:03,845 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-13 00:02:03,846 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:03,846 - TradingBotSystem - WARNING - Critical issues detected: ['LSTM model not loaded', 'Pocket Option API disconnected']
+2025-08-13 00:02:04,027 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:04,037 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:04,038 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:05,029 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:05,039 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:05,039 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:06,032 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:06,042 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:06,042 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:07,035 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:07,044 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:07,044 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:08,037 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:08,047 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:08,047 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:09,040 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:09,049 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:09,049 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:10,042 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:10,052 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:10,052 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:11,045 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:11,054 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:11,055 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:12,048 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:12,057 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:12,058 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:13,050 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:13,060 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:13,060 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:14,053 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:14,062 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:14,062 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:15,055 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:15,064 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:15,064 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:16,057 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:16,066 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:16,067 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:17,060 - TradingBotSystem - ERROR - Telegram bot thread died, attempting restart...
+2025-08-13 00:02:17,069 - TradingBot - ERROR - Error starting bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
+2025-08-13 00:02:17,069 - TradingBotSystem - ERROR - Error running Telegram bot: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes

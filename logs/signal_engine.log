@@ -186,3 +186,26 @@
 2025-08-12 21:27:03,162 - SignalEngine - INFO - No high-quality enhanced signals found
 2025-08-12 21:28:03,164 - SignalEngine - INFO - SignalEngine cleanup completed
 2025-08-12 21:28:03,164 - SignalEngine - INFO - SignalEngine cleanup completed
+2025-08-13 00:01:59,494 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:01:59,494 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:00,394 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:03,027 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:03,027 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:03,028 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:03,028 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:03,846 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:03,846 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:06,234 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:06,234 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:06,234 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:06,234 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:06,936 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:06,936 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:06,936 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:06,936 - SignalEngine - INFO - Connected to Pocket Option API
+2025-08-13 00:02:06,936 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:06,936 - SignalEngine - INFO - No pre-trained model found. Training new model...
+2025-08-13 00:02:07,652 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:07,652 - SignalEngine - ERROR - No training data available
+2025-08-13 00:02:07,843 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 00:02:07,843 - SignalEngine - INFO - No high-quality enhanced signals found
