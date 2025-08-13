@@ -599,12 +599,46 @@ class PerformanceTracker:
             self.logger.error(f"Error getting active signals: {e}")
             return []
     
+    def get_recent_signals(self, limit: int = 10) -> List[Dict]:
+        """Get recent signals from database"""
+        try:
+            conn = sqlite3.connect(DATABASE_CONFIG['signals_db'])
+            cursor = conn.cursor()
+            
+            cursor.execute('''
+                SELECT timestamp, pair, direction, accuracy, result, ai_confidence, strength
+                FROM signals 
+                ORDER BY timestamp DESC 
+                LIMIT ?
+            ''', (limit,))
+            
+            rows = cursor.fetchall()
+            conn.close()
+            
+            signals = []
+            for row in rows:
+                signals.append({
+                    'time': row[0],
+                    'pair': row[1],
+                    'direction': row[2],
+                    'accuracy': row[3],
+                    'result': row[4],
+                    'ai_confidence': row[5],
+                    'strength': row[6]
+                })
+            
+            return signals
+            
+        except Exception as e:
+            self.logger.error(f"Error getting recent signals: {e}")
+            return []
+    
     def test_connection(self) -> bool:
         """Test database connection"""
         try:
             conn = sqlite3.connect(DATABASE_CONFIG['signals_db'])
             cursor = conn.cursor()
-            cursor.execute('SELECT 1')
+            cursor.execute("SELECT 1")
             conn.close()
             return True
         except Exception as e:
