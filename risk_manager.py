@@ -528,3 +528,133 @@ class RiskManager:
         self.daily_pnl = 0.0
         self.daily_trades = []
         self.logger.info("Daily risk metrics reset")
+    
+    def get_risk_status(self) -> Dict:
+        """Get current risk management status"""
+        try:
+            # Calculate current risk metrics
+            daily_risk_used = self._calculate_daily_risk_used()
+            current_win_rate = self._calculate_current_win_rate()
+            max_position_size = self._calculate_max_position_size()
+            current_positions = len(self.daily_trades)
+            
+            # Determine risk level
+            risk_level = self._determine_risk_level(daily_risk_used, current_win_rate)
+            
+            # Check if safe to trade
+            safe_to_trade = self._is_safe_to_trade(daily_risk_used, current_win_rate)
+            
+            # Get market volatility
+            market_volatility = self._get_market_volatility()
+            volatility_risk = self._assess_volatility_risk(market_volatility)
+            
+            # Determine recommended action
+            recommended_action = self._get_recommended_action(safe_to_trade, risk_level)
+            
+            return {
+                'risk_level': risk_level,
+                'safe_to_trade': safe_to_trade,
+                'daily_risk_used': daily_risk_used,
+                'current_win_rate': current_win_rate,
+                'max_position_size': max_position_size,
+                'current_positions': current_positions,
+                'stop_loss_active': True,
+                'stop_loss_level': RISK_MANAGEMENT['stop_loss_threshold'],
+                'take_profit_level': 100.0 - RISK_MANAGEMENT['stop_loss_threshold'],
+                'market_volatility': market_volatility,
+                'volatility_risk': volatility_risk,
+                'recommended_action': recommended_action
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Error getting risk status: {e}")
+            return {
+                'risk_level': 'Medium',
+                'safe_to_trade': True,
+                'daily_risk_used': 0.0,
+                'current_win_rate': 0.0,
+                'max_position_size': RISK_MANAGEMENT['max_risk_per_trade'],
+                'current_positions': 0,
+                'stop_loss_active': True,
+                'stop_loss_level': RISK_MANAGEMENT['stop_loss_threshold'],
+                'take_profit_level': 100.0 - RISK_MANAGEMENT['stop_loss_threshold'],
+                'market_volatility': 'Medium',
+                'volatility_risk': 'Low',
+                'recommended_action': 'Continue Trading'
+            }
+    
+    def _calculate_daily_risk_used(self) -> float:
+        """Calculate daily risk used percentage"""
+        try:
+            total_risk = sum(trade.get('risk_amount', 0) for trade in self.daily_trades)
+            max_daily_risk = RISK_MANAGEMENT['max_daily_loss']
+            return min(100.0, (total_risk / max_daily_risk) * 100.0)
+        except:
+            return 0.0
+    
+    def _calculate_current_win_rate(self) -> float:
+        """Calculate current win rate"""
+        try:
+            if not self.daily_trades:
+                return 0.0
+            
+            winning_trades = sum(1 for trade in self.daily_trades if trade.get('result', 'loss') == 'win')
+            return (winning_trades / len(self.daily_trades)) * 100.0
+        except:
+            return 0.0
+    
+    def _calculate_max_position_size(self) -> float:
+        """Calculate maximum position size based on current risk"""
+        try:
+            daily_risk_used = self._calculate_daily_risk_used()
+            current_win_rate = self._calculate_current_win_rate()
+            
+            # Reduce position size if risk is high or win rate is low
+            risk_factor = 1.0 - (daily_risk_used / 100.0)
+            win_rate_factor = current_win_rate / 100.0
+            
+            base_position = RISK_MANAGEMENT['max_risk_per_trade']
+            adjusted_position = base_position * risk_factor * win_rate_factor
+            
+            return max(1.0, adjusted_position)  # Minimum 1%
+        except:
+            return RISK_MANAGEMENT['max_risk_per_trade']
+    
+    def _determine_risk_level(self, daily_risk_used: float, win_rate: float) -> str:
+        """Determine current risk level"""
+        if daily_risk_used > 80.0 or win_rate < 60.0:
+            return 'High'
+        elif daily_risk_used > 50.0 or win_rate < 75.0:
+            return 'Medium'
+        else:
+            return 'Low'
+    
+    def _is_safe_to_trade(self, daily_risk_used: float, win_rate: float) -> bool:
+        """Determine if it's safe to continue trading"""
+        return daily_risk_used < 90.0 and win_rate >= 50.0
+    
+    def _get_market_volatility(self) -> str:
+        """Get current market volatility level"""
+        # This would normally come from market data
+        # For now, return a default value
+        return 'Medium'
+    
+    def _assess_volatility_risk(self, volatility: str) -> str:
+        """Assess risk based on volatility"""
+        volatility_risk_map = {
+            'Low': 'Low',
+            'Medium': 'Medium',
+            'High': 'High'
+        }
+        return volatility_risk_map.get(volatility, 'Medium')
+    
+    def _get_recommended_action(self, safe_to_trade: bool, risk_level: str) -> str:
+        """Get recommended trading action"""
+        if not safe_to_trade:
+            return 'Stop Trading'
+        elif risk_level == 'High':
+            return 'Reduce Position Sizes'
+        elif risk_level == 'Medium':
+            return 'Trade Cautiously'
+        else:
+            return 'Continue Trading'

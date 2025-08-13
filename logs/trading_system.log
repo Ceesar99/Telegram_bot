@@ -5781,3 +5781,1203 @@
 2025-08-13 00:19:10,523 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
 2025-08-13 00:19:10,523 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
 2025-08-13 00:19:10,523 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 00:20:08,474 - TradingSystemLauncher - ERROR - Error in performance monitoring: 'PerformanceTracker' object has no attribute 'get_daily_stats'
+2025-08-13 00:20:10,525 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-13 00:20:10,526 - EnhancedSignalEngine - INFO - Scanning 59 symbols for signals
+2025-08-13 00:20:10,526 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD
+2025-08-13 00:20:10,526 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD
+2025-08-13 00:20:10,527 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY
+2025-08-13 00:20:10,528 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CHF
+2025-08-13 00:20:10,529 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD
+2025-08-13 00:20:10,529 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,531 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD
+2025-08-13 00:20:10,531 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD
+2025-08-13 00:20:10,532 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,533 - yfinance - ERROR - $EURUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,533 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP
+2025-08-13 00:20:10,534 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY
+2025-08-13 00:20:10,535 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CHF
+2025-08-13 00:20:10,535 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,536 - yfinance - ERROR - $GBPUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,536 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/AUD
+2025-08-13 00:20:10,537 - yfinance - ERROR - Failed to get ticker 'USDCHF=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,538 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CAD
+2025-08-13 00:20:10,539 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/NZD
+2025-08-13 00:20:10,540 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY
+2025-08-13 00:20:10,540 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CHF
+2025-08-13 00:20:10,540 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,541 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/AUD
+2025-08-13 00:20:10,542 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,542 - yfinance - ERROR - $USDCHF=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,544 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,544 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CAD
+2025-08-13 00:20:10,545 - yfinance - ERROR - Failed to get ticker 'NZDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,545 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/NZD
+2025-08-13 00:20:10,546 - yfinance - ERROR - Failed to get ticker 'EUR/GBP' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,547 - EnhancedSignalEngine - INFO - Generating enhanced signal for CHF/JPY
+2025-08-13 00:20:10,547 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,549 - yfinance - ERROR - Failed to get ticker 'EUR/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,550 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,550 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY
+2025-08-13 00:20:10,551 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/JPY
+2025-08-13 00:20:10,553 - yfinance - ERROR - $NZDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,554 - yfinance - ERROR - $EUR/GBP: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,555 - yfinance - ERROR - $EUR/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,555 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/JPY
+2025-08-13 00:20:10,556 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CHF
+2025-08-13 00:20:10,557 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CAD
+2025-08-13 00:20:10,558 - yfinance - ERROR - Failed to get ticker 'EUR/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,558 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/NZD
+2025-08-13 00:20:10,560 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/CHF
+2025-08-13 00:20:10,560 - yfinance - ERROR - Failed to get ticker 'EUR/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,561 - yfinance - ERROR - Failed to get ticker 'EUR/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,561 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CHF
+2025-08-13 00:20:10,562 - yfinance - ERROR - Failed to get ticker 'GBP/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,563 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CAD
+2025-08-13 00:20:10,564 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/TRY
+2025-08-13 00:20:10,564 - yfinance - ERROR - Failed to get ticker 'GBP/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,565 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/ZAR
+2025-08-13 00:20:10,566 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/MXN
+2025-08-13 00:20:10,566 - yfinance - ERROR - Failed to get ticker 'GBP/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,567 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SGD
+2025-08-13 00:20:10,568 - yfinance - ERROR - Failed to get ticker 'GBP/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,568 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/HKD
+2025-08-13 00:20:10,569 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/NOK
+2025-08-13 00:20:10,570 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SEK
+2025-08-13 00:20:10,571 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/TRY
+2025-08-13 00:20:10,571 - yfinance - ERROR - Failed to get ticker 'GBP/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,572 - yfinance - ERROR - Failed to get ticker 'EUR/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,573 - yfinance - ERROR - Failed to get ticker 'CHF/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,574 - yfinance - ERROR - $EUR/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,575 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/ZAR
+2025-08-13 00:20:10,576 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/PLN
+2025-08-13 00:20:10,576 - yfinance - ERROR - Failed to get ticker 'AUD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,577 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CZK
+2025-08-13 00:20:10,578 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/HUF
+2025-08-13 00:20:10,579 - yfinance - ERROR - Failed to get ticker 'CAD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,579 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/TRY
+2025-08-13 00:20:10,580 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/ZAR
+2025-08-13 00:20:10,580 - yfinance - ERROR - Failed to get ticker 'NZD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,581 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/PLN
+2025-08-13 00:20:10,581 - yfinance - ERROR - $EUR/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,582 - yfinance - ERROR - $EUR/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,583 - yfinance - ERROR - Failed to get ticker 'AUD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,584 - yfinance - ERROR - $GBP/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,584 - EnhancedSignalEngine - INFO - Generating enhanced signal for BTC/USD
+2025-08-13 00:20:10,586 - yfinance - ERROR - Failed to get ticker 'AUD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,586 - EnhancedSignalEngine - INFO - Generating enhanced signal for ETH/USD
+2025-08-13 00:20:10,586 - EnhancedSignalEngine - INFO - Generating enhanced signal for LTC/USD
+2025-08-13 00:20:10,587 - yfinance - ERROR - Failed to get ticker 'AUD/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,587 - EnhancedSignalEngine - INFO - Generating enhanced signal for XRP/USD
+2025-08-13 00:20:10,588 - EnhancedSignalEngine - INFO - Generating enhanced signal for ADA/USD
+2025-08-13 00:20:10,589 - EnhancedSignalEngine - INFO - Generating enhanced signal for DOT/USD
+2025-08-13 00:20:10,589 - yfinance - ERROR - Failed to get ticker 'CAD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,590 - yfinance - ERROR - $GBP/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,590 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAU/USD
+2025-08-13 00:20:10,591 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAG/USD
+2025-08-13 00:20:10,592 - EnhancedSignalEngine - INFO - Generating enhanced signal for OIL/USD
+2025-08-13 00:20:10,593 - yfinance - ERROR - Failed to get ticker 'NZD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,593 - EnhancedSignalEngine - INFO - Generating enhanced signal for GAS/USD
+2025-08-13 00:20:10,594 - yfinance - ERROR - $GBP/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,595 - EnhancedSignalEngine - INFO - Generating enhanced signal for SPX500
+2025-08-13 00:20:10,597 - yfinance - ERROR - Failed to get ticker 'NZD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,597 - EnhancedSignalEngine - INFO - Generating enhanced signal for NASDAQ
+2025-08-13 00:20:10,598 - yfinance - ERROR - $GBP/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,598 - EnhancedSignalEngine - INFO - Generating enhanced signal for DAX30
+2025-08-13 00:20:10,599 - EnhancedSignalEngine - INFO - Generating enhanced signal for FTSE100
+2025-08-13 00:20:10,600 - yfinance - ERROR - Failed to get ticker 'USD/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,601 - EnhancedSignalEngine - INFO - Generating enhanced signal for NIKKEI
+2025-08-13 00:20:10,601 - EnhancedSignalEngine - INFO - Generating enhanced signal for HANG_SENG
+2025-08-13 00:20:10,603 - yfinance - ERROR - Failed to get ticker 'USD/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,604 - yfinance - ERROR - Failed to get ticker 'USD/MXN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,606 - yfinance - ERROR - Failed to get ticker 'USD/SGD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,607 - yfinance - ERROR - Failed to get ticker 'USD/HKD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,608 - yfinance - ERROR - $GBP/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,609 - yfinance - ERROR - Failed to get ticker 'USD/SEK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,610 - yfinance - ERROR - $EUR/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,610 - yfinance - ERROR - $CHF/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,611 - yfinance - ERROR - Failed to get ticker 'USD/NOK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,612 - yfinance - ERROR - Failed to get ticker 'EUR/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,613 - yfinance - ERROR - Failed to get ticker 'EUR/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,614 - yfinance - ERROR - $AUD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,615 - yfinance - ERROR - Failed to get ticker 'EUR/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,615 - yfinance - ERROR - $CAD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,616 - yfinance - ERROR - Failed to get ticker 'EUR/CZK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,617 - yfinance - ERROR - Failed to get ticker 'EUR/HUF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,618 - yfinance - ERROR - $NZD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,619 - yfinance - ERROR - $AUD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,619 - yfinance - ERROR - Failed to get ticker 'GBP/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,620 - yfinance - ERROR - Failed to get ticker 'GBP/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,621 - yfinance - ERROR - $AUD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,622 - yfinance - ERROR - Failed to get ticker 'GBP/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,623 - yfinance - ERROR - $AUD/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,624 - yfinance - ERROR - Failed to get ticker 'ETH-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,624 - yfinance - ERROR - $CAD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,625 - yfinance - ERROR - Failed to get ticker 'BTC-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,626 - yfinance - ERROR - Failed to get ticker 'LTC/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,626 - yfinance - ERROR - Failed to get ticker 'XRP/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,627 - yfinance - ERROR - Failed to get ticker 'ADA/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,628 - yfinance - ERROR - $NZD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,629 - yfinance - ERROR - Failed to get ticker 'DOT/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,630 - yfinance - ERROR - Failed to get ticker 'GC=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,630 - yfinance - ERROR - $NZD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,631 - yfinance - ERROR - Failed to get ticker 'SI=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,632 - yfinance - ERROR - Failed to get ticker 'CL=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,633 - yfinance - ERROR - Failed to get ticker 'GAS/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,633 - yfinance - ERROR - $USD/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,634 - yfinance - ERROR - Failed to get ticker 'SPX500' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,635 - yfinance - ERROR - $USD/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,636 - yfinance - ERROR - Failed to get ticker 'NASDAQ' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,637 - yfinance - ERROR - $USD/MXN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,638 - yfinance - ERROR - Failed to get ticker 'DAX30' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,639 - yfinance - ERROR - Failed to get ticker 'FTSE100' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,640 - yfinance - ERROR - $USD/SGD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,641 - yfinance - ERROR - Failed to get ticker 'NIKKEI' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,641 - yfinance - ERROR - $USD/HKD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,642 - yfinance - ERROR - $USD/SEK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,643 - yfinance - ERROR - $USD/NOK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,644 - yfinance - ERROR - $EUR/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,645 - yfinance - ERROR - $EUR/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,646 - yfinance - ERROR - $EUR/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,646 - yfinance - ERROR - $EUR/CZK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,647 - yfinance - ERROR - $EUR/HUF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,648 - yfinance - ERROR - $GBP/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,649 - yfinance - ERROR - $GBP/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,650 - yfinance - ERROR - $GBP/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,651 - yfinance - ERROR - $ETH-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,651 - yfinance - ERROR - $BTC-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,652 - yfinance - ERROR - $LTC/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,653 - yfinance - ERROR - $XRP/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,654 - yfinance - ERROR - $ADA/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,655 - yfinance - ERROR - $DOT/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,655 - yfinance - ERROR - $GC=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,656 - yfinance - ERROR - $SI=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,657 - yfinance - ERROR - $CL=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,658 - yfinance - ERROR - $GAS/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,658 - yfinance - ERROR - $SPX500: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,659 - yfinance - ERROR - $NASDAQ: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,660 - yfinance - ERROR - $DAX30: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,661 - yfinance - ERROR - $FTSE100: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,662 - yfinance - ERROR - $NIKKEI: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,664 - yfinance - ERROR - Failed to get ticker 'HANG_SENG' reason: Impersonating chrome136 is not supported
+2025-08-13 00:20:10,664 - yfinance - ERROR - $HANG_SENG: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:20:10,664 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD from all sources
+2025-08-13 00:20:10,665 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD
+2025-08-13 00:20:10,665 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD from all sources
+2025-08-13 00:20:10,665 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD
+2025-08-13 00:20:10,665 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY from all sources
+2025-08-13 00:20:10,665 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY
+2025-08-13 00:20:10,665 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CHF from all sources
+2025-08-13 00:20:10,665 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CHF
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CHF from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CHF
+2025-08-13 00:20:10,666 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CAD from all sources
+2025-08-13 00:20:10,666 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CAD
+2025-08-13 00:20:10,667 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/NZD from all sources
+2025-08-13 00:20:10,667 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/NZD
+2025-08-13 00:20:10,667 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY from all sources
+2025-08-13 00:20:10,667 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY
+2025-08-13 00:20:10,667 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CHF from all sources
+2025-08-13 00:20:10,667 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CHF
+2025-08-13 00:20:10,667 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/AUD from all sources
+2025-08-13 00:20:10,667 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/AUD
+2025-08-13 00:20:10,667 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CAD from all sources
+2025-08-13 00:20:10,667 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CAD
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/NZD from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/NZD
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/AUD from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/AUD
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for CHF/JPY from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for CHF/JPY
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/JPY from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/JPY
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/JPY from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/JPY
+2025-08-13 00:20:10,668 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CHF from all sources
+2025-08-13 00:20:10,668 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CHF
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CAD from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CAD
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/NZD from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/NZD
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/CHF from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/CHF
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CHF from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CHF
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CAD from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CAD
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/TRY from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/TRY
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/ZAR from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/ZAR
+2025-08-13 00:20:10,669 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/MXN from all sources
+2025-08-13 00:20:10,669 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/MXN
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SGD from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SGD
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/HKD from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/HKD
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SEK from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SEK
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/NOK from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/NOK
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/TRY from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/TRY
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/ZAR from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/ZAR
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/PLN from all sources
+2025-08-13 00:20:10,670 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/PLN
+2025-08-13 00:20:10,670 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CZK from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CZK
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/HUF from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/HUF
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/TRY from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/TRY
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/ZAR from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/ZAR
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/PLN from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/PLN
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for ETH/USD from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for ETH/USD
+2025-08-13 00:20:10,671 - MultiSourceDataProvider - ERROR - Failed to fetch data for BTC/USD from all sources
+2025-08-13 00:20:10,671 - EnhancedSignalEngine - WARNING - Insufficient market data for BTC/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for LTC/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for LTC/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for XRP/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for XRP/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for ADA/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for ADA/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for DOT/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for DOT/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAU/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for XAU/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAG/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for XAG/USD
+2025-08-13 00:20:10,672 - MultiSourceDataProvider - ERROR - Failed to fetch data for OIL/USD from all sources
+2025-08-13 00:20:10,672 - EnhancedSignalEngine - WARNING - Insufficient market data for OIL/USD
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for GAS/USD from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for GAS/USD
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for SPX500 from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for SPX500
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for NASDAQ from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for NASDAQ
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for DAX30 from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for DAX30
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for FTSE100 from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for FTSE100
+2025-08-13 00:20:10,673 - MultiSourceDataProvider - ERROR - Failed to fetch data for NIKKEI from all sources
+2025-08-13 00:20:10,673 - EnhancedSignalEngine - WARNING - Insufficient market data for NIKKEI
+2025-08-13 00:20:10,674 - MultiSourceDataProvider - ERROR - Failed to fetch data for HANG_SENG from all sources
+2025-08-13 00:20:10,674 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
+2025-08-13 00:20:10,674 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-13 00:20:10,674 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 00:21:08,533 - TradingSystemLauncher - ERROR - Error in performance monitoring: 'PerformanceTracker' object has no attribute 'get_daily_stats'
+2025-08-13 00:21:10,676 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-13 00:21:10,677 - EnhancedSignalEngine - INFO - Scanning 59 symbols for signals
+2025-08-13 00:21:10,677 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD
+2025-08-13 00:21:10,678 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD
+2025-08-13 00:21:10,679 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,679 - yfinance - ERROR - $EURUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,680 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY
+2025-08-13 00:21:10,680 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CHF
+2025-08-13 00:21:10,682 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD
+2025-08-13 00:21:10,682 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD
+2025-08-13 00:21:10,683 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,683 - yfinance - ERROR - $GBPUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,685 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD
+2025-08-13 00:21:10,686 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP
+2025-08-13 00:21:10,686 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,687 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY
+2025-08-13 00:21:10,688 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CHF
+2025-08-13 00:21:10,688 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,689 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/AUD
+2025-08-13 00:21:10,900 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CAD
+2025-08-13 00:21:10,901 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/NZD
+2025-08-13 00:21:10,901 - yfinance - ERROR - Failed to get ticker 'USDCHF=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,903 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY
+2025-08-13 00:21:10,903 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,904 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,905 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CHF
+2025-08-13 00:21:10,906 - yfinance - ERROR - Failed to get ticker 'NZDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,906 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/AUD
+2025-08-13 00:21:10,907 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CAD
+2025-08-13 00:21:10,908 - yfinance - ERROR - Failed to get ticker 'EUR/GBP' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,909 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,909 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/NZD
+2025-08-13 00:21:10,910 - EnhancedSignalEngine - INFO - Generating enhanced signal for CHF/JPY
+2025-08-13 00:21:10,911 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY
+2025-08-13 00:21:10,912 - yfinance - ERROR - Failed to get ticker 'EUR/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,912 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/JPY
+2025-08-13 00:21:10,913 - yfinance - ERROR - $USDCHF=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,914 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/JPY
+2025-08-13 00:21:10,915 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CHF
+2025-08-13 00:21:10,915 - yfinance - ERROR - Failed to get ticker 'EUR/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,916 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,917 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CAD
+2025-08-13 00:21:10,917 - yfinance - ERROR - Failed to get ticker 'EUR/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,918 - yfinance - ERROR - Failed to get ticker 'EUR/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,920 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/NZD
+2025-08-13 00:21:10,920 - yfinance - ERROR - $NZDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,922 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/CHF
+2025-08-13 00:21:10,922 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CHF
+2025-08-13 00:21:10,923 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CAD
+2025-08-13 00:21:10,923 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/TRY
+2025-08-13 00:21:10,924 - yfinance - ERROR - Failed to get ticker 'GBP/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,924 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/ZAR
+2025-08-13 00:21:10,924 - yfinance - ERROR - $EUR/GBP: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,925 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/MXN
+2025-08-13 00:21:10,926 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SGD
+2025-08-13 00:21:10,927 - yfinance - ERROR - Failed to get ticker 'GBP/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,927 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/HKD
+2025-08-13 00:21:10,928 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/NOK
+2025-08-13 00:21:10,929 - yfinance - ERROR - Failed to get ticker 'GBP/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,930 - yfinance - ERROR - $EUR/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,931 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SEK
+2025-08-13 00:21:10,932 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/TRY
+2025-08-13 00:21:10,933 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/ZAR
+2025-08-13 00:21:10,933 - yfinance - ERROR - Failed to get ticker 'GBP/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,934 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/PLN
+2025-08-13 00:21:10,935 - yfinance - ERROR - Failed to get ticker 'GBP/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,936 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CZK
+2025-08-13 00:21:10,937 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/HUF
+2025-08-13 00:21:10,937 - yfinance - ERROR - Failed to get ticker 'CHF/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,938 - yfinance - ERROR - $EUR/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,939 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/TRY
+2025-08-13 00:21:10,940 - yfinance - ERROR - Failed to get ticker 'AUD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,940 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/ZAR
+2025-08-13 00:21:10,941 - yfinance - ERROR - $EUR/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,943 - yfinance - ERROR - $EUR/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,943 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/PLN
+2025-08-13 00:21:10,944 - yfinance - ERROR - Failed to get ticker 'CAD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,944 - EnhancedSignalEngine - INFO - Generating enhanced signal for BTC/USD
+2025-08-13 00:21:10,946 - EnhancedSignalEngine - INFO - Generating enhanced signal for ETH/USD
+2025-08-13 00:21:10,947 - EnhancedSignalEngine - INFO - Generating enhanced signal for LTC/USD
+2025-08-13 00:21:10,948 - EnhancedSignalEngine - INFO - Generating enhanced signal for XRP/USD
+2025-08-13 00:21:10,948 - yfinance - ERROR - Failed to get ticker 'NZD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,949 - yfinance - ERROR - $GBP/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,949 - EnhancedSignalEngine - INFO - Generating enhanced signal for ADA/USD
+2025-08-13 00:21:10,950 - EnhancedSignalEngine - INFO - Generating enhanced signal for DOT/USD
+2025-08-13 00:21:10,951 - yfinance - ERROR - Failed to get ticker 'AUD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,952 - yfinance - ERROR - $GBP/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,952 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAU/USD
+2025-08-13 00:21:10,953 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAG/USD
+2025-08-13 00:21:10,954 - yfinance - ERROR - Failed to get ticker 'AUD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,954 - EnhancedSignalEngine - INFO - Generating enhanced signal for OIL/USD
+2025-08-13 00:21:10,955 - EnhancedSignalEngine - INFO - Generating enhanced signal for GAS/USD
+2025-08-13 00:21:10,956 - yfinance - ERROR - Failed to get ticker 'AUD/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,957 - EnhancedSignalEngine - INFO - Generating enhanced signal for SPX500
+2025-08-13 00:21:10,958 - yfinance - ERROR - Failed to get ticker 'CAD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,959 - EnhancedSignalEngine - INFO - Generating enhanced signal for NASDAQ
+2025-08-13 00:21:10,959 - yfinance - ERROR - $GBP/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,960 - EnhancedSignalEngine - INFO - Generating enhanced signal for DAX30
+2025-08-13 00:21:10,961 - yfinance - ERROR - Failed to get ticker 'NZD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,961 - EnhancedSignalEngine - INFO - Generating enhanced signal for FTSE100
+2025-08-13 00:21:10,962 - yfinance - ERROR - $GBP/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,963 - EnhancedSignalEngine - INFO - Generating enhanced signal for NIKKEI
+2025-08-13 00:21:10,964 - EnhancedSignalEngine - INFO - Generating enhanced signal for HANG_SENG
+2025-08-13 00:21:10,965 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD from all sources
+2025-08-13 00:21:10,965 - yfinance - ERROR - Failed to get ticker 'NZD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,965 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD
+2025-08-13 00:21:10,966 - yfinance - ERROR - $GBP/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,967 - yfinance - ERROR - Failed to get ticker 'USD/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,968 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD from all sources
+2025-08-13 00:21:10,969 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD
+2025-08-13 00:21:10,969 - yfinance - ERROR - Failed to get ticker 'USD/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,970 - yfinance - ERROR - $CHF/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,971 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY from all sources
+2025-08-13 00:21:10,971 - yfinance - ERROR - Failed to get ticker 'USD/MXN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,972 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY
+2025-08-13 00:21:10,972 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD from all sources
+2025-08-13 00:21:10,973 - yfinance - ERROR - Failed to get ticker 'USD/SGD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,973 - yfinance - ERROR - $AUD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,973 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD
+2025-08-13 00:21:10,974 - yfinance - ERROR - Failed to get ticker 'USD/HKD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,975 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CHF from all sources
+2025-08-13 00:21:10,975 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CHF
+2025-08-13 00:21:10,975 - yfinance - ERROR - Failed to get ticker 'USD/NOK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,976 - yfinance - ERROR - $CAD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,977 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD from all sources
+2025-08-13 00:21:10,977 - yfinance - ERROR - Failed to get ticker 'USD/SEK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,977 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD
+2025-08-13 00:21:10,978 - yfinance - ERROR - Failed to get ticker 'EUR/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,979 - yfinance - ERROR - Failed to get ticker 'EUR/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,979 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD from all sources
+2025-08-13 00:21:10,979 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD
+2025-08-13 00:21:10,979 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP from all sources
+2025-08-13 00:21:10,979 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP
+2025-08-13 00:21:10,980 - yfinance - ERROR - Failed to get ticker 'EUR/CZK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,980 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY from all sources
+2025-08-13 00:21:10,981 - yfinance - ERROR - Failed to get ticker 'EUR/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,981 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY
+2025-08-13 00:21:10,981 - yfinance - ERROR - Failed to get ticker 'EUR/HUF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,982 - yfinance - ERROR - $NZD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,983 - yfinance - ERROR - Failed to get ticker 'GBP/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,983 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CHF from all sources
+2025-08-13 00:21:10,984 - yfinance - ERROR - $AUD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,985 - yfinance - ERROR - Failed to get ticker 'GBP/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,985 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CHF
+2025-08-13 00:21:10,986 - yfinance - ERROR - Failed to get ticker 'GBP/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,987 - yfinance - ERROR - $AUD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,987 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CAD from all sources
+2025-08-13 00:21:10,987 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CAD
+2025-08-13 00:21:10,988 - yfinance - ERROR - Failed to get ticker 'ETH-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,988 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/NZD from all sources
+2025-08-13 00:21:10,988 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/NZD
+2025-08-13 00:21:10,988 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY from all sources
+2025-08-13 00:21:10,989 - yfinance - ERROR - Failed to get ticker 'BTC-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,989 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY
+2025-08-13 00:21:10,989 - yfinance - ERROR - $AUD/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,990 - yfinance - ERROR - Failed to get ticker 'XRP/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,991 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CHF from all sources
+2025-08-13 00:21:10,991 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CHF
+2025-08-13 00:21:10,991 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/AUD from all sources
+2025-08-13 00:21:10,992 - yfinance - ERROR - Failed to get ticker 'LTC/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,992 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/AUD
+2025-08-13 00:21:10,993 - yfinance - ERROR - Failed to get ticker 'ADA/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,993 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CAD from all sources
+2025-08-13 00:21:10,993 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CAD
+2025-08-13 00:21:10,994 - yfinance - ERROR - $CAD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,995 - yfinance - ERROR - $NZD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:10,995 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/NZD from all sources
+2025-08-13 00:21:10,995 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/NZD
+2025-08-13 00:21:10,996 - yfinance - ERROR - Failed to get ticker 'DOT/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,996 - MultiSourceDataProvider - ERROR - Failed to fetch data for CHF/JPY from all sources
+2025-08-13 00:21:10,996 - EnhancedSignalEngine - WARNING - Insufficient market data for CHF/JPY
+2025-08-13 00:21:10,997 - yfinance - ERROR - Failed to get ticker 'GC=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,997 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY from all sources
+2025-08-13 00:21:10,997 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY
+2025-08-13 00:21:10,998 - yfinance - ERROR - Failed to get ticker 'SI=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,998 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/JPY from all sources
+2025-08-13 00:21:10,998 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/JPY
+2025-08-13 00:21:10,998 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/JPY from all sources
+2025-08-13 00:21:10,999 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/JPY
+2025-08-13 00:21:10,999 - yfinance - ERROR - Failed to get ticker 'CL=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:10,999 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CHF from all sources
+2025-08-13 00:21:10,999 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CHF
+2025-08-13 00:21:11,000 - yfinance - ERROR - Failed to get ticker 'GAS/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,001 - yfinance - ERROR - $NZD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,001 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CAD from all sources
+2025-08-13 00:21:11,001 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CAD
+2025-08-13 00:21:11,002 - yfinance - ERROR - Failed to get ticker 'SPX500' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,002 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/NZD from all sources
+2025-08-13 00:21:11,002 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/NZD
+2025-08-13 00:21:11,003 - yfinance - ERROR - Failed to get ticker 'NASDAQ' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,003 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/CHF from all sources
+2025-08-13 00:21:11,003 - yfinance - ERROR - $USD/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,004 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/CHF
+2025-08-13 00:21:11,004 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CHF from all sources
+2025-08-13 00:21:11,004 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CHF
+2025-08-13 00:21:11,004 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CAD from all sources
+2025-08-13 00:21:11,004 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CAD
+2025-08-13 00:21:11,005 - yfinance - ERROR - Failed to get ticker 'DAX30' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,005 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/ZAR from all sources
+2025-08-13 00:21:11,005 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/ZAR
+2025-08-13 00:21:11,006 - yfinance - ERROR - Failed to get ticker 'FTSE100' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,006 - yfinance - ERROR - Failed to get ticker 'NIKKEI' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,007 - yfinance - ERROR - $USD/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,008 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/TRY from all sources
+2025-08-13 00:21:11,008 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/TRY
+2025-08-13 00:21:11,008 - yfinance - ERROR - Failed to get ticker 'HANG_SENG' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,009 - yfinance - ERROR - $USD/MXN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,010 - yfinance - ERROR - $USD/SGD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,011 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/MXN from all sources
+2025-08-13 00:21:11,011 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/MXN
+2025-08-13 00:21:11,011 - yfinance - ERROR - $USD/HKD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,012 - yfinance - ERROR - $USD/NOK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,013 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SGD from all sources
+2025-08-13 00:21:11,013 - yfinance - ERROR - $USD/SEK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,013 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SGD
+2025-08-13 00:21:11,014 - yfinance - ERROR - $EUR/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,015 - yfinance - ERROR - $EUR/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,016 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/HKD from all sources
+2025-08-13 00:21:11,016 - yfinance - ERROR - $EUR/CZK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,016 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/HKD
+2025-08-13 00:21:11,017 - yfinance - ERROR - $EUR/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,017 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/NOK from all sources
+2025-08-13 00:21:11,017 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/NOK
+2025-08-13 00:21:11,018 - yfinance - ERROR - $EUR/HUF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,018 - yfinance - ERROR - $GBP/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,019 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SEK from all sources
+2025-08-13 00:21:11,020 - yfinance - ERROR - $GBP/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,020 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SEK
+2025-08-13 00:21:11,021 - yfinance - ERROR - $GBP/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,021 - yfinance - ERROR - $ETH-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,022 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/TRY from all sources
+2025-08-13 00:21:11,022 - yfinance - ERROR - $BTC-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,022 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/TRY
+2025-08-13 00:21:11,023 - yfinance - ERROR - $XRP/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,024 - yfinance - ERROR - $LTC/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,025 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/ZAR from all sources
+2025-08-13 00:21:11,025 - yfinance - ERROR - $ADA/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,025 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/ZAR
+2025-08-13 00:21:11,026 - yfinance - ERROR - $DOT/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,027 - yfinance - ERROR - $GC=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,027 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CZK from all sources
+2025-08-13 00:21:11,028 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CZK
+2025-08-13 00:21:11,028 - yfinance - ERROR - $SI=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,029 - yfinance - ERROR - $CL=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,030 - yfinance - ERROR - $GAS/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,030 - yfinance - ERROR - $SPX500: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,031 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/PLN from all sources
+2025-08-13 00:21:11,031 - yfinance - ERROR - $NASDAQ: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,031 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/PLN
+2025-08-13 00:21:11,032 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/HUF from all sources
+2025-08-13 00:21:11,032 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/HUF
+2025-08-13 00:21:11,032 - yfinance - ERROR - $DAX30: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,033 - yfinance - ERROR - $FTSE100: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,034 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/TRY from all sources
+2025-08-13 00:21:11,034 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/TRY
+2025-08-13 00:21:11,034 - yfinance - ERROR - $NIKKEI: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,035 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/ZAR from all sources
+2025-08-13 00:21:11,035 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/ZAR
+2025-08-13 00:21:11,036 - yfinance - ERROR - $HANG_SENG: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,036 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/PLN from all sources
+2025-08-13 00:21:11,036 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/PLN
+2025-08-13 00:21:11,036 - MultiSourceDataProvider - ERROR - Failed to fetch data for ETH/USD from all sources
+2025-08-13 00:21:11,036 - EnhancedSignalEngine - WARNING - Insufficient market data for ETH/USD
+2025-08-13 00:21:11,036 - MultiSourceDataProvider - ERROR - Failed to fetch data for BTC/USD from all sources
+2025-08-13 00:21:11,037 - EnhancedSignalEngine - WARNING - Insufficient market data for BTC/USD
+2025-08-13 00:21:11,037 - MultiSourceDataProvider - ERROR - Failed to fetch data for XRP/USD from all sources
+2025-08-13 00:21:11,037 - EnhancedSignalEngine - WARNING - Insufficient market data for XRP/USD
+2025-08-13 00:21:11,037 - MultiSourceDataProvider - ERROR - Failed to fetch data for LTC/USD from all sources
+2025-08-13 00:21:11,037 - EnhancedSignalEngine - WARNING - Insufficient market data for LTC/USD
+2025-08-13 00:21:11,037 - MultiSourceDataProvider - ERROR - Failed to fetch data for ADA/USD from all sources
+2025-08-13 00:21:11,037 - EnhancedSignalEngine - WARNING - Insufficient market data for ADA/USD
+2025-08-13 00:21:11,037 - MultiSourceDataProvider - ERROR - Failed to fetch data for DOT/USD from all sources
+2025-08-13 00:21:11,037 - EnhancedSignalEngine - WARNING - Insufficient market data for DOT/USD
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAU/USD from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for XAU/USD
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAG/USD from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for XAG/USD
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for OIL/USD from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for OIL/USD
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for GAS/USD from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for GAS/USD
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for SPX500 from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for SPX500
+2025-08-13 00:21:11,038 - MultiSourceDataProvider - ERROR - Failed to fetch data for NASDAQ from all sources
+2025-08-13 00:21:11,038 - EnhancedSignalEngine - WARNING - Insufficient market data for NASDAQ
+2025-08-13 00:21:11,039 - MultiSourceDataProvider - ERROR - Failed to fetch data for DAX30 from all sources
+2025-08-13 00:21:11,039 - EnhancedSignalEngine - WARNING - Insufficient market data for DAX30
+2025-08-13 00:21:11,039 - MultiSourceDataProvider - ERROR - Failed to fetch data for FTSE100 from all sources
+2025-08-13 00:21:11,039 - EnhancedSignalEngine - WARNING - Insufficient market data for FTSE100
+2025-08-13 00:21:11,039 - MultiSourceDataProvider - ERROR - Failed to fetch data for NIKKEI from all sources
+2025-08-13 00:21:11,039 - EnhancedSignalEngine - WARNING - Insufficient market data for NIKKEI
+2025-08-13 00:21:11,039 - MultiSourceDataProvider - ERROR - Failed to fetch data for HANG_SENG from all sources
+2025-08-13 00:21:11,039 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
+2025-08-13 00:21:11,043 - yfinance - ERROR - Failed to get ticker 'EUR/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:21:11,043 - yfinance - ERROR - $EUR/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:21:11,044 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/AUD from all sources
+2025-08-13 00:21:11,044 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/AUD
+2025-08-13 00:21:11,044 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-13 00:21:11,044 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 00:22:08,592 - TradingSystemLauncher - ERROR - Error in performance monitoring: 'PerformanceTracker' object has no attribute 'get_daily_stats'
+2025-08-13 00:22:11,047 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-13 00:22:11,048 - EnhancedSignalEngine - INFO - Scanning 59 symbols for signals
+2025-08-13 00:22:11,048 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD
+2025-08-13 00:22:11,049 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD
+2025-08-13 00:22:11,049 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY
+2025-08-13 00:22:11,051 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,052 - yfinance - ERROR - $EURUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,052 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CHF
+2025-08-13 00:22:11,053 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD
+2025-08-13 00:22:11,054 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,055 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,055 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD
+2025-08-13 00:22:11,056 - yfinance - ERROR - $GBPUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,056 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD
+2025-08-13 00:22:11,058 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,058 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP
+2025-08-13 00:22:11,059 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY
+2025-08-13 00:22:11,060 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CHF
+2025-08-13 00:22:11,062 - yfinance - ERROR - Failed to get ticker 'USDCHF=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,063 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,064 - yfinance - ERROR - Failed to get ticker 'NZDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,064 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,065 - yfinance - ERROR - Failed to get ticker 'EUR/GBP' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,067 - yfinance - ERROR - Failed to get ticker 'EUR/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,068 - yfinance - ERROR - $USDCHF=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,069 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,069 - yfinance - ERROR - $NZDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,071 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,072 - yfinance - ERROR - $EUR/GBP: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,073 - yfinance - ERROR - $EUR/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,073 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/AUD
+2025-08-13 00:22:11,074 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CAD
+2025-08-13 00:22:11,075 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/NZD
+2025-08-13 00:22:11,075 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY
+2025-08-13 00:22:11,076 - yfinance - ERROR - Failed to get ticker 'EUR/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,077 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CHF
+2025-08-13 00:22:11,077 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/AUD
+2025-08-13 00:22:11,078 - yfinance - ERROR - Failed to get ticker 'EUR/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,078 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CAD
+2025-08-13 00:22:11,079 - yfinance - ERROR - Failed to get ticker 'EUR/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,080 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/NZD
+2025-08-13 00:22:11,080 - yfinance - ERROR - $EUR/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,082 - yfinance - ERROR - Failed to get ticker 'EUR/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,082 - EnhancedSignalEngine - INFO - Generating enhanced signal for CHF/JPY
+2025-08-13 00:22:11,083 - yfinance - ERROR - $EUR/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,084 - yfinance - ERROR - Failed to get ticker 'GBP/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,085 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY
+2025-08-13 00:22:11,085 - yfinance - ERROR - $EUR/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,087 - yfinance - ERROR - Failed to get ticker 'GBP/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,087 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/JPY
+2025-08-13 00:22:11,088 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/JPY
+2025-08-13 00:22:11,089 - yfinance - ERROR - Failed to get ticker 'GBP/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,089 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CHF
+2025-08-13 00:22:11,090 - yfinance - ERROR - Failed to get ticker 'GBP/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,091 - yfinance - ERROR - $EUR/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,092 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CAD
+2025-08-13 00:22:11,092 - yfinance - ERROR - Failed to get ticker 'GBP/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,093 - yfinance - ERROR - $GBP/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,094 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/NZD
+2025-08-13 00:22:11,094 - yfinance - ERROR - Failed to get ticker 'CHF/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,095 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/CHF
+2025-08-13 00:22:11,096 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CHF
+2025-08-13 00:22:11,097 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CAD
+2025-08-13 00:22:11,097 - yfinance - ERROR - $GBP/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,098 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/TRY
+2025-08-13 00:22:11,099 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/ZAR
+2025-08-13 00:22:11,100 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/MXN
+2025-08-13 00:22:11,101 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SGD
+2025-08-13 00:22:11,101 - yfinance - ERROR - Failed to get ticker 'AUD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,102 - yfinance - ERROR - $GBP/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,102 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/HKD
+2025-08-13 00:22:11,103 - yfinance - ERROR - Failed to get ticker 'CAD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,104 - yfinance - ERROR - Failed to get ticker 'NZD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,105 - yfinance - ERROR - $GBP/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,106 - yfinance - ERROR - Failed to get ticker 'AUD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,107 - yfinance - ERROR - $GBP/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,107 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/NOK
+2025-08-13 00:22:11,108 - yfinance - ERROR - $CHF/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,109 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SEK
+2025-08-13 00:22:11,109 - yfinance - ERROR - Failed to get ticker 'AUD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,109 - yfinance - ERROR - Failed to get ticker 'AUD/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,110 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/TRY
+2025-08-13 00:22:11,111 - yfinance - ERROR - Failed to get ticker 'CAD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,112 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/ZAR
+2025-08-13 00:22:11,113 - yfinance - ERROR - Failed to get ticker 'NZD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,113 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/PLN
+2025-08-13 00:22:11,114 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CZK
+2025-08-13 00:22:11,114 - yfinance - ERROR - Failed to get ticker 'NZD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,115 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/HUF
+2025-08-13 00:22:11,116 - yfinance - ERROR - Failed to get ticker 'USD/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,116 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/TRY
+2025-08-13 00:22:11,117 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/ZAR
+2025-08-13 00:22:11,118 - yfinance - ERROR - Failed to get ticker 'USD/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,119 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/PLN
+2025-08-13 00:22:11,119 - yfinance - ERROR - $AUD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,120 - yfinance - ERROR - $CAD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,120 - EnhancedSignalEngine - INFO - Generating enhanced signal for BTC/USD
+2025-08-13 00:22:11,121 - yfinance - ERROR - $NZD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,122 - yfinance - ERROR - Failed to get ticker 'USD/MXN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,124 - yfinance - ERROR - Failed to get ticker 'USD/SGD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,124 - EnhancedSignalEngine - INFO - Generating enhanced signal for ETH/USD
+2025-08-13 00:22:11,124 - yfinance - ERROR - $AUD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,125 - EnhancedSignalEngine - INFO - Generating enhanced signal for LTC/USD
+2025-08-13 00:22:11,125 - yfinance - ERROR - $AUD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,126 - EnhancedSignalEngine - INFO - Generating enhanced signal for XRP/USD
+2025-08-13 00:22:11,126 - EnhancedSignalEngine - INFO - Generating enhanced signal for ADA/USD
+2025-08-13 00:22:11,127 - yfinance - ERROR - Failed to get ticker 'USD/HKD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,127 - yfinance - ERROR - $AUD/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,128 - yfinance - ERROR - $CAD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,129 - yfinance - ERROR - Failed to get ticker 'USD/NOK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,130 - EnhancedSignalEngine - INFO - Generating enhanced signal for DOT/USD
+2025-08-13 00:22:11,131 - yfinance - ERROR - Failed to get ticker 'USD/SEK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,131 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAU/USD
+2025-08-13 00:22:11,132 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAG/USD
+2025-08-13 00:22:11,132 - yfinance - ERROR - Failed to get ticker 'EUR/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,133 - EnhancedSignalEngine - INFO - Generating enhanced signal for OIL/USD
+2025-08-13 00:22:11,134 - yfinance - ERROR - $NZD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,134 - EnhancedSignalEngine - INFO - Generating enhanced signal for GAS/USD
+2025-08-13 00:22:11,136 - yfinance - ERROR - $NZD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,137 - EnhancedSignalEngine - INFO - Generating enhanced signal for SPX500
+2025-08-13 00:22:11,137 - yfinance - ERROR - Failed to get ticker 'EUR/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,138 - EnhancedSignalEngine - INFO - Generating enhanced signal for NASDAQ
+2025-08-13 00:22:11,139 - EnhancedSignalEngine - INFO - Generating enhanced signal for DAX30
+2025-08-13 00:22:11,139 - yfinance - ERROR - Failed to get ticker 'EUR/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,140 - yfinance - ERROR - $USD/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,141 - EnhancedSignalEngine - INFO - Generating enhanced signal for FTSE100
+2025-08-13 00:22:11,141 - EnhancedSignalEngine - INFO - Generating enhanced signal for NIKKEI
+2025-08-13 00:22:11,142 - EnhancedSignalEngine - INFO - Generating enhanced signal for HANG_SENG
+2025-08-13 00:22:11,143 - yfinance - ERROR - Failed to get ticker 'EUR/CZK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,144 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD from all sources
+2025-08-13 00:22:11,144 - yfinance - ERROR - Failed to get ticker 'EUR/HUF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,144 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD
+2025-08-13 00:22:11,145 - yfinance - ERROR - $USD/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,146 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD from all sources
+2025-08-13 00:22:11,146 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD
+2025-08-13 00:22:11,146 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY from all sources
+2025-08-13 00:22:11,147 - yfinance - ERROR - Failed to get ticker 'GBP/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,147 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY
+2025-08-13 00:22:11,148 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CHF from all sources
+2025-08-13 00:22:11,148 - yfinance - ERROR - Failed to get ticker 'GBP/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,148 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CHF
+2025-08-13 00:22:11,148 - yfinance - ERROR - Failed to get ticker 'GBP/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,149 - yfinance - ERROR - $USD/MXN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,149 - yfinance - ERROR - $USD/SGD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,150 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD from all sources
+2025-08-13 00:22:11,150 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD
+2025-08-13 00:22:11,151 - yfinance - ERROR - Failed to get ticker 'BTC-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,151 - yfinance - ERROR - Failed to get ticker 'LTC/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,152 - yfinance - ERROR - Failed to get ticker 'ETH-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,152 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD from all sources
+2025-08-13 00:22:11,153 - yfinance - ERROR - $USD/HKD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,153 - yfinance - ERROR - Failed to get ticker 'XRP/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,154 - yfinance - ERROR - $USD/NOK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,155 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD
+2025-08-13 00:22:11,155 - yfinance - ERROR - Failed to get ticker 'ADA/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,156 - yfinance - ERROR - $USD/SEK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,157 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD from all sources
+2025-08-13 00:22:11,157 - yfinance - ERROR - $EUR/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,158 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD
+2025-08-13 00:22:11,158 - yfinance - ERROR - Failed to get ticker 'DOT/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,159 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP from all sources
+2025-08-13 00:22:11,159 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP
+2025-08-13 00:22:11,159 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY from all sources
+2025-08-13 00:22:11,159 - yfinance - ERROR - Failed to get ticker 'SI=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,159 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY
+2025-08-13 00:22:11,160 - yfinance - ERROR - Failed to get ticker 'GC=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,161 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CHF from all sources
+2025-08-13 00:22:11,161 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CHF
+2025-08-13 00:22:11,161 - yfinance - ERROR - Failed to get ticker 'CL=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,162 - yfinance - ERROR - $EUR/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,162 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/AUD from all sources
+2025-08-13 00:22:11,162 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/AUD
+2025-08-13 00:22:11,163 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CAD from all sources
+2025-08-13 00:22:11,163 - yfinance - ERROR - Failed to get ticker 'GAS/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,163 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CAD
+2025-08-13 00:22:11,163 - yfinance - ERROR - $EUR/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,164 - yfinance - ERROR - Failed to get ticker 'SPX500' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,164 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/NZD from all sources
+2025-08-13 00:22:11,165 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/NZD
+2025-08-13 00:22:11,165 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY from all sources
+2025-08-13 00:22:11,165 - yfinance - ERROR - Failed to get ticker 'DAX30' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,165 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY
+2025-08-13 00:22:11,166 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CHF from all sources
+2025-08-13 00:22:11,166 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CHF
+2025-08-13 00:22:11,166 - yfinance - ERROR - Failed to get ticker 'NASDAQ' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,167 - yfinance - ERROR - $EUR/CZK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,168 - yfinance - ERROR - $EUR/HUF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,168 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/AUD from all sources
+2025-08-13 00:22:11,168 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/AUD
+2025-08-13 00:22:11,169 - yfinance - ERROR - Failed to get ticker 'FTSE100' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,169 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CAD from all sources
+2025-08-13 00:22:11,169 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CAD
+2025-08-13 00:22:11,169 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/NZD from all sources
+2025-08-13 00:22:11,170 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/NZD
+2025-08-13 00:22:11,170 - yfinance - ERROR - Failed to get ticker 'NIKKEI' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,170 - MultiSourceDataProvider - ERROR - Failed to fetch data for CHF/JPY from all sources
+2025-08-13 00:22:11,170 - EnhancedSignalEngine - WARNING - Insufficient market data for CHF/JPY
+2025-08-13 00:22:11,171 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY from all sources
+2025-08-13 00:22:11,171 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY
+2025-08-13 00:22:11,171 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/JPY from all sources
+2025-08-13 00:22:11,171 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/JPY
+2025-08-13 00:22:11,171 - yfinance - ERROR - Failed to get ticker 'HANG_SENG' reason: Impersonating chrome136 is not supported
+2025-08-13 00:22:11,172 - yfinance - ERROR - $GBP/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,172 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/JPY from all sources
+2025-08-13 00:22:11,173 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/JPY
+2025-08-13 00:22:11,173 - yfinance - ERROR - $GBP/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,174 - yfinance - ERROR - $GBP/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,174 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CHF from all sources
+2025-08-13 00:22:11,174 - yfinance - ERROR - $BTC-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,175 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CHF
+2025-08-13 00:22:11,175 - yfinance - ERROR - $LTC/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,176 - yfinance - ERROR - $ETH-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,177 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CAD from all sources
+2025-08-13 00:22:11,177 - yfinance - ERROR - $XRP/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,177 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CAD
+2025-08-13 00:22:11,178 - yfinance - ERROR - $ADA/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,179 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/NZD from all sources
+2025-08-13 00:22:11,179 - yfinance - ERROR - $DOT/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,179 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/NZD
+2025-08-13 00:22:11,180 - yfinance - ERROR - $SI=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,181 - yfinance - ERROR - $GC=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,181 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/CHF from all sources
+2025-08-13 00:22:11,181 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/CHF
+2025-08-13 00:22:11,182 - yfinance - ERROR - $CL=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,182 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CHF from all sources
+2025-08-13 00:22:11,183 - yfinance - ERROR - $GAS/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,183 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CHF
+2025-08-13 00:22:11,184 - yfinance - ERROR - $SPX500: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,184 - yfinance - ERROR - $DAX30: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,185 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CAD from all sources
+2025-08-13 00:22:11,185 - yfinance - ERROR - $NASDAQ: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,186 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CAD
+2025-08-13 00:22:11,186 - yfinance - ERROR - $FTSE100: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,187 - yfinance - ERROR - $NIKKEI: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,188 - yfinance - ERROR - $HANG_SENG: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:22:11,188 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/TRY from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/TRY
+2025-08-13 00:22:11,189 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/ZAR from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/ZAR
+2025-08-13 00:22:11,189 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/MXN from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/MXN
+2025-08-13 00:22:11,189 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SGD from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SGD
+2025-08-13 00:22:11,189 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/HKD from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/HKD
+2025-08-13 00:22:11,189 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/NOK from all sources
+2025-08-13 00:22:11,189 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/NOK
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SEK from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SEK
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/TRY from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/TRY
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/ZAR from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/ZAR
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/PLN from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/PLN
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CZK from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CZK
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/HUF from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/HUF
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/TRY from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/TRY
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/ZAR from all sources
+2025-08-13 00:22:11,190 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/ZAR
+2025-08-13 00:22:11,190 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/PLN from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/PLN
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for BTC/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for BTC/USD
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for LTC/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for LTC/USD
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for ETH/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for ETH/USD
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for XRP/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for XRP/USD
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for ADA/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for ADA/USD
+2025-08-13 00:22:11,191 - MultiSourceDataProvider - ERROR - Failed to fetch data for DOT/USD from all sources
+2025-08-13 00:22:11,191 - EnhancedSignalEngine - WARNING - Insufficient market data for DOT/USD
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAG/USD from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for XAG/USD
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAU/USD from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for XAU/USD
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for OIL/USD from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for OIL/USD
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for GAS/USD from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for GAS/USD
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for SPX500 from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for SPX500
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for DAX30 from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for DAX30
+2025-08-13 00:22:11,192 - MultiSourceDataProvider - ERROR - Failed to fetch data for NASDAQ from all sources
+2025-08-13 00:22:11,192 - EnhancedSignalEngine - WARNING - Insufficient market data for NASDAQ
+2025-08-13 00:22:11,193 - MultiSourceDataProvider - ERROR - Failed to fetch data for FTSE100 from all sources
+2025-08-13 00:22:11,193 - EnhancedSignalEngine - WARNING - Insufficient market data for FTSE100
+2025-08-13 00:22:11,193 - MultiSourceDataProvider - ERROR - Failed to fetch data for NIKKEI from all sources
+2025-08-13 00:22:11,193 - EnhancedSignalEngine - WARNING - Insufficient market data for NIKKEI
+2025-08-13 00:22:11,193 - MultiSourceDataProvider - ERROR - Failed to fetch data for HANG_SENG from all sources
+2025-08-13 00:22:11,193 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
+2025-08-13 00:22:11,193 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-13 00:22:11,193 - SignalEngine - INFO - No high-quality enhanced signals found
+2025-08-13 00:23:08,650 - TradingSystemLauncher - ERROR - Error in performance monitoring: 'PerformanceTracker' object has no attribute 'get_daily_stats'
+2025-08-13 00:23:11,197 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-13 00:23:11,197 - EnhancedSignalEngine - INFO - Scanning 59 symbols for signals
+2025-08-13 00:23:11,197 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/USD
+2025-08-13 00:23:11,198 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/USD
+2025-08-13 00:23:11,199 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/JPY
+2025-08-13 00:23:11,200 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CHF
+2025-08-13 00:23:11,201 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/USD
+2025-08-13 00:23:11,201 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/CAD
+2025-08-13 00:23:11,203 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/USD
+2025-08-13 00:23:11,203 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,204 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/GBP
+2025-08-13 00:23:11,205 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/JPY
+2025-08-13 00:23:11,205 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,206 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CHF
+2025-08-13 00:23:11,207 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/AUD
+2025-08-13 00:23:11,207 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,208 - yfinance - ERROR - $EURUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,209 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CAD
+2025-08-13 00:23:11,209 - yfinance - ERROR - Failed to get ticker 'USDCHF=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,211 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,212 - yfinance - ERROR - $GBPUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,213 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,215 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/NZD
+2025-08-13 00:23:11,216 - yfinance - ERROR - Failed to get ticker 'NZDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,216 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/JPY
+2025-08-13 00:23:11,217 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,217 - yfinance - ERROR - $USDCHF=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,219 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CHF
+2025-08-13 00:23:11,219 - yfinance - ERROR - Failed to get ticker 'EUR/GBP' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,220 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/AUD
+2025-08-13 00:23:11,220 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,221 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/CAD
+2025-08-13 00:23:11,222 - yfinance - ERROR - Failed to get ticker 'EUR/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,222 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/NZD
+2025-08-13 00:23:11,223 - EnhancedSignalEngine - INFO - Generating enhanced signal for CHF/JPY
+2025-08-13 00:23:11,224 - yfinance - ERROR - Failed to get ticker 'EUR/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,225 - yfinance - ERROR - Failed to get ticker 'EUR/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,225 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/JPY
+2025-08-13 00:23:11,226 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,226 - yfinance - ERROR - Failed to get ticker 'EUR/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,228 - yfinance - ERROR - $NZDUSD=X: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,228 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/JPY
+2025-08-13 00:23:11,229 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/JPY
+2025-08-13 00:23:11,230 - yfinance - ERROR - Failed to get ticker 'EUR/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,230 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CHF
+2025-08-13 00:23:11,231 - yfinance - ERROR - $EUR/GBP: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,232 - yfinance - ERROR - Failed to get ticker 'GBP/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,233 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/CAD
+2025-08-13 00:23:11,234 - yfinance - ERROR - Failed to get ticker 'GBP/AUD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,234 - yfinance - ERROR - $EUR/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,235 - yfinance - ERROR - $EUR/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,236 - EnhancedSignalEngine - INFO - Generating enhanced signal for AUD/NZD
+2025-08-13 00:23:11,236 - yfinance - ERROR - Failed to get ticker 'GBP/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,238 - yfinance - ERROR - $EUR/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,238 - EnhancedSignalEngine - INFO - Generating enhanced signal for CAD/CHF
+2025-08-13 00:23:11,239 - yfinance - ERROR - $EUR/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,240 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CHF
+2025-08-13 00:23:11,240 - yfinance - ERROR - Failed to get ticker 'GBP/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,241 - EnhancedSignalEngine - INFO - Generating enhanced signal for NZD/CAD
+2025-08-13 00:23:11,242 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/TRY
+2025-08-13 00:23:11,243 - yfinance - ERROR - Failed to get ticker 'GBP/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,243 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/ZAR
+2025-08-13 00:23:11,244 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/MXN
+2025-08-13 00:23:11,244 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SGD
+2025-08-13 00:23:11,245 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/HKD
+2025-08-13 00:23:11,245 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/NOK
+2025-08-13 00:23:11,246 - yfinance - ERROR - Failed to get ticker 'CHF/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,246 - EnhancedSignalEngine - INFO - Generating enhanced signal for USD/SEK
+2025-08-13 00:23:11,247 - yfinance - ERROR - $EUR/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,248 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/TRY
+2025-08-13 00:23:11,249 - yfinance - ERROR - Failed to get ticker 'AUD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,249 - yfinance - ERROR - $GBP/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,250 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/ZAR
+2025-08-13 00:23:11,251 - yfinance - ERROR - $GBP/AUD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,252 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/PLN
+2025-08-13 00:23:11,252 - yfinance - ERROR - Failed to get ticker 'CAD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,254 - yfinance - ERROR - Failed to get ticker 'NZD/JPY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,254 - yfinance - ERROR - $GBP/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,255 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/CZK
+2025-08-13 00:23:11,255 - yfinance - ERROR - Failed to get ticker 'AUD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,256 - yfinance - ERROR - $GBP/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,257 - EnhancedSignalEngine - INFO - Generating enhanced signal for EUR/HUF
+2025-08-13 00:23:11,258 - yfinance - ERROR - Failed to get ticker 'AUD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,259 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/TRY
+2025-08-13 00:23:11,259 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/ZAR
+2025-08-13 00:23:11,260 - EnhancedSignalEngine - INFO - Generating enhanced signal for GBP/PLN
+2025-08-13 00:23:11,261 - yfinance - ERROR - Failed to get ticker 'CAD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,262 - EnhancedSignalEngine - INFO - Generating enhanced signal for BTC/USD
+2025-08-13 00:23:11,262 - EnhancedSignalEngine - INFO - Generating enhanced signal for ETH/USD
+2025-08-13 00:23:11,262 - EnhancedSignalEngine - INFO - Generating enhanced signal for LTC/USD
+2025-08-13 00:23:11,263 - yfinance - ERROR - Failed to get ticker 'AUD/NZD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,263 - EnhancedSignalEngine - INFO - Generating enhanced signal for XRP/USD
+2025-08-13 00:23:11,264 - yfinance - ERROR - $GBP/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,265 - EnhancedSignalEngine - INFO - Generating enhanced signal for ADA/USD
+2025-08-13 00:23:11,266 - yfinance - ERROR - Failed to get ticker 'NZD/CHF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,267 - EnhancedSignalEngine - INFO - Generating enhanced signal for DOT/USD
+2025-08-13 00:23:11,268 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAU/USD
+2025-08-13 00:23:11,268 - yfinance - ERROR - Failed to get ticker 'NZD/CAD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,268 - yfinance - ERROR - $CHF/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,270 - EnhancedSignalEngine - INFO - Generating enhanced signal for XAG/USD
+2025-08-13 00:23:11,271 - EnhancedSignalEngine - INFO - Generating enhanced signal for OIL/USD
+2025-08-13 00:23:11,271 - EnhancedSignalEngine - INFO - Generating enhanced signal for GAS/USD
+2025-08-13 00:23:11,272 - yfinance - ERROR - Failed to get ticker 'USD/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,272 - EnhancedSignalEngine - INFO - Generating enhanced signal for SPX500
+2025-08-13 00:23:11,273 - yfinance - ERROR - Failed to get ticker 'USD/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,273 - EnhancedSignalEngine - INFO - Generating enhanced signal for NASDAQ
+2025-08-13 00:23:11,274 - EnhancedSignalEngine - INFO - Generating enhanced signal for DAX30
+2025-08-13 00:23:11,275 - EnhancedSignalEngine - INFO - Generating enhanced signal for FTSE100
+2025-08-13 00:23:11,275 - EnhancedSignalEngine - INFO - Generating enhanced signal for NIKKEI
+2025-08-13 00:23:11,275 - yfinance - ERROR - Failed to get ticker 'USD/MXN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,277 - EnhancedSignalEngine - INFO - Generating enhanced signal for HANG_SENG
+2025-08-13 00:23:11,278 - yfinance - ERROR - $AUD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,279 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/USD from all sources
+2025-08-13 00:23:11,279 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/USD
+2025-08-13 00:23:11,279 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/USD from all sources
+2025-08-13 00:23:11,279 - yfinance - ERROR - Failed to get ticker 'USD/SGD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,279 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/USD
+2025-08-13 00:23:11,280 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/JPY from all sources
+2025-08-13 00:23:11,280 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/JPY
+2025-08-13 00:23:11,281 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CHF from all sources
+2025-08-13 00:23:11,281 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CHF
+2025-08-13 00:23:11,281 - yfinance - ERROR - Failed to get ticker 'USD/HKD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,282 - yfinance - ERROR - $CAD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,282 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/USD from all sources
+2025-08-13 00:23:11,283 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/USD
+2025-08-13 00:23:11,284 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/CAD from all sources
+2025-08-13 00:23:11,284 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/CAD
+2025-08-13 00:23:11,284 - yfinance - ERROR - Failed to get ticker 'USD/SEK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,285 - yfinance - ERROR - $NZD/JPY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,286 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/USD from all sources
+2025-08-13 00:23:11,286 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/USD
+2025-08-13 00:23:11,286 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/GBP from all sources
+2025-08-13 00:23:11,286 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/GBP
+2025-08-13 00:23:11,287 - yfinance - ERROR - $AUD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,288 - yfinance - ERROR - Failed to get ticker 'EUR/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,289 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/JPY from all sources
+2025-08-13 00:23:11,289 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/JPY
+2025-08-13 00:23:11,289 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CHF from all sources
+2025-08-13 00:23:11,289 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CHF
+2025-08-13 00:23:11,290 - yfinance - ERROR - Failed to get ticker 'EUR/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,290 - yfinance - ERROR - $AUD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,291 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/AUD from all sources
+2025-08-13 00:23:11,291 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/AUD
+2025-08-13 00:23:11,291 - yfinance - ERROR - Failed to get ticker 'USD/NOK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,291 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CAD from all sources
+2025-08-13 00:23:11,291 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CAD
+2025-08-13 00:23:11,292 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/NZD from all sources
+2025-08-13 00:23:11,292 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/NZD
+2025-08-13 00:23:11,292 - yfinance - ERROR - Failed to get ticker 'EUR/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,293 - yfinance - ERROR - $CAD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,293 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/JPY from all sources
+2025-08-13 00:23:11,293 - yfinance - ERROR - Failed to get ticker 'EUR/CZK' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,294 - yfinance - ERROR - $AUD/NZD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,294 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/JPY
+2025-08-13 00:23:11,295 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/AUD from all sources
+2025-08-13 00:23:11,295 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/AUD
+2025-08-13 00:23:11,295 - yfinance - ERROR - Failed to get ticker 'EUR/HUF' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,296 - yfinance - ERROR - $NZD/CHF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,297 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CHF from all sources
+2025-08-13 00:23:11,297 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CHF
+2025-08-13 00:23:11,297 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/CAD from all sources
+2025-08-13 00:23:11,297 - yfinance - ERROR - Failed to get ticker 'GBP/TRY' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,297 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/CAD
+2025-08-13 00:23:11,298 - yfinance - ERROR - $NZD/CAD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,299 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/NZD from all sources
+2025-08-13 00:23:11,299 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/NZD
+2025-08-13 00:23:11,299 - yfinance - ERROR - Failed to get ticker 'GBP/ZAR' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,300 - MultiSourceDataProvider - ERROR - Failed to fetch data for CHF/JPY from all sources
+2025-08-13 00:23:11,300 - EnhancedSignalEngine - WARNING - Insufficient market data for CHF/JPY
+2025-08-13 00:23:11,300 - yfinance - ERROR - Failed to get ticker 'GBP/PLN' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,301 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/JPY from all sources
+2025-08-13 00:23:11,301 - yfinance - ERROR - Failed to get ticker 'BTC-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,301 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/JPY
+2025-08-13 00:23:11,301 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/JPY from all sources
+2025-08-13 00:23:11,302 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/JPY
+2025-08-13 00:23:11,302 - yfinance - ERROR - Failed to get ticker 'ETH-USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,302 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/JPY from all sources
+2025-08-13 00:23:11,302 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/JPY
+2025-08-13 00:23:11,303 - yfinance - ERROR - Failed to get ticker 'LTC/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,303 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CHF from all sources
+2025-08-13 00:23:11,303 - yfinance - ERROR - $USD/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,304 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CHF
+2025-08-13 00:23:11,304 - yfinance - ERROR - $USD/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,305 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/CAD from all sources
+2025-08-13 00:23:11,305 - yfinance - ERROR - Failed to get ticker 'XRP/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,305 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/CAD
+2025-08-13 00:23:11,306 - MultiSourceDataProvider - ERROR - Failed to fetch data for CAD/CHF from all sources
+2025-08-13 00:23:11,306 - EnhancedSignalEngine - WARNING - Insufficient market data for CAD/CHF
+2025-08-13 00:23:11,306 - yfinance - ERROR - Failed to get ticker 'ADA/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,307 - MultiSourceDataProvider - ERROR - Failed to fetch data for AUD/NZD from all sources
+2025-08-13 00:23:11,307 - EnhancedSignalEngine - WARNING - Insufficient market data for AUD/NZD
+2025-08-13 00:23:11,307 - yfinance - ERROR - Failed to get ticker 'DOT/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,308 - yfinance - ERROR - $USD/MXN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,308 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CHF from all sources
+2025-08-13 00:23:11,309 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CHF
+2025-08-13 00:23:11,309 - yfinance - ERROR - Failed to get ticker 'GC=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,310 - yfinance - ERROR - Failed to get ticker 'SI=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,310 - MultiSourceDataProvider - ERROR - Failed to fetch data for NZD/CAD from all sources
+2025-08-13 00:23:11,310 - EnhancedSignalEngine - WARNING - Insufficient market data for NZD/CAD
+2025-08-13 00:23:11,311 - yfinance - ERROR - $USD/SGD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,311 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/TRY from all sources
+2025-08-13 00:23:11,311 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/TRY
+2025-08-13 00:23:11,311 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/ZAR from all sources
+2025-08-13 00:23:11,312 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/ZAR
+2025-08-13 00:23:11,312 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/MXN from all sources
+2025-08-13 00:23:11,312 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/MXN
+2025-08-13 00:23:11,312 - yfinance - ERROR - Failed to get ticker 'CL=F' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,313 - yfinance - ERROR - $USD/HKD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,313 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SGD from all sources
+2025-08-13 00:23:11,313 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SGD
+2025-08-13 00:23:11,314 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/HKD from all sources
+2025-08-13 00:23:11,314 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/HKD
+2025-08-13 00:23:11,314 - yfinance - ERROR - Failed to get ticker 'GAS/USD' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,315 - yfinance - ERROR - Failed to get ticker 'SPX500' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,316 - yfinance - ERROR - $USD/SEK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,316 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/SEK from all sources
+2025-08-13 00:23:11,316 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/SEK
+2025-08-13 00:23:11,317 - yfinance - ERROR - Failed to get ticker 'NASDAQ' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,317 - yfinance - ERROR - Failed to get ticker 'DAX30' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,318 - yfinance - ERROR - Failed to get ticker 'FTSE100' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,319 - yfinance - ERROR - Failed to get ticker 'NIKKEI' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,319 - yfinance - ERROR - Failed to get ticker 'HANG_SENG' reason: Impersonating chrome136 is not supported
+2025-08-13 00:23:11,320 - yfinance - ERROR - $EUR/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,321 - yfinance - ERROR - $EUR/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,322 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/TRY from all sources
+2025-08-13 00:23:11,322 - yfinance - ERROR - $USD/NOK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,322 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/TRY
+2025-08-13 00:23:11,323 - yfinance - ERROR - $EUR/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,324 - yfinance - ERROR - $EUR/CZK: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,324 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/ZAR from all sources
+2025-08-13 00:23:11,324 - yfinance - ERROR - $EUR/HUF: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,325 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/ZAR
+2025-08-13 00:23:11,325 - yfinance - ERROR - $GBP/TRY: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,326 - yfinance - ERROR - $GBP/ZAR: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,327 - yfinance - ERROR - $GBP/PLN: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,328 - yfinance - ERROR - $BTC-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,328 - MultiSourceDataProvider - ERROR - Failed to fetch data for USD/NOK from all sources
+2025-08-13 00:23:11,329 - yfinance - ERROR - $ETH-USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,329 - EnhancedSignalEngine - WARNING - Insufficient market data for USD/NOK
+2025-08-13 00:23:11,330 - yfinance - ERROR - $LTC/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,331 - yfinance - ERROR - $XRP/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,332 - yfinance - ERROR - $ADA/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,332 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/PLN from all sources
+2025-08-13 00:23:11,332 - yfinance - ERROR - $DOT/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,333 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/PLN
+2025-08-13 00:23:11,333 - yfinance - ERROR - $GC=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,334 - yfinance - ERROR - $SI=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,335 - yfinance - ERROR - $CL=F: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,335 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/CZK from all sources
+2025-08-13 00:23:11,336 - yfinance - ERROR - $GAS/USD: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,336 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/CZK
+2025-08-13 00:23:11,336 - yfinance - ERROR - $SPX500: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,337 - yfinance - ERROR - $NASDAQ: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,338 - yfinance - ERROR - $DAX30: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,338 - MultiSourceDataProvider - ERROR - Failed to fetch data for EUR/HUF from all sources
+2025-08-13 00:23:11,339 - yfinance - ERROR - $FTSE100: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,339 - yfinance - ERROR - $NIKKEI: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,340 - yfinance - ERROR - $HANG_SENG: possibly delisted; no price data found  (period=1d)
+2025-08-13 00:23:11,341 - EnhancedSignalEngine - WARNING - Insufficient market data for EUR/HUF
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/TRY from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/TRY
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/ZAR from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/ZAR
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for GBP/PLN from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for GBP/PLN
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for BTC/USD from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for BTC/USD
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for ETH/USD from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for ETH/USD
+2025-08-13 00:23:11,342 - MultiSourceDataProvider - ERROR - Failed to fetch data for LTC/USD from all sources
+2025-08-13 00:23:11,342 - EnhancedSignalEngine - WARNING - Insufficient market data for LTC/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for XRP/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for XRP/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for ADA/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for ADA/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for DOT/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for DOT/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAU/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for XAU/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for XAG/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for XAG/USD
+2025-08-13 00:23:11,343 - MultiSourceDataProvider - ERROR - Failed to fetch data for OIL/USD from all sources
+2025-08-13 00:23:11,343 - EnhancedSignalEngine - WARNING - Insufficient market data for OIL/USD
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for GAS/USD from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for GAS/USD
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for SPX500 from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for SPX500
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for NASDAQ from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for NASDAQ
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for DAX30 from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for DAX30
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for FTSE100 from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for FTSE100
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for NIKKEI from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for NIKKEI
+2025-08-13 00:23:11,344 - MultiSourceDataProvider - ERROR - Failed to fetch data for HANG_SENG from all sources
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - WARNING - Insufficient market data for HANG_SENG
+2025-08-13 00:23:11,344 - EnhancedSignalEngine - INFO - Found 0 high-quality signals
+2025-08-13 00:23:11,344 - SignalEngine - INFO - No high-quality enhanced signals found
