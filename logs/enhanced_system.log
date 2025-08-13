@@ -1,0 +1,132 @@
+2025-08-13 14:44:45,643 - EnhancedSystemValidator - INFO - 🔍 Starting enhanced system validation...
+2025-08-13 14:44:45,905 - EnhancedSystemValidator - INFO - ✅ All system dependencies validated
+2025-08-13 14:44:45,973 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO - ✅ Enhanced Telegram bot validation passed
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO - ✅ Pair configuration validated: 59 regular, 10 OTC
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO - 📊 Enhanced Validation Results:
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO -    System Dependencies: ✅ PASSED
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO -    Telegram Bot: ✅ PASSED
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO -    Pair Configuration: ✅ PASSED
+2025-08-13 14:44:45,973 - EnhancedSystemValidator - INFO - 🎉 Enhanced system validation completed successfully!
+2025-08-13 14:44:54,107 - EnhancedSystemValidator - INFO - 🔍 Starting enhanced system validation...
+2025-08-13 14:44:54,329 - EnhancedSystemValidator - INFO - ✅ All system dependencies validated
+2025-08-13 14:44:54,391 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO - ✅ Enhanced Telegram bot validation passed
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO - ✅ Pair configuration validated: 59 regular, 10 OTC
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO - 📊 Enhanced Validation Results:
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO -    System Dependencies: ✅ PASSED
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO -    Telegram Bot: ✅ PASSED
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO -    Pair Configuration: ✅ PASSED
+2025-08-13 14:44:54,391 - EnhancedSystemValidator - INFO - 🎉 Enhanced system validation completed successfully!
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Universal Trading System...
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO - 🔧 All fixes implemented:
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO -    ✅ Fixed interactive button navigation
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO -    ✅ 1-minute advance signal generation
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO -    ✅ Pocket Option SSID synchronization
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO -    ✅ OTC/Regular pair differentiation
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO -    ✅ Enhanced authorization handling
+2025-08-13 14:44:54,391 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Ultimate Trading Bot...
+2025-08-13 14:44:54,401 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:44:54,402 - EnhancedSystemMonitor - INFO - 📊 System Status - Uptime: 0h 0m, Signals: 0, Health: OPTIMAL
+2025-08-13 14:44:54,402 - EnhancedUniversalLauncher - INFO - ✅ Enhanced bot started successfully
+2025-08-13 14:44:54,402 - EnhancedUniversalLauncher - INFO - 📱 Bot is ready to respond to all commands!
+2025-08-13 14:44:54,402 - EnhancedUniversalLauncher - INFO - 🔘 Interactive navigation buttons are now working properly!
+2025-08-13 14:44:54,402 - EnhancedUniversalLauncher - INFO - ⏰ Signals will be generated 1 minute in advance
+2025-08-13 14:44:54,402 - EnhancedUniversalLauncher - INFO - 🔶 OTC pairs active on weekends, 🔷 Regular pairs active on weekdays
+2025-08-13 14:44:54,402 - EnhancedTradingBot - INFO - 🚀 Starting Enhanced Ultimate Trading System...
+2025-08-13 14:44:54,403 - EnhancedTradingBot - ERROR - ❌ Enhanced bot runtime error: Cannot close a running event loop
+2025-08-13 14:44:54,403 - EnhancedTradingBot - INFO - 🛑 Enhanced bot stopped
+2025-08-13 14:44:54,403 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced bot startup failed: Cannot close a running event loop
+2025-08-13 14:44:54,403 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced system error: Cannot close a running event loop
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO - 🛑 Stopping Enhanced Ultimate Trading System...
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO - 📊 Final System Statistics:
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO -    Total Uptime: 0h 0m
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO -    Signals Generated: 0
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO -    OTC Signals: 0
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO -    Regular Signals: 0
+2025-08-13 14:44:54,406 - EnhancedUniversalLauncher - INFO - 🛑 Enhanced system shutdown completed
+2025-08-13 14:45:05,226 - EnhancedSystemValidator - INFO - 🔍 Starting enhanced system validation...
+2025-08-13 14:45:05,454 - EnhancedSystemValidator - INFO - ✅ All system dependencies validated
+2025-08-13 14:45:05,514 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO - ✅ Enhanced Telegram bot validation passed
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO - ✅ Pair configuration validated: 59 regular, 10 OTC
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO - 📊 Enhanced Validation Results:
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO -    System Dependencies: ✅ PASSED
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO -    Telegram Bot: ✅ PASSED
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO -    Pair Configuration: ✅ PASSED
+2025-08-13 14:45:05,514 - EnhancedSystemValidator - INFO - 🎉 Enhanced system validation completed successfully!
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Universal Trading System...
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO - 🔧 All fixes implemented:
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO -    ✅ Fixed interactive button navigation
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO -    ✅ 1-minute advance signal generation
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO -    ✅ Pocket Option SSID synchronization
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO -    ✅ OTC/Regular pair differentiation
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO -    ✅ Enhanced authorization handling
+2025-08-13 14:45:05,514 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Ultimate Trading Bot...
+2025-08-13 14:45:05,523 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:05,524 - EnhancedSystemMonitor - INFO - 📊 System Status - Uptime: 0h 0m, Signals: 0, Health: OPTIMAL
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - INFO - ✅ Enhanced bot started successfully
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - INFO - 📱 Bot is ready to respond to all commands!
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - INFO - 🔘 Interactive navigation buttons are now working properly!
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - INFO - ⏰ Signals will be generated 1 minute in advance
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - INFO - 🔶 OTC pairs active on weekends, 🔷 Regular pairs active on weekdays
+2025-08-13 14:45:05,524 - EnhancedTradingBot - INFO - 🚀 Starting Enhanced Ultimate Trading System...
+2025-08-13 14:45:05,524 - EnhancedTradingBot - ERROR - ❌ Enhanced bot runtime error: Cannot close a running event loop
+2025-08-13 14:45:05,524 - EnhancedTradingBot - INFO - 🛑 Enhanced bot stopped
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced bot startup failed: Cannot close a running event loop
+2025-08-13 14:45:05,524 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced system error: Cannot close a running event loop
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO - 🛑 Stopping Enhanced Ultimate Trading System...
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO - 📊 Final System Statistics:
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO -    Total Uptime: 0h 0m
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO -    Signals Generated: 0
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO -    OTC Signals: 0
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO -    Regular Signals: 0
+2025-08-13 14:45:05,526 - EnhancedUniversalLauncher - INFO - 🛑 Enhanced system shutdown completed
+2025-08-13 14:45:11,108 - EnhancedSystemValidator - INFO - 🔍 Starting enhanced system validation...
+2025-08-13 14:45:11,327 - EnhancedSystemValidator - INFO - ✅ All system dependencies validated
+2025-08-13 14:45:11,385 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Enhanced Telegram bot validation passed
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Pair configuration validated: 59 regular, 10 OTC
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - 📊 Enhanced Validation Results:
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    System Dependencies: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Telegram Bot: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Pair Configuration: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - 🎉 Enhanced system validation completed successfully!
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Universal Trading System...
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🔧 All fixes implemented:
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Fixed interactive button navigation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ 1-minute advance signal generation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Pocket Option SSID synchronization
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ OTC/Regular pair differentiation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Enhanced authorization handling
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Ultimate Trading Bot...
+2025-08-13 14:45:11,394 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:11,395 - EnhancedSystemMonitor - INFO - 📊 System Status - Uptime: 0h 0m, Signals: 0, Health: OPTIMAL
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - ✅ Enhanced bot started successfully
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 📱 Bot is ready to respond to all commands!
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 🔘 Interactive navigation buttons are now working properly!
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - ⏰ Signals will be generated 1 minute in advance
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 🔶 OTC pairs active on weekends, 🔷 Regular pairs active on weekdays
+2025-08-13 14:45:11,395 - EnhancedTradingBot - INFO - 🚀 Starting Enhanced Ultimate Trading System...
+2025-08-13 14:45:11,395 - EnhancedTradingBot - ERROR - ❌ Enhanced bot runtime error: Cannot close a running event loop
+2025-08-13 14:45:11,395 - EnhancedTradingBot - INFO - 🛑 Enhanced bot stopped
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced bot startup failed: Cannot close a running event loop
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced system error: Cannot close a running event loop
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 🛑 Stopping Enhanced Ultimate Trading System...
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 📊 Final System Statistics:
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Total Uptime: 0h 0m
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Signals Generated: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    OTC Signals: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Regular Signals: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 🛑 Enhanced system shutdown completed

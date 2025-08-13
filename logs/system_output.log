@@ -1,0 +1,114 @@
+nohup: ignoring input
+2025-08-13 14:45:11,108 - EnhancedSystemValidator - INFO - 🔍 Starting enhanced system validation...
+2025-08-13 14:45:11,327 - EnhancedSystemValidator - INFO - ✅ All system dependencies validated
+2025-08-13 14:45:11,385 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Enhanced Telegram bot validation passed
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - ✅ Pair configuration validated: 59 regular, 10 OTC
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - 📊 Enhanced Validation Results:
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    System Dependencies: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Telegram Bot: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO -    Pair Configuration: ✅ PASSED
+2025-08-13 14:45:11,385 - EnhancedSystemValidator - INFO - 🎉 Enhanced system validation completed successfully!
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Universal Trading System...
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🔧 All fixes implemented:
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Fixed interactive button navigation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ 1-minute advance signal generation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Pocket Option SSID synchronization
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ OTC/Regular pair differentiation
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO -    ✅ Enhanced authorization handling
+2025-08-13 14:45:11,385 - EnhancedUniversalLauncher - INFO - 🚀 Starting Enhanced Ultimate Trading Bot...
+2025-08-13 14:45:11,394 - EnhancedTradingBot - INFO - ✅ Enhanced Telegram application setup complete
+2025-08-13 14:45:11,395 - EnhancedSystemMonitor - INFO - 📊 System Status - Uptime: 0h 0m, Signals: 0, Health: OPTIMAL
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - ✅ Enhanced bot started successfully
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 📱 Bot is ready to respond to all commands!
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 🔘 Interactive navigation buttons are now working properly!
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - ⏰ Signals will be generated 1 minute in advance
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - INFO - 🔶 OTC pairs active on weekends, 🔷 Regular pairs active on weekdays
+2025-08-13 14:45:11,395 - EnhancedTradingBot - INFO - 🚀 Starting Enhanced Ultimate Trading System...
+2025-08-13 14:45:11,395 - EnhancedTradingBot - ERROR - ❌ Enhanced bot runtime error: Cannot close a running event loop
+2025-08-13 14:45:11,395 - EnhancedTradingBot - INFO - 🛑 Enhanced bot stopped
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced bot startup failed: Cannot close a running event loop
+2025-08-13 14:45:11,395 - EnhancedUniversalLauncher - ERROR - ❌ Enhanced system error: Cannot close a running event loop
+Traceback (most recent call last):
+  File "/workspace/venv/lib/python3.13/site-packages/telegram/ext/_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/venv/lib/python3.13/site-packages/telegram/ext/_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/enhanced_universal_launcher.py", line 383, in run_continuous
+    await self.start_enhanced_bot()
+  File "/workspace/enhanced_universal_launcher.py", line 296, in start_enhanced_bot
+    await bot.run()
+  File "/workspace/enhanced_telegram_bot.py", line 901, in run
+    await self.application.run_polling(drop_pending_updates=True)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venv/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/workspace/venv/lib/python3.13/site-packages/telegram/ext/_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/unix_events.py", line 70, in close
+    super().close()
+    ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/asyncio/selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 🛑 Stopping Enhanced Ultimate Trading System...
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 📊 Final System Statistics:
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Total Uptime: 0h 0m
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Signals Generated: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    OTC Signals: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO -    Regular Signals: 0
+2025-08-13 14:45:11,398 - EnhancedUniversalLauncher - INFO - 🛑 Enhanced system shutdown completed
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║  🏆 ENHANCED ULTIMATE TRADING SYSTEM - UNIVERSAL ENTRY POINT 🏆             ║
+║                                                                              ║
+║  📱 Fixed Interactive Telegram Bot Navigation                               ║
+║  ⏰ 1-Minute Advance Signal Generation                                      ║
+║  🔗 Pocket Option SSID Synchronization                                     ║
+║  🔶 OTC Pairs (Weekends) / 🔷 Regular Pairs (Weekdays)                     ║
+║  📊 Professional Trading Interface                                          ║
+║  🤖 Intelligent Signal Generation                                           ║
+║  ⚡ Real-time Market Analysis                                               ║
+║  🔒 Institutional-Grade Security                                            ║
+║                                                                              ║
+║  Version: 2.0.0 (Enhanced)                                                 ║
+║  Status: 🟢 ENHANCED & OPERATIONAL                                          ║
+║  Time: 2025-08-13 14:45:11                                           ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+        
