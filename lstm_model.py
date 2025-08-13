@@ -11,7 +11,10 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import joblib
 import logging
 from datetime import datetime, timedelta
-import talib
+try:
+    import talib
+except ImportError:
+    import mock_talib as talib
 from config import LSTM_CONFIG, TECHNICAL_INDICATORS, DATABASE_CONFIG
 
 class LSTMTradingModel:

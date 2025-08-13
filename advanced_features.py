@@ -3,7 +3,10 @@ import pandas as pd
 from typing import Dict, List, Optional, Tuple, Any
 import logging
 from datetime import datetime, timedelta
-import talib
+try:
+    import talib
+except ImportError:
+    import mock_talib as talib
 from scipy import stats
 from scipy.signal import find_peaks
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
