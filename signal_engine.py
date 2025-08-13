@@ -651,21 +651,47 @@ class SignalEngine:
             return None
     
     def _convert_enhanced_to_standard(self, enhanced_signal: EnhancedSignal) -> Dict:
-        """Convert enhanced signal to standard signal format"""
+        """Convert enhanced signal to standard signal format with enhanced timing and pair differentiation"""
         try:
             # Map enhanced signal direction to standard format
             direction_map = {'BUY': 'CALL', 'SELL': 'PUT'}
             
-            # Calculate expiry string
-            entry_str = enhanced_signal.entry_time.strftime("%H:%M")
-            expiry_str = enhanced_signal.expiry_time.strftime("%H:%M")
+            # Get current server time from Pocket Option with sync
+            current_time = self.pocket_api.get_server_time()
+            
+            # Generate signal 1 minute before actual entry time
+            signal_time = current_time
+            entry_time = signal_time + timedelta(minutes=1)  # Entry 1 minute after signal
+            expiry_time = entry_time + timedelta(minutes=enhanced_signal.expiry_duration)
+            
+            # Format time strings with seconds for precision (e.g., 13:30:00 - 13:35:00)
+            entry_str = entry_time.strftime("%H:%M:%S")
+            expiry_str = expiry_time.strftime("%H:%M:%S")
+            
+            # Determine if we're using OTC or regular pairs based on market hours
+            is_weekend = self.pocket_api.check_market_hours()
+            pair_type = "OTC" if is_weekend else "Regular"
+            
+            # Format pair name with OTC indicator if needed
+            formatted_pair = enhanced_signal.symbol
+            if is_weekend and "OTC" not in formatted_pair:
+                formatted_pair = f"{formatted_pair} OTC"
+            
+            # Determine market session for pair differentiation
+            market_context = "Weekend (OTC Pairs)" if is_weekend else "Weekday (Regular Pairs)"
             
             standard_signal = {
-                'pair': enhanced_signal.symbol,
+                'pair': formatted_pair,
+                'original_pair': enhanced_signal.symbol,
+                'pair_type': pair_type,
+                'market_context': market_context,
                 'direction': direction_map.get(enhanced_signal.direction, enhanced_signal.direction),
                 'accuracy': enhanced_signal.accuracy_prediction * 100,  # Convert to percentage
                 'confidence': enhanced_signal.confidence * 100,  # Convert to percentage
                 'time_expiry': f"{entry_str} - {expiry_str}",
+                'entry_time': entry_time,
+                'expiry_time': expiry_time,
+                'signal_time': signal_time,
                 'duration': enhanced_signal.expiry_duration,
                 'signal_strength': enhanced_signal.signal_strength,
                 'technical_strength': enhanced_signal.technical_strength,
@@ -675,6 +701,12 @@ class SignalEngine:
                 'market_session': enhanced_signal.market_session,
                 'position_size_rec': enhanced_signal.position_size_recommendation,
                 'execution_urgency': enhanced_signal.execution_urgency,
+                
+                # Timing and sync information
+                'sync_pocket_ssid': True,
+                'advance_time_minutes': 1,
+                'server_sync': True,
+                'timing_precision': 'seconds',
                 
                 # Alternative data
                 'news_sentiment': enhanced_signal.news_sentiment_score,
@@ -687,8 +719,13 @@ class SignalEngine:
                 'model_consensus': enhanced_signal.ensemble_prediction.consensus_level,
                 'individual_models': enhanced_signal.individual_model_scores,
                 
+                # Trading context
+                'is_weekend_trade': is_weekend,
+                'recommended_for_weekend': is_weekend,
+                'recommended_for_weekday': not is_weekend,
+                
                 # Formatted message for Telegram
-                'formatted_message': self.enhanced_engine.format_signal_for_telegram(enhanced_signal)
+                'formatted_message': self._format_enhanced_signal_message(enhanced_signal, formatted_pair, entry_str, expiry_str, pair_type, market_context)
             }
             
             return standard_signal
@@ -696,6 +733,55 @@ class SignalEngine:
         except Exception as e:
             self.logger.error(f"Error converting enhanced signal: {e}")
             return {}
+    
+    def _format_enhanced_signal_message(self, enhanced_signal, formatted_pair, entry_str, expiry_str, pair_type, market_context):
+        """Format enhanced signal message with timing and pair differentiation"""
+        try:
+            direction_emoji = "📈" if enhanced_signal.direction == "BUY" else "📉"
+            pair_emoji = "🕒" if pair_type == "OTC" else "💱"
+            
+            message = f"""
+🚨 **ULTIMATE TRADING SIGNAL** 🚨
+
+{pair_emoji} **Pair:** {formatted_pair}
+{direction_emoji} **Direction:** {enhanced_signal.direction}
+🎯 **Accuracy:** {enhanced_signal.accuracy_prediction * 100:.1f}%
+💪 **Confidence:** {enhanced_signal.confidence * 100:.1f}%
+
+⏰ **Timing (Pocket Option Sync):**
+📊 **Entry Time:** {entry_str}
+⏳ **Expiry Time:** {expiry_str}
+⌛ **Duration:** {enhanced_signal.expiry_duration} minutes
+
+📈 **Market Context:**
+🌍 **Session:** {market_context}
+📊 **Pair Type:** {pair_type}
+{'🕒 **OTC Trading:** Weekend market hours' if pair_type == 'OTC' else '💱 **Regular Trading:** Weekday market hours'}
+
+🎯 **Signal Quality:**
+⭐ **Strength:** {enhanced_signal.signal_strength}/10
+📊 **Technical:** {enhanced_signal.technical_strength * 100:.0f}%
+🔄 **Trend:** {enhanced_signal.trend_alignment}
+📈 **Volatility:** {enhanced_signal.volatility_level}
+
+🛡️ **Risk Management:**
+⚠️ **Risk Level:** {enhanced_signal.risk_level}
+💰 **Position Size:** {enhanced_signal.position_size_recommendation * 100:.1f}%
+⚡ **Urgency:** {enhanced_signal.execution_urgency}
+
+🤖 **AI Analysis:**
+🧠 **Model Consensus:** {enhanced_signal.ensemble_prediction.consensus_level * 100:.0f}%
+📰 **News Sentiment:** {enhanced_signal.news_sentiment_score * 100:.0f}%
+📱 **Social Sentiment:** {enhanced_signal.social_sentiment_score * 100:.0f}%
+
+⚡ **Signal generated 1 minute before entry with Pocket Option server sync**
+            """
+            
+            return message.strip()
+            
+        except Exception as e:
+            self.logger.error(f"Error formatting enhanced signal message: {e}")
+            return "Error formatting signal message"
 
     def cleanup(self):
         """Cleanup resources"""
