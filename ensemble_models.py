@@ -596,36 +596,98 @@ class EnsembleSignalGenerator:
         self.training_history = {}
     
     def prepare_data(self, data: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
-        """Prepare data for different model types"""
-        
-        # Generate advanced features
-        processed_data = self.feature_engine.generate_all_features(data)
-        
-        # Prepare sequence data for LSTM/Transformer
-        sequence_length = 60
-        feature_columns = [col for col in processed_data.columns if col not in ['target', 'timestamp']]
-        
-        sequences = []
-        flat_features = []
-        targets = []
-        
-        for i in range(sequence_length, len(processed_data)):
-            # Sequence data for LSTM/Transformer
-            seq = processed_data[feature_columns].iloc[i-sequence_length:i].values
-            sequences.append(seq)
+        """Prepare data for ensemble training"""
+        try:
+            # Generate features using advanced feature engine
+            processed_data = self.feature_engine.generate_features(data)
             
-            # Flat features for tree-based models
-            flat_feat = processed_data[feature_columns].iloc[i].values
-            flat_features.append(flat_feat)
+            # Generate target labels for binary options trading
+            processed_data = self._generate_target_labels(processed_data)
             
-            # Target
-            targets.append(processed_data['target'].iloc[i])
-        
-        sequence_data = np.array(sequences)
-        flat_data = np.array(flat_features)
-        targets = np.array(targets)
-        
-        return sequence_data, flat_data, targets
+            # Define feature columns
+            feature_columns = [
+                'rsi', 'macd', 'bb_position', 'stoch_k', 'williams_r', 'cci', 'adx',
+                'atr_normalized', 'ema_9_signal', 'ema_21_signal', 'sma_10_signal',
+                'volume_ratio', 'price_position', 'trend_strength', 'volatility_cluster'
+            ]
+            
+            # Ensure all columns exist
+            for col in feature_columns:
+                if col not in processed_data.columns:
+                    processed_data[col] = 0
+            
+            # Ensure target column exists
+            if 'target' not in processed_data.columns:
+                processed_data['target'] = 2  # Default to HOLD
+            
+            # Remove rows with NaN values
+            processed_data = processed_data.dropna()
+            
+            if len(processed_data) < 100:
+                raise ValueError("Insufficient data for training")
+            
+            # Create sequences and flat features
+            sequence_length = 60
+            sequences = []
+            flat_features = []
+            targets = []
+            
+            for i in range(sequence_length, len(processed_data)):
+                # Sequence data for LSTM/Transformer
+                seq = processed_data[feature_columns].iloc[i-sequence_length:i].values
+                sequences.append(seq)
+                
+                # Flat features for tree-based models
+                flat_feat = processed_data[feature_columns].iloc[i].values
+                flat_features.append(flat_feat)
+                
+                # Target
+                targets.append(processed_data['target'].iloc[i])
+            
+            sequence_data = np.array(sequences)
+            flat_data = np.array(flat_features)
+            targets = np.array(targets)
+            
+            return sequence_data, flat_data, targets
+            
+        except Exception as e:
+            self.logger.error(f"Error preparing data: {e}")
+            raise
+    
+    def _generate_target_labels(self, data: pd.DataFrame) -> pd.DataFrame:
+        """Generate target labels for binary options trading"""
+        try:
+            labels = []
+            
+            for i in range(len(data)):
+                if i + 2 >= len(data):  # Look ahead 2 minutes
+                    labels.append(2)  # HOLD for insufficient data
+                    continue
+                
+                current_price = data['close'].iloc[i]
+                future_price = data['close'].iloc[i + 2]
+                
+                # Calculate percentage change
+                price_change = (future_price - current_price) / current_price * 100
+                
+                # Define threshold for signal generation (0.01% minimum movement)
+                threshold = 0.01
+                
+                if price_change > threshold:
+                    labels.append(0)  # BUY signal
+                elif price_change < -threshold:
+                    labels.append(1)  # SELL signal
+                else:
+                    labels.append(2)  # HOLD signal
+            
+            data['target'] = labels
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Error generating target labels: {e}")
+            # Default to HOLD if error occurs
+            data['target'] = 2
+            return data
     
     def train_ensemble(self, data: pd.DataFrame, validation_split: float = 0.2):
         """Train all models in the ensemble"""

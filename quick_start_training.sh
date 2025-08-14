@@ -1,83 +1,137 @@
 #!/bin/bash
 
-# 🚀 Quick Start Training Script for LSTM AI Model
-# This script will get you started with training your trading AI model
+# 🚀 QUICK START TRAINING & VALIDATION SCRIPT
+# Comprehensive AI/ML model training and validation for Pocket Option trading
 
-echo "🧠 LSTM AI Model Training - Quick Start"
-echo "========================================"
+echo "🚀 ULTIMATE AI TRADING SYSTEM - QUICK START TRAINING & VALIDATION"
+echo "=================================================================="
 echo ""
 
-# Check if we're in the right directory
-if [ ! -f "train_lstm.py" ]; then
-    echo "❌ Error: Please run this script from the /workspace directory"
+# Check if Python is available
+if ! command -v python3 &> /dev/null; then
+    echo "❌ Python 3 is not installed. Please install Python 3.8+ first."
     exit 1
 fi
 
-# Create necessary directories
-echo "📁 Creating necessary directories..."
-mkdir -p models logs data backup
-
 # Check Python version
-echo "🐍 Checking Python version..."
-python3 --version
+python_version=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
+echo "✅ Python version: $python_version"
 
-# Check if required packages are installed
-echo "📦 Checking required packages..."
-python3 -c "import tensorflow, pandas, numpy, sklearn" 2>/dev/null
-if [ $? -eq 0 ]; then
-    echo "✅ Required packages are installed"
+# Install required packages
+echo ""
+echo "📦 Installing required packages..."
+pip3 install -r requirements.txt
+
+# Create necessary directories
+echo ""
+echo "📁 Creating necessary directories..."
+mkdir -p /workspace/logs
+mkdir -p /workspace/data
+mkdir -p /workspace/models
+mkdir -p /workspace/backup
+
+# Check if models already exist
+if [ -f "/workspace/models/best_model.h5" ]; then
+    echo ""
+    echo "⚠️  Existing models found. Do you want to retrain?"
+    echo "1. Quick validation only (skip training)"
+    echo "2. Retrain all models"
+    echo "3. Comprehensive training and validation"
+    read -p "Enter your choice (1-3): " choice
+    
+    case $choice in
+        1)
+            echo "Running quick validation only..."
+            python3 comprehensive_training_validation.py --mode quick --skip-training
+            ;;
+        2)
+            echo "Retraining all models..."
+            python3 comprehensive_training_validation.py --mode standard --skip-validation
+            ;;
+        3)
+            echo "Running comprehensive training and validation..."
+            python3 comprehensive_training_validation.py --mode standard
+            ;;
+        *)
+            echo "Invalid choice. Running comprehensive training and validation..."
+            python3 comprehensive_training_validation.py --mode standard
+            ;;
+    esac
 else
-    echo "⚠️  Some packages may be missing. Installing core packages..."
-    pip3 install tensorflow pandas numpy scikit-learn
+    echo ""
+    echo "🤖 No existing models found. Starting comprehensive training and validation..."
+    echo ""
+    echo "Available modes:"
+    echo "1. Quick mode (7 days validation, 50 epochs)"
+    echo "2. Standard mode (30 days validation, 100 epochs) - RECOMMENDED"
+    echo "3. Intensive mode (90 days validation, 200 epochs)"
+    echo ""
+    read -p "Enter mode (1-3, default 2): " mode_choice
+    
+    case $mode_choice in
+        1)
+            echo "Running quick mode..."
+            python3 comprehensive_training_validation.py --mode quick
+            ;;
+        2|"")
+            echo "Running standard mode..."
+            python3 comprehensive_training_validation.py --mode standard
+            ;;
+        3)
+            echo "Running intensive mode..."
+            python3 comprehensive_training_validation.py --mode intensive
+            ;;
+        *)
+            echo "Invalid choice. Running standard mode..."
+            python3 comprehensive_training_validation.py --mode standard
+            ;;
+    esac
 fi
 
-echo ""
-echo "🎯 Choose your training approach:"
-echo "1. Quick LSTM Training (30 min, 90% accuracy)"
-echo "2. Standard LSTM Training (1 hour, 95% accuracy)"
-echo "3. Ensemble Training (2-6 hours, 97% accuracy)"
-echo "4. Test existing models"
-echo "5. Show training guide"
-echo ""
+# Check if training was successful
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "🎉 TRAINING & VALIDATION COMPLETED SUCCESSFULLY!"
+    echo "=================================================================="
+    echo ""
+    echo "✅ Your AI/ML models are ready for live Pocket Option trading!"
+    echo ""
+    echo "📋 Next Steps:"
+    echo "1. Start with small position sizes ($10-50)"
+    echo "2. Monitor performance closely for the first week"
+    echo "3. Gradually increase position sizes if performance is good"
+    echo "4. Continue monitoring and retraining as needed"
+    echo ""
+    echo "🚀 To start trading:"
+    echo "   python3 ultimate_telegram_bot_simple.py"
+    echo ""
+    echo "📊 To monitor performance:"
+    echo "   python3 performance_tracker.py"
+    echo ""
+    echo "📈 To view logs:"
+    echo "   tail -f /workspace/logs/trading_system.log"
+    echo ""
+else
+    echo ""
+    echo "❌ TRAINING & VALIDATION FAILED!"
+    echo "=================================================================="
+    echo ""
+    echo "Please check the logs for errors:"
+    echo "   tail -f /workspace/logs/comprehensive_training_validation_*.log"
+    echo ""
+    echo "Common issues and solutions:"
+    echo "1. Insufficient memory: Reduce batch size or use fewer epochs"
+    echo "2. Training errors: Check data quality and model configuration"
+    echo "3. Validation failures: Models need more training or better data"
+    echo ""
+    echo "🔧 To retry with different settings:"
+    echo "   python3 comprehensive_training_validation.py --mode quick"
+    echo ""
+fi
 
-read -p "Enter your choice (1-5): " choice
-
-case $choice in
-    1)
-        echo "🚀 Starting Quick LSTM Training..."
-        python3 train_lstm.py --mode quick
-        ;;
-    2)
-        echo "🚀 Starting Standard LSTM Training..."
-        python3 train_lstm.py --mode standard
-        ;;
-    3)
-        echo "🚀 Starting Ensemble Training..."
-        python3 train_ensemble.py --mode standard
-        ;;
-    4)
-        echo "🧪 Testing existing models..."
-        python3 test_models.py --all
-        ;;
-    5)
-        echo "📚 Opening training guide..."
-        cat LSTM_TRAINING_GUIDE.md | head -50
-        echo ""
-        echo "📖 Full guide available in: LSTM_TRAINING_GUIDE.md"
-        ;;
-    *)
-        echo "❌ Invalid choice. Please run the script again."
-        exit 1
-        ;;
-esac
-
-echo ""
-echo "🎉 Training process completed!"
-echo ""
-echo "📋 Next steps:"
-echo "1. Check the logs in the logs/ directory"
-echo "2. Test your models: python3 test_models.py --all"
-echo "3. Start trading: python3 start_unified_system.py"
-echo "4. Read the full guide: LSTM_TRAINING_GUIDE.md"
-echo ""
-echo "🚀 Happy trading!"
+echo "=================================================================="
+echo "📚 For more information, check the documentation:"
+echo "   - README.md"
+echo "   - PRODUCTION_READINESS.md"
+echo "   - SYSTEM_ASSESSMENT_REPORT.md"
+echo "=================================================================="
