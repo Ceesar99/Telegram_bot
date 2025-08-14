@@ -1678,3 +1678,1497 @@
 2025-08-14 18:31:09,809 - PaperTradingValidator - INFO - Profit %: 10.30%
 2025-08-14 18:31:09,809 - PaperTradingValidator - INFO - Max Drawdown: 2.16%
 2025-08-14 18:31:09,809 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:39:47,716 - PaperTradingValidator - INFO - Started paper trading session: session_1755196787
+2025-08-14 18:39:47,716 - PaperTradingValidator - INFO - Starting paper trading validation for 30 days
+2025-08-14 18:39:47,716 - PaperTradingValidator - INFO - Target: 20 signals per day
+2025-08-14 18:39:47,716 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.78949592958247%
+2025-08-14 18:39:47,716 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.86312736769405%
+2025-08-14 18:39:47,716 - PaperTradingValidator - INFO - Paper trade executed: EUR/CAD SELL $200.00 @ 1.13079
+2025-08-14 18:39:47,716 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:47,817 - PaperTradingValidator - INFO - Trade 1: LOSS $-200.00 | Balance: $9800.00
+2025-08-14 18:39:47,817 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.55292255492395%
+2025-08-14 18:39:47,817 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.69604789680778%
+2025-08-14 18:39:47,817 - PaperTradingValidator - INFO - Paper trade executed: NZD/CAD SELL $196.00 @ 1.10206
+2025-08-14 18:39:47,817 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:47,918 - PaperTradingValidator - INFO - Trade 2: WIN $177.31 | Balance: $9977.31
+2025-08-14 18:39:47,918 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.46393016711104%
+2025-08-14 18:39:47,918 - PaperTradingValidator - INFO - Paper trade executed: FTSE100 SELL $199.55 @ 1.14499
+2025-08-14 18:39:47,918 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,018 - PaperTradingValidator - INFO - Trade 3: WIN $169.18 | Balance: $10146.49
+2025-08-14 18:39:48,018 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.89975778749186%
+2025-08-14 18:39:48,018 - PaperTradingValidator - INFO - Paper trade executed: NZD/CHF SELL $202.93 @ 1.19863
+2025-08-14 18:39:48,018 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,119 - PaperTradingValidator - INFO - Trade 4: WIN $185.73 | Balance: $10332.22
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.69898685304541%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.93249063786492%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.52631118383201%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.87329782554662%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.20485122378304%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.06788672006788%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.40990687616619%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.67787765686693%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.34687236785891%
+2025-08-14 18:39:48,119 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.62743416232227%
+2025-08-14 18:39:48,119 - PaperTradingValidator - INFO - Day 2025-08-14: Trades: 4, Win Rate: 75.00%, PnL: $332.22
+2025-08-14 18:39:48,219 - PaperTradingValidator - INFO - Paper trade executed: EUR/CHF SELL $206.64 @ 1.14803
+2025-08-14 18:39:48,220 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,320 - PaperTradingValidator - INFO - Trade 5: WIN $185.94 | Balance: $10518.16
+2025-08-14 18:39:48,320 - PaperTradingValidator - INFO - Paper trade executed: EUR/JPY SELL $210.36 @ 1.13352
+2025-08-14 18:39:48,320 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,421 - PaperTradingValidator - INFO - Trade 6: LOSS $-210.36 | Balance: $10307.80
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.25116926604692%
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.86443122030921%
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.36525721649394%
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.13623408829795%
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.35189461787223%
+2025-08-14 18:39:48,421 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.29068310580186%
+2025-08-14 18:39:48,421 - PaperTradingValidator - INFO - Paper trade executed: GBP/TRY BUY $206.16 @ 1.13416
+2025-08-14 18:39:48,421 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,521 - PaperTradingValidator - INFO - Trade 7: WIN $173.53 | Balance: $10481.33
+2025-08-14 18:39:48,521 - PaperTradingValidator - INFO - Paper trade executed: EUR/NZD SELL $209.63 @ 1.15924
+2025-08-14 18:39:48,521 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,622 - PaperTradingValidator - INFO - Trade 8: WIN $198.10 | Balance: $10679.43
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.84696451448971%
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.31322720082976%
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.94770051460969%
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.3870041850744%
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.8033612454423%
+2025-08-14 18:39:48,622 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.41144165769997%
+2025-08-14 18:39:48,622 - PaperTradingValidator - INFO - Day 2025-08-15: Trades: 8, Win Rate: 75.00%, PnL: $679.43
+2025-08-14 18:39:48,722 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.76863896759332%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.36756806822402%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.20522018996284%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.22557696056487%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.18673595254273%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.23486700159397%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.14694865969011%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.17603695747113%
+2025-08-14 18:39:48,723 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.32933175898746%
+2025-08-14 18:39:48,723 - PaperTradingValidator - INFO - Paper trade executed: NZD/USD BUY $213.59 @ 1.17402
+2025-08-14 18:39:48,723 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,823 - PaperTradingValidator - INFO - Trade 9: WIN $190.89 | Balance: $10870.32
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.6072318335717%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.76697279242633%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.67787762632223%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.59608640704478%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.64025234690538%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.33898763509207%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.30095836948092%
+2025-08-14 18:39:48,823 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.03185281511337%
+2025-08-14 18:39:48,823 - PaperTradingValidator - INFO - Paper trade executed: GBP/AUD BUY $217.41 @ 1.10166
+2025-08-14 18:39:48,824 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:48,924 - PaperTradingValidator - INFO - Trade 10: WIN $193.57 | Balance: $11063.88
+2025-08-14 18:39:48,924 - PaperTradingValidator - INFO - Day 2025-08-16: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.67185588625634%
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.62850650222477%
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.98898718761129%
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.47755159284378%
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,024 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.23433619112673%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.43811785700206%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.78188836807558%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.02614523522168%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.01099333085439%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.78288515500671%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.83437025772746%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,025 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.48368991786141%
+2025-08-14 18:39:49,025 - PaperTradingValidator - INFO - Day 2025-08-17: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.21836401339117%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.10502093294227%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.75231550311322%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.14415938308755%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.195204715093%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.335416973072%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.44830333495678%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.940845476376%
+2025-08-14 18:39:49,125 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.89657890524866%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.89586428892895%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.22305916496485%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.2251454284451%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.4182119842442%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,126 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,126 - PaperTradingValidator - INFO - Day 2025-08-18: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.62388221552122%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.04103937341618%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.64120093997747%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.51535052674693%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.27528058800794%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.40324204087558%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.72988031223039%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.96615640815034%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.69815036485508%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.39845571383614%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.85611711470635%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.78215958317351%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.44002266801796%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.60644782080206%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.41523684595734%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.32083780384912%
+2025-08-14 18:39:49,226 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.5363620428216%
+2025-08-14 18:39:49,227 - PaperTradingValidator - INFO - Day 2025-08-19: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.20716250558958%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.50052773127484%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.98950054192812%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.55366331230837%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.44053941807486%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.94848290252423%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.78865689529042%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.61017860924805%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.19991742723744%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.70570174124029%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.88344959535306%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.10713247019979%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,327 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.00334062334287%
+2025-08-14 18:39:49,327 - PaperTradingValidator - INFO - Day 2025-08-20: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.19754176816247%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.44704674450541%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.226967679206%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.58286842649554%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.74695108304047%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.95275724568056%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.04942446941048%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.94066462210999%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.84965619154278%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.21097166999449%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.11464668677074%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.26100674844977%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.98399816686589%
+2025-08-14 18:39:49,428 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.61858762092353%
+2025-08-14 18:39:49,428 - PaperTradingValidator - INFO - Day 2025-08-21: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,528 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.48903985334569%
+2025-08-14 18:39:49,528 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.00103595123737%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.84830480084571%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.28972450364904%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.38016934963179%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.96184052604877%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.98672367914041%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.59121294439373%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.5346342678723%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.96169021514888%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.6909985649427%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.54444411539608%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.19618137370007%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.70283527084291%
+2025-08-14 18:39:49,529 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.7714274196934%
+2025-08-14 18:39:49,529 - PaperTradingValidator - INFO - Day 2025-08-22: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.66879033912133%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.13087291060005%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.20005899675233%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.17366655630944%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.99058639406316%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.19711614963262%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.972238094496%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.91997851939871%
+2025-08-14 18:39:49,629 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.78395939678553%
+2025-08-14 18:39:49,630 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.67949926424393%
+2025-08-14 18:39:49,630 - PaperTradingValidator - INFO - Day 2025-08-23: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.45397158660046%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.2573304963328%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.11500921310248%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.22172949919694%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.03229416785688%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.1452500767811%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.29947885012979%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.09995783679494%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.07844009497892%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.14143832852486%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.0165716459744%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.24562784198758%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.87085446236694%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.47219934974466%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.59865324975259%
+2025-08-14 18:39:49,730 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.1255015656363%
+2025-08-14 18:39:49,730 - PaperTradingValidator - INFO - Day 2025-08-24: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.46469514442512%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.90235975300745%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.17737950710283%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.69969854315488%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.4858922317048%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.1656797870888%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.35396276076435%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.09366123998232%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.66539679279896%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.19240508340852%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,831 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.53488921364935%
+2025-08-14 18:39:49,831 - PaperTradingValidator - INFO - Day 2025-08-25: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.76087807880317%
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.75478088937555%
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.4637659721251%
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,931 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.13483637722375%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.84554819150206%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.23953202773355%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.51468703561943%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.96976423711094%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.80661995201847%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.6292397916939%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.29683410422945%
+2025-08-14 18:39:49,932 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.05349303029949%
+2025-08-14 18:39:49,932 - PaperTradingValidator - INFO - Day 2025-08-26: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.94721752245779%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.66898941996354%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.96173156702181%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.07445632509489%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.60612078329021%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.02111733420142%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.42998013510874%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.61916022662865%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.24771014147028%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.45531077561844%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.8180904713393%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.72526920054148%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.80212033656245%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.87547064505523%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.20180077083057%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.03582858890952%
+2025-08-14 18:39:50,032 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.36618530837887%
+2025-08-14 18:39:50,032 - PaperTradingValidator - INFO - Day 2025-08-27: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.85765915337343%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.3743028955826%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.10271391357313%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.4654324030103%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.52725858353732%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.06607318220023%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.90707577838499%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.47495074913952%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.96434358339944%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.91840569007965%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.21170581617%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.57867963198%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.85360826679403%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.02157950304345%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.89956762849798%
+2025-08-14 18:39:50,133 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.75516743321275%
+2025-08-14 18:39:50,133 - PaperTradingValidator - INFO - Day 2025-08-28: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,233 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.63482661211317%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.91594264536909%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.96857285611834%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.77066889490258%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.95909650298508%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.51386671803955%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.81395388064128%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.53004831746922%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.48420839731496%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.62438015497291%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.81196310096459%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.63889830521657%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.87975582189961%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.59117640820148%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.28417896821446%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.57101842159531%
+2025-08-14 18:39:50,234 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.82687478385616%
+2025-08-14 18:39:50,234 - PaperTradingValidator - INFO - Day 2025-08-29: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.01923746713199%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.93912242207058%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,334 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.61635385800612%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.78660830198011%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.21969544744%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.64070516692387%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.20557088219094%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.9745518483954%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.57515168622156%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.7250599448559%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.28946893639308%
+2025-08-14 18:39:50,335 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.1525428988887%
+2025-08-14 18:39:50,335 - PaperTradingValidator - INFO - Day 2025-08-30: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.36600429347926%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.82425356231411%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.4924517826337%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.03914002940088%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.1278529027998%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.54856192506278%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.6692187466199%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.92701517333161%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.35535783855622%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.29407963261778%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,435 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,436 - PaperTradingValidator - INFO - Day 2025-08-31: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.62978219675104%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.36748290324397%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.2667826680665%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.20902985424658%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.49568119862967%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.47815373451333%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.85780280983785%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.04528354905014%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.92266709440531%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.06593010076348%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.30185382647998%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,536 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,536 - PaperTradingValidator - INFO - Day 2025-09-01: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,636 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.7861194174894%
+2025-08-14 18:39:50,636 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.03097886607028%
+2025-08-14 18:39:50,636 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.40738391321536%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.13530716432183%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.31976488927576%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.58782861806787%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.5307698104812%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.49498809611853%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.49270043694861%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.95612858820317%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.40675524730877%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.07067865133565%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.3035695384858%
+2025-08-14 18:39:50,637 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.29671766416634%
+2025-08-14 18:39:50,637 - PaperTradingValidator - INFO - Day 2025-09-02: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.40063412960131%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.96581884692581%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.48831990277284%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.92371929537556%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.72925473316272%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.53307902866129%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.56360003206689%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.8102975132149%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,737 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.35962850939764%
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.21243268073532%
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,738 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,738 - PaperTradingValidator - INFO - Day 2025-09-03: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.9972814180423%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.00704109076615%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.48916940952148%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.48642757284674%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.70891380493502%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.805660870776%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.6722901168468%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.11420122235283%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.99830320704696%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.46925585044299%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.86340717100052%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.43980323014804%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.2573515471369%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.7975253587723%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,838 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.88423367208715%
+2025-08-14 18:39:50,838 - PaperTradingValidator - INFO - Day 2025-09-04: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.98322359582731%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.27336316530307%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.78682334207771%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.21530323245064%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.9152787019103%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.7467573410115%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.32690322652267%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.38280848196878%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.34040670993792%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.05771980168029%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.00051995875691%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.72110092249704%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.75231293815045%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.07451139366539%
+2025-08-14 18:39:50,939 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.27101147739882%
+2025-08-14 18:39:50,939 - PaperTradingValidator - INFO - Day 2025-09-05: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,039 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.40932176277447%
+2025-08-14 18:39:51,039 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.41662151075755%
+2025-08-14 18:39:51,039 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.07102548294218%
+2025-08-14 18:39:51,039 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.54606924178871%
+2025-08-14 18:39:51,039 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.01301840601084%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.49304214260486%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.58056356836885%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.26799263588009%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.54497691489873%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.13243823882871%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.30001375368137%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.03675851538186%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.1340483342207%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,040 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.4571968577991%
+2025-08-14 18:39:51,040 - PaperTradingValidator - INFO - Day 2025-09-06: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.2376194234732%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.69798270443204%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.26676297174649%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.85391970996697%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.68960314418416%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.23351888860722%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.78169866204607%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.1210034180051%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.87560993168941%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.2048448097502%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.28260766881573%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.4341159764069%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.11315864239461%
+2025-08-14 18:39:51,140 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.03163885394362%
+2025-08-14 18:39:51,140 - PaperTradingValidator - INFO - Day 2025-09-07: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.74155309898806%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.28861655476257%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.72591958349716%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.70057656635109%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.94103292538271%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.76206681232856%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.7412989120682%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.07189123561986%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.8535556045381%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.47865787715858%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.40691318853641%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.44264796841011%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.119828545295%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.23426671292314%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.53914071391381%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,241 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.32916124534478%
+2025-08-14 18:39:51,241 - PaperTradingValidator - INFO - Day 2025-09-08: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,341 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.24072279287203%
+2025-08-14 18:39:51,341 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.88366300938627%
+2025-08-14 18:39:51,341 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.30700494171293%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.37775947048729%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.82132701935826%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.23361683530409%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.84053181000817%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.98769902295867%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.62747761438408%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.84540317243591%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.40711198161034%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,342 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.2567321721552%
+2025-08-14 18:39:51,342 - PaperTradingValidator - INFO - Day 2025-09-09: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.55536776902643%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.98971276421841%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.80283106612818%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.92237119908657%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.72868074381147%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.1554232727724%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.1729460960395%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.62386884427428%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.91162259788769%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.50646355034294%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.34352171967137%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.09785499178568%
+2025-08-14 18:39:51,442 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.09177812437504%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.58639120348184%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.749022320412%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.81452621595037%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,443 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.65368394876462%
+2025-08-14 18:39:51,443 - PaperTradingValidator - INFO - Day 2025-09-10: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.09561398047246%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.13595556866262%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.40298364789953%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.36705416287698%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.46825675204049%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.31151655146192%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.7662100893558%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.66643006816211%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.20078100015581%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.14786944626138%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.22069313813174%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.97668339663562%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.84542055831938%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.10742380466857%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.40256143209876%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.99761566718672%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.89185334556882%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,543 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,543 - PaperTradingValidator - INFO - Day 2025-09-11: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.61103896701204%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.44707330857108%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.14584033461465%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.68300434474112%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.52218121858334%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.78618380931972%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.43790741786756%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.28989799160713%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.42878847224719%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.92046703464881%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.64%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.22032654102061%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.41119682671818%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.66962979072336%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.51409296108699%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.13715647461267%
+2025-08-14 18:39:51,644 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.48906861975986%
+2025-08-14 18:39:51,644 - PaperTradingValidator - INFO - Day 2025-09-12: Trades: 10, Win Rate: 80.00%, PnL: $1063.88
+2025-08-14 18:39:51,746 - PaperTradingValidator - INFO - Ended session session_1755196787
+2025-08-14 18:39:51,746 - PaperTradingValidator - INFO - Session PnL: $0.00
+2025-08-14 18:39:51,746 - PaperTradingValidator - INFO - Session Win Rate: 0.00%
+2025-08-14 18:39:51,746 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:39:51,746 - PaperTradingValidator - INFO - 📊 PAPER TRADING VALIDATION COMPLETE
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Duration: 30 days
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Total Trades: 0
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Win Rate: 0.00%
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Total PnL: $0.00
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Final Balance: $11063.88
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Profit %: 10.64%
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - Max Drawdown: 2.00%
+2025-08-14 18:39:51,747 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:39:58,791 - PaperTradingValidator - INFO - Started paper trading session: session_1755196798
+2025-08-14 18:39:58,791 - PaperTradingValidator - INFO - Starting paper trading validation for 7 days
+2025-08-14 18:39:58,791 - PaperTradingValidator - INFO - Target: 20 signals per day
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.57875948941484%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.62580093900863%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.92660817689915%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.47182331520162%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.16076273526178%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.81554508207248%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.4211727518061%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.94231262058335%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.98357399507692%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.47953313469047%
+2025-08-14 18:39:58,792 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.53368048279168%
+2025-08-14 18:39:58,792 - PaperTradingValidator - INFO - Paper trade executed: EUR/JPY BUY $200.00 @ 1.15541
+2025-08-14 18:39:58,792 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:58,893 - PaperTradingValidator - INFO - Trade 1: WIN $167.05 | Balance: $10167.05
+2025-08-14 18:39:58,893 - PaperTradingValidator - INFO - Paper trade executed: GAS/USD BUY $203.34 @ 1.13188
+2025-08-14 18:39:58,893 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:58,993 - PaperTradingValidator - INFO - Trade 2: WIN $167.28 | Balance: $10334.33
+2025-08-14 18:39:58,993 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.6030311348412%
+2025-08-14 18:39:58,993 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.51915323644529%
+2025-08-14 18:39:58,993 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.84383766805249%
+2025-08-14 18:39:58,993 - PaperTradingValidator - INFO - Paper trade executed: EUR/AUD SELL $206.69 @ 1.19323
+2025-08-14 18:39:58,993 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:59,094 - PaperTradingValidator - INFO - Trade 3: WIN $184.25 | Balance: $10518.58
+2025-08-14 18:39:59,094 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.98044053247285%
+2025-08-14 18:39:59,094 - PaperTradingValidator - INFO - Day 2025-08-14: Trades: 3, Win Rate: 100.00%, PnL: $518.58
+2025-08-14 18:39:59,194 - PaperTradingValidator - INFO - Paper trade executed: CAD/JPY SELL $210.37 @ 1.10165
+2025-08-14 18:39:59,194 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:59,295 - PaperTradingValidator - INFO - Trade 4: WIN $169.86 | Balance: $10688.45
+2025-08-14 18:39:59,295 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.03885129181192%
+2025-08-14 18:39:59,295 - PaperTradingValidator - INFO - Paper trade executed: BTC/USD BUY $213.77 @ 1.12205
+2025-08-14 18:39:59,295 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:59,395 - PaperTradingValidator - INFO - Trade 5: WIN $196.53 | Balance: $10884.98
+2025-08-14 18:39:59,396 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.12959167163854%
+2025-08-14 18:39:59,396 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.29435334507608%
+2025-08-14 18:39:59,396 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.17661917736496%
+2025-08-14 18:39:59,396 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.33080197678873%
+2025-08-14 18:39:59,396 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.84149386721157%
+2025-08-14 18:39:59,396 - PaperTradingValidator - INFO - Paper trade executed: USD/SEK SELL $217.70 @ 1.11940
+2025-08-14 18:39:59,396 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:39:59,496 - PaperTradingValidator - INFO - Trade 6: WIN $183.60 | Balance: $11068.57
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.95880453894685%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.41140943467526%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.68629675763319%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.735909910836%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.70150700228257%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.04391097419592%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.55697101344882%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.703960348023%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,496 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,497 - PaperTradingValidator - INFO - Day 2025-08-15: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.35716817356956%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.4549122379682%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.17153235732778%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.59766829812783%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.27017397586225%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.52784597388501%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.1546250481651%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.32845683636013%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.96194333552069%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.74916321175618%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.58774150740503%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.23914109806333%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.9503875100618%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.51750069179472%
+2025-08-14 18:39:59,597 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.2017546405006%
+2025-08-14 18:39:59,597 - PaperTradingValidator - INFO - Day 2025-08-16: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:39:59,697 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.31063756485942%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.07670438992868%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.21712354076149%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.41454998355992%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.87944728346159%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.50255436708237%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.93296526360116%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.9306860315631%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.19488729078704%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.35596317009106%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.37227717902122%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.51084569458126%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,698 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.55420424207298%
+2025-08-14 18:39:59,698 - PaperTradingValidator - INFO - Day 2025-08-17: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.24940001255428%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.07988649704502%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.1438867353156%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.19342181108934%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.81473974914657%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.53383930030655%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.67788870348876%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.91569412616417%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.33869308772078%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.33965996577749%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.84962810714629%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.48150412474232%
+2025-08-14 18:39:59,798 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.74156283011845%
+2025-08-14 18:39:59,799 - PaperTradingValidator - INFO - Day 2025-08-18: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.62132995708245%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.21388715762579%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.78362645558751%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.69346651026495%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.41231732911208%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.66063192517049%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.69590178388096%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.97811872387244%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.51168438421118%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.42469402459066%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.25951330494924%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.5075807683627%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.7284717021904%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.62818695597763%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.71212453491285%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.34428636125917%
+2025-08-14 18:39:59,899 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.12594868582636%
+2025-08-14 18:39:59,899 - PaperTradingValidator - INFO - Day 2025-08-19: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:39:59,999 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.0015647917248%
+2025-08-14 18:39:59,999 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.14022280252068%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.35462138977569%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.69138713730933%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.10804628487985%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.31457298620847%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.06545276965994%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.59593665307335%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.76541597055179%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.43149209506669%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.69%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.46765865808564%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.5421171510273%
+2025-08-14 18:40:00,000 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.64179245479433%
+2025-08-14 18:40:00,000 - PaperTradingValidator - INFO - Day 2025-08-20: Trades: 6, Win Rate: 100.00%, PnL: $1068.57
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Ended session session_1755196798
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Session PnL: $0.00
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Session Win Rate: 0.00%
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - 📊 PAPER TRADING VALIDATION COMPLETE
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Duration: 7 days
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Total Trades: 0
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Win Rate: 0.00%
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Total PnL: $0.00
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Final Balance: $11068.57
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Profit %: 10.69%
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - Max Drawdown: 0.00%
+2025-08-14 18:40:00,102 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:08,973 - PaperTradingValidator - INFO - Started paper trading session: session_1755196808
+2025-08-14 18:40:08,973 - PaperTradingValidator - INFO - Starting paper trading validation for 7 days
+2025-08-14 18:40:08,973 - PaperTradingValidator - INFO - Target: 20 signals per day
+2025-08-14 18:40:08,973 - PaperTradingValidator - INFO - Paper trade executed: EUR/AUD SELL $200.00 @ 1.19728
+2025-08-14 18:40:08,973 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,074 - PaperTradingValidator - INFO - Trade 1: WIN $165.86 | Balance: $10165.86
+2025-08-14 18:40:09,074 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.63924646465159%
+2025-08-14 18:40:09,074 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.05250446113948%
+2025-08-14 18:40:09,074 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.2918707988543%
+2025-08-14 18:40:09,074 - PaperTradingValidator - INFO - Paper trade executed: ETH/USD BUY $203.32 @ 1.14021
+2025-08-14 18:40:09,074 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,174 - PaperTradingValidator - INFO - Trade 2: WIN $182.37 | Balance: $10348.23
+2025-08-14 18:40:09,174 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.03869415691216%
+2025-08-14 18:40:09,174 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.65277358295228%
+2025-08-14 18:40:09,174 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.77467355956928%
+2025-08-14 18:40:09,174 - PaperTradingValidator - INFO - Paper trade executed: EUR/CHF SELL $206.96 @ 1.18633
+2025-08-14 18:40:09,174 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,275 - PaperTradingValidator - INFO - Trade 3: WIN $190.01 | Balance: $10538.24
+2025-08-14 18:40:09,275 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.8987620540134%
+2025-08-14 18:40:09,275 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.04469559864859%
+2025-08-14 18:40:09,275 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.93445235179148%
+2025-08-14 18:40:09,275 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.23869703977898%
+2025-08-14 18:40:09,275 - PaperTradingValidator - INFO - Paper trade executed: AUD/CAD SELL $210.76 @ 1.16651
+2025-08-14 18:40:09,275 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,376 - PaperTradingValidator - INFO - Trade 4: WIN $183.13 | Balance: $10721.36
+2025-08-14 18:40:09,376 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.44529356180303%
+2025-08-14 18:40:09,376 - PaperTradingValidator - INFO - Day 2025-08-14: Trades: 4, Win Rate: 100.00%, PnL: $721.36
+2025-08-14 18:40:09,476 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.23619500888921%
+2025-08-14 18:40:09,476 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.43009669489608%
+2025-08-14 18:40:09,476 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.98050895135674%
+2025-08-14 18:40:09,476 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.27272991453543%
+2025-08-14 18:40:09,476 - PaperTradingValidator - INFO - Paper trade executed: NZD/CHF BUY $214.43 @ 1.17124
+2025-08-14 18:40:09,476 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,577 - PaperTradingValidator - INFO - Trade 5: WIN $172.15 | Balance: $10893.51
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.99077755672499%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.0783808300468%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.54801114188147%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.91373128530263%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.42744115511071%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.82089674723524%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.4595817572251%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.58833697791961%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.54235316687735%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.13308853923375%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.80909718142846%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.82030958295667%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.51514905068089%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.55668216784939%
+2025-08-14 18:40:09,577 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.8112123123696%
+2025-08-14 18:40:09,577 - PaperTradingValidator - INFO - Day 2025-08-15: Trades: 5, Win Rate: 100.00%, PnL: $893.51
+2025-08-14 18:40:09,677 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.08593953711086%
+2025-08-14 18:40:09,677 - PaperTradingValidator - INFO - Paper trade executed: GBP/NZD BUY $217.87 @ 1.18663
+2025-08-14 18:40:09,678 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:09,778 - PaperTradingValidator - INFO - Trade 6: WIN $199.24 | Balance: $11092.75
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.03625016859725%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.84095666228384%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.38483787513499%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.51866224943308%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.29009197276125%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.6121709401764%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.90895075221935%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.63757225735995%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.43876442618355%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.4171990240937%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.60651460806776%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.28600362759275%
+2025-08-14 18:40:09,778 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.28539447711024%
+2025-08-14 18:40:09,778 - PaperTradingValidator - INFO - Day 2025-08-16: Trades: 6, Win Rate: 100.00%, PnL: $1092.75
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.1143698773041%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.91793412033834%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.91820856879427%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.39160034103423%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.05894745726991%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.92758453839305%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.79256408135817%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.63881666921931%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.77672802642492%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.34557353456194%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.46852552486723%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.3437737359538%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.43225506707093%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.84135895611391%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.27111582477215%
+2025-08-14 18:40:09,879 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.36515899566308%
+2025-08-14 18:40:09,879 - PaperTradingValidator - INFO - Day 2025-08-17: Trades: 6, Win Rate: 100.00%, PnL: $1092.75
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.79473256719452%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.70688730071313%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.35451446333602%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.95244632793053%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.34897537510875%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.06591904318675%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.4554030569982%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.83720640214968%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.52551088436996%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.68548501332411%
+2025-08-14 18:40:09,980 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.54581804958026%
+2025-08-14 18:40:09,980 - PaperTradingValidator - INFO - Day 2025-08-18: Trades: 6, Win Rate: 100.00%, PnL: $1092.75
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.2379589076629%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.56044026627612%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.89075180838479%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.50807011762498%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.82819063088766%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.2738752377062%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.915031891824%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.4579581317579%
+2025-08-14 18:40:10,080 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.67811043135062%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.09439264221172%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.2548784492715%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.03444897780696%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.41402264167306%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.10307119238014%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.00157685291651%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.03049326281159%
+2025-08-14 18:40:10,081 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.21706124979217%
+2025-08-14 18:40:10,081 - PaperTradingValidator - INFO - Day 2025-08-19: Trades: 6, Win Rate: 100.00%, PnL: $1092.75
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.17668782896418%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.84401235875131%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.50984258588453%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.76485290963664%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.87568641830806%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.33913017101715%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.0415636493483%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.0190135759935%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.67451558600328%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.48505124327481%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.93%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.47484441610837%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.68578716496782%
+2025-08-14 18:40:10,181 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.13004545448607%
+2025-08-14 18:40:10,181 - PaperTradingValidator - INFO - Day 2025-08-20: Trades: 6, Win Rate: 100.00%, PnL: $1092.75
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Ended session session_1755196808
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Session PnL: $0.00
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Session Win Rate: 0.00%
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - 📊 PAPER TRADING VALIDATION COMPLETE
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Duration: 7 days
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Total Trades: 0
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Win Rate: 0.00%
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Total PnL: $0.00
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Final Balance: $11092.75
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Profit %: 10.93%
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - Max Drawdown: 0.00%
+2025-08-14 18:40:10,283 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:18,444 - PaperTradingValidator - INFO - Started paper trading session: session_1755196818
+2025-08-14 18:40:18,444 - PaperTradingValidator - INFO - Starting paper trading validation for 7 days
+2025-08-14 18:40:18,445 - PaperTradingValidator - INFO - Target: 20 signals per day
+2025-08-14 18:40:18,445 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.93361139174554%
+2025-08-14 18:40:18,445 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.62611601431139%
+2025-08-14 18:40:18,445 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.00220464405915%
+2025-08-14 18:40:18,445 - PaperTradingValidator - INFO - Paper trade executed: EUR/PLN BUY $200.00 @ 1.19205
+2025-08-14 18:40:18,445 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:18,546 - PaperTradingValidator - INFO - Trade 1: WIN $170.63 | Balance: $10170.63
+2025-08-14 18:40:18,546 - PaperTradingValidator - INFO - Paper trade executed: USD/MXN SELL $203.41 @ 1.16280
+2025-08-14 18:40:18,546 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:18,646 - PaperTradingValidator - INFO - Trade 2: WIN $180.04 | Balance: $10350.67
+2025-08-14 18:40:18,646 - PaperTradingValidator - INFO - Paper trade executed: EUR/PLN BUY $207.01 @ 1.13052
+2025-08-14 18:40:18,647 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:18,747 - PaperTradingValidator - INFO - Trade 3: WIN $180.72 | Balance: $10531.39
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.363651508262%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.24538610521124%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.1483677249226%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.32259513156426%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.59406432466712%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.02682808889212%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.9862408528119%
+2025-08-14 18:40:18,747 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.99277780544996%
+2025-08-14 18:40:18,747 - PaperTradingValidator - INFO - Paper trade executed: GBP/CAD SELL $210.63 @ 1.11250
+2025-08-14 18:40:18,747 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:18,848 - PaperTradingValidator - INFO - Trade 4: WIN $194.30 | Balance: $10725.69
+2025-08-14 18:40:18,848 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.2342538828307%
+2025-08-14 18:40:18,848 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.99278245222598%
+2025-08-14 18:40:18,848 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.97220457305353%
+2025-08-14 18:40:18,848 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.68897723231532%
+2025-08-14 18:40:18,848 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.18557307502635%
+2025-08-14 18:40:18,848 - PaperTradingValidator - INFO - Day 2025-08-14: Trades: 4, Win Rate: 100.00%, PnL: $725.69
+2025-08-14 18:40:18,948 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.62366515928152%
+2025-08-14 18:40:18,949 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.31784575484893%
+2025-08-14 18:40:18,949 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.77767764237079%
+2025-08-14 18:40:18,949 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.54068483571216%
+2025-08-14 18:40:18,949 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.75964386746219%
+2025-08-14 18:40:18,949 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.25363331118402%
+2025-08-14 18:40:18,949 - PaperTradingValidator - INFO - Paper trade executed: AUD/NZD BUY $214.51 @ 1.18818
+2025-08-14 18:40:18,949 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:19,049 - PaperTradingValidator - INFO - Trade 5: WIN $194.88 | Balance: $10920.57
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.09765814211727%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.32893067933502%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.31496486645113%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.6863362781145%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.00012254273938%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.32077353113792%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.86154390923559%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.70181743732005%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.71087036271817%
+2025-08-14 18:40:19,049 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.32383825931367%
+2025-08-14 18:40:19,050 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.30828279719358%
+2025-08-14 18:40:19,050 - PaperTradingValidator - INFO - Day 2025-08-15: Trades: 5, Win Rate: 100.00%, PnL: $920.57
+2025-08-14 18:40:19,150 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.69177318922993%
+2025-08-14 18:40:19,150 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.31827262814512%
+2025-08-14 18:40:19,150 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.0903029395788%
+2025-08-14 18:40:19,150 - PaperTradingValidator - INFO - Paper trade executed: USD/HKD SELL $218.41 @ 1.11001
+2025-08-14 18:40:19,150 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:19,251 - PaperTradingValidator - INFO - Trade 6: WIN $203.68 | Balance: $11124.25
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.49443244508075%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.87450272780332%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.39810146219024%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.68041196027971%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.10720533845989%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.72305050134666%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.81496161842027%
+2025-08-14 18:40:19,251 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.65387676404299%
+2025-08-14 18:40:19,251 - PaperTradingValidator - INFO - Day 2025-08-16: Trades: 6, Win Rate: 100.00%, PnL: $1124.25
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.98504346423955%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.57276254583415%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.09928522716532%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.69161530458459%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.02279151335624%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.8178402791251%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.03919381452015%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.16903713844114%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.05764902500653%
+2025-08-14 18:40:19,351 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.98068187322174%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.35611030087968%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.31809477335162%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.87599713814384%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.81914759914687%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.68765612551168%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.49479269486426%
+2025-08-14 18:40:19,352 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.06765427929824%
+2025-08-14 18:40:19,352 - PaperTradingValidator - INFO - Day 2025-08-17: Trades: 6, Win Rate: 100.00%, PnL: $1124.25
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.70738137504594%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.20968983237738%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.43336472160821%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.05366447512706%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.9886593241691%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.22127466551062%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.15782384227954%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.44407971543198%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.58586554318971%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.89671503012028%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.07052737063572%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.67970330409798%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,452 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.49539550854104%
+2025-08-14 18:40:19,453 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.20606061564186%
+2025-08-14 18:40:19,453 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.06664647774477%
+2025-08-14 18:40:19,453 - PaperTradingValidator - INFO - Day 2025-08-18: Trades: 6, Win Rate: 100.00%, PnL: $1124.25
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.80626169131475%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.00473489494668%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.2462276338954%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.98096877099354%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.50357288232317%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.05388065424788%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.91689304078099%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.879036782934%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.52177790365515%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.37477291956709%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.23175034757881%
+2025-08-14 18:40:19,553 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.14544708556119%
+2025-08-14 18:40:19,553 - PaperTradingValidator - INFO - Day 2025-08-19: Trades: 6, Win Rate: 100.00%, PnL: $1124.25
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.29837376492256%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.74533414713699%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.44679500662275%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.27867209390399%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.23092517308285%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.183072629807%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.05868483166654%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.96600020119543%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.68495409956964%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.66848357789506%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 11.24%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.22627910906878%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.2530740911905%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.89775394386416%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.04838525885538%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.78341017643432%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.03541670591235%
+2025-08-14 18:40:19,654 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.53806234951641%
+2025-08-14 18:40:19,654 - PaperTradingValidator - INFO - Day 2025-08-20: Trades: 6, Win Rate: 100.00%, PnL: $1124.25
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Ended session session_1755196818
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Session PnL: $0.00
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Session Win Rate: 0.00%
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - 📊 PAPER TRADING VALIDATION COMPLETE
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Duration: 7 days
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Total Trades: 0
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Win Rate: 0.00%
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Total PnL: $0.00
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Final Balance: $11124.25
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Profit %: 11.24%
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - Max Drawdown: 0.00%
+2025-08-14 18:40:19,758 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:23,592 - PaperTradingValidator - INFO - Started paper trading session: session_1755196823
+2025-08-14 18:40:23,592 - PaperTradingValidator - INFO - Starting paper trading validation for 7 days
+2025-08-14 18:40:23,592 - PaperTradingValidator - INFO - Target: 20 signals per day
+2025-08-14 18:40:23,592 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.80217957562816%
+2025-08-14 18:40:23,592 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.25683217764572%
+2025-08-14 18:40:23,592 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.36450208658617%
+2025-08-14 18:40:23,592 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.65698236525377%
+2025-08-14 18:40:23,592 - PaperTradingValidator - INFO - Paper trade executed: AUD/USD SELL $200.00 @ 1.13708
+2025-08-14 18:40:23,592 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:23,693 - PaperTradingValidator - INFO - Trade 1: WIN $176.25 | Balance: $10176.25
+2025-08-14 18:40:23,693 - PaperTradingValidator - INFO - Paper trade executed: USD/SEK BUY $203.52 @ 1.18150
+2025-08-14 18:40:23,693 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:23,794 - PaperTradingValidator - INFO - Trade 2: WIN $172.56 | Balance: $10348.81
+2025-08-14 18:40:23,794 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.85478689374435%
+2025-08-14 18:40:23,794 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.38490512098136%
+2025-08-14 18:40:23,794 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.06017318796266%
+2025-08-14 18:40:23,794 - PaperTradingValidator - INFO - Paper trade executed: AUD/CHF SELL $206.98 @ 1.10012
+2025-08-14 18:40:23,794 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:23,894 - PaperTradingValidator - INFO - Trade 3: LOSS $-206.98 | Balance: $10141.83
+2025-08-14 18:40:23,894 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.01156244765184%
+2025-08-14 18:40:23,895 - PaperTradingValidator - INFO - Paper trade executed: USD/CHF SELL $202.84 @ 1.15327
+2025-08-14 18:40:23,895 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:23,995 - PaperTradingValidator - INFO - Trade 4: WIN $189.82 | Balance: $10331.65
+2025-08-14 18:40:23,995 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.35369034554137%
+2025-08-14 18:40:23,995 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.74961962677087%
+2025-08-14 18:40:23,995 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.8620661833771%
+2025-08-14 18:40:23,995 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.88007725059273%
+2025-08-14 18:40:23,995 - PaperTradingValidator - INFO - Paper trade executed: GBP/JPY SELL $206.63 @ 1.11076
+2025-08-14 18:40:23,995 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,096 - PaperTradingValidator - INFO - Trade 5: LOSS $-206.63 | Balance: $10125.02
+2025-08-14 18:40:24,096 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.23526896496126%
+2025-08-14 18:40:24,096 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.84187774093787%
+2025-08-14 18:40:24,096 - PaperTradingValidator - INFO - Paper trade executed: EUR/ZAR SELL $202.50 @ 1.11713
+2025-08-14 18:40:24,096 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,197 - PaperTradingValidator - INFO - Trade 6: WIN $170.53 | Balance: $10295.55
+2025-08-14 18:40:24,197 - PaperTradingValidator - INFO - Day 2025-08-14: Trades: 6, Win Rate: 66.67%, PnL: $295.55
+2025-08-14 18:40:24,297 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.83062288831849%
+2025-08-14 18:40:24,297 - PaperTradingValidator - INFO - Paper trade executed: GBP/USD SELL $205.91 @ 1.17944
+2025-08-14 18:40:24,297 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,398 - PaperTradingValidator - INFO - Trade 7: WIN $185.12 | Balance: $10480.67
+2025-08-14 18:40:24,398 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.81800856471565%
+2025-08-14 18:40:24,398 - PaperTradingValidator - INFO - Paper trade executed: NIKKEI BUY $209.61 @ 1.15012
+2025-08-14 18:40:24,398 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,499 - PaperTradingValidator - INFO - Trade 8: WIN $171.64 | Balance: $10652.31
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.01077433714045%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.23633254808753%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.93546288571824%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.14047592634874%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.64934698566356%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.05674129283537%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.94657007750668%
+2025-08-14 18:40:24,499 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.26492426151513%
+2025-08-14 18:40:24,499 - PaperTradingValidator - INFO - Paper trade executed: USD/MXN SELL $213.05 @ 1.12343
+2025-08-14 18:40:24,499 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,599 - PaperTradingValidator - INFO - Trade 9: WIN $193.10 | Balance: $10845.41
+2025-08-14 18:40:24,600 - PaperTradingValidator - INFO - Paper trade executed: USD/SEK SELL $216.91 @ 1.16057
+2025-08-14 18:40:24,600 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,700 - PaperTradingValidator - INFO - Trade 10: LOSS $-216.91 | Balance: $10628.50
+2025-08-14 18:40:24,700 - PaperTradingValidator - INFO - Paper trade executed: AUD/CAD SELL $212.57 @ 1.10594
+2025-08-14 18:40:24,700 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:24,801 - PaperTradingValidator - INFO - Trade 11: WIN $180.86 | Balance: $10809.36
+2025-08-14 18:40:24,801 - PaperTradingValidator - INFO - Day 2025-08-15: Trades: 11, Win Rate: 72.73%, PnL: $809.36
+2025-08-14 18:40:24,901 - PaperTradingValidator - INFO - Paper trade executed: AUD/USD BUY $216.19 @ 1.13132
+2025-08-14 18:40:24,901 - PaperTradingValidator - ERROR - Error saving trade to database: 'str' object has no attribute 'isoformat'
+2025-08-14 18:40:25,002 - PaperTradingValidator - INFO - Trade 12: WIN $198.71 | Balance: $11008.07
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.0684285881841%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.3329670402843%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.08555150425808%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.09683096725372%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.42996330628584%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.38050455565954%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.66738354017554%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.03246172157833%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.34314580047723%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.62010263351239%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.05033518879024%
+2025-08-14 18:40:25,002 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.05425252912542%
+2025-08-14 18:40:25,003 - PaperTradingValidator - INFO - Day 2025-08-16: Trades: 12, Win Rate: 75.00%, PnL: $1008.07
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.45901005753896%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.99260944576596%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.29952209789715%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.72689738650351%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.12017771431422%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.3398820489285%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.28020957943733%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.11764020035368%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.20250845799967%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.65730232773255%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.7305538228553%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.29899284053165%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.2068510686489%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.4229301819967%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.85500333692917%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.97413101926892%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.00980957650849%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.36726966150462%
+2025-08-14 18:40:25,103 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.54510377492761%
+2025-08-14 18:40:25,103 - PaperTradingValidator - INFO - Day 2025-08-17: Trades: 12, Win Rate: 75.00%, PnL: $1008.07
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.36350671039447%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.39464770817%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.75391981026824%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.59814474520928%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.30089884778275%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.52192000541505%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.79950486347386%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.62525038857157%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.37460320903467%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,204 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.06740150150857%
+2025-08-14 18:40:25,205 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.05900508088249%
+2025-08-14 18:40:25,205 - PaperTradingValidator - INFO - Day 2025-08-18: Trades: 12, Win Rate: 75.00%, PnL: $1008.07
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.555111009663%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.13819527618827%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.89720931543437%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.62315037140306%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.90243520352531%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.65379385354932%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.80066021812269%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 90.55151054677057%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.08892179472873%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.41422498137185%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.80397461603097%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 89.88768898585981%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.86437083525887%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,306 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.2527264397039%
+2025-08-14 18:40:25,306 - PaperTradingValidator - INFO - Day 2025-08-19: Trades: 12, Win Rate: 75.00%, PnL: $1008.07
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.52536503317658%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.02074630656352%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.61913616450803%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,407 - PaperTradingValidator - WARNING - Signal accuracy too low: 92.10093321514782%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.56743143091362%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.9571980105518%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Daily loss limit exceeded: 10.08%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Risk limits exceeded, skipping trade
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 86.79094457351847%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 88.65256332534175%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.22020742610265%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.05822434344289%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.97912122246689%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 85.14597212627552%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 94.95713218876502%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 87.44077292784152%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 93.53223613690994%
+2025-08-14 18:40:25,408 - PaperTradingValidator - WARNING - Signal accuracy too low: 91.13568848225788%
+2025-08-14 18:40:25,409 - PaperTradingValidator - INFO - Day 2025-08-20: Trades: 12, Win Rate: 75.00%, PnL: $1008.07
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Ended session session_1755196823
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Session PnL: $0.00
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Session Win Rate: 0.00%
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - 📊 PAPER TRADING VALIDATION COMPLETE
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - ============================================================
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Duration: 7 days
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Total Trades: 0
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Win Rate: 0.00%
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Total PnL: $0.00
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Final Balance: $11008.07
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Profit %: 10.08%
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - Max Drawdown: 2.16%
+2025-08-14 18:40:25,511 - PaperTradingValidator - INFO - ============================================================
