@@ -1258,6 +1258,89 @@ Use the buttons below to access current AI features
             self.bot_status['active_sessions'] = 0
             self.logger.info("🛑 Ultimate AI bot stopped")
 
+    async def run_in_existing_loop(self):
+        """🚀 Run the Ultimate AI Telegram bot within existing event loop"""
+        try:
+            self.logger.info("🚀 Starting Ultimate AI Trading System...")
+            self.is_running = True
+            self.bot_status['active_sessions'] = 1
+            
+            # Initialize the application first
+            await self.application.initialize()
+            await self.application.start()
+            
+            # Start the updater (this is the non-blocking way)
+            await self.application.updater.start_polling(drop_pending_updates=True)
+            
+            self.logger.info("✅ Ultimate AI bot initialized and polling started")
+            
+            # Keep the method running without blocking
+            try:
+                # This will keep the bot running until interrupted
+                await asyncio.Event().wait()
+            except asyncio.CancelledError:
+                self.logger.info("🛑 Bot cancellation requested")
+                
+        except Exception as e:
+            self.logger.error(f"❌ Ultimate AI bot runtime error: {e}")
+            raise
+        finally:
+            try:
+                # Proper cleanup
+                if hasattr(self.application.updater, 'stop'):
+                    await self.application.updater.stop()
+                await self.application.stop()
+                await self.application.shutdown()
+            except Exception as cleanup_error:
+                self.logger.error(f"❌ Cleanup error: {cleanup_error}")
+            
+            self.is_running = False
+            self.bot_status['active_sessions'] = 0
+            self.logger.info("🛑 Ultimate AI bot stopped")
+
+    async def run_in_launcher_context(self):
+        """🚀 Run bot in launcher context - proper async implementation"""
+        try:
+            self.logger.info("🚀 Starting Ultimate AI Trading System in launcher context...")
+            self.is_running = True
+            self.bot_status['active_sessions'] = 1
+            
+            # Initialize the application
+            await self.application.initialize()
+            await self.application.start()
+            
+            # Start polling without blocking the event loop
+            await self.application.updater.start_polling(drop_pending_updates=True)
+            
+            self.logger.info("✅ Ultimate AI bot started successfully in launcher context")
+            
+            # Return immediately to allow launcher to continue
+            # The bot will keep running in the background
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"❌ Ultimate AI bot launcher context error: {e}")
+            self.is_running = False
+            self.bot_status['active_sessions'] = 0
+            raise
+            
+    async def stop_bot(self):
+        """🛑 Gracefully stop the bot"""
+        try:
+            if self.is_running:
+                self.logger.info("🛑 Stopping Ultimate AI bot...")
+                
+                if hasattr(self.application.updater, 'stop'):
+                    await self.application.updater.stop()
+                await self.application.stop()
+                await self.application.shutdown()
+                
+                self.is_running = False
+                self.bot_status['active_sessions'] = 0
+                self.logger.info("✅ Ultimate AI bot stopped successfully")
+        except Exception as e:
+            self.logger.error(f"❌ Error stopping bot: {e}")
+
 if __name__ == "__main__":
     bot = UltimateAITradingBot()
     asyncio.run(bot.run())

@@ -341,14 +341,14 @@ class UltimateAIUniversalLauncher:
             # Import and create Ultimate AI bot
             from ultimate_ai_trading_bot import UltimateAITradingBot
             
-            bot = UltimateAITradingBot()
+            self.bot = UltimateAITradingBot()
             self.is_running = True
             
             # Start AI monitoring thread
             monitoring_thread = threading.Thread(target=self.ai_monitoring_loop, daemon=True)
             monitoring_thread.start()
             
-            self.logger.info("✅ Ultimate AI bot started successfully")
+            self.logger.info("✅ Ultimate AI bot created successfully")
             self.logger.info("🤖 AI/ML models are active and ready!")
             self.logger.info("📱 Bot is ready to respond to all commands!")
             self.logger.info("🔘 Interactive navigation buttons are working perfectly!")
@@ -356,12 +356,62 @@ class UltimateAIUniversalLauncher:
             self.logger.info("🔶 OTC pairs active on weekdays, 🔷 Regular pairs active on weekends")
             self.logger.info("🧠 AI technical analysis engine is operational")
             
-            # Run the Ultimate AI bot
-            await bot.run()
+            # Start the bot in launcher context (non-blocking)
+            success = await self.bot.run_in_launcher_context()
+            
+            if success:
+                self.logger.info("✅ Ultimate AI bot started successfully in launcher context")
+                
+                # Create a task to keep the system running
+                self.bot_task = asyncio.create_task(self.keep_bot_alive())
+                
+                # Wait for the bot task to complete or be cancelled
+                await self.bot_task
+            else:
+                raise Exception("Failed to start bot in launcher context")
             
         except Exception as e:
             self.logger.error(f"❌ Ultimate AI bot startup failed: {e}")
             raise
+    
+    async def keep_bot_alive(self):
+        """🔄 Keep the bot alive and monitor its health"""
+        try:
+            self.logger.info("🔄 Starting bot monitoring loop...")
+            while self.is_running and not self.shutdown_requested:
+                # Check if bot is still running
+                if hasattr(self, 'bot') and self.bot.is_running:
+                    # Log status every 5 minutes
+                    await asyncio.sleep(300)
+                    self.logger.info("💓 Ultimate AI bot heartbeat - System operational")
+                else:
+                    self.logger.warning("⚠️ Bot appears to have stopped")
+                    break
+                    
+        except asyncio.CancelledError:
+            self.logger.info("🛑 Bot monitoring cancelled")
+        except Exception as e:
+            self.logger.error(f"❌ Bot monitoring error: {e}")
+    
+    async def stop_ultimate_ai_bot(self):
+        """🛑 Stop the Ultimate AI bot gracefully"""
+        try:
+            if hasattr(self, 'bot_task') and not self.bot_task.done():
+                self.logger.info("🛑 Cancelling bot task...")
+                self.bot_task.cancel()
+                try:
+                    await self.bot_task
+                except asyncio.CancelledError:
+                    pass
+            
+            if hasattr(self, 'bot') and self.bot.is_running:
+                self.logger.info("🛑 Stopping Ultimate AI bot...")
+                await self.bot.stop_bot()
+            
+            self.logger.info("✅ Ultimate AI bot stopped successfully")
+            
+        except Exception as e:
+            self.logger.error(f"❌ Error stopping Ultimate AI bot: {e}")
     
     def ai_monitoring_loop(self):
         """📊 Ultimate AI monitoring loop"""
@@ -406,8 +456,31 @@ class UltimateAIUniversalLauncher:
         """🛑 Stop the Ultimate AI system gracefully"""
         self.logger.info("🛑 Stopping Ultimate AI Trading System...")
         self.is_running = False
+        self.shutdown_requested = True
         
-        if self.bot_process:
+        # Try to stop the bot gracefully using the new async method
+        try:
+            if hasattr(self, 'bot') and self.bot and self.bot.is_running:
+                # Create a new event loop for cleanup if needed
+                loop = None
+                try:
+                    loop = asyncio.get_running_loop()
+                except RuntimeError:
+                    # No running loop, create one for cleanup
+                    loop = asyncio.new_event_loop()
+                    asyncio.set_event_loop(loop)
+                    try:
+                        loop.run_until_complete(self.stop_ultimate_ai_bot())
+                    finally:
+                        loop.close()
+                else:
+                    # Running loop exists, create task
+                    asyncio.create_task(self.stop_ultimate_ai_bot())
+        except Exception as e:
+            self.logger.error(f"❌ Error during async bot shutdown: {e}")
+        
+        # Fallback: terminate any remaining bot process
+        if hasattr(self, 'bot_process') and self.bot_process:
             try:
                 self.bot_process.terminate()
                 self.logger.info("✅ AI bot process terminated")
@@ -415,15 +488,18 @@ class UltimateAIUniversalLauncher:
                 self.logger.error(f"❌ Error stopping AI bot process: {e}")
         
         # Log final AI stats
-        final_status = self.monitor.get_ai_system_status()
-        self.logger.info("📊 Final AI System Statistics:")
-        self.logger.info(f"   Total Uptime: {final_status['uptime']}")
-        self.logger.info(f"   AI Signals Generated: {final_status['signals_generated']}")
-        self.logger.info(f"   AI Predictions Made: {final_status['ai_predictions_made']}")
-        self.logger.info(f"   Commands Processed: {final_status['commands_processed']}")
-        self.logger.info(f"   OTC Signals (Weekdays): {final_status['otc_signals']}")
-        self.logger.info(f"   Regular Signals (Weekends): {final_status['regular_signals']}")
-        self.logger.info(f"   AI Model Accuracy: {final_status['ai_accuracy']}%")
+        try:
+            final_status = self.monitor.get_ai_system_status()
+            self.logger.info("📊 Final AI System Statistics:")
+            self.logger.info(f"   Total Uptime: {final_status['uptime']}")
+            self.logger.info(f"   AI Signals Generated: {final_status['signals_generated']}")
+            self.logger.info(f"   AI Predictions Made: {final_status['ai_predictions_made']}")
+            self.logger.info(f"   Commands Processed: {final_status['commands_processed']}")
+            self.logger.info(f"   OTC Signals (Weekdays): {final_status['otc_signals']}")
+            self.logger.info(f"   Regular Signals (Weekends): {final_status['regular_signals']}")
+            self.logger.info(f"   AI Model Accuracy: {final_status['ai_accuracy']}%")
+        except Exception as e:
+            self.logger.error(f"❌ Error getting final stats: {e}")
         
         self.logger.info("🛑 Ultimate AI system shutdown completed")
     
