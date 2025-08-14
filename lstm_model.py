@@ -165,7 +165,20 @@ class LSTMTradingModel:
             sequences.append(data[i-self.sequence_length:i])
             targets.append(target[i])
         
-        return np.array(sequences), np.array(targets)
+        sequences = np.array(sequences)
+        targets = np.array(targets)
+        
+        # Ensure consistent shapes
+        if len(sequences.shape) != 3:
+            self.logger.error(f"Invalid sequence shape: {sequences.shape}")
+            return None, None
+            
+        if sequences.shape[2] != self.features_count:
+            self.logger.error(f"Feature count mismatch: expected {self.features_count}, got {sequences.shape[2]}")
+            return None, None
+        
+        self.logger.info(f"Created sequences: {sequences.shape}, targets: {targets.shape}")
+        return sequences, targets
     
     def build_model(self):
         """Build advanced LSTM model architecture"""
@@ -241,63 +254,98 @@ class LSTMTradingModel:
         """Train the LSTM model with comprehensive data preparation"""
         self.logger.info("Starting model training...")
         
-        # Calculate technical indicators
-        processed_data = self.calculate_technical_indicators(data)
-        
-        # Prepare features
-        features = self.prepare_features(processed_data)
-        
-        # Generate labels
-        labels = self.generate_labels(processed_data)
-        
-        # Scale features
-        features_scaled = self.feature_scaler.fit_transform(features)
-        
-        # Create sequences
-        X, y = self.create_sequences(features_scaled, labels)
-        
-        # Split data
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=validation_split, random_state=42, stratify=y
-        )
-        
-        # Build model
-        self.build_model()
-        
-        # Callbacks
-        callbacks = [
-            EarlyStopping(patience=20, restore_best_weights=True),
-            ReduceLROnPlateau(factor=0.5, patience=10),
-            ModelCheckpoint(
-                f"{DATABASE_CONFIG['models_dir']}/best_model.h5",
-                save_best_only=True,
-                monitor='val_accuracy'
+        try:
+            # Calculate technical indicators
+            processed_data = self.calculate_technical_indicators(data)
+            
+            # Prepare features
+            features = self.prepare_features(processed_data)
+            
+            # Generate labels
+            labels = self.generate_labels(processed_data)
+            
+            # Validate data shapes
+            if features is None or labels is None:
+                self.logger.error("Failed to prepare features or labels")
+                return None
+                
+            if len(features) != len(labels):
+                self.logger.error(f"Feature/label length mismatch: {len(features)} vs {len(labels)}")
+                return None
+            
+            # Scale features
+            features_scaled = self.feature_scaler.fit_transform(features)
+            
+            # Create sequences
+            X, y = self.create_sequences(features_scaled, labels)
+            
+            if X is None or y is None:
+                self.logger.error("Failed to create sequences")
+                return None
+            
+            # Validate sequence shapes
+            if X.shape[0] != y.shape[0]:
+                self.logger.error(f"Sequence count mismatch: X={X.shape[0]}, y={y.shape[0]}")
+                return None
+                
+            self.logger.info(f"Training data shapes - X: {X.shape}, y: {y.shape}")
+            
+            # Split data with stratification
+            try:
+                X_train, X_test, y_train, y_test = train_test_split(
+                    X, y, test_size=validation_split, random_state=42, stratify=y
+                )
+            except ValueError as e:
+                self.logger.warning(f"Stratification failed: {e}, using random split")
+                X_train, X_test, y_train, y_test = train_test_split(
+                    X, y, test_size=validation_split, random_state=42
+                )
+            
+            # Build model
+            self.build_model()
+            
+            # Callbacks
+            callbacks = [
+                EarlyStopping(patience=20, restore_best_weights=True),
+                ReduceLROnPlateau(factor=0.5, patience=10),
+                ModelCheckpoint(
+                    f"{DATABASE_CONFIG['models_dir']}/best_model.h5",
+                    save_best_only=True,
+                    monitor='val_accuracy'
+                )
+            ]
+            
+            # Train model
+            epochs = epochs or LSTM_CONFIG["epochs"]
+            self.logger.info(f"Starting training with {epochs} epochs")
+            
+            history = self.model.fit(
+                X_train, y_train,
+                validation_data=(X_test, y_test),
+                epochs=epochs,
+                batch_size=LSTM_CONFIG["batch_size"],
+                callbacks=callbacks,
+                verbose=1
             )
-        ]
-        
-        # Train model
-        epochs = epochs or LSTM_CONFIG["epochs"]
-        history = self.model.fit(
-            X_train, y_train,
-            validation_data=(X_test, y_test),
-            epochs=epochs,
-            batch_size=LSTM_CONFIG["batch_size"],
-            callbacks=callbacks,
-            verbose=1
-        )
-        
-        # Evaluate model
-        train_accuracy = self.model.evaluate(X_train, y_train, verbose=0)[1]
-        test_accuracy = self.model.evaluate(X_test, y_test, verbose=0)[1]
-        
-        self.logger.info(f"Training accuracy: {train_accuracy:.4f}")
-        self.logger.info(f"Test accuracy: {test_accuracy:.4f}")
-        
-        # Save scalers
-        joblib.dump(self.feature_scaler, f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl")
-        
-        self.is_trained = True
-        return history
+            
+            # Evaluate model
+            train_accuracy = self.model.evaluate(X_train, y_train, verbose=0)[1]
+            test_accuracy = self.model.evaluate(X_test, y_test, verbose=0)[1]
+            
+            self.logger.info(f"Training accuracy: {train_accuracy:.4f}")
+            self.logger.info(f"Test accuracy: {test_accuracy:.4f}")
+            
+            # Save scalers
+            joblib.dump(self.feature_scaler, f"{DATABASE_CONFIG['models_dir']}/feature_scaler.pkl")
+            
+            self.is_trained = True
+            return history
+            
+        except Exception as e:
+            self.logger.error(f"Training failed with error: {e}")
+            import traceback
+            self.logger.error(traceback.format_exc())
+            return None
     
     def predict_signal(self, data):
         """Predict trading signal for new data"""

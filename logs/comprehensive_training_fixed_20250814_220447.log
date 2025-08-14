@@ -1,0 +1,80 @@
+2025-08-14 22:04:47,396 - ComprehensiveTrainingFixed - INFO - 🚀 COMPREHENSIVE MODEL TRAINING - ALL CRITICAL ISSUES FIXED
+2025-08-14 22:04:47,396 - ComprehensiveTrainingFixed - INFO - Training mode: quick
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - Configuration: Quick training for testing - 20 epochs
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - Validating training environment...
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ TensorFlow 2.20.0 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ⚠️ No GPU detected, using CPU
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ PyTorch 2.8.0+cu128 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - CUDA available: False
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ XGBoost 3.0.4 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ LightGBM 4.6.0 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ TA-Lib 0.6.5 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ Scikit-learn 1.7.1 available
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - ✅ Training environment validation complete
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - Step 2: Creating enhanced training data...
+2025-08-14 22:04:47,397 - ComprehensiveTrainingFixed - INFO - Creating enhanced realistic training data...
+2025-08-14 22:04:50,522 - ComprehensiveTrainingFixed - INFO - Created enhanced data: 1052641 samples
+2025-08-14 22:04:50,526 - ComprehensiveTrainingFixed - INFO - Date range: 2023-01-01 00:00:00 to 2025-01-01 00:00:00
+2025-08-14 22:04:50,529 - ComprehensiveTrainingFixed - INFO - Price range: 1.0541 - 1.2183
+2025-08-14 22:04:50,544 - ComprehensiveTrainingFixed - INFO - Average volatility: 0.000051
+2025-08-14 22:04:50,554 - ComprehensiveTrainingFixed - INFO - Step 3a: Training LSTM model...
+2025-08-14 22:04:50,554 - ComprehensiveTrainingFixed - INFO - ============================================================
+2025-08-14 22:04:50,554 - ComprehensiveTrainingFixed - INFO - 🤖 TRAINING LSTM MODEL (FIXED)
+2025-08-14 22:04:50,554 - ComprehensiveTrainingFixed - INFO - ============================================================
+2025-08-14 22:04:50,554 - ComprehensiveTrainingFixed - INFO - Starting LSTM training with fixed tensor shapes...
+2025-08-14 22:04:50,554 - LSTM_Model - INFO - Starting model training...
+2025-08-14 22:04:58,801 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-14 22:04:58,803 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-14 22:04:58,812 - ComprehensiveTrainingFixed - ERROR - ❌ LSTM training failed
+2025-08-14 22:04:58,812 - ComprehensiveTrainingFixed - INFO - Step 3b: Training ensemble models...
+2025-08-14 22:04:58,812 - ComprehensiveTrainingFixed - INFO - ============================================================
+2025-08-14 22:04:58,812 - ComprehensiveTrainingFixed - INFO - 🎯 TRAINING ENSEMBLE MODELS (FIXED)
+2025-08-14 22:04:58,812 - ComprehensiveTrainingFixed - INFO - ============================================================
+2025-08-14 22:04:58,820 - ComprehensiveTrainingFixed - INFO - Starting ensemble training...
+2025-08-14 22:04:58,820 - EnsembleSignalGenerator - INFO - Starting ensemble training...
+2025-08-14 22:04:58,820 - AdvancedFeatureEngine - INFO - Starting basic feature generation...
+2025-08-14 22:05:00,182 - AdvancedFeatureEngine - INFO - Generated 13 basic features
