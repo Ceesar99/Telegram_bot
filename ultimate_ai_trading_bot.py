@@ -1258,6 +1258,24 @@ Use the buttons below to access current AI features
             self.bot_status['active_sessions'] = 0
             self.logger.info("🛑 Ultimate AI bot stopped")
 
+    async def run_in_existing_loop(self):
+        """🚀 Run the Ultimate AI Telegram bot within existing event loop"""
+        try:
+            self.logger.info("🚀 Starting Ultimate AI Trading System...")
+            self.is_running = True
+            self.bot_status['active_sessions'] = 1
+            
+            # Start the bot with AI features - using existing event loop
+            await self.application.run_polling(drop_pending_updates=True)
+            
+        except Exception as e:
+            self.logger.error(f"❌ Ultimate AI bot runtime error: {e}")
+            raise
+        finally:
+            self.is_running = False
+            self.bot_status['active_sessions'] = 0
+            self.logger.info("🛑 Ultimate AI bot stopped")
+
 if __name__ == "__main__":
     bot = UltimateAITradingBot()
     asyncio.run(bot.run())

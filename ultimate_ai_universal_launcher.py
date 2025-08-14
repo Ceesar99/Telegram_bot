@@ -356,8 +356,8 @@ class UltimateAIUniversalLauncher:
             self.logger.info("🔶 OTC pairs active on weekdays, 🔷 Regular pairs active on weekends")
             self.logger.info("🧠 AI technical analysis engine is operational")
             
-            # Run the Ultimate AI bot
-            await bot.run()
+            # Run the Ultimate AI bot within existing event loop
+            await bot.run_in_existing_loop()
             
         except Exception as e:
             self.logger.error(f"❌ Ultimate AI bot startup failed: {e}")
