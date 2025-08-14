@@ -602,6 +602,52 @@ class AdvancedFeatureEngine:
             self.logger.error(f"Error generating real-time features: {e}")
             return {}
     
+    def generate_features(self, data: pd.DataFrame) -> pd.DataFrame:
+        """Generate basic features for ensemble training (simplified version)"""
+        try:
+            self.logger.info("Starting basic feature generation...")
+            
+            # Start with original data
+            features_df = data.copy()
+            
+            # Basic technical indicators
+            features_df.update(self._calculate_basic_indicators(data))
+            
+            # Market regime features
+            features_df['volatility_regime'] = self.regime_detector.detect_volatility_regimes(data)
+            features_df['trend_regime'] = self.regime_detector.detect_trend_regimes(data)
+            features_df['momentum_regime'] = self.regime_detector.detect_momentum_regimes(data)
+            
+            # Volume features (simplified)
+            if 'volume' in data.columns:
+                features_df['volume_ratio'] = data['volume'] / data['volume'].rolling(window=20).mean()
+                features_df['volume_sma'] = data['volume'].rolling(window=20).mean()
+            else:
+                features_df['volume_ratio'] = 1
+                features_df['volume_sma'] = 0
+            
+            # Volatility features (simplified)
+            returns = data['close'].pct_change()
+            features_df['volatility'] = returns.rolling(window=20).std()
+            features_df['volatility_cluster'] = self.volatility_analyzer.detect_volatility_clusters(data)
+            
+            # Support and resistance levels
+            features_df.update(self._calculate_support_resistance(data))
+            
+            # Price action patterns
+            features_df.update(self._calculate_price_patterns(data))
+            
+            # Clean up features
+            features_df = self._clean_features(features_df)
+            
+            self.logger.info(f"Generated {len(features_df.columns)} basic features")
+            return features_df
+            
+        except Exception as e:
+            self.logger.error(f"Error generating basic features: {e}")
+            # Return original data with basic indicators if error occurs
+            return self._calculate_basic_indicators(data)
+    
     def _calculate_basic_indicators(self, data: pd.DataFrame) -> Dict[str, pd.Series]:
         """Calculate basic technical indicators"""
         try:

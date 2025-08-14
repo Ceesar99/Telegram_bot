@@ -1,0 +1,21 @@
+2025-08-14 18:15:29,153 - ComprehensiveTrainingValidation - INFO - 🚀 COMPREHENSIVE AI/ML TRAINING & VALIDATION STARTED
+2025-08-14 18:15:29,153 - ComprehensiveTrainingValidation - INFO - Mode: quick
+2025-08-14 18:15:29,153 - ComprehensiveTrainingValidation - INFO - Quick mode: 50 epochs, 7 days validation, 10 signals/day
+2025-08-14 18:15:29,153 - ComprehensiveTrainingValidation - INFO - Step 1: Creating enhanced training data...
+2025-08-14 18:15:29,153 - ComprehensiveTrainingValidation - INFO - Creating enhanced training data with realistic market patterns...
+2025-08-14 18:15:29,230 - ComprehensiveTrainingValidation - INFO - Created enhanced training data: 26305 samples from 2022-01-01 00:00:00 to 2025-01-01 00:00:00
+2025-08-14 18:15:29,230 - ComprehensiveTrainingValidation - INFO - Data shape: (26305, 6)
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - Price range: 0.6211 - 1.4239
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - Step 2: Training LSTM model...
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - ============================================================
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - 🤖 TRAINING LSTM MODEL
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - ============================================================
+2025-08-14 18:15:29,231 - ComprehensiveTrainingValidation - INFO - Starting LSTM model training...
+2025-08-14 18:15:29,231 - LSTM_Model - INFO - Starting model training...
+2025-08-14 18:16:00,026 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:18:51,756 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:20:56,397 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:21:37,353 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:23:06,889 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:27:39,601 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-14 18:29:41,046 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 

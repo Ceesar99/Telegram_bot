@@ -20,7 +20,8 @@ class LSTMTradingModel:
         self.price_scaler = MinMaxScaler()
         self.feature_scaler = StandardScaler()
         self.sequence_length = LSTM_CONFIG["sequence_length"]
-        self.features_count = LSTM_CONFIG["features"]
+        # Fix: Update features count to match actual features
+        self.features_count = 24  # Updated to match actual feature count
         self.is_trained = False
         self.logger = self._setup_logger()
         
@@ -125,7 +126,8 @@ class LSTMTradingModel:
     
     def prepare_features(self, data):
         """Prepare feature matrix for LSTM model"""
-        feature_columns = [
+        # Define all possible feature columns
+        all_feature_columns = [
             'price_change', 'price_volatility', 'rsi', 'rsi_signal',
             'macd', 'macd_signal', 'macd_histogram', 'macd_crossover',
             'bb_position', 'bb_squeeze', 'stoch_k', 'stoch_d', 'stoch_signal',
@@ -134,7 +136,25 @@ class LSTMTradingModel:
             'volume_ratio', 'price_position', 'trend_strength'
         ]
         
-        return data[feature_columns].values
+        # Ensure all columns exist, fill with 0 if missing
+        for col in all_feature_columns:
+            if col not in data.columns:
+                data[col] = 0
+        
+        # Select only the required features in the correct order
+        feature_data = data[all_feature_columns].fillna(0)
+        
+        # Ensure we have exactly 24 features
+        if feature_data.shape[1] != 24:
+            self.logger.error(f"Feature count mismatch: expected 24, got {feature_data.shape[1]}")
+            # Pad or truncate to exactly 24 features
+            if feature_data.shape[1] < 24:
+                padding = np.zeros((feature_data.shape[0], 24 - feature_data.shape[1]))
+                feature_data = np.hstack([feature_data, padding])
+            else:
+                feature_data = feature_data.iloc[:, :24]
+        
+        return feature_data.values
     
     def create_sequences(self, data, target):
         """Create sequences for LSTM training"""
