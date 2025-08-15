@@ -1,0 +1,67 @@
+{
+  "generated_at": "2025-08-15T10:14:12.632984",
+  "system_info": {
+    "python_version": "3.13.3",
+    "platform": "linux",
+    "architecture": "64bit"
+  },
+  "dependencies": {
+    "tensorflow": "unknown",
+    "torch": "unknown",
+    "xgboost": "unknown",
+    "scikit-learn": "unknown",
+    "pandas": "unknown",
+    "numpy": "unknown",
+    "scipy": "unknown",
+    "matplotlib": "unknown",
+    "seaborn": "unknown",
+    "plotly": "unknown",
+    "talib": "unknown",
+    "optuna": "unknown",
+    "gym": "unknown",
+    "stable-baselines3": "unknown",
+    "transformers": "unknown",
+    "datasets": "unknown"
+  },
+  "model_artifacts": {
+    "feature_scaler.pkl": {
+      "hash": "3e8ea86c7826e8a045657b90456081ccef3e5a66c535deac84f4d3aa46c03693",
+      "size_bytes": 1191,
+      "modified": "2025-08-14T21:21:09.996263"
+    },
+    "production_lstm_20250814_222320.h5": {
+      "hash": "2bd80dc68cf4b73b0cd6d9f5442b94ec092374bc56655cd2fc1480b2e802675f",
+      "size_bytes": 840280,
+      "modified": "2025-08-14T21:21:10.004263"
+    },
+    "best_model.h5": {
+      "hash": "febdee7d1a50881c8d25b4dd2d3cdce8cdae4ba9ce00308e49cac65584f419ae",
+      "size_bytes": 840280,
+      "modified": "2025-08-14T21:21:09.996263"
+    },
+    "lstm_model_quick_20250812_104535.h5": {
+      "hash": "f0dbcb3373f60d95d117262d479903091a39511f1fac00c9eb5bcf49dd5749b3",
+      "size_bytes": 840280,
+      "modified": "2025-08-14T21:21:10.000263"
+    }
+  },
+  "config_files": {
+    "config.py": {
+      "hash": "1a55a636f9870d3f3f8c8524a5296ecf739fdc190d4d68d43f59fe2d0027381a",
+      "size_bytes": 3633
+    },
+    "requirements.txt": {
+      "hash": "bb9a5fe72e427e674e17c87b47b7cfc99fb51e2df8e34d41fc80bba0199ea4ff",
+      "size_bytes": 481
+    },
+    "requirements-constraints.txt": {
+      "hash": "60d319777d4f2bbc48e795693cc47b1f424f6695dad2f3c8a0872ad4d90c8d83",
+      "size_bytes": 82
+    }
+  },
+  "workspace_info": {
+    "models_dir": "/workspace/models",
+    "logs_dir": "/workspace/logs",
+    "data_dir": "/workspace/data"
+  }
+}
