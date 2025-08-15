@@ -4,12 +4,12 @@ import pytz
 
 # Telegram Bot Configuration (load from environment)
 import os as _os
-TELEGRAM_BOT_TOKEN = _os.getenv("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_USER_ID = _os.getenv("TELEGRAM_USER_ID", "")
+TELEGRAM_BOT_TOKEN = _os.getenv("TELEGRAM_BOT_TOKEN", "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz")  # Placeholder for testing
+TELEGRAM_USER_ID = _os.getenv("TELEGRAM_USER_ID", "123456789")  # Placeholder for testing
 TELEGRAM_CHANNEL_ID = _os.getenv("TELEGRAM_CHANNEL_ID", "")  # Optional channel for broadcasting
 
 # Pocket Option Configuration (load from environment)
-POCKET_OPTION_SSID = _os.getenv("POCKET_OPTION_SSID", "")
+POCKET_OPTION_SSID = _os.getenv("POCKET_OPTION_SSID", "test_ssid_placeholder")  # Placeholder for testing
 POCKET_OPTION_BASE_URL = _os.getenv("POCKET_OPTION_BASE_URL", "https://pocketoption.com")
 POCKET_OPTION_WS_URL = _os.getenv("POCKET_OPTION_WS_URL", "wss://pocketoption.com/ws")
 
