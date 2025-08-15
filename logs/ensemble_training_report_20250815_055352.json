@@ -1,0 +1,42 @@
+{
+  "timestamp": "20250815_055352",
+  "configuration": {
+    "samples": 20000,
+    "quick_mode": true
+  },
+  "individual_models": {
+    "lstm": {
+      "status": "success",
+      "accuracy": 0.5476429462432861,
+      "model": "<lstm_model.LSTMTradingModel object at 0x7fcaaac897f0>"
+    },
+    "xgboost": {
+      "status": "failed",
+      "error": "Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]"
+    },
+    "random_forest": {
+      "status": "failed",
+      "error": "No training data"
+    },
+    "svm": {
+      "status": "failed",
+      "error": "No training data"
+    }
+  },
+  "meta_learner": {
+    "status": "failed",
+    "error": "Insufficient models"
+  },
+  "saved_models": {
+    "lstm": "/workspace/models/ensemble_lstm_20250815_055352.h5"
+  },
+  "summary": {
+    "successful_models": 1,
+    "total_models": 4,
+    "success_rate": 0.25,
+    "ensemble_accuracy": 0,
+    "models_trained": [
+      "lstm"
+    ]
+  }
+}

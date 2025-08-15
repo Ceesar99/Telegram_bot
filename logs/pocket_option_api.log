@@ -511,3 +511,9 @@
 2025-08-12 21:28:03,164 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-12 21:28:03,164 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-15 00:58:18,142 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-15 01:12:57,676 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-15 01:12:57,858 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,034 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,208 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,380 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,552 - PocketOptionAPI - ERROR - Failed to get market data: 404

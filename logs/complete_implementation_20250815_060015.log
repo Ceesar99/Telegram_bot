@@ -1,0 +1,602 @@
+2025-08-15 06:00:15,589 - CompleteImplementation - INFO - 🎯 COMPLETE IMPLEMENTATION SYSTEM - ALL CRITICAL NEXT STEPS
+2025-08-15 06:00:15,589 - CompleteImplementation - INFO - Mode: quick, Real data: True, Multi-pair: True, HF: True
+2025-08-15 06:00:15,665 - RealDataCollector - INFO - ✅ yfinance data source available
+2025-08-15 06:00:15,665 - RealDataCollector - INFO - ✅ Mock API data source available
+2025-08-15 06:00:15,666 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:15,666 - CompleteImplementation - INFO - STEP 1: 📊 COLLECTING COMPREHENSIVE MARKET DATA
+2025-08-15 06:00:15,666 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:15,666 - RealDataCollector - INFO - 🌍 Collecting real market data for 10 pairs...
+2025-08-15 06:00:15,668 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,669 - RealDataCollector - WARNING - ❌ Failed to collect EURUSD=X: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,669 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,670 - RealDataCollector - WARNING - ❌ Failed to collect GBPUSD=X: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,670 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,671 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,671 - RealDataCollector - WARNING - ⚠️ No data available for USDJPY=X
+2025-08-15 06:00:15,672 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,672 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,672 - RealDataCollector - WARNING - ⚠️ No data available for AUDUSD=X
+2025-08-15 06:00:15,673 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,673 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,674 - RealDataCollector - WARNING - ⚠️ No data available for USDCAD=X
+2025-08-15 06:00:15,674 - yfinance - ERROR - Failed to get ticker 'EURJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,675 - yfinance - ERROR - $EURJPY=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,675 - RealDataCollector - WARNING - ⚠️ No data available for EURJPY=X
+2025-08-15 06:00:15,675 - yfinance - ERROR - Failed to get ticker 'GBPJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,676 - yfinance - ERROR - $GBPJPY=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,676 - RealDataCollector - WARNING - ⚠️ No data available for GBPJPY=X
+2025-08-15 06:00:15,676 - yfinance - ERROR - Failed to get ticker 'CHFJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,677 - yfinance - ERROR - $CHFJPY=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,677 - RealDataCollector - WARNING - ⚠️ No data available for CHFJPY=X
+2025-08-15 06:00:15,677 - yfinance - ERROR - Failed to get ticker 'EURGBP=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,678 - yfinance - ERROR - $EURGBP=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,678 - RealDataCollector - WARNING - ⚠️ No data available for EURGBP=X
+2025-08-15 06:00:15,678 - yfinance - ERROR - Failed to get ticker 'USDCHF=X' reason: Impersonating chrome136 is not supported
+2025-08-15 06:00:15,679 - yfinance - ERROR - $USDCHF=X: possibly delisted; no price data found  (period=7d)
+2025-08-15 06:00:15,679 - RealDataCollector - WARNING - ⚠️ No data available for USDCHF=X
+2025-08-15 06:00:15,679 - RealDataCollector - WARNING - ⚠️ No real data collected, generating enhanced synthetic data
+2025-08-15 06:00:15,679 - RealDataCollector - INFO - 🎲 Generating enhanced synthetic market data...
+2025-08-15 06:00:15,934 - RealDataCollector - INFO - ✅ Enhanced synthetic data generated: 100,810 samples
+2025-08-15 06:00:15,937 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:15,937 - CompleteImplementation - INFO - STEP 2: 🌐 MULTI-PAIR MODEL TRAINING
+2025-08-15 06:00:15,937 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:15,939 - MultiPairSystem - INFO - 🌐 Training models for 10 currency pairs...
+2025-08-15 06:00:15,939 - MultiPairSystem - INFO - Training model for EUR/USD...
+2025-08-15 06:00:15,944 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,021 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,023 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,023 - MultiPairSystem - ERROR - ❌ EUR/USD model training failed
+2025-08-15 06:00:16,023 - MultiPairSystem - INFO - Training model for EUR/GBP...
+2025-08-15 06:00:16,028 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,104 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,105 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,105 - MultiPairSystem - ERROR - ❌ EUR/GBP model training failed
+2025-08-15 06:00:16,105 - MultiPairSystem - INFO - Training model for USD/CHF...
+2025-08-15 06:00:16,110 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,186 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,187 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,187 - MultiPairSystem - ERROR - ❌ USD/CHF model training failed
+2025-08-15 06:00:16,187 - MultiPairSystem - INFO - Training model for GBP/JPY...
+2025-08-15 06:00:16,191 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,267 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,268 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,268 - MultiPairSystem - ERROR - ❌ GBP/JPY model training failed
+2025-08-15 06:00:16,268 - MultiPairSystem - INFO - Training model for EUR/JPY...
+2025-08-15 06:00:16,273 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,347 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,348 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,348 - MultiPairSystem - ERROR - ❌ EUR/JPY model training failed
+2025-08-15 06:00:16,348 - MultiPairSystem - INFO - Training model for USD/CAD...
+2025-08-15 06:00:16,353 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,427 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,428 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,429 - MultiPairSystem - ERROR - ❌ USD/CAD model training failed
+2025-08-15 06:00:16,429 - MultiPairSystem - INFO - Training model for AUD/USD...
+2025-08-15 06:00:16,433 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,508 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,509 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,509 - MultiPairSystem - ERROR - ❌ AUD/USD model training failed
+2025-08-15 06:00:16,509 - MultiPairSystem - INFO - Training model for USD/JPY...
+2025-08-15 06:00:16,514 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,588 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,589 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,589 - MultiPairSystem - ERROR - ❌ USD/JPY model training failed
+2025-08-15 06:00:16,589 - MultiPairSystem - INFO - Training model for GBP/USD...
+2025-08-15 06:00:16,594 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,669 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,669 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,670 - MultiPairSystem - ERROR - ❌ GBP/USD model training failed
+2025-08-15 06:00:16,670 - MultiPairSystem - INFO - Training model for CHF/JPY...
+2025-08-15 06:00:16,674 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:16,749 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:16,750 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:16,750 - MultiPairSystem - ERROR - ❌ CHF/JPY model training failed
+2025-08-15 06:00:16,750 - MultiPairSystem - INFO - ✅ Multi-pair training completed: 10 pairs processed
+2025-08-15 06:00:16,750 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:16,750 - CompleteImplementation - INFO - STEP 3: ⚡ HIGH-FREQUENCY TRAINING
+2025-08-15 06:00:16,750 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:16,750 - HFTrainingSystem - INFO - ⚡ Creating high-frequency specialized training data...
+2025-08-15 06:00:16,750 - HFTrainingSystem - INFO - Processing 1min timeframe...
+2025-08-15 06:00:16,824 - HFTrainingSystem - INFO - Processing 2min timeframe...
+2025-08-15 06:00:16,926 - HFTrainingSystem - INFO - Processing 5min timeframe...
+2025-08-15 06:00:17,095 - HFTrainingSystem - INFO - ✅ HF data created: 171,390 samples across 3 timeframes
+2025-08-15 06:00:17,095 - HFTrainingSystem - INFO - ⚡ Training high-frequency ensemble...
+2025-08-15 06:00:17,096 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:18,334 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 06:00:18,336 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 06:00:18,339 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:18,339 - CompleteImplementation - INFO - STEP 4: 🤖 ENHANCED LSTM TRAINING
+2025-08-15 06:00:18,339 - CompleteImplementation - INFO - ============================================================
+2025-08-15 06:00:18,339 - LSTM_Model - INFO - Starting model training...
+2025-08-15 06:00:19,564 - LSTM_Model - INFO - Created sequences: (100750, 60, 24), targets: (100750,)
+2025-08-15 06:00:19,565 - LSTM_Model - INFO - Training data shapes - X: (100750, 60, 24), y: (100750,)
+2025-08-15 06:00:21,401 - LSTM_Model - INFO - Starting training with 20 epochs
+2025-08-15 06:02:09,609 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 06:03:50,608 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 06:06:57,707 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 06:08:35,025 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 06:13:20,645 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 

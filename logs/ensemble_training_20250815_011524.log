@@ -1,0 +1,57 @@
+2025-08-15 01:15:24,693 - EnsembleTraining - INFO - 🎯 COMPLETE ENSEMBLE TRAINING SYSTEM
+2025-08-15 01:15:24,693 - EnsembleTraining - INFO - Configuration: 50,000 samples, Quick mode: True
+2025-08-15 01:15:24,693 - EnsembleTraining - INFO - Step 1: Creating ensemble training data...
+2025-08-15 01:15:24,693 - EnsembleTraining - INFO - Creating ensemble training data with 20,000 samples...
+2025-08-15 01:15:24,695 - EnsembleTraining - INFO - Generating ensemble data for EUR/USD...
+2025-08-15 01:15:24,752 - EnsembleTraining - INFO - Generating ensemble data for GBP/USD...
+2025-08-15 01:15:24,806 - EnsembleTraining - INFO - Generating ensemble data for USD/JPY...
+2025-08-15 01:15:24,858 - EnsembleTraining - INFO - Generating ensemble data for AUD/USD...
+2025-08-15 01:15:24,909 - EnsembleTraining - INFO - Generating ensemble data for USD/CAD...
+2025-08-15 01:15:24,990 - EnsembleTraining - INFO - Ensemble training data created:
+2025-08-15 01:15:24,990 - EnsembleTraining - INFO -   Total samples: 100,000
+2025-08-15 01:15:24,990 - EnsembleTraining - INFO -   Currency pairs: 5
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO -   Market regimes: 5
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO - Step 2: Training individual ensemble models...
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO - ============================================================
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO - 🎯 TRAINING INDIVIDUAL ENSEMBLE MODELS (PARALLEL)
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO - ============================================================
+2025-08-15 01:15:24,991 - EnsembleTraining - INFO - Training LSTM Trend Model...
+2025-08-15 01:15:24,992 - LSTM_Model - INFO - Starting model training...
+2025-08-15 01:15:25,370 - LSTM_Model - INFO - Created sequences: (19940, 60, 24), targets: (19940,)
+2025-08-15 01:15:25,370 - LSTM_Model - INFO - Training data shapes - X: (19940, 60, 24), y: (19940,)
+2025-08-15 01:15:25,802 - LSTM_Model - INFO - Starting training with 30 epochs
+2025-08-15 01:15:44,088 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:16:02,065 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:16:21,776 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:16:41,803 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:17:21,044 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:18:00,167 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 01:18:19,581 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:49:19,453 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:49:38,836 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:51:35,615 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:52:15,345 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:53:52,623 - LSTM_Model - INFO - Training accuracy: 0.5575
+2025-08-15 05:53:52,624 - LSTM_Model - INFO - Test accuracy: 0.5441
+2025-08-15 05:53:52,632 - EnsembleTraining - INFO - ✅ LSTM trained successfully: 0.5476 accuracy
+2025-08-15 05:53:52,632 - EnsembleTraining - INFO - Training XGBoost Feature Model...
+2025-08-15 05:53:52,696 - EnsembleTraining - ERROR - ❌ XGBoost training error: Invalid classes inferred from unique values of `y`.  Expected: [0 1], got [1 2]
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - Training Random Forest Model...
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - Training SVM Model...
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - Step 3: Training meta-learner...
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - ============================================================
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - 🧠 TRAINING META-LEARNER
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - ============================================================
+2025-08-15 05:53:52,697 - EnsembleTraining - ERROR - ❌ Need at least 2 successful models for meta-learning
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - Step 4: Saving ensemble models...
+2025-08-15 05:53:52,697 - EnsembleTraining - INFO - 💾 Saving ensemble models...
+2025-08-15 05:53:52,697 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-15 05:53:52,731 - LSTM_Model - INFO - Model saved to /workspace/models/ensemble_lstm_20250815_055352.h5
+2025-08-15 05:53:52,731 - EnsembleTraining - INFO - ✅ Saved lstm model
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - ============================================================
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - 📊 ENSEMBLE TRAINING COMPLETE
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - ============================================================
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - Successful models: 1/4
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - Models trained: ['lstm']
+2025-08-15 05:53:52,732 - EnsembleTraining - INFO - Report saved: /workspace/logs/ensemble_training_report_20250815_055352.json
+2025-08-15 05:53:52,732 - EnsembleTraining - WARNING - ⚠️ Ensemble partially trained, needs more models

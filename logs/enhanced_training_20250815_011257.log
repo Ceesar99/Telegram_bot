@@ -1,0 +1,106 @@
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - 🚀 ENHANCED TRAINING PIPELINE - CRITICAL IMPROVEMENTS
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - Configuration: 50,000 samples, 50 epochs
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - Step 1: Collecting real market data...
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - 📊 COLLECTING REAL MARKET DATA
+2025-08-15 01:12:57,114 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:57,201 - EnhancedTraining - INFO - ✅ yfinance available for data collection
+2025-08-15 01:12:57,215 - yfinance - ERROR - Failed to get ticker 'EURUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,215 - EnhancedTraining - WARNING - Failed to collect data for EURUSD=X: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,216 - yfinance - ERROR - Failed to get ticker 'GBPUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,216 - EnhancedTraining - WARNING - Failed to collect data for GBPUSD=X: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,217 - yfinance - ERROR - Failed to get ticker 'USDJPY=X' reason: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,218 - yfinance - ERROR - $USDJPY=X: possibly delisted; no price data found  (period=5d)
+2025-08-15 01:12:57,218 - yfinance - ERROR - Failed to get ticker 'AUDUSD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,219 - yfinance - ERROR - $AUDUSD=X: possibly delisted; no price data found  (period=5d)
+2025-08-15 01:12:57,220 - yfinance - ERROR - Failed to get ticker 'USDCAD=X' reason: Impersonating chrome136 is not supported
+2025-08-15 01:12:57,220 - yfinance - ERROR - $USDCAD=X: possibly delisted; no price data found  (period=5d)
+2025-08-15 01:12:57,676 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-15 01:12:57,858 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,034 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,208 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,380 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,552 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-15 01:12:58,552 - EnhancedTraining - WARNING - No real market data sources available, using enhanced synthetic data
+2025-08-15 01:12:58,552 - EnhancedTraining - INFO - Step 2: Creating large training dataset (50,000 samples)...
+2025-08-15 01:12:58,552 - EnhancedTraining - INFO - Creating large realistic dataset with 50,000 samples...
+2025-08-15 01:12:58,560 - EnhancedTraining - INFO - Generating 50,000 samples from 2023-06-07 01:12:58.552866 to 2025-08-15 01:12:58.552872
+2025-08-15 01:12:58,560 - EnhancedTraining - INFO - Generating data for EUR/USD...
+2025-08-15 01:12:58,707 - EnhancedTraining - INFO - Generating data for GBP/USD...
+2025-08-15 01:12:58,840 - EnhancedTraining - INFO - Generating data for USD/JPY...
+2025-08-15 01:12:58,972 - EnhancedTraining - INFO - Generating data for AUD/USD...
+2025-08-15 01:12:59,102 - EnhancedTraining - INFO - Generating data for USD/CAD...
+2025-08-15 01:12:59,306 - EnhancedTraining - INFO - Large dataset created successfully:
+2025-08-15 01:12:59,306 - EnhancedTraining - INFO -   Total samples: 250,000
+2025-08-15 01:12:59,306 - EnhancedTraining - INFO -   Currency pairs: 5
+2025-08-15 01:12:59,307 - EnhancedTraining - INFO -   Date range: 2023-06-07 01:12:58.552866 to 2023-07-11 18:31:58.552866
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - Using enhanced synthetic data for training
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - Step 3: Creating high-frequency training dataset...
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - ⚡ CREATING HIGH-FREQUENCY TRAINING DATASET
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:59,308 - EnhancedTraining - INFO - Creating HF dataset for 1min timeframe...
+2025-08-15 01:12:59,322 - EnhancedTraining - INFO - ✅ Created 250000 HF samples for 1min
+2025-08-15 01:12:59,322 - EnhancedTraining - INFO - Creating HF dataset for 2min timeframe...
+2025-08-15 01:12:59,348 - EnhancedTraining - INFO - ✅ Created 25000 HF samples for 2min
+2025-08-15 01:12:59,348 - EnhancedTraining - INFO - Creating HF dataset for 5min timeframe...
+2025-08-15 01:12:59,370 - EnhancedTraining - INFO - ✅ Created 10001 HF samples for 5min
+2025-08-15 01:12:59,473 - EnhancedTraining - INFO - ✅ High-frequency dataset created:
+2025-08-15 01:12:59,473 - EnhancedTraining - INFO -   Total HF samples: 285,001
+2025-08-15 01:12:59,473 - EnhancedTraining - INFO -   Timeframes: ['1min', '2min', '5min']
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - Step 4: Training LSTM with extended epochs (50)...
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - 🤖 TRAINING LSTM WITH EXTENDED EPOCHS (50)
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - ============================================================
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - LSTM model initialized for extended training
+2025-08-15 01:12:59,474 - EnhancedTraining - INFO - Starting extended training with 50 epochs...
+2025-08-15 01:12:59,474 - LSTM_Model - INFO - Starting model training...
+2025-08-15 01:13:01,662 - LSTM_Model - ERROR - Training failed with error: Input X contains infinity or a value too large for dtype('float64').
+2025-08-15 01:13:01,665 - LSTM_Model - ERROR - Traceback (most recent call last):
+  File "/workspace/lstm_model.py", line 277, in train_model
+    features_scaled = self.feature_scaler.fit_transform(features)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        reset=first_call,
+    )
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+    ~~~~~~~~~~~~~~~~~~^
+        array,
+        ^^^^^^
+    ...<2 lines>...
+        allow_nan=ensure_all_finite == "allow-nan",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        X,
+        ^^
+    ...<4 lines>...
+        input_name=input_name,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
+
+2025-08-15 01:13:01,672 - EnhancedTraining - ERROR - ❌ Extended LSTM training failed
+2025-08-15 01:13:01,673 - EnhancedTraining - INFO - Step 5: Generating training report...
+2025-08-15 01:13:01,673 - EnhancedTraining - ERROR - ❌ Enhanced training failed!

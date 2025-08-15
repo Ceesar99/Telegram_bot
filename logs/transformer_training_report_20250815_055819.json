@@ -1,0 +1,21 @@
+{
+  "timestamp": "20250815_055819",
+  "configuration": {
+    "samples": 20000,
+    "epochs": 20,
+    "batch_size": 32,
+    "quick_mode": true
+  },
+  "training_results": {
+    "status": "failed",
+    "error": "ReduceLROnPlateau.__init__() got an unexpected keyword argument 'verbose'"
+  },
+  "data_info": {
+    "total_samples": 140000,
+    "currency_pairs": 7,
+    "date_range": {
+      "start": "2023-12-24 05:55:53.998775",
+      "end": "2024-01-07 03:14:53.998775"
+    }
+  }
+}
