@@ -764,7 +764,7 @@ class EnsembleSignalGenerator:
             
             for i in range(len(data)):
                 if i + 2 >= len(data):  # Look ahead 2 minutes
-                    labels.append(2)  # HOLD for insufficient data
+                    labels.append(1)  # HOLD for insufficient data (map to class 1)
                     continue
                 
                 current_price = data['close'].iloc[i]
@@ -781,7 +781,7 @@ class EnsembleSignalGenerator:
                 elif price_change < -threshold:
                     labels.append(1)  # SELL signal
                 else:
-                    labels.append(2)  # HOLD signal
+                    labels.append(1)  # HOLD signal (map to class 1)
             
             data['target'] = labels
             return data
@@ -789,7 +789,7 @@ class EnsembleSignalGenerator:
         except Exception as e:
             self.logger.error(f"Error generating target labels: {e}")
             # Default to HOLD if error occurs
-            data['target'] = 2
+            data['target'] = 1
             return data
     
     def _log_tree_cv(self, X: np.ndarray, y: np.ndarray):
