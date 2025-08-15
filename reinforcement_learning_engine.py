@@ -53,7 +53,9 @@ class TradingEnvironment(gym.Env):
                  initial_balance: float = 10000,
                  transaction_cost: float = 0.001,
                  max_position_size: float = 0.1,
-                 lookback_window: int = 100):
+                 lookback_window: int = 100,
+                 slippage_bps: float = 5.0,
+                 exposure_penalty: float = 0.001):
         super().__init__()
         
         self.price_data = price_data
@@ -62,6 +64,8 @@ class TradingEnvironment(gym.Env):
         self.transaction_cost = transaction_cost
         self.max_position_size = max_position_size
         self.lookback_window = lookback_window
+        self.slippage_bps = slippage_bps
+        self.exposure_penalty = exposure_penalty
         
         # State space: features + portfolio state
         self.observation_space = spaces.Box(
@@ -98,6 +102,10 @@ class TradingEnvironment(gym.Env):
         
         self.logger = logging.getLogger('TradingEnvironment')
         
+    def _estimate_slippage(self, notional: float) -> float:
+        """Estimate slippage cost in price terms using basis points"""
+        return notional * (self.slippage_bps / 10000.0)
+    
     def reset(self) -> np.ndarray:
         """Reset environment to initial state"""
         self.current_step = self.lookback_window
@@ -179,7 +187,7 @@ class TradingEnvironment(gym.Env):
         return observation.astype(np.float32)
     
     def _calculate_reward(self, action_type: int, position_size: float) -> float:
-        """Calculate reward for the action"""
+        """Calculate reward with broker-like costs and exposure penalties"""
         if self.current_step >= len(self.price_data) - 1:
             return 0.0
         
@@ -187,9 +195,8 @@ class TradingEnvironment(gym.Env):
         next_price = self.price_data[self.current_step + 1]
         price_change = (next_price - current_price) / current_price
         
-        # Base reward from price movement
+        # Base reward from price movement, scaled by position
         reward = 0.0
-        
         if action_type == 1:  # BUY
             reward = price_change * position_size
         elif action_type == 2:  # SELL
@@ -197,16 +204,21 @@ class TradingEnvironment(gym.Env):
         else:  # HOLD
             reward = 0.0
         
-        # Penalize excessive trading
+        # Transaction costs (proportional to notional)
         if action_type != 0:
             reward -= self.transaction_cost * position_size
+            # Slippage cost
+            notional = position_size * self.max_position_size
+            reward -= self._estimate_slippage(notional)
         
-        # Reward consistency (penalize excessive position changes)
+        # Penalize excessive trading and exposure
         if hasattr(self, 'prev_position'):
             position_change = abs(self.position - self.prev_position)
             reward -= 0.001 * position_change
+        # Exposure penalty grows with absolute position
+        reward -= self.exposure_penalty * abs(self.position)
         
-        # Risk-adjusted reward (penalize high volatility)
+        # Risk-adjusted reward (penalize volatility of returns)
         if len(self.balance_history) > 10:
             recent_returns = np.diff(self.balance_history[-10:]) / self.balance_history[-11:-1]
             volatility = np.std(recent_returns)
@@ -519,9 +531,11 @@ class RLTradingEngine:
     def __init__(self, 
                  price_data: np.ndarray,
                  feature_data: np.ndarray,
-                 initial_balance: float = 10000):
+                 initial_balance: float = 10000,
+                 paper_trading_only: bool = True):
         
         self.logger = logging.getLogger('RLTradingEngine')
+        self.paper_trading_only = paper_trading_only
         
         # Create environment
         self.env = TradingEnvironment(
@@ -550,7 +564,23 @@ class RLTradingEngine:
             'sharpe_ratio': float('-inf'),
             'win_rate': 0.0
         }
+        
+        # Replay/policy stats persistence path
+        self.persistence_prefix = 'rl_training'
     
+    def _persist_training_state(self, suffix: str = ""):
+        try:
+            payload = {
+                'agent_stats': self.agent.training_stats,
+                'episodes': self.training_episodes,
+                'episode_rewards': self.episode_rewards[-100:],
+                'episode_lengths': self.episode_lengths[-100:]
+            }
+            with open(f"{self.persistence_prefix}_stats{suffix}.pkl", 'wb') as f:
+                pickle.dump(payload, f)
+        except Exception as e:
+            self.logger.warning(f"Failed to persist training state: {e}")
+
     def train(self, episodes: int = 1000, save_frequency: int = 100) -> Dict[str, List[float]]:
         """Train the RL agent"""
         self.logger.info(f"Starting training for {episodes} episodes...")
@@ -616,10 +646,13 @@ class RLTradingEngine:
                                f"Avg Length={avg_length:.1f}, "
                                f"Sharpe={info['sharpe_ratio']:.3f}, "
                                f"Win Rate={info['win_rate']:.3f}")
+                # Persist stats snapshot
+                self._persist_training_state(suffix=f"_{episode}")
             
             # Save model periodically
             if episode % save_frequency == 0 and episode > 0:
                 self.save_model(f'rl_model_episode_{episode}.pth')
+                self._persist_training_state(suffix=f"_{episode}")
         
         self.training_episodes += episodes
         return self.agent.training_stats
@@ -627,6 +660,10 @@ class RLTradingEngine:
     def evaluate(self, episodes: int = 10) -> Dict[str, float]:
         """Evaluate the trained agent"""
         self.logger.info(f"Evaluating agent for {episodes} episodes...")
+        
+        if not self.paper_trading_only:
+            self.logger.warning("Kill switch disabled: live trading not permitted in RL engine. Forcing paper only.")
+            self.paper_trading_only = True
         
         evaluation_results = {
             'total_returns': [],
