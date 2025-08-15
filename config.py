@@ -1,17 +1,20 @@
 import os
 from datetime import datetime
 import pytz
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Telegram Bot Configuration (load from environment)
-import os as _os
-TELEGRAM_BOT_TOKEN = _os.getenv("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_USER_ID = _os.getenv("TELEGRAM_USER_ID", "")
-TELEGRAM_CHANNEL_ID = _os.getenv("TELEGRAM_CHANNEL_ID", "")  # Optional channel for broadcasting
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID", "")
+TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "")  # Optional channel for broadcasting
 
 # Pocket Option Configuration (load from environment)
-POCKET_OPTION_SSID = _os.getenv("POCKET_OPTION_SSID", "")
-POCKET_OPTION_BASE_URL = _os.getenv("POCKET_OPTION_BASE_URL", "https://pocketoption.com")
-POCKET_OPTION_WS_URL = _os.getenv("POCKET_OPTION_WS_URL", "wss://pocketoption.com/ws")
+POCKET_OPTION_SSID = os.getenv("POCKET_OPTION_SSID", "")
+POCKET_OPTION_BASE_URL = os.getenv("POCKET_OPTION_BASE_URL", "https://pocketoption.com")
+POCKET_OPTION_WS_URL = os.getenv("POCKET_OPTION_WS_URL", "wss://pocketoption.com/ws")
 
 # Trading Configuration
 CURRENCY_PAIRS = [

@@ -1,0 +1,50 @@
+nohup: ignoring input
+2025-08-15 12:15:16,803 - UltimateAISystemValidator - INFO - 🔍 Starting Ultimate AI system validation...
+2025-08-15 12:15:17,083 - UltimateAISystemValidator - INFO - ✅ All AI system dependencies validated
+2025-08-15 12:15:17,141 - UltimateAITradingBot - INFO - ✅ Ultimate AI Telegram application setup complete
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO - ✅ Ultimate AI Telegram bot validation passed
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO - ✅ AI/ML Analysis Engine validation passed
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO - ✅ Pocket Option SSID synchronization validated
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO - ✅ CORRECTED Pair configuration validated:
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO -    🔷 Regular Pairs (Weekends): 59 available
+2025-08-15 12:15:17,141 - UltimateAISystemValidator - INFO -    🔶 OTC Pairs (Weekdays): 10 available
+2025-08-15 12:15:17,150 - UltimateAITradingBot - INFO - ✅ Ultimate AI Telegram application setup complete
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - ✅ Signal timing validation passed: 42.8s advance (1-minute target)
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - 📊 Ultimate AI Validation Results:
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    AI System Dependencies: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    AI Telegram Bot: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    AI Analysis Engine: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    Pocket Option Sync: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    CORRECTED Pair Configuration: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO -    Signal Timing Logic: ✅ PASSED
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - 🎉 Ultimate AI system validation completed successfully!
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - 🤖 AI/ML models are ready for signal generation
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - 🔶 OTC pairs configured for weekday trading
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - 🔷 Regular pairs configured for weekend trading
+2025-08-15 12:15:17,151 - UltimateAISystemValidator - INFO - ⏰ 1-minute advance signal timing confirmed
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO - 🚀 Starting Ultimate AI Universal Trading System...
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO - 🔧 All AI enhancements implemented:
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ CORRECTED: OTC pairs for weekdays, Regular pairs for weekends
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ Advanced AI/ML model analysis for signal generation
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ 1-minute advance signal generation with Pocket Option sync
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ Fixed interactive button navigation
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ Enhanced AI technical analysis engine
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO -    ✅ Real-time AI performance monitoring
+2025-08-15 12:15:17,151 - UltimateAIUniversalLauncher - INFO - 🚀 Starting Ultimate AI Trading Bot...
+2025-08-15 12:15:17,160 - UltimateAITradingBot - INFO - ✅ Ultimate AI Telegram application setup complete
+2025-08-15 12:15:17,160 - UltimateAISystemMonitor - INFO - 📊 AI System Status - Uptime: 0h 0m, Signals: 0, AI Accuracy: 97.2%, Health: OPTIMAL
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - ✅ Ultimate AI bot created successfully
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - 🤖 AI/ML models are active and ready!
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - 📱 Bot is ready to respond to all commands!
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - 🔘 Interactive navigation buttons are working perfectly!
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - ⏰ Signals will be generated 1 minute in advance
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - 🔶 OTC pairs active on weekdays, 🔷 Regular pairs active on weekends
+2025-08-15 12:15:17,161 - UltimateAIUniversalLauncher - INFO - 🧠 AI technical analysis engine is operational
+2025-08-15 12:15:17,161 - UltimateAITradingBot - INFO - 🚀 Starting Ultimate AI Trading System in launcher context...
+2025-08-15 12:15:17,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getMe "HTTP/1.1 200 OK"
+2025-08-15 12:15:17,419 - telegram.ext.Application - INFO - Application started
+2025-08-15 12:15:17,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-15 12:15:17,501 - UltimateAITradingBot - INFO - ✅ Ultimate AI bot started successfully in launcher context
+2025-08-15 12:15:17,501 - UltimateAIUniversalLauncher - INFO - ✅ Ultimate AI bot started successfully in launcher context
+2025-08-15 12:15:17,501 - UltimateAIUniversalLauncher - INFO - 🔄 Starting bot monitoring loop...
+2025-08-15 12:15:27,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
