@@ -14,26 +14,29 @@ warnings.filterwarnings('ignore')
 # Check if CUDA is available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+def with_autocast():
+	return torch.cuda.amp.autocast(enabled=torch.cuda.is_available())
+
 class PositionalEncoding(nn.Module):
-    """Advanced positional encoding for financial time series"""
-    
-    def __init__(self, d_model: int, max_length: int = 5000):
-        super().__init__()
-        
-        pe = torch.zeros(max_length, d_model)
-        position = torch.arange(0, max_length, dtype=torch.float).unsqueeze(1)
-        
-        div_term = torch.exp(torch.arange(0, d_model, 2).float() * 
-                           (-math.log(10000.0) / d_model))
-        
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
-        pe = pe.unsqueeze(0).transpose(0, 1)
-        
-        self.register_buffer('pe', pe)
-    
-    def forward(self, x):
-        return x + self.pe[:x.size(0), :]
+	"""Advanced positional encoding for financial time series"""
+	
+	def __init__(self, d_model: int, max_length: int = 5000):
+		super().__init__()
+		
+		pe = torch.zeros(max_length, d_model)
+		position = torch.arange(0, max_length, dtype=torch.float).unsqueeze(1)
+		
+		div_term = torch.exp(torch.arange(0, d_model, 2).float() * 
+					   (-math.log(10000.0) / d_model))
+		
+		pe[:, 0::2] = torch.sin(position * div_term)
+		pe[:, 1::2] = torch.cos(position * div_term)
+		pe = pe.unsqueeze(0).transpose(0, 1)
+		
+		self.register_buffer('pe', pe)
+	
+	def forward(self, x):
+		return x + self.pe[:x.size(0), :]
 
 class MultiHeadSelfAttention(nn.Module):
     """Enhanced multi-head self-attention for financial data"""
@@ -159,7 +162,7 @@ class FinancialTransformer(nn.Module):
         )
         
         self.dropout = nn.Dropout(dropout)
-        
+    
     def forward(self, x, mask=None):
         # Input projection and positional encoding
         x = self.input_projection(x) * math.sqrt(self.d_model)
@@ -191,6 +194,13 @@ class FinancialTransformer(nn.Module):
             'attention_weights': attention_weights,
             'hidden_states': x
         }
+    
+    def save_torchscript(self, example_input: torch.Tensor, path: str) -> None:
+        """Export model to TorchScript for fast inference"""
+        self.eval()
+        with torch.no_grad():
+            scripted = torch.jit.trace(self, example_input.to(next(self.parameters()).device))
+            torch.jit.save(scripted, path)
 
 class FinancialDataset(Dataset):
     """Dataset class for financial time series data"""
@@ -241,7 +251,45 @@ class TransformerTrainer:
             'accuracies': [],
             'confidences': []
         }
+        self.latency_budget_ms = 10.0
     
+    def save(self, path_prefix: str, example_seq_len: int, input_dim: int):
+        """Save trainer state and TorchScript model"""
+        try:
+            # Save state dict
+            torch.save({'model_state': self.model.state_dict(), 'optimizer_state': self.optimizer.state_dict()}, f"{path_prefix}.pth")
+            # TorchScript
+            example = torch.randn(1, example_seq_len, input_dim, device=self.device)
+            self.model.save_torchscript(example, f"{path_prefix}.ts")
+            self.logger.info(f"Transformer saved to {path_prefix}.pth/.ts")
+        except Exception as e:
+            self.logger.error(f"Failed to save transformer: {e}")
+    
+    def load(self, path_prefix: str):
+        try:
+            ckpt = torch.load(f"{path_prefix}.pth", map_location=self.device)
+            self.model.load_state_dict(ckpt['model_state'])
+            self.optimizer.load_state_dict(ckpt['optimizer_state'])
+            self.logger.info(f"Transformer loaded from {path_prefix}.pth")
+        except Exception as e:
+            self.logger.error(f"Failed to load transformer: {e}")
+    
+    def check_latency(self, data: np.ndarray) -> float:
+        """Return average inference latency (ms) over N runs and assert budget"""
+        self.model.eval()
+        x = torch.FloatTensor(data).unsqueeze(0).to(self.device)
+        N = 20
+        torch.cuda.synchronize() if torch.cuda.is_available() else None
+        start = datetime.now()
+        with torch.no_grad():
+            for _ in range(N):
+                with with_autocast():
+                    _ = self.model(x)
+        torch.cuda.synchronize() if torch.cuda.is_available() else None
+        elapsed_ms = (datetime.now() - start).total_seconds() * 1000.0 / N
+        self.logger.info(f"Avg transformer latency: {elapsed_ms:.2f} ms (budget {self.latency_budget_ms} ms)")
+        return elapsed_ms
+
     def train_epoch(self, dataloader: DataLoader, epoch: int) -> Dict[str, float]:
         """Train for one epoch"""
         self.model.train()
@@ -256,26 +304,21 @@ class TransformerTrainer:
             
             self.optimizer.zero_grad()
             
-            # Forward pass
-            outputs = self.model(data)
-            
-            # Classification loss
-            cls_loss = self.classification_loss(outputs['logits'], targets)
-            
-            # Confidence loss (confidence should be high for correct predictions)
-            predictions = torch.argmax(outputs['logits'], dim=1)
-            correct_mask = (predictions == targets).float()
-            conf_loss = self.confidence_loss(outputs['confidence'].squeeze(), correct_mask)
-            
-            # Combined loss
-            total_loss_batch = cls_loss + 0.1 * conf_loss
+            # Forward pass with mixed precision where available
+            with with_autocast():
+                outputs = self.model(data)
+                # Classification loss
+                cls_loss = self.classification_loss(outputs['logits'], targets)
+                # Confidence loss (confidence should be high for correct predictions)
+                predictions = torch.argmax(outputs['logits'], dim=1)
+                correct_mask = (predictions == targets).float()
+                conf_loss = self.confidence_loss(outputs['confidence'].squeeze(), correct_mask)
+                total_loss_batch = cls_loss + 0.1 * conf_loss
             
             # Backward pass
             total_loss_batch.backward()
-            
             # Gradient clipping for stability
             torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
-            
             self.optimizer.step()
             
             # Statistics

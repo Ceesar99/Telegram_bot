@@ -311,8 +311,11 @@ def main():
         history = train_ensemble_with_validation(ensemble, training_data, config, models_to_train)
         
         if history:
-            # Save models
-            ensemble.save_models()
+            # Save models to standardized prefix
+            os.makedirs(DATABASE_CONFIG['models_dir'], exist_ok=True)
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            base = os.path.join(DATABASE_CONFIG['models_dir'], f"ensemble_{timestamp}")
+            ensemble.save_ensemble(base)
             logger.info("✅ Ensemble training completed successfully!")
             logger.info("All models saved and ready for production use")
             

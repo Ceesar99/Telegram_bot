@@ -26,6 +26,7 @@ warnings.filterwarnings('ignore')
 
 from config import DATABASE_CONFIG, LSTM_CONFIG
 from advanced_features import AdvancedFeatureEngine
+import os
 
 @dataclass
 class ModelPrediction:
@@ -56,6 +57,30 @@ class LSTMTrendModel:
         self.scaler = StandardScaler()
         self.is_trained = False
         self.logger = logging.getLogger('LSTMTrendModel')
+        self.temperature = 1.0
+    
+    def _apply_temperature(self, probs: np.ndarray) -> np.ndarray:
+        eps = 1e-12
+        logits = np.log(np.clip(probs, eps, 1.0))
+        adj = logits / max(self.temperature, eps)
+        exp_adj = np.exp(adj - adj.max(axis=1, keepdims=True))
+        return exp_adj / np.sum(exp_adj, axis=1, keepdims=True)
+
+    def _fit_temperature(self, probs: np.ndarray, y_true: np.ndarray) -> float:
+        eps = 1e-12
+        def nll_for_T(T: float) -> float:
+            logits = np.log(np.clip(probs, eps, 1.0))
+            adj = logits / max(T, eps)
+            exp_adj = np.exp(adj - adj.max(axis=1, keepdims=True))
+            p_adj = exp_adj / np.sum(exp_adj, axis=1, keepdims=True)
+            rows = np.arange(len(y_true))
+            return -float(np.mean(np.log(np.clip(p_adj[rows, y_true], eps, 1.0))))
+        best_T, best_loss = 1.0, float('inf')
+        for T in np.linspace(0.5, 3.0, 26):
+            loss = nll_for_T(T)
+            if loss < best_loss:
+                best_T, best_loss = float(T), loss
+        return best_T
         
     def build_model(self, input_shape: Tuple[int, int]):
         """Build advanced LSTM architecture"""
@@ -102,11 +127,32 @@ class LSTMTrendModel:
         self.model = model
         return model
     
+    def _scale_sequences_fit(self, X: np.ndarray) -> np.ndarray:
+        # Fit scaler on features across all time steps and samples using train data
+        num_samples, seq_len, num_features = X.shape
+        X_flat = X.reshape(num_samples * seq_len, num_features)
+        self.scaler.fit(X_flat)
+        X_scaled_flat = self.scaler.transform(X_flat)
+        return X_scaled_flat.reshape(num_samples, seq_len, num_features)
+
+    def _scale_sequences_transform(self, X: np.ndarray) -> np.ndarray:
+        num_samples, seq_len, num_features = X.shape
+        X_flat = X.reshape(num_samples * seq_len, num_features)
+        X_scaled_flat = self.scaler.transform(X_flat)
+        return X_scaled_flat.reshape(num_samples, seq_len, num_features)
+
     def train(self, X: np.ndarray, y: np.ndarray, validation_data: Tuple = None):
         """Train the LSTM model"""
         try:
             if self.model is None:
                 self.build_model((X.shape[1], X.shape[2]))
+            
+            # Scale sequences based on training data
+            X_scaled = self._scale_sequences_fit(X)
+            X_val_scaled, y_val = (None, None)
+            if validation_data is not None:
+                X_val_scaled = self._scale_sequences_transform(validation_data[0])
+                y_val = validation_data[1]
             
             callbacks = [
                 EarlyStopping(patience=15, restore_best_weights=True),
@@ -114,13 +160,19 @@ class LSTMTrendModel:
             ]
             
             history = self.model.fit(
-                X, y,
-                validation_data=validation_data,
+                X_scaled, y,
+                validation_data=(X_val_scaled, y_val) if validation_data is not None else None,
                 epochs=100,
                 batch_size=32,
                 callbacks=callbacks,
                 verbose=0
             )
+            
+            # Temperature calibration on validation if provided
+            if validation_data is not None:
+                val_probs = self.model.predict(X_val_scaled, verbose=0)
+                self.temperature = self._fit_temperature(val_probs, y_val.astype(int))
+                self.logger.info(f"LSTMTrendModel calibrated temperature: {self.temperature:.3f}")
             
             self.is_trained = True
             return history
@@ -137,7 +189,9 @@ class LSTMTrendModel:
             raise ValueError("Model not trained")
         
         try:
-            probabilities = self.model.predict(X, verbose=0)[0]
+            X_scaled = self._scale_sequences_transform(X)
+            probabilities = self.model.predict(X_scaled, verbose=0)[0]
+            probabilities = self._apply_temperature(probabilities.reshape(1, -1))[0]
             prediction = np.argmax(probabilities)
             confidence = float(np.max(probabilities))
             
@@ -253,6 +307,7 @@ class TransformerModel:
         self.scaler = StandardScaler()
         self.is_trained = False
         self.logger = logging.getLogger('TransformerModel')
+        self.temperature = 1.0
     
     def build_transformer_block(self, inputs, head_size, num_heads, ff_dim, dropout=0.1):
         """Build transformer block"""
@@ -312,11 +367,51 @@ class TransformerModel:
         self.model = model
         return model
     
+    def _scale_sequences_fit(self, X: np.ndarray) -> np.ndarray:
+        n, t, f = X.shape
+        X_flat = X.reshape(n * t, f)
+        self.scaler.fit(X_flat)
+        return self.scaler.transform(X_flat).reshape(n, t, f)
+    
+    def _scale_sequences_transform(self, X: np.ndarray) -> np.ndarray:
+        n, t, f = X.shape
+        X_flat = X.reshape(n * t, f)
+        return self.scaler.transform(X_flat).reshape(n, t, f)
+    
+    def _apply_temperature(self, probs: np.ndarray) -> np.ndarray:
+        eps = 1e-12
+        logits = np.log(np.clip(probs, eps, 1.0))
+        adj = logits / max(self.temperature, eps)
+        exp_adj = np.exp(adj - adj.max(axis=1, keepdims=True))
+        return exp_adj / np.sum(exp_adj, axis=1, keepdims=True)
+
+    def _fit_temperature(self, probs: np.ndarray, y_true: np.ndarray) -> float:
+        eps = 1e-12
+        def nll_for_T(T: float) -> float:
+            logits = np.log(np.clip(probs, eps, 1.0))
+            adj = logits / max(T, eps)
+            exp_adj = np.exp(adj - adj.max(axis=1, keepdims=True))
+            p_adj = exp_adj / np.sum(exp_adj, axis=1, keepdims=True)
+            rows = np.arange(len(y_true))
+            return -float(np.mean(np.log(np.clip(p_adj[rows, y_true], eps, 1.0))))
+        best_T, best_loss = 1.0, float('inf')
+        for T in np.linspace(0.5, 3.0, 26):
+            loss = nll_for_T(T)
+            if loss < best_loss:
+                best_T, best_loss = float(T), loss
+        return best_T
+
     def train(self, X: np.ndarray, y: np.ndarray, validation_data: Tuple = None):
         """Train transformer model"""
         try:
             if self.model is None:
                 self.build_model((X.shape[1], X.shape[2]))
+            
+            X_scaled = self._scale_sequences_fit(X)
+            X_val_scaled, y_val = (None, None)
+            if validation_data is not None:
+                X_val_scaled = self._scale_sequences_transform(validation_data[0])
+                y_val = validation_data[1]
             
             callbacks = [
                 EarlyStopping(patience=10, restore_best_weights=True),
@@ -324,13 +419,18 @@ class TransformerModel:
             ]
             
             history = self.model.fit(
-                X, y,
-                validation_data=validation_data,
+                X_scaled, y,
+                validation_data=(X_val_scaled, y_val) if validation_data is not None else None,
                 epochs=50,
                 batch_size=32,
                 callbacks=callbacks,
                 verbose=0
             )
+            
+            if validation_data is not None:
+                val_probs = self.model.predict(X_val_scaled, verbose=0)
+                self.temperature = self._fit_temperature(val_probs, y_val.astype(int))
+                self.logger.info(f"Transformer calibrated temperature: {self.temperature:.3f}")
             
             self.is_trained = True
             return history
@@ -347,7 +447,9 @@ class TransformerModel:
             raise ValueError("Model not trained")
         
         try:
-            probabilities = self.model.predict(X, verbose=0)[0]
+            X_scaled = self._scale_sequences_transform(X)
+            probabilities = self.model.predict(X_scaled, verbose=0)[0]
+            probabilities = self._apply_temperature(probabilities.reshape(1, -1))[0]
             prediction = np.argmax(probabilities)
             confidence = float(np.max(probabilities))
             
@@ -594,6 +696,7 @@ class EnsembleSignalGenerator:
         
         self.is_trained = False
         self.training_history = {}
+        self.cv_scores = {}
     
     def prepare_data(self, data: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
         """Prepare data for ensemble training"""
@@ -670,8 +773,8 @@ class EnsembleSignalGenerator:
                 # Calculate percentage change
                 price_change = (future_price - current_price) / current_price * 100
                 
-                # Define threshold for signal generation (0.01% minimum movement)
-                threshold = 0.01
+                # Define threshold for signal generation (0.05% + 0.01% spread)
+                threshold = 0.05 + 0.01
                 
                 if price_change > threshold:
                     labels.append(0)  # BUY signal
@@ -689,6 +792,36 @@ class EnsembleSignalGenerator:
             data['target'] = 2
             return data
     
+    def _log_tree_cv(self, X: np.ndarray, y: np.ndarray):
+        """Run simple time series CV for tree models and log"""
+        try:
+            tscv = TimeSeriesSplit(n_splits=5)
+            for name in ['xgboost_features', 'random_forest', 'svm_regime']:
+                model = self.models[name]
+                # Use unscaled X; training method handles scaling internally
+                scores = []
+                for train_idx, test_idx in tscv.split(X):
+                    X_train, y_train = X[train_idx], y[train_idx]
+                    X_test, y_test = X[test_idx], y[test_idx]
+                    # Clone-like retrain
+                    if name == 'xgboost_features':
+                        tmp = XGBoostFeatureModel()
+                        tmp.train(X_train, y_train)
+                        y_pred = np.argmax(tmp.model.predict_proba(tmp.scaler.transform(X_test)), axis=1)
+                    elif name == 'random_forest':
+                        tmp = RandomForestRegimeModel()
+                        tmp.train(X_train, y_train)
+                        y_pred = np.argmax(tmp.model.predict_proba(tmp.scaler.transform(X_test)), axis=1)
+                    else:
+                        tmp = SVMRegimeModel()
+                        tmp.train(X_train, y_train)
+                        y_pred = np.argmax(tmp.model.predict_proba(tmp.scaler.transform(X_test)), axis=1)
+                    scores.append(accuracy_score(y_test, y_pred))
+                self.cv_scores[name] = float(np.mean(scores))
+                self.logger.info(f"CV accuracy ({name}): {self.cv_scores[name]:.4f}")
+        except Exception as e:
+            self.logger.warning(f"CV logging failed: {e}")
+    
     def train_ensemble(self, data: pd.DataFrame, validation_split: float = 0.2):
         """Train all models in the ensemble"""
         try:
@@ -703,6 +836,9 @@ class EnsembleSignalGenerator:
             seq_train, seq_val = sequence_data[:split_idx], sequence_data[split_idx:]
             flat_train, flat_val = flat_data[:split_idx], flat_data[split_idx:]
             y_train, y_val = targets[:split_idx], targets[split_idx:]
+            
+            # Log CV for tree models
+            self._log_tree_cv(flat_train, y_train)
             
             # Train sequence models (LSTM, Transformer)
             self.logger.info("Training LSTM model...")
@@ -833,7 +969,7 @@ class EnsembleSignalGenerator:
             
             # Calculate consensus
             pred_classes = [pred.prediction for pred in predictions]
-            consensus_level = max(pred_classes.count(0), pred_classes.count(1), pred_classes.count(2)) / len(pred_classes)
+            consensus_level = max(pred_classes.count(0), pred_classes.count(1), pred_classes.count(2)) / len(predictions)
             
             # Meta-learner prediction
             try:
@@ -920,46 +1056,153 @@ class EnsembleSignalGenerator:
             return {}
     
     def save_ensemble(self, filepath: str):
-        """Save trained ensemble"""
+        """Save trained ensemble with standardized persistence"""
         try:
-            # Save each model
-            for model_name, model in self.models.items():
-                if hasattr(model, 'model') and model.model is not None:
-                    if hasattr(model.model, 'save'):
-                        # TensorFlow model
-                        model.model.save(f"{filepath}_{model_name}.h5")
-                    else:
-                        # Scikit-learn/XGBoost model
-                        joblib.dump(model, f"{filepath}_{model_name}.pkl")
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            manifest = {
+                'saved_at': datetime.utcnow().isoformat(),
+                'models': {},
+                'training_history': {},
+                'cv_scores': self.cv_scores
+            }
             
-            # Save meta-learner
+            # Save each model and associated scaler/params
+            # LSTM trend (Keras)
+            lstm = self.models['lstm_trend']
+            if lstm.is_trained and lstm.model is not None:
+                lstm_path = f"{filepath}_lstm_trend.h5"
+                lstm.model.save(lstm_path)
+                joblib.dump(lstm.scaler, f"{filepath}_lstm_trend_scaler.pkl")
+                manifest['models']['lstm_trend'] = {
+                    'model': os.path.basename(lstm_path),
+                    'scaler': os.path.basename(f"{filepath}_lstm_trend_scaler.pkl"),
+                    'temperature': float(lstm.temperature)
+                }
+            
+            # Transformer (Keras)
+            trf = self.models['transformer']
+            if trf.is_trained and trf.model is not None:
+                trf_path = f"{filepath}_transformer.h5"
+                trf.model.save(trf_path)
+                joblib.dump(trf.scaler, f"{filepath}_transformer_scaler.pkl")
+                manifest['models']['transformer'] = {
+                    'model': os.path.basename(trf_path),
+                    'scaler': os.path.basename(f"{filepath}_transformer_scaler.pkl"),
+                    'temperature': float(trf.temperature)
+                }
+            
+            # XGBoost
+            xgbm = self.models['xgboost_features']
+            if xgbm.is_trained:
+                joblib.dump(xgbm.model, f"{filepath}_xgb.pkl")
+                joblib.dump(xgbm.scaler, f"{filepath}_xgb_scaler.pkl")
+                manifest['models']['xgboost_features'] = {
+                    'model': os.path.basename(f"{filepath}_xgb.pkl"),
+                    'scaler': os.path.basename(f"{filepath}_xgb_scaler.pkl")
+                }
+            
+            # Random Forest
+            rf = self.models['random_forest']
+            if rf.is_trained:
+                joblib.dump(rf.model, f"{filepath}_rf.pkl")
+                joblib.dump(rf.scaler, f"{filepath}_rf_scaler.pkl")
+                manifest['models']['random_forest'] = {
+                    'model': os.path.basename(f"{filepath}_rf.pkl"),
+                    'scaler': os.path.basename(f"{filepath}_rf_scaler.pkl")
+                }
+            
+            # SVM
+            svm = self.models['svm_regime']
+            if svm.is_trained:
+                joblib.dump(svm.model, f"{filepath}_svm.pkl")
+                joblib.dump(svm.scaler, f"{filepath}_svm_scaler.pkl")
+                manifest['models']['svm_regime'] = {
+                    'model': os.path.basename(f"{filepath}_svm.pkl"),
+                    'scaler': os.path.basename(f"{filepath}_svm_scaler.pkl")
+                }
+            
+            # Meta-learner
             if self.meta_learner.is_trained:
-                joblib.dump(self.meta_learner, f"{filepath}_meta_learner.pkl")
+                joblib.dump(self.meta_learner.model, f"{filepath}_meta.pkl")
+                joblib.dump(self.meta_learner.scaler, f"{filepath}_meta_scaler.pkl")
+                manifest['models']['meta_learner'] = {
+                    'model': os.path.basename(f"{filepath}_meta.pkl"),
+                    'scaler': os.path.basename(f"{filepath}_meta_scaler.pkl")
+                }
             
-            # Save training history
-            with open(f"{filepath}_training_history.json", 'w') as f:
-                # Convert numpy arrays to lists for JSON serialization
-                history_json = {}
-                for key, value in self.training_history.items():
-                    if hasattr(value, 'history'):
-                        history_json[key] = {k: [float(x) for x in v] for k, v in value.history.items()}
-                json.dump(history_json, f)
+            # Save training history (convert tf History objects)
+            for key, value in self.training_history.items():
+                if hasattr(value, 'history'):
+                    manifest['training_history'][key] = {k: [float(x) for x in v] for k, v in value.history.items()}
             
-            self.logger.info(f"Ensemble saved to {filepath}")
+            # Persist manifest
+            with open(f"{filepath}_manifest.json", 'w') as f:
+                json.dump(manifest, f)
+            
+            self.logger.info(f"Ensemble saved to prefix {filepath}")
             
         except Exception as e:
             self.logger.error(f"Error saving ensemble: {e}")
             raise
     
     def load_ensemble(self, filepath: str):
-        """Load trained ensemble"""
+        """Load trained ensemble from standardized persistence"""
         try:
-            # Load each model (implementation depends on specific requirements)
-            # This would need to be implemented based on the saved model formats
+            manifest_path = f"{filepath}_manifest.json"
+            if not os.path.exists(manifest_path):
+                raise FileNotFoundError(f"Manifest missing: {manifest_path}")
+            with open(manifest_path, 'r') as f:
+                manifest = json.load(f)
             
-            self.logger.info(f"Ensemble loaded from {filepath}")
+            # LSTM trend
+            if 'lstm_trend' in manifest['models']:
+                meta = manifest['models']['lstm_trend']
+                self.models['lstm_trend'].model = tf.keras.models.load_model(os.path.join(os.path.dirname(filepath), meta['model']))
+                self.models['lstm_trend'].scaler = joblib.load(os.path.join(os.path.dirname(filepath), meta['scaler']))
+                self.models['lstm_trend'].temperature = float(meta.get('temperature', 1.0))
+                self.models['lstm_trend'].is_trained = True
+            
+            # Transformer
+            if 'transformer' in manifest['models']:
+                meta = manifest['models']['transformer']
+                self.models['transformer'].model = tf.keras.models.load_model(os.path.join(os.path.dirname(filepath), meta['model']))
+                self.models['transformer'].scaler = joblib.load(os.path.join(os.path.dirname(filepath), meta['scaler']))
+                self.models['transformer'].temperature = float(meta.get('temperature', 1.0))
+                self.models['transformer'].is_trained = True
+            
+            # XGBoost
+            if 'xgboost_features' in manifest['models']:
+                self.models['xgboost_features'].model = joblib.load(f"{filepath}_xgb.pkl")
+                self.models['xgboost_features'].scaler = joblib.load(f"{filepath}_xgb_scaler.pkl")
+                self.models['xgboost_features'].is_trained = True
+            
+            # Random Forest
+            if 'random_forest' in manifest['models']:
+                self.models['random_forest'].model = joblib.load(f"{filepath}_rf.pkl")
+                self.models['random_forest'].scaler = joblib.load(f"{filepath}_rf_scaler.pkl")
+                self.models['random_forest'].is_trained = True
+            
+            # SVM
+            if 'svm_regime' in manifest['models']:
+                self.models['svm_regime'].model = joblib.load(f"{filepath}_svm.pkl")
+                self.models['svm_regime'].scaler = joblib.load(f"{filepath}_svm_scaler.pkl")
+                self.models['svm_regime'].is_trained = True
+            
+            # Meta learner
+            if 'meta_learner' in manifest['models']:
+                self.meta_learner.model = joblib.load(f"{filepath}_meta.pkl")
+                self.meta_learner.scaler = joblib.load(f"{filepath}_meta_scaler.pkl")
+                self.meta_learner.is_trained = True
+            
             self.is_trained = True
+            self.logger.info(f"Ensemble loaded from prefix {filepath}")
             
         except Exception as e:
             self.logger.error(f"Error loading ensemble: {e}")
             raise
+    
+    def save_models(self):
+        """Convenience method to save ensemble to dated path in models_dir"""
+        timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+        base = os.path.join(DATABASE_CONFIG['models_dir'], f"ensemble_{timestamp}")
+        self.save_ensemble(base)
