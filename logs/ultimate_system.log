@@ -222,3 +222,70 @@ nohup: ignoring input
 2025-08-15 13:30:37,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
 2025-08-15 13:30:47,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
 2025-08-15 13:30:57,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-15 13:31:02,900 - UltimateAIUniversalLauncher - INFO - 🛑 Received SIGTERM, initiating AI system graceful shutdown...
+2025-08-15 13:31:02,900 - UltimateAIUniversalLauncher - INFO - 🛑 Stopping Ultimate AI Trading System...
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO - 📊 Final AI System Statistics:
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    Total Uptime: 1h 15m
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    AI Signals Generated: 0
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    AI Predictions Made: 0
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    OTC Signals (Weekdays): 0
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    Regular Signals (Weekends): 0
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO -    AI Model Accuracy: 97.2%
+2025-08-15 13:31:02,901 - UltimateAIUniversalLauncher - INFO - 🛑 Ultimate AI system shutdown completed
+2025-08-15 13:31:08,032 - UltimateAIUniversalLauncher - INFO - 🛑 Cancelling bot task...
+2025-08-15 13:31:08,032 - UltimateAIUniversalLauncher - INFO - 🛑 Bot monitoring cancelled
+2025-08-15 13:31:08,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO - 🛑 Stopping Ultimate AI Trading System...
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO - 📊 Final AI System Statistics:
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    Total Uptime: 1h 15m
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    AI Signals Generated: 0
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    AI Predictions Made: 0
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    Commands Processed: 0
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    OTC Signals (Weekdays): 0
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    Regular Signals (Weekends): 0
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO -    AI Model Accuracy: 97.2%
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO - 🛑 Ultimate AI system shutdown completed
+2025-08-15 13:31:08,033 - UltimateAIUniversalLauncher - INFO - 🛑 Stopping Ultimate AI bot...
+2025-08-15 13:31:08,033 - UltimateAITradingBot - INFO - 🛑 Stopping Ultimate AI bot...
+2025-08-15 13:31:08,034 - UltimateAIUniversalLauncher - INFO - 🛑 Stopping Ultimate AI bot...
+2025-08-15 13:31:08,034 - UltimateAITradingBot - INFO - 🛑 Stopping Ultimate AI bot...
+2025-08-15 13:31:08,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8226952507:AAGPhIvSNikHOkDFTUAZnjTKQzxR4m9yIAU/getUpdates "HTTP/1.1 200 OK"
+2025-08-15 13:31:08,126 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-15 13:31:08,126 - telegram.ext.Application - CRITICAL - Fetching updates was aborted due to CancelledError(). Suppressing exception to ensure graceful shutdown.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/telegram/ext/_application.py", line 673, in stop
+    self.__update_fetcher_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/telegram/ext/_application.py", line 1228, in _update_fetcher
+    await self.__update_fetcher()
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/telegram/ext/_application.py", line 1207, in __update_fetcher
+    update = await self.update_queue.get()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+2025-08-15 13:31:08,136 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-15 13:31:08,136 - UltimateAITradingBot - INFO - ✅ Ultimate AI bot stopped successfully
+2025-08-15 13:31:08,137 - UltimateAIUniversalLauncher - INFO - ✅ Ultimate AI bot stopped successfully
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║  🏆 ULTIMATE AI TRADING SYSTEM - UNIVERSAL ENTRY POINT 🏆                   ║
+║                                                                              ║
+║  🤖 Advanced AI/ML Model Analysis & Signal Generation                       ║
+║  📱 Fixed Interactive Telegram Bot Navigation                               ║
+║  ⏰ 1-Minute Advance Signal Generation                                      ║
+║  🔗 Pocket Option SSID Synchronization                                     ║
+║  🔶 OTC Pairs (Weekdays) / 🔷 Regular Pairs (Weekends) - CORRECTED         ║
+║  📊 Professional AI Trading Interface                                       ║
+║  🧠 Real-time AI Technical Analysis                                         ║
+║  ⚡ Ultra-Low Latency AI Processing                                         ║
+║  🔒 Institutional-Grade Security                                            ║
+║                                                                              ║
+║  Version: 3.0.0 (Ultimate AI - Corrected)                                  ║
+║  Status: 🟢 AI ENHANCED & OPERATIONAL                                       ║
+║  Time: 2025-08-15 12:15:16                                           ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+        
