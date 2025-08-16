@@ -9,7 +9,7 @@ from dataclasses import dataclass, asdict
 import threading
 from concurrent.futures import ThreadPoolExecutor
 import websockets
-import aioredis
+import redis.asyncio as aioredis
 import numpy as np
 from collections import deque
 import pickle

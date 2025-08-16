@@ -136,3 +136,9 @@ ValueError: Input X contains infinity or a value too large for dtype('float64').
 2025-08-14 22:23:20,788 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_20250814_222320.h5
 2025-08-14 22:23:20,788 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_20250814_222320.h5
 2025-08-14 22:23:20,788 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_20250814_222320.h5
+2025-08-16 08:05:55,746 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-16 08:06:03,283 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-16 08:06:32,126 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-16 08:06:37,547 - LSTM_Model - ERROR - Failed to load model: [Errno 2] Unable to synchronously open file (unable to open file: name = '/workspace/models//lstm_trading_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-08-16 08:06:47,621 - LSTM_Model - INFO - Model loaded from /workspace/models//best_model.h5
+2025-08-16 08:07:02,535 - LSTM_Model - INFO - Model loaded from /workspace/models//best_model.h5
