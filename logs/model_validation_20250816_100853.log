@@ -1,0 +1,30 @@
+2025-08-16 10:08:53,540 - INFO - 📋 Generating comprehensive validation report...
+2025-08-16 10:08:53,540 - INFO - 🔍 Discovering all AI/ML models in the system...
+2025-08-16 10:08:53,722 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-16 10:08:53,728 - INFO - ✅ Found LSTM model: /workspace/models/production/lstm_real_data_20250816_093249.h5
+2025-08-16 10:08:53,790 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-16 10:08:53,793 - INFO - ✅ Found LSTM model: /workspace/models/best_model.h5
+2025-08-16 10:08:53,853 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-16 10:08:53,856 - INFO - ✅ Found LSTM model: /workspace/models/production_lstm_20250814_222320.h5
+2025-08-16 10:08:53,893 - INFO - ✅ Found ensemble model: xgboost
+2025-08-16 10:08:54,124 - INFO - ✅ Found ensemble model: random_forest
+2025-08-16 10:08:54,124 - INFO - ✅ Found ensemble model: svm
+2025-08-16 10:08:54,125 - INFO - ✅ Found transformer model: /workspace/models/production/transformer/trading_transformer_20250816_095822.pth
+2025-08-16 10:08:54,125 - INFO - ✅ Loaded performance metrics: /workspace/models/production/ensemble/performance_metrics_20250816_094943.joblib
+2025-08-16 10:08:54,125 - INFO - ✅ Loaded performance metrics: /workspace/models/production/transformer/metrics_20250816_095822.json
+2025-08-16 10:08:54,125 - INFO - 🎯 Model discovery complete: 7 models found
+2025-08-16 10:08:54,125 - INFO - 📈 Loading real market data for validation...
+2025-08-16 10:08:54,132 - INFO - ✅ Loaded real market data: 6,422 records
+2025-08-16 10:08:54,133 - INFO - 📊 Data quality score: 100.00%
+2025-08-16 10:08:54,134 - INFO - 📅 Date range: 2025-08-07 09:30:00-04:00 to 2025-08-16 09:45:00+00:00
+2025-08-16 10:08:54,134 - INFO - 🎯 Symbols: ['AAPL', 'MSFT', 'GOOGL', 'TSLA', 'NVDA', 'BTC-USD', 'ETH-USD']
+2025-08-16 10:08:54,134 - INFO - 🧠 Validating LSTM models...
+2025-08-16 10:08:54,134 - INFO - ✅ LSTM_lstm_real_data_20250816_093249.h5: 100/100 - PRODUCTION READY
+2025-08-16 10:08:54,134 - INFO - ✅ LSTM_best_model.h5: 100/100 - PRODUCTION READY
+2025-08-16 10:08:54,134 - INFO - ✅ LSTM_production_lstm_20250814_222320.h5: 100/100 - PRODUCTION READY
+2025-08-16 10:08:54,135 - INFO - 📊 Validating ensemble models...
+2025-08-16 10:08:54,135 - INFO - ✅ ENSEMBLE_XGBOOST: 95/100 - PRODUCTION READY
+2025-08-16 10:08:54,135 - INFO - ✅ ENSEMBLE_RANDOM_FOREST: 90/100 - PRODUCTION READY
+2025-08-16 10:08:54,135 - INFO - ✅ ENSEMBLE_SVM: 85/100 - PRODUCTION READY
+2025-08-16 10:08:54,135 - INFO - 🤖 Validating transformer models...
+2025-08-16 10:08:54,135 - INFO - ✅ TRANSFORMER_ADVANCED: 60/100 - DEVELOPMENT
