@@ -9,8 +9,8 @@ import random
 import logging
 from typing import Dict, List, Tuple, Optional, Any, Union
 from dataclasses import dataclass
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 import pandas as pd
 from datetime import datetime, timedelta
 import pickle

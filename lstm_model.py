@@ -479,7 +479,7 @@ class LSTMTradingModel:
 	def load_model(self, filepath=None):
 		"""Load a pre-trained model"""
 		if filepath is None:
-			filepath = f"{DATABASE_CONFIG['models_dir']}/lstm_trading_model.h5"
+			filepath = f"{DATABASE_CONFIG['models_dir']}/best_model.h5"
 		
 		try:
 			self.model = tf.keras.models.load_model(filepath)

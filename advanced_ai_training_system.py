@@ -13,7 +13,7 @@ import xgboost as xgb
 import lightgbm as lgb
 import catboost as cb
 import optuna
-from optuna.integration import TensorFlowPruningCallback
+# from optuna.integration import TensorFlowPruningCallback  # Removed due to compatibility issues
 import logging
 import json
 import pickle
