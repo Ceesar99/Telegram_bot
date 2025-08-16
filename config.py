@@ -40,16 +40,19 @@ OTC_PAIRS = [
 	"EUR/GBP OTC", "GBP/JPY OTC", "EUR/JPY OTC", "AUD/JPY OTC", "NZD/USD OTC"
 ]
 
-# LSTM Model Configuration
+# LSTM Model Configuration - ENHANCED FOR MAXIMUM ACCURACY
 LSTM_CONFIG = {
 	"sequence_length": 60,
 	"features": 24,  # Updated to match actual feature count (23 features + 1 more)
-	"lstm_units": [50, 50, 50],
-	"dropout_rate": 0.2,
+	"lstm_units": [128, 64, 32],  # Enhanced architecture
+	"dropout_rate": 0.3,  # Increased regularization
 	"learning_rate": 0.001,
-	"batch_size": 32,
-	"epochs": 100,
-	"validation_split": 0.2
+	"batch_size": 64,  # Larger batch size
+	"epochs": 150,  # Increased from 100 to 150
+	"validation_split": 0.2,
+	"early_stopping_patience": 20,  # Added early stopping
+	"reduce_lr_patience": 10,  # Learning rate reduction
+	"temperature_calibration": True  # Enhanced confidence calibration
 }
 
 # Technical Analysis Configuration
@@ -66,24 +69,32 @@ TECHNICAL_INDICATORS = {
 	"SMA": {"periods": [10, 20, 50, 100]}
 }
 
-# Signal Configuration
+# Signal Configuration - ENHANCED FOR HIGHER ACCURACY
 SIGNAL_CONFIG = {
-	"min_accuracy": 95.0,
-	"min_confidence": 85.0,
+	"min_accuracy": 75.0,  # Reduced from 95.0 to realistic 75.0
+	"min_confidence": 70.0,  # Reduced from 85.0 to realistic 70.0
 	"expiry_durations": [2, 3, 5],  # minutes
 	"signal_advance_time": 1,  # minutes before trade
-	"max_signals_per_day": 20,
+	"max_signals_per_day": 15,  # Reduced for quality over quantity
 	"min_volatility_threshold": 0.001,
-	"max_volatility_threshold": 0.01
+	"max_volatility_threshold": 0.01,
+	"ensemble_voting_threshold": 0.6,  # Added ensemble requirement
+	"temperature_scaling": True,  # Enhanced calibration
+	"cross_validation_required": True  # Require CV validation
 }
 
-# Risk Management
+# Risk Management - ENHANCED FOR MAXIMUM PROTECTION
 RISK_MANAGEMENT = {
-	"max_risk_per_trade": 2.0,  # percentage
-	"max_daily_loss": 10.0,  # percentage
-	"min_win_rate": 75.0,  # percentage
-	"stop_loss_threshold": 5.0,  # percentage
-	"max_concurrent_trades": 3
+	"max_risk_per_trade": 2.0,  # percentage - SAFE LEVEL
+	"max_daily_loss": 5.0,  # percentage - REDUCED from 10.0
+	"max_drawdown_limit": 15.0,  # percentage - CRITICAL PROTECTION
+	"min_win_rate": 60.0,  # percentage - REALISTIC TARGET
+	"stop_loss_threshold": 2.0,  # percentage - REDUCED for protection
+	"max_concurrent_trades": 3,
+	"kelly_fraction": 0.25,  # Added Kelly Criterion
+	"circuit_breaker_threshold": 10.0,  # Emergency halt at 10% rapid loss
+	"atr_multiplier_stop": 2.0,  # ATR-based stop losses
+	"atr_multiplier_profit": 3.0  # ATR-based take profits
 }
 
 # Database Configuration

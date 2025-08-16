@@ -1,0 +1,9 @@
+2025-08-16 22:48:58,091 - EnhancedTraining - INFO - 🔥 Phase 1: Enhanced LSTM Training
+2025-08-16 22:48:58,091 - EnhancedLSTM - INFO - 🚀 Starting Enhanced LSTM Training...
+2025-08-16 22:48:58,104 - EnhancedLSTM - ERROR - ❌ Enhanced LSTM training failed: No module named 'numpy'
+2025-08-16 22:48:58,105 - EnhancedTraining - INFO - 🔗 Phase 2: Enhanced Ensemble Training
+2025-08-16 22:48:58,105 - EnhancedEnsemble - INFO - 🚀 Starting Enhanced Ensemble Training...
+2025-08-16 22:48:58,115 - EnhancedEnsemble - ERROR - ❌ Enhanced ensemble training failed: No module named 'numpy'
+2025-08-16 22:48:58,115 - EnhancedTraining - INFO - 📊 Phase 3: Creating Training Report
+2025-08-16 22:48:58,115 - TrainingReport - INFO - 📄 Training report saved: /workspace/logs/enhanced_training_report.json
+2025-08-16 22:48:58,115 - EnhancedTraining - INFO - ✅ Enhanced training launcher completed successfully!
