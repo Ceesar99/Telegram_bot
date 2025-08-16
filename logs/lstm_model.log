@@ -144,3 +144,19 @@ ValueError: Input X contains infinity or a value too large for dtype('float64').
 2025-08-16 09:32:48,606 - LSTM_Model - INFO - Test accuracy: 0.3222
 2025-08-16 09:32:49,863 - LSTM_Model - INFO - Calibrated temperature: 3.000
 2025-08-16 09:32:49,900 - LSTM_Model - INFO - Model saved to /workspace/models/production/lstm_real_data_20250816_093249.h5
+2025-08-16 13:19:52,767 - LSTM_Model - INFO - Starting model training...
+2025-08-16 13:19:55,266 - LSTM_Model - INFO - Created sequences: (123908, 60, 24), targets: (123908,)
+2025-08-16 13:19:55,567 - LSTM_Model - INFO - Training data shapes - X_train: (99114, 60, 24), X_val: (24794, 60, 24)
+2025-08-16 13:19:55,703 - LSTM_Model - INFO - Starting training with 50 epochs
+2025-08-16 13:35:37,549 - LSTM_Model - INFO - Starting model training...
+2025-08-16 13:35:37,739 - LSTM_Model - INFO - Created sequences: (9940, 60, 24), targets: (9940,)
+2025-08-16 13:35:37,760 - LSTM_Model - INFO - Training data shapes - X_train: (7940, 60, 24), X_val: (2000, 60, 24)
+2025-08-16 13:35:37,910 - LSTM_Model - INFO - Starting training with 20 epochs
+2025-08-16 13:38:18,470 - LSTM_Model - INFO - Training accuracy: 0.3455
+2025-08-16 13:38:18,471 - LSTM_Model - INFO - Test accuracy: 0.3475
+2025-08-16 13:38:19,641 - LSTM_Model - INFO - Calibrated temperature: 0.800
+2025-08-16 13:38:19,686 - LSTM_Model - INFO - Model saved to /workspace/models/production_lstm_trained.h5
+2025-08-16 13:38:19,734 - LSTM_Model - INFO - Created sequences: (1940, 60, 24), targets: (1940,)
+2025-08-16 13:39:38,004 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_trained.h5
+2025-08-16 13:39:39,129 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_trained.h5
+2025-08-16 13:39:39,129 - LSTM_Model - INFO - Model loaded from /workspace/models/production_lstm_trained.h5

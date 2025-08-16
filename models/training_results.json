@@ -1,0 +1,33 @@
+{
+  "training_date": "2025-08-16T13:35:34.872040",
+  "results": {
+    "lstm": {
+      "model": "LSTM",
+      "status": "SUCCESS",
+      "accuracy": 34.63917525773196,
+      "training_samples": 10000,
+      "validation_samples": 2000,
+      "epochs_completed": 20,
+      "model_file": "/workspace/models/production_lstm_trained.h5"
+    },
+    "ensemble": {
+      "model": "Ensemble",
+      "status": "FAILED",
+      "error": "No module named 'aiohttp'"
+    },
+    "backtesting": {
+      "backtesting": "FAILED",
+      "error": "single positional indexer is out-of-bounds"
+    }
+  },
+  "benchmarks": {
+    "target_accuracy": 85.0,
+    "target_win_rate": 0.6,
+    "max_drawdown": 0.15,
+    "min_sharpe_ratio": 1.5,
+    "latency_target": 100,
+    "daily_signals": 20,
+    "risk_per_trade": 0.02,
+    "established_date": "2025-08-16T13:38:20.585745"
+  }
+}

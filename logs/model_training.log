@@ -1,0 +1,28 @@
+2025-08-16 13:35:34,870 - INFO - 🚀 Starting Production Model Training
+2025-08-16 13:35:34,871 - INFO - ============================================================
+2025-08-16 13:35:34,872 - INFO - 📊 Loading market data...
+2025-08-16 13:35:35,230 - INFO - ✅ Loaded 123968 records from 10 symbols
+2025-08-16 13:35:35,235 - INFO - 🎯 Using all currency data: 123968 records
+2025-08-16 13:35:35,235 - INFO - 🧠 Training LSTM Model...
+2025-08-16 13:35:37,549 - INFO - Training on 10000 records
+2025-08-16 13:35:37,549 - INFO - Starting model training...
+2025-08-16 13:35:37,739 - INFO - Created sequences: (9940, 60, 24), targets: (9940,)
+2025-08-16 13:35:37,760 - INFO - Training data shapes - X_train: (7940, 60, 24), X_val: (2000, 60, 24)
+2025-08-16 13:35:37,910 - INFO - Starting training with 20 epochs
+2025-08-16 13:35:49,202 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-16 13:35:56,497 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-16 13:38:18,470 - INFO - Training accuracy: 0.3455
+2025-08-16 13:38:18,471 - INFO - Test accuracy: 0.3475
+2025-08-16 13:38:19,641 - INFO - Calibrated temperature: 0.800
+2025-08-16 13:38:19,647 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-16 13:38:19,686 - INFO - Model saved to /workspace/models/production_lstm_trained.h5
+2025-08-16 13:38:19,734 - INFO - Created sequences: (1940, 60, 24), targets: (1940,)
+2025-08-16 13:38:20,377 - INFO - ✅ LSTM Training Complete - Accuracy: 34.64%
+2025-08-16 13:38:20,377 - INFO - 🎭 Training Ensemble Models...
+2025-08-16 13:38:20,575 - ERROR - ❌ Ensemble Training Failed: No module named 'aiohttp'
+2025-08-16 13:38:20,575 - INFO - 📈 Running Basic Backtesting...
+2025-08-16 13:38:20,584 - INFO - Started paper trading session: backtest_validation
+2025-08-16 13:38:20,585 - ERROR - ❌ Backtesting Failed: single positional indexer is out-of-bounds
+2025-08-16 13:38:20,585 - INFO - 📊 Establishing Performance Benchmarks...
+2025-08-16 13:38:20,585 - INFO - ✅ Performance benchmarks established
+2025-08-16 13:38:20,586 - INFO - 🎉 Training Complete! Results saved to training_results.json
