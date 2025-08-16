@@ -1,0 +1,19 @@
+2025-08-16 09:24:32,105 - ModelValidation - INFO - 🔬 STARTING COMPREHENSIVE MODEL VALIDATION
+2025-08-16 09:24:32,105 - ModelValidation - INFO - ==================================================
+2025-08-16 09:24:32,105 - ModelValidation - INFO - 📦 Validating dependencies...
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ tensorflow: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ torch: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ xgboost: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ sklearn: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ pandas: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - ERROR - ❌ numpy: Not installed
+2025-08-16 09:24:32,105 - ModelValidation - INFO - 🧠 Validating LSTM models...
+2025-08-16 09:24:32,109 - ModelValidation - ERROR - ❌ LSTM validation failed: No module named 'numpy'
+2025-08-16 09:24:32,109 - ModelValidation - INFO - 🎯 Validating ensemble models...
+2025-08-16 09:24:32,116 - ModelValidation - ERROR - ❌ Ensemble validation failed: No module named 'numpy'
+2025-08-16 09:24:32,116 - ModelValidation - INFO - ==================================================
+2025-08-16 09:24:32,116 - ModelValidation - INFO - 📊 VALIDATION SUMMARY
+2025-08-16 09:24:32,116 - ModelValidation - INFO - DEPENDENCIES: ❌ FAILED
+2025-08-16 09:24:32,116 - ModelValidation - INFO - LSTM_MODELS: ❌ FAILED
+2025-08-16 09:24:32,116 - ModelValidation - INFO - ENSEMBLE_MODELS: ❌ FAILED
+2025-08-16 09:24:32,116 - ModelValidation - WARNING - ⚠️ SOME VALIDATIONS FAILED - REVIEW ISSUES ABOVE

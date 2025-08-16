@@ -1,0 +1,67 @@
+2025-08-16 09:29:10,658 - RealMarketDataCollector - INFO - 🌐 Real Market Data Collector initialized
+2025-08-16 09:29:10,658 - RealMarketDataCollector - INFO - 📊 Collecting Yahoo Finance data for 10 symbols
+2025-08-16 09:29:10,658 - RealMarketDataCollector - INFO -    Downloading EURUSD=X...
+2025-08-16 09:29:11,263 - RealMarketDataCollector - INFO -    ✅ EURUSD=X: 12382 samples saved to EURUSD_X_2y_1h.csv
+2025-08-16 09:29:11,263 - RealMarketDataCollector - INFO -    Downloading GBPUSD=X...
+2025-08-16 09:29:11,687 - RealMarketDataCollector - INFO -    ✅ GBPUSD=X: 12382 samples saved to GBPUSD_X_2y_1h.csv
+2025-08-16 09:29:11,763 - RealMarketDataCollector - INFO -    Downloading USDJPY=X...
+2025-08-16 09:29:12,184 - RealMarketDataCollector - INFO -    ✅ USDJPY=X: 12313 samples saved to USDJPY_X_2y_1h.csv
+2025-08-16 09:29:12,264 - RealMarketDataCollector - INFO -    Downloading AUDUSD=X...
+2025-08-16 09:29:12,637 - RealMarketDataCollector - INFO -    ✅ AUDUSD=X: 12451 samples saved to AUDUSD_X_2y_1h.csv
+2025-08-16 09:29:12,764 - RealMarketDataCollector - INFO -    Downloading USDCAD=X...
+2025-08-16 09:29:13,183 - RealMarketDataCollector - INFO -    ✅ USDCAD=X: 12450 samples saved to USDCAD_X_2y_1h.csv
+2025-08-16 09:29:13,264 - RealMarketDataCollector - INFO -    Downloading NZDUSD=X...
+2025-08-16 09:29:13,665 - RealMarketDataCollector - INFO -    ✅ NZDUSD=X: 12443 samples saved to NZDUSD_X_2y_1h.csv
+2025-08-16 09:29:13,764 - RealMarketDataCollector - INFO -    Downloading EURGBP=X...
+2025-08-16 09:29:14,235 - RealMarketDataCollector - INFO -    ✅ EURGBP=X: 12388 samples saved to EURGBP_X_2y_1h.csv
+2025-08-16 09:29:14,264 - RealMarketDataCollector - INFO -    Downloading EURJPY=X...
+2025-08-16 09:29:14,644 - RealMarketDataCollector - INFO -    ✅ EURJPY=X: 12386 samples saved to EURJPY_X_2y_1h.csv
+2025-08-16 09:29:14,764 - RealMarketDataCollector - INFO -    Downloading GBPJPY=X...
+2025-08-16 09:29:15,253 - RealMarketDataCollector - INFO -    ✅ GBPJPY=X: 12385 samples saved to GBPJPY_X_2y_1h.csv
+2025-08-16 09:29:15,264 - RealMarketDataCollector - INFO -    Downloading AUDJPY=X...
+2025-08-16 09:29:15,666 - RealMarketDataCollector - INFO -    ✅ AUDJPY=X: 12388 samples saved to AUDJPY_X_2y_1h.csv
+2025-08-16 09:29:15,666 - RealMarketDataCollector - INFO - 🎉 Yahoo Finance collection complete: 10 symbols collected
+2025-08-16 09:29:15,667 - RealMarketDataCollector - INFO - ₿ Collecting cryptocurrency data from binance
+2025-08-16 09:29:15,673 - RealMarketDataCollector - INFO -    Downloading BTC/USDT...
+2025-08-16 09:29:15,708 - RealMarketDataCollector - ERROR -    ❌ BTC/USDT: Error - binance GET https://api.binance.com/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2025-08-16 09:29:15,708 - RealMarketDataCollector - INFO -    Downloading ETH/USDT...
+2025-08-16 09:29:19,679 - RealMarketDataCollector - ERROR -    ❌ ETH/USDT: Error - binance GET https://api.binance.com/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2025-08-16 09:29:19,679 - RealMarketDataCollector - INFO -    Downloading BNB/USDT...
+2025-08-16 09:29:23,678 - RealMarketDataCollector - ERROR -    ❌ BNB/USDT: Error - binance GET https://api.binance.com/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2025-08-16 09:29:23,678 - RealMarketDataCollector - INFO -    Downloading XRP/USDT...
+2025-08-16 09:29:27,678 - RealMarketDataCollector - ERROR -    ❌ XRP/USDT: Error - binance GET https://api.binance.com/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2025-08-16 09:29:27,679 - RealMarketDataCollector - INFO -    Downloading ADA/USDT...
+2025-08-16 09:29:31,678 - RealMarketDataCollector - ERROR -    ❌ ADA/USDT: Error - binance GET https://api.binance.com/api/v3/exchangeInfo 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2025-08-16 09:29:31,678 - RealMarketDataCollector - INFO - 🎉 Crypto collection complete: 0 symbols collected
+2025-08-16 09:29:31,678 - RealMarketDataCollector - INFO - 🔄 Creating combined training dataset...
+2025-08-16 09:29:31,693 - RealMarketDataCollector - INFO -    ✅ Loaded EURGBP_X_2y_1h.csv: 12388 samples
+2025-08-16 09:29:31,709 - RealMarketDataCollector - INFO -    ✅ Loaded AUDJPY_X_2y_1h.csv: 12388 samples
+2025-08-16 09:29:31,724 - RealMarketDataCollector - INFO -    ✅ Loaded USDCAD_X_2y_1h.csv: 12450 samples
+2025-08-16 09:29:31,736 - RealMarketDataCollector - INFO -    ✅ Loaded USDJPY_X_2y_1h.csv: 12313 samples
+2025-08-16 09:29:31,752 - RealMarketDataCollector - INFO -    ✅ Loaded EURUSD_X_2y_1h.csv: 12382 samples
+2025-08-16 09:29:31,767 - RealMarketDataCollector - INFO -    ✅ Loaded GBPJPY_X_2y_1h.csv: 12385 samples
+2025-08-16 09:29:31,782 - RealMarketDataCollector - INFO -    ✅ Loaded EURJPY_X_2y_1h.csv: 12386 samples
+2025-08-16 09:29:31,796 - RealMarketDataCollector - INFO -    ✅ Loaded NZDUSD_X_2y_1h.csv: 12443 samples
+2025-08-16 09:29:31,810 - RealMarketDataCollector - INFO -    ✅ Loaded GBPUSD_X_2y_1h.csv: 12382 samples
+2025-08-16 09:29:31,823 - RealMarketDataCollector - INFO -    ✅ Loaded AUDUSD_X_2y_1h.csv: 12451 samples
+2025-08-16 09:29:33,619 - RealMarketDataCollector - INFO - 🎉 Combined dataset created: combined_market_data_20250816_092932.csv
+2025-08-16 09:29:33,619 - RealMarketDataCollector - INFO -    Total samples: 123968
+2025-08-16 09:29:33,632 - RealMarketDataCollector - INFO -    Date range: 2023-08-16 00:00:00+01:00 to 2025-08-15 22:00:00+01:00
+2025-08-16 09:29:33,636 - RealMarketDataCollector - INFO -    Symbols: 10
+2025-08-16 09:29:33,638 - RealMarketDataCollector - INFO - 🔍 Validating data quality...
+2025-08-16 09:29:33,744 - RealMarketDataCollector - INFO - 📊 Data Quality Score: 100/100

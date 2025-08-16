@@ -1,0 +1,29 @@
+{
+    "lstm_config": {
+        "epochs": 200,
+        "batch_size": 32,
+        "validation_split": 0.2,
+        "early_stopping_patience": 20,
+        "reduce_lr_patience": 10,
+        "model_save_format": "keras"
+    },
+    "ensemble_config": {
+        "cross_validation_folds": 5,
+        "hyperparameter_trials": 100,
+        "ensemble_methods": ["xgboost", "random_forest", "svm", "transformer"]
+    },
+    "rl_config": {
+        "training_episodes": 2000,
+        "environment_config": {
+            "transaction_cost": 0.001,
+            "slippage_bps": 5.0,
+            "max_position_size": 0.1
+        }
+    },
+    "data_config": {
+        "historical_data_years": 3,
+        "validation_period_months": 6,
+        "real_data_sources": ["alpha_vantage", "yahoo_finance"],
+        "synthetic_data_fallback": true
+    }
+}
