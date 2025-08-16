@@ -1,0 +1,5 @@
+2025-08-16 09:51:59,346 - INFO - 🚀 Starting RL agents training with real data...
+2025-08-16 09:51:59,346 - INFO - 📊 Loading real market data from /workspace/data/real_training_data/market_data_7day.csv
+2025-08-16 09:51:59,355 - INFO - ✅ Loaded 6,422 records
+2025-08-16 09:51:59,406 - INFO - 📈 Using 546 records from AAPL
+2025-08-16 09:51:59,413 - INFO - ✅ Added technical features, final shape: (497, 31)

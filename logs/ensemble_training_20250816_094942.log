@@ -1,0 +1,52 @@
+2025-08-16 09:49:42,309 - INFO - 🚀 Starting ensemble models training with real data...
+2025-08-16 09:49:42,309 - INFO - 📊 Loading real market data from /workspace/data/real_training_data/market_data_7day.csv
+2025-08-16 09:49:42,317 - INFO - ✅ Loaded 6,422 records
+2025-08-16 09:49:42,364 - INFO - 📈 Using 2,730 records from 5 symbols
+2025-08-16 09:49:42,364 - INFO - 🔧 Engineering advanced features...
+2025-08-16 09:49:42,366 - INFO - Starting advanced feature generation...
+2025-08-16 09:49:42,374 - ERROR - Error calculating volume indicators: input array type is not double
+2025-08-16 09:49:42,394 - ERROR - Error calculating volatility features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,399 - ERROR - Error calculating statistical features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,407 - INFO - Generated 19 features
+2025-08-16 09:49:42,408 - INFO - ✅ AAPL: 508 records with 20 features
+2025-08-16 09:49:42,409 - INFO - Starting advanced feature generation...
+2025-08-16 09:49:42,416 - ERROR - Error calculating volume indicators: input array type is not double
+2025-08-16 09:49:42,426 - ERROR - Error calculating volatility features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,429 - ERROR - Error calculating statistical features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,437 - INFO - Generated 18 features
+2025-08-16 09:49:42,438 - INFO - ✅ GOOGL: 508 records with 19 features
+2025-08-16 09:49:42,438 - INFO - Starting advanced feature generation...
+2025-08-16 09:49:42,446 - ERROR - Error calculating volume indicators: input array type is not double
+2025-08-16 09:49:42,455 - ERROR - Error calculating volatility features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,459 - ERROR - Error calculating statistical features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,467 - INFO - Generated 18 features
+2025-08-16 09:49:42,467 - INFO - ✅ MSFT: 508 records with 19 features
+2025-08-16 09:49:42,468 - INFO - Starting advanced feature generation...
+2025-08-16 09:49:42,475 - ERROR - Error calculating volume indicators: input array type is not double
+2025-08-16 09:49:42,485 - ERROR - Error calculating volatility features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,489 - ERROR - Error calculating statistical features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,496 - INFO - Generated 18 features
+2025-08-16 09:49:42,497 - INFO - ✅ NVDA: 508 records with 19 features
+2025-08-16 09:49:42,497 - INFO - Starting advanced feature generation...
+2025-08-16 09:49:42,505 - ERROR - Error calculating volume indicators: input array type is not double
+2025-08-16 09:49:42,514 - ERROR - Error calculating volatility features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,518 - ERROR - Error calculating statistical features: 'Rolling' object has no attribute 'kurtosis'
+2025-08-16 09:49:42,526 - INFO - Generated 18 features
+2025-08-16 09:49:42,526 - INFO - ✅ TSLA: 508 records with 19 features
+2025-08-16 09:49:42,528 - INFO - 🎯 Final dataset: 2,540 records with 20 features
+2025-08-16 09:49:42,528 - INFO - 📋 Preparing training data...
+2025-08-16 09:49:42,531 - INFO - 📊 Training data shape: X=(2499, 16), y=(2499,)
+2025-08-16 09:49:42,531 - INFO - 📈 Target statistics: mean=0.000042, std=0.001383
+2025-08-16 09:49:42,532 - INFO - 📊 Train size: 1999, Test size: 500
+2025-08-16 09:49:42,532 - INFO - 🚀 Training XGBoost model...
+2025-08-16 09:49:42,624 - INFO - ✅ XGBoost - Test RMSE: 0.001454, R²: -0.0951
+2025-08-16 09:49:42,624 - INFO - 🌲 Training Random Forest model...
+2025-08-16 09:49:43,417 - INFO - ✅ Random Forest - Test RMSE: 0.001385, R²: 0.0077
+2025-08-16 09:49:43,417 - INFO - 🎯 Training SVM model...
+2025-08-16 09:49:43,423 - INFO - ✅ SVM - Test RMSE: 0.001390, R²: -0.0002
+2025-08-16 09:49:43,423 - INFO - 💾 Saving trained models...
+2025-08-16 09:49:43,427 - INFO - ✅ Saved xgboost model and scaler
+2025-08-16 09:49:43,452 - INFO - ✅ Saved random_forest model and scaler
+2025-08-16 09:49:43,453 - INFO - ✅ Saved svm model and scaler
+2025-08-16 09:49:43,453 - INFO - 📊 Saved performance metrics to /workspace/models/production/ensemble/performance_metrics_20250816_094943.joblib
+2025-08-16 09:49:43,453 - INFO - 🎉 ENSEMBLE TRAINING COMPLETED in 0:00:01.144416

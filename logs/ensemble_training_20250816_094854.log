@@ -1,0 +1,10 @@
+2025-08-16 09:48:54,033 - INFO - 🚀 Starting ensemble models training with real data...
+2025-08-16 09:48:54,034 - INFO - 📊 Loading real market data from /workspace/data/real_training_data/market_data_7day.csv
+2025-08-16 09:48:54,044 - INFO - ✅ Loaded 6,422 records
+2025-08-16 09:48:54,090 - INFO - 📈 Using 2,730 records from 5 symbols
+2025-08-16 09:48:54,090 - INFO - 🔧 Engineering advanced features...
+2025-08-16 09:48:54,092 - WARNING - ⚠️ AAPL: Feature engineering failed - 'AdvancedFeatureEngine' object has no attribute 'calculate_all_features'
+2025-08-16 09:48:54,093 - WARNING - ⚠️ GOOGL: Feature engineering failed - 'AdvancedFeatureEngine' object has no attribute 'calculate_all_features'
+2025-08-16 09:48:54,094 - WARNING - ⚠️ MSFT: Feature engineering failed - 'AdvancedFeatureEngine' object has no attribute 'calculate_all_features'
+2025-08-16 09:48:54,094 - WARNING - ⚠️ NVDA: Feature engineering failed - 'AdvancedFeatureEngine' object has no attribute 'calculate_all_features'
+2025-08-16 09:48:54,095 - WARNING - ⚠️ TSLA: Feature engineering failed - 'AdvancedFeatureEngine' object has no attribute 'calculate_all_features'

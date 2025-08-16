@@ -1,0 +1,27 @@
+2025-08-16 09:45:03,628 - EnhancedDataCollector - INFO - 🚀 Starting comprehensive data collection from all APIs...
+2025-08-16 09:45:03,629 - EnhancedDataCollector - INFO - 📊 Collecting data for EURUSD...
+2025-08-16 09:45:03,833 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 1410 records for EURUSD
+2025-08-16 09:45:04,087 - EnhancedDataCollector - INFO - Saved 1410 records to market_data table
+2025-08-16 09:45:04,091 - EnhancedDataCollector - INFO - ✅ EURUSD: Total 1410 records collected and saved
+2025-08-16 09:45:06,091 - EnhancedDataCollector - INFO - 📊 Collecting data for GBPUSD...
+2025-08-16 09:45:15,921 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 7043 records for GBPUSD
+2025-08-16 09:45:16,186 - EnhancedDataCollector - INFO - Saved 7043 records to market_data table
+2025-08-16 09:45:16,209 - EnhancedDataCollector - INFO - ✅ GBPUSD: Total 7043 records collected and saved
+2025-08-16 09:45:18,210 - EnhancedDataCollector - INFO - 📊 Collecting data for USDJPY...
+2025-08-16 09:45:27,870 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 7067 records for USDJPY
+2025-08-16 09:45:28,138 - EnhancedDataCollector - INFO - Saved 7067 records to market_data table
+2025-08-16 09:45:28,153 - EnhancedDataCollector - INFO - ✅ USDJPY: Total 7067 records collected and saved
+2025-08-16 09:45:30,153 - EnhancedDataCollector - INFO - 📊 Collecting data for AUDUSD...
+2025-08-16 09:45:39,960 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 6822 records for AUDUSD
+2025-08-16 09:45:40,226 - EnhancedDataCollector - INFO - Saved 6822 records to market_data table
+2025-08-16 09:45:40,240 - EnhancedDataCollector - INFO - ✅ AUDUSD: Total 6822 records collected and saved
+2025-08-16 09:45:42,241 - EnhancedDataCollector - INFO - 📊 Collecting data for USDCAD...
+2025-08-16 09:45:51,817 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 7067 records for USDCAD
+2025-08-16 09:45:52,094 - EnhancedDataCollector - INFO - Saved 7067 records to market_data table
+2025-08-16 09:45:52,109 - EnhancedDataCollector - INFO - ✅ USDCAD: Total 7067 records collected and saved
+2025-08-16 09:45:54,109 - EnhancedDataCollector - INFO - 📊 Collecting data for AAPL...
+2025-08-16 09:46:04,379 - EnhancedDataCollector - INFO - Alpha Vantage: Collected 21098 records for AAPL
+2025-08-16 09:46:04,822 - EnhancedDataCollector - INFO - Twelve Data: Collected 5000 records for AAPL
+2025-08-16 09:46:05,106 - EnhancedDataCollector - INFO - Polygon.io: Collected 16996 records for AAPL
+2025-08-16 09:46:05,192 - EnhancedDataCollector - INFO - Saved 21098 records to market_data table
+2025-08-16 09:46:05,213 - EnhancedDataCollector - INFO - Saved 5000 records to market_data table

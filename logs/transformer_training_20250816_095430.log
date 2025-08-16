@@ -1,0 +1,21 @@
+2025-08-16 09:54:30,089 - INFO - 🚀 Starting transformer models training with real data...
+2025-08-16 09:54:30,089 - INFO - 📊 Loading real market data from /workspace/data/real_training_data/market_data_7day.csv
+2025-08-16 09:54:30,098 - INFO - ✅ Loaded 6,422 records
+2025-08-16 09:54:30,146 - INFO - 📈 Using 2,730 records from 5 symbols
+2025-08-16 09:54:30,182 - INFO - ✅ Processed data shape: (2330, 39)
+2025-08-16 09:54:30,183 - INFO - 🔧 Creating sequences of length 60...
+2025-08-16 09:54:30,210 - INFO - ✅ Created 2,030 sequences
+2025-08-16 09:54:30,210 - INFO - 📊 Sequence shape: (2030, 60, 34)
+2025-08-16 09:54:30,231 - INFO - 📊 Train sequences: 1624, Val sequences: 406
+2025-08-16 09:54:30,231 - INFO - 🚀 Training Transformer model...
+2025-08-16 09:54:30,779 - INFO - 🎯 Training for 50 epochs...
+2025-08-16 09:54:34,198 - INFO - Epoch 1/50 - Train Loss: 0.001521, Val Loss: 0.000325
+2025-08-16 09:55:08,027 - INFO - Epoch 11/50 - Train Loss: 0.000090, Val Loss: 0.000010
+2025-08-16 09:55:44,194 - INFO - Epoch 21/50 - Train Loss: 0.000037, Val Loss: 0.000003
+2025-08-16 09:56:34,063 - INFO - Epoch 31/50 - Train Loss: 0.000015, Val Loss: 0.000003
+2025-08-16 09:58:21,814 - INFO - Early stopping triggered
+2025-08-16 09:58:22,338 - INFO - ✅ Transformer - Val RMSE: 0.001612, R²: 0.0022
+2025-08-16 09:58:22,343 - INFO - 💾 Saving transformer models...
+2025-08-16 09:58:22,351 - INFO - ✅ Saved transformer model to /workspace/models/production/transformer/trading_transformer_20250816_095822.pth
+2025-08-16 09:58:22,352 - INFO - 📊 Saved metrics to /workspace/models/production/transformer/metrics_20250816_095822.json
+2025-08-16 09:58:22,352 - INFO - 🎉 TRANSFORMER TRAINING COMPLETED in 0:03:52.262806

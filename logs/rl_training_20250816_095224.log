@@ -1,0 +1,9 @@
+2025-08-16 09:52:24,885 - INFO - 🚀 Starting RL agents training with real data...
+2025-08-16 09:52:24,886 - INFO - 📊 Loading real market data from /workspace/data/real_training_data/market_data_7day.csv
+2025-08-16 09:52:24,893 - INFO - ✅ Loaded 6,422 records
+2025-08-16 09:52:25,054 - INFO - 📈 Using 546 records from AAPL
+2025-08-16 09:52:25,060 - INFO - ✅ Added technical features, final shape: (497, 31)
+2025-08-16 09:52:25,071 - INFO - 📊 Training data: 397 records
+2025-08-16 09:52:25,071 - INFO - 📊 Validation data: 100 records
+2025-08-16 09:52:25,072 - INFO - 🚀 Training PPO agent...
+2025-08-16 09:52:25,942 - INFO - 🎯 Training for 20,000 timesteps...
