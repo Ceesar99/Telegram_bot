@@ -40,19 +40,23 @@ OTC_PAIRS = [
 	"EUR/GBP OTC", "GBP/JPY OTC", "EUR/JPY OTC", "AUD/JPY OTC", "NZD/USD OTC"
 ]
 
-# LSTM Model Configuration - ENHANCED FOR MAXIMUM ACCURACY
+# LSTM Model Configuration - ANTI-OVERFITTING OPTIMIZED
 LSTM_CONFIG = {
 	"sequence_length": 60,
-	"features": 24,  # Updated to match actual feature count (23 features + 1 more)
-	"lstm_units": [128, 64, 32],  # Enhanced architecture
-	"dropout_rate": 0.3,  # Increased regularization
-	"learning_rate": 0.001,
-	"batch_size": 64,  # Larger batch size
-	"epochs": 150,  # Increased from 100 to 150
-	"validation_split": 0.2,
-	"early_stopping_patience": 20,  # Added early stopping
-	"reduce_lr_patience": 10,  # Learning rate reduction
-	"temperature_calibration": True  # Enhanced confidence calibration
+	"features": 24,  # Updated to match actual feature count
+	"lstm_units": [64, 32, 16],  # REDUCED - Smaller network to prevent overfitting
+	"dropout_rate": 0.5,  # INCREASED - More aggressive dropout
+	"learning_rate": 0.0005,  # REDUCED - Slower learning for stability
+	"batch_size": 128,  # INCREASED - Larger batches for stability
+	"epochs": 50,  # REDUCED - Early stopping to prevent overfitting
+	"validation_split": 0.3,  # INCREASED - More validation data
+	"early_stopping_patience": 10,  # REDUCED - Stop earlier
+	"reduce_lr_patience": 5,  # REDUCED - Faster LR reduction
+	"temperature_calibration": True,
+	"l1_regularization": 0.01,  # ADDED - L1 regularization
+	"l2_regularization": 0.01,  # ADDED - L2 regularization
+	"batch_normalization": True,  # ADDED - Batch normalization
+	"gradient_clipping": 1.0  # ADDED - Gradient clipping
 }
 
 # Technical Analysis Configuration
@@ -69,10 +73,10 @@ TECHNICAL_INDICATORS = {
 	"SMA": {"periods": [10, 20, 50, 100]}
 }
 
-# Signal Configuration - ENHANCED FOR HIGHER ACCURACY
+# Signal Configuration - REALISTIC FOR LIVE TRADING
 SIGNAL_CONFIG = {
-	"min_accuracy": 75.0,  # Reduced from 95.0 to realistic 75.0
-	"min_confidence": 70.0,  # Reduced from 85.0 to realistic 70.0
+	"min_accuracy": 65.0,  # ACHIEVABLE - Reduced from unrealistic 95.0
+	"min_confidence": 60.0,  # PRACTICAL - Reduced from unrealistic 85.0
 	"expiry_durations": [2, 3, 5],  # minutes
 	"signal_advance_time": 1,  # minutes before trade
 	"max_signals_per_day": 15,  # Reduced for quality over quantity
@@ -123,10 +127,10 @@ MARKET_HOURS = {
 	"crypto_24_7": True
 }
 
-# Performance Targets
+# Performance Targets - REALISTIC FOR LIVE TRADING
 PERFORMANCE_TARGETS = {
-	"daily_win_rate": 95.0,
-	"weekly_win_rate": 92.0,
-	"monthly_win_rate": 90.0,
-	"max_drawdown": 5.0
+	"daily_win_rate": 65.0,  # ACHIEVABLE - Reduced from unrealistic 95.0
+	"weekly_win_rate": 67.0,  # PRACTICAL - Reduced from unrealistic 92.0
+	"monthly_win_rate": 70.0,  # REALISTIC - Reduced from unrealistic 90.0
+	"max_drawdown": 15.0  # SAFE - Increased from overly optimistic 5.0
 }
