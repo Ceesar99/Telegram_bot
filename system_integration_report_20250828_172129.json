@@ -1,0 +1,19 @@
+{
+  "timestamp": "20250828_172129",
+  "fixes_applied": [
+    "Directory creation: 4/4 ready",
+    "Model validation: 2/2 valid"
+  ],
+  "errors_found": [
+    "Missing dependencies: ['aiohttp', 'torch', 'gym', 'dash', 'h5py', 'ta', 'redis', 'asyncpg', 'tensorflow', 'xgboost']",
+    "Fix method error: No module named 'pytz'",
+    "Import error config: No module named 'pytz'",
+    "Import error lstm_model: No module named 'numpy'",
+    "Import error ensemble_models: No module named 'numpy'",
+    "Import error enhanced_signal_engine: No module named 'numpy'",
+    "Import error enhanced_risk_manager: No module named 'numpy'",
+    "Import error paper_trading_engine: No module named 'numpy'"
+  ],
+  "success_rate": 20.0,
+  "overall_status": "NEEDS_ATTENTION"
+}
