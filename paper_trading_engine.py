@@ -782,11 +782,11 @@ class PaperTradingEngine:
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 trade.id,
-                trade.timestamp.isoformat(),
+                trade.timestamp.isoformat() if hasattr(trade.timestamp, 'isoformat') else str(trade.timestamp),
                 trade.symbol,
                 trade.direction,
                 trade.entry_price,
-                trade.expiry_time.isoformat(),
+                trade.expiry_time.isoformat() if hasattr(trade.expiry_time, 'isoformat') else str(trade.expiry_time),
                 trade.duration,
                 trade.amount,
                 trade.predicted_accuracy,
