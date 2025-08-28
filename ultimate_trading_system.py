@@ -741,7 +741,7 @@ class UltimateTradingSystem:
         except Exception as e:
             self.logger.error(f"Error updating performance metrics: {e}")
     
-    def stop_trading(self):
+    async def stop_trading(self):
         """Stop the trading system"""
         self.logger.info("⏹️ Stopping Ultimate Trading System...")
         
@@ -758,7 +758,7 @@ class UltimateTradingSystem:
             self.compliance_monitor.stop_monitoring()
         
         if self.institutional_system:
-            self.institutional_system.stop()
+            await self.institutional_system.shutdown()
         
         self.logger.info("✅ Ultimate Trading System stopped")
     
@@ -831,7 +831,9 @@ async def main():
             'enable_reality_check': True,
             'target_accuracy': 0.90,  # 90% target for demo
             'target_latency_ms': 5.0,  # 5ms target for demo
-            'minimum_confidence': 0.7  # 70% minimum confidence
+            'minimum_confidence': 0.7,  # 70% minimum confidence
+            'symbols': ['EURUSD', 'GBPUSD', 'USDJPY', 'BTCUSD'],  # Add symbols
+            'timeframes': ['1m', '5m', '15m', '1h']  # Add timeframes
         }
         
         ultimate_system = UltimateTradingSystem(config)
@@ -870,7 +872,7 @@ async def main():
         await asyncio.sleep(30)
         
         # Stop trading
-        ultimate_system.stop_trading()
+        await ultimate_system.stop_trading()
         
         # Final report
         final_report = ultimate_system.get_comprehensive_report()
