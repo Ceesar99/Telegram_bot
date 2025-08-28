@@ -1,0 +1,51 @@
+2025-08-28 17:32:52,370 - EnhancedLSTMTrainer - INFO - 🔄 Loading and preparing training data...
+2025-08-28 17:32:52,529 - EnhancedLSTMTrainer - INFO - 📊 Loaded 123,968 data points
+2025-08-28 17:32:52,529 - EnhancedLSTMTrainer - INFO - 🔧 Preprocessing data...
+2025-08-28 17:32:52,529 - EnhancedLSTMTrainer - WARNING - ⚠️ Missing columns: ['timestamp']
+2025-08-28 17:32:52,607 - EnhancedLSTMTrainer - INFO - 🔬 Engineering advanced features...
+2025-08-28 17:32:52,791 - EnhancedLSTMTrainer - INFO - 📊 After preprocessing: 123,918 clean samples
+2025-08-28 17:32:53,072 - EnhancedLSTMTrainer - INFO - 📊 Using 48 features: ['open', 'high', 'low', 'close', 'volume', 'dividends', 'stock_splits', 'price_change', 'price_volatility', 'price_momentum']...
+2025-08-28 17:33:02,577 - EnhancedLSTMTrainer - INFO - ✅ Prepared 123,858 sequences with 48 features
+2025-08-28 17:33:02,580 - EnhancedLSTMTrainer - INFO - 🚀 Starting enhanced training with cross-validation...
+2025-08-28 17:33:02,581 - EnhancedLSTMTrainer - INFO - 🔄 Training fold 1/5
+2025-08-28 17:33:03,001 - EnhancedLSTMTrainer - INFO - 🏗️ Building enhanced LSTM architecture...
+2025-08-28 17:33:03,238 - EnhancedLSTMTrainer - INFO - ✅ Enhanced model architecture built successfully
+2025-08-28 17:33:10,520 - EnhancedLSTMTrainer - ERROR - ❌ Training failed: Graph execution error:
+
+Detected at node LogicalAnd_1 defined at (most recent call last):
+  File "/workspace/enhanced_lstm_trainer.py", line 726, in <module>
+
+  File "/workspace/enhanced_lstm_trainer.py", line 706, in main
+
+  File "/workspace/enhanced_lstm_trainer.py", line 487, in train_with_cross_validation
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/utils/traceback_utils.py", line 117, in error_handler
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/trainer.py", line 377, in fit
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/trainer.py", line 220, in function
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/trainer.py", line 133, in multi_step_on_iterator
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/trainer.py", line 114, in one_step_on_data
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/trainer.py", line 85, in train_step
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/trainers/trainer.py", line 490, in compute_metrics
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/trainers/compile_utils.py", line 334, in update_state
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/trainers/compile_utils.py", line 21, in update_state
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/metrics/confusion_metrics.py", line 378, in update_state
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/metrics/metrics_utils.py", line 595, in update_confusion_matrix_variables
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/metrics/metrics_utils.py", line 568, in weighted_assign_add
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/ops/numpy.py", line 4011, in logical_and
+
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/keras/src/backend/tensorflow/numpy.py", line 1737, in logical_and
+
+Incompatible shapes: [1,192] vs. [1,64]
+	 [[{{node LogicalAnd_1}}]] [Op:__inference_multi_step_on_iterator_16924]
