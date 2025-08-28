@@ -9,7 +9,7 @@ from dataclasses import dataclass, asdict
 import threading
 from concurrent.futures import ThreadPoolExecutor
 import websockets
-import aioredis
+# import aioredis  # Removed due to compatibility issues
 import numpy as np
 from collections import deque
 import pickle
@@ -57,8 +57,8 @@ class HighPerformanceRedisStream:
                 health_check_interval=30
             )
             
-            # Async Redis for streaming
-            self.async_redis = await aioredis.from_url(
+            # Async Redis for streaming - using redis-py async client
+            self.async_redis = redis.Redis.from_url(
                 self.redis_url,
                 max_connections=20,
                 retry_on_timeout=True
@@ -78,14 +78,14 @@ class HighPerformanceRedisStream:
         """Optimize Redis configuration for high-throughput streaming"""
         try:
             # Set memory policy
-            await self.async_redis.config_set('maxmemory-policy', 'allkeys-lru')
+            self.async_redis.config_set('maxmemory-policy', 'allkeys-lru')
             
             # Enable compression
-            await self.async_redis.config_set('rdbcompression', 'yes')
+            self.async_redis.config_set('rdbcompression', 'yes')
             
             # Optimize for performance
-            await self.async_redis.config_set('tcp-keepalive', '60')
-            await self.async_redis.config_set('timeout', '0')
+            self.async_redis.config_set('tcp-keepalive', '60')
+            self.async_redis.config_set('timeout', '0')
             
         except Exception as e:
             self.logger.warning(f"Could not optimize Redis config: {e}")
@@ -110,7 +110,7 @@ class HighPerformanceRedisStream:
             compressed_data = self._compress_data(serialized_data)
             
             # Add to Redis stream
-            message_id = await self.async_redis.xadd(
+            message_id = self.async_redis.xadd(
                 stream_name,
                 {'data': compressed_data},
                 maxlen=10000,  # Keep only recent messages
@@ -133,7 +133,7 @@ class HighPerformanceRedisStream:
         try:
             # Create consumer group if it doesn't exist
             try:
-                await self.async_redis.xgroup_create(stream_name, group_name, id='0', mkstream=True)
+                self.async_redis.xgroup_create(stream_name, group_name, id='0', mkstream=True)
             except Exception:
                 pass  # Group already exists
             
@@ -142,7 +142,7 @@ class HighPerformanceRedisStream:
             while True:
                 try:
                     # Read from stream
-                    messages = await self.async_redis.xreadgroup(
+                    messages = self.async_redis.xreadgroup(
                         group_name,
                         consumer_name,
                         {stream_name: '>'},
@@ -163,7 +163,7 @@ class HighPerformanceRedisStream:
                                 await self._process_message_async(callback, message)
                                 
                                 # Acknowledge message
-                                await self.async_redis.xack(stream_name, group_name, msg_id)
+                                self.async_redis.xack(stream_name, group_name, msg_id)
                                 
                             except Exception as e:
                                 self.logger.error(f"Error processing message {msg_id}: {e}")

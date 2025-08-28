@@ -510,3 +510,185 @@
 2025-08-12 21:28:03,164 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-12 21:28:03,164 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
 2025-08-12 21:28:03,164 - PocketOptionAPI - INFO - Disconnected from Pocket Option API
+2025-08-28 18:47:02,258 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:02,739 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:02,773 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:02,773 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,232 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:03,232 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:03,232 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,232 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,232 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,485 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:03,485 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:03,485 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:03,518 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,518 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,518 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:03,518 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,002 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:04,002 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:04,002 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:04,002 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:04,003 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,003 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,003 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,003 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,190 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,190 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,190 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,190 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,306 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:04,306 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:04,306 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:04,306 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:04,306 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:04,306 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:04,306 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:04,306 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:04,373 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,373 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,373 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,373 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,550 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,550 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,550 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,550 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,726 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:04,954 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,954 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,954 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:04,954 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,055 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:05,055 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:05,055 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:05,055 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:05,055 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:05,055 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:05,055 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:05,055 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:05,098 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,098 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,098 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,098 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,247 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,247 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,247 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,247 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,386 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,386 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,386 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:05,386 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:46,429 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:46,663 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:46,697 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:46,697 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:47,194 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:47,194 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:47:47,195 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-28 18:47:47,195 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-28 18:47:47,195 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:47,195 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:47:47,415 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,415 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,520 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:47,520 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:47:47,520 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:47,520 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:47:47,539 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,539 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,665 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,790 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:47:47,790 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:05,571 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:06,030 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:06,064 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:06,064 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:06,515 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:06,515 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:06,516 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-28 18:48:06,516 - PocketOptionAPI - INFO - Using regular pairs for weekday trading
+2025-08-28 18:48:06,517 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:06,517 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:06,666 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:06,666 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:06,804 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:06,804 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:06,843 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:06,843 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:06,844 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:06,844 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:06,943 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:06,943 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:07,088 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:07,088 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:07,255 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,255 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,255 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,741 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:07,741 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:07,741 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:07,775 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,775 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,775 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:07,775 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:08,298 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:08,298 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:08,298 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:08,298 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:48:08,299 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:08,299 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:08,299 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:08,299 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:48:08,433 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:08,433 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:08,433 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:08,433 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:48:08,433 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:08,433 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:08,433 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:08,433 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:48:08,486 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,486 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,486 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,486 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,662 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,662 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,662 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,662 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,840 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,840 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,840 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:08,840 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:09,018 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:09,018 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:09,018 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:48:09,018 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:00,549 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:52:01,059 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:52:01,092 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:52:01,092 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:52:01,522 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:52:01,522 - PocketOptionAPI - WARNING - Failed to sync with server time, using local time
+2025-08-28 18:52:01,522 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:52:01,522 - PocketOptionAPI - ERROR - Failed to extract session ID: Expecting value: line 1 column 1 (char 0)
+2025-08-28 18:52:01,749 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:01,749 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:01,851 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:52:01,851 - PocketOptionAPI - ERROR - WebSocket error: scheme https is invalid
+2025-08-28 18:52:01,851 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:52:01,851 - PocketOptionAPI - INFO - WebSocket connection closed
+2025-08-28 18:52:01,943 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:01,943 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:02,141 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:02,141 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:02,341 - PocketOptionAPI - ERROR - Failed to get market data: 404
+2025-08-28 18:52:02,341 - PocketOptionAPI - ERROR - Failed to get market data: 404
