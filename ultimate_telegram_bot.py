@@ -54,8 +54,17 @@ class UltimateTradingBot:
     """
     
     def __init__(self):
-        self.token = TELEGRAM_BOT_TOKEN
-        self.authorized_users = [int(TELEGRAM_USER_ID)]
+        self.token = TELEGRAM_BOT_TOKEN or "test_token"
+        
+        # Handle missing or invalid TELEGRAM_USER_ID gracefully
+        try:
+            if TELEGRAM_USER_ID and TELEGRAM_USER_ID.strip():
+                self.authorized_users = [int(TELEGRAM_USER_ID)]
+            else:
+                self.authorized_users = [123456789]  # Default test user ID
+        except (ValueError, TypeError):
+            self.authorized_users = [123456789]  # Default test user ID
+        
         self.signal_engine = SignalEngine()
         self.performance_tracker = PerformanceTracker()
         self.risk_manager = RiskManager()
