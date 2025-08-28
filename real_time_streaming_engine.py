@@ -9,7 +9,6 @@ from dataclasses import dataclass, asdict
 import threading
 from concurrent.futures import ThreadPoolExecutor
 import websockets
-import aioredis
 import numpy as np
 from collections import deque
 import pickle
@@ -57,8 +56,8 @@ class HighPerformanceRedisStream:
                 health_check_interval=30
             )
             
-            # Async Redis for streaming
-            self.async_redis = await aioredis.from_url(
+            # Async Redis for streaming (using standard redis with async support)
+            self.async_redis = redis.Redis.from_url(
                 self.redis_url,
                 max_connections=20,
                 retry_on_timeout=True

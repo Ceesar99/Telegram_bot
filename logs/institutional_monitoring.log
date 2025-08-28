@@ -1,0 +1,3 @@
+2025-08-28 19:19:31,568 - InstitutionalMonitoringSystem - INFO - Monitoring system started
+2025-08-28 19:19:32,574 - InstitutionalMonitoringSystem - ERROR - Error checking metric thresholds: no running event loop
+2025-08-28 19:20:01,528 - InstitutionalMonitoringSystem - INFO - Monitoring system stopped
