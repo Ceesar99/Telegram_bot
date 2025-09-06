@@ -9,12 +9,14 @@ from datetime import datetime, timedelta
 import pytz
 import logging
 from typing import Dict, List, Optional, Callable
+import os
 import ssl
 import urllib.parse
 from config import (
     POCKET_OPTION_SSID, POCKET_OPTION_BASE_URL, POCKET_OPTION_WS_URL,
     CURRENCY_PAIRS, OTC_PAIRS, TIMEZONE, MARKET_TIMEZONE
 )
+import sqlite3
 
 class PocketOptionAPI:
     def __init__(self):
@@ -31,12 +33,21 @@ class PocketOptionAPI:
         self.available_pairs = []
         self.server_time_offset = 0  # Server time offset in seconds
         self.last_time_sync = None
+        self._init_orders_db()
         
         # Initialize session
         self._setup_session()
         
         # Synchronize with server time
         self._sync_server_time()
+
+        # External library integration (optional)
+        self.external = None
+        self.external_connected = False
+        self.demo_mode = os.getenv("POCKET_OPTION_DEMO", "true").lower() in ("1", "true", "yes")
+        self.data_source = os.getenv("POCKET_OPTION_DATA_SOURCE", "http").lower()  # http|external
+        if os.getenv("POCKET_OPTION_EXTERNAL", "false").lower() in ("1", "true", "yes"):
+            self._init_external_client()
         
     def _setup_logger(self):
         logger = logging.getLogger('PocketOptionAPI')
@@ -151,6 +162,14 @@ class PocketOptionAPI:
     
     def get_market_data(self, symbol: str, timeframe: str = "1m", limit: int = 100):
         """Get historical market data for a symbol"""
+        # Try external library if selected
+        if self.data_source == "external" and self.external_connected:
+            try:
+                df = self._get_market_data_external(symbol, timeframe=timeframe, limit=limit)
+                if df is not None:
+                    return df
+            except Exception as e:
+                self.logger.warning(f"External data source failed, falling back to HTTP: {e}")
         try:
             # Map symbol to Pocket Option format
             po_symbol = self._map_symbol(symbol)
@@ -174,6 +193,60 @@ class PocketOptionAPI:
                 
         except Exception as e:
             self.logger.error(f"Error getting market data for {symbol}: {e}")
+            return None
+
+    # --- External client integration helpers ---
+    def _init_external_client(self):
+        try:
+            # Prefer pocketoptionapi from binaryoptionstoolsv2
+            try:
+                from pocketoptionapi.stable_api import PocketOption  # type: ignore
+            except Exception:
+                PocketOption = None
+            if PocketOption is None:
+                self.logger.warning("pocketoptionapi not available; skip external integration")
+                return
+            self.external = PocketOption(self.ssid, self.demo_mode)
+            self.external_connected = bool(self.external.connect())
+            if self.external_connected:
+                self.logger.info("Connected to Pocket Option via external library")
+            else:
+                self.logger.warning("External Pocket Option connection failed")
+        except Exception as e:
+            self.external = None
+            self.external_connected = False
+            self.logger.error(f"Failed to initialize external Pocket Option client: {e}")
+
+    def _get_market_data_external(self, symbol: str, timeframe: str = "1m", limit: int = 100):
+        try:
+            if not self.external_connected or not self.external:
+                return None
+            # Map timeframe to external expected format if necessary
+            tf_map = {"1m": 60, "2m": 120, "3m": 180, "5m": 300}
+            seconds = tf_map.get(timeframe, 60)
+            po_symbol = self._map_symbol(symbol)
+            # Many libs expose get_candles(symbol, period, amount)
+            if hasattr(self.external, "get_candles"):
+                candles = self.external.get_candles(po_symbol, seconds, limit)  # type: ignore
+                # Expect list of dicts with keys: time, open, close, min, max, volume
+                if candles:
+                    df = pd.DataFrame([
+                        {
+                            'timestamp': pd.to_datetime(c.get('time') or c.get('t') or c.get('timestamp'), unit='s'),
+                            'open': float(c.get('open') or c.get('o')),
+                            'high': float(c.get('max') or c.get('h') or c.get('high')),
+                            'low': float(c.get('min') or c.get('l') or c.get('low')),
+                            'close': float(c.get('close') or c.get('c')),
+                            'volume': float(c.get('volume', 0))
+                        }
+                        for c in candles
+                    ])
+                    df.set_index('timestamp', inplace=True)
+                    df.sort_index(inplace=True)
+                    return df
+            return None
+        except Exception as e:
+            self.logger.error(f"External market data retrieval failed: {e}")
             return None
     
     def _map_symbol(self, symbol: str):
@@ -415,6 +488,129 @@ class PocketOptionAPI:
             self.ws.send(f"42{candle_message}")
             
         self.logger.info(f"Subscribed to {len(available_pairs)} currency pairs")
+
+    # --- Order persistence and execution stubs ---
+    def _init_orders_db(self):
+        """Initialize simple orders/fills tables in SQLite for persistence."""
+        try:
+            conn = sqlite3.connect("/workspace/data/signals.db")
+            cur = conn.cursor()
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS orders (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    client_order_id TEXT UNIQUE,
+                    timestamp TEXT,
+                    symbol TEXT,
+                    side TEXT,
+                    amount REAL,
+                    duration INTEGER,
+                    entry_time TEXT,
+                    status TEXT,
+                    error TEXT
+                )
+                """
+            )
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS fills (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    client_order_id TEXT,
+                    fill_time TEXT,
+                    result TEXT,
+                    payout REAL,
+                    pnl REAL
+                )
+                """
+            )
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            self.logger.error(f"Error initializing orders db: {e}")
+
+    def _persist_order(self, client_order_id: str, symbol: str, side: str, amount: float, duration: int, entry_time: datetime, status: str, error: Optional[str] = None):
+        try:
+            conn = sqlite3.connect("/workspace/data/signals.db")
+            cur = conn.cursor()
+            cur.execute(
+                """
+                INSERT OR IGNORE INTO orders (client_order_id, timestamp, symbol, side, amount, duration, entry_time, status, error)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (client_order_id, datetime.now(TIMEZONE).isoformat(), symbol, side, amount, duration, entry_time.isoformat(), status, error)
+            )
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            self.logger.error(f"Error persisting order: {e}")
+
+    def _update_order_status(self, client_order_id: str, status: str, error: Optional[str] = None):
+        try:
+            conn = sqlite3.connect("/workspace/data/signals.db")
+            cur = conn.cursor()
+            cur.execute(
+                "UPDATE orders SET status = ?, error = ? WHERE client_order_id = ?",
+                (status, error, client_order_id)
+            )
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            self.logger.error(f"Error updating order status: {e}")
+
+    def _persist_fill(self, client_order_id: str, result: str, payout: float, pnl: float):
+        try:
+            conn = sqlite3.connect("/workspace/data/signals.db")
+            cur = conn.cursor()
+            cur.execute(
+                """
+                INSERT INTO fills (client_order_id, fill_time, result, payout, pnl)
+                VALUES (?, ?, ?, ?, ?)
+                """,
+                (client_order_id, datetime.now(TIMEZONE).isoformat(), result, payout, pnl)
+            )
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            self.logger.error(f"Error persisting fill: {e}")
+
+    def execute_trade(self, symbol_or_signal, side: Optional[str] = None, amount: Optional[float] = None, duration_minutes: Optional[int] = None, client_order_id: Optional[str] = None) -> Dict:
+        """
+        Submit a binary option trade request (stub). Accepts either a signal dict or explicit params.
+        Persists the order and simulates acceptance. Real placement should integrate broker API.
+        """
+        try:
+            # Unpack when first argument is a signal dict
+            if isinstance(symbol_or_signal, dict):
+                signal = symbol_or_signal
+                symbol = signal.get('pair') or signal.get('symbol') or 'EUR/USD'
+                raw_dir = signal.get('direction') or signal.get('signal') or 'CALL'
+                side = 'BUY' if str(raw_dir).upper() in ('CALL', 'BUY') else 'SELL'
+                amount = float(signal.get('position_size') or signal.get('risk_amount') or 1.0)
+                duration_minutes = int(signal.get('recommended_duration') or signal.get('duration') or 3)
+            else:
+                symbol = str(symbol_or_signal)
+                side = side or 'BUY'
+                amount = float(amount or 1.0)
+                duration_minutes = int(duration_minutes or 3)
+
+            if client_order_id is None:
+                client_order_id = f"PO_{int(time.time()*1000)}"
+
+            entry_time = self.get_entry_time(advance_minutes=1)
+            self._persist_order(client_order_id, symbol, side, amount, duration_minutes, entry_time, status="accepted")
+            self.logger.info(f"Order accepted {client_order_id}: {symbol} {side} {amount} {duration_minutes}m")
+            return {
+                "client_order_id": client_order_id,
+                "status": "accepted",
+                "entry_time": entry_time
+            }
+        except Exception as e:
+            try:
+                self._persist_order(client_order_id or "", symbol if 'symbol' in locals() else "", side or "", float(amount or 0), int(duration_minutes or 0), datetime.now(TIMEZONE), status="rejected", error=str(e))
+            except Exception:
+                pass
+            self.logger.error(f"Execute trade failed: {e}")
+            return {"client_order_id": client_order_id, "status": "rejected", "error": str(e)}
     
     def register_data_callback(self, symbol: str, callback: Callable):
         """Register callback for real-time data updates"""
