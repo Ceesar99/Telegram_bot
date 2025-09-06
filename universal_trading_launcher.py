@@ -43,7 +43,7 @@ from telegram_bot import TradingBot
 from working_telegram_bot import WorkingTradingBot
 from config import (
     LOGGING_CONFIG, TELEGRAM_BOT_TOKEN, TELEGRAM_USER_ID,
-    POCKET_OPTION_SSID, PERFORMANCE_TARGETS
+    POCKET_OPTION_SSID, PERFORMANCE_TARGETS, environment_validation
 )
 
 class SystemValidator:
@@ -125,17 +125,18 @@ class SystemValidator:
         issues = []
         
         try:
-            if not TELEGRAM_BOT_TOKEN or len(TELEGRAM_BOT_TOKEN) < 10:
+            env_ok = environment_validation()
+            if not env_ok.get('TELEGRAM_BOT_TOKEN'):
                 issues.append("Invalid Telegram Bot Token")
             else:
                 self.logger.info("✅ Telegram Bot Token: Configured")
             
-            if not TELEGRAM_USER_ID or not str(TELEGRAM_USER_ID).isdigit():
+            if not env_ok.get('TELEGRAM_USER_ID'):
                 issues.append("Invalid Telegram User ID")
             else:
                 self.logger.info("✅ Telegram User ID: Configured")
             
-            if POCKET_OPTION_SSID and len(POCKET_OPTION_SSID) > 10:
+            if env_ok.get('POCKET_OPTION_SSID'):
                 self.logger.info("✅ Pocket Option SSID: Configured")
             else:
                 self.logger.warning("⚠️ Pocket Option SSID: Not configured (demo mode)")
