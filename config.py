@@ -1,6 +1,10 @@
 import os
 from datetime import datetime
 import pytz
+from dotenv import load_dotenv
+
+# Load environment variables from .env if present
+load_dotenv(dotenv_path="/workspace/.env")
 
 # Telegram Bot Configuration (load from environment)
 import os as _os
@@ -119,6 +123,17 @@ LOGGING_CONFIG = {
 	"format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 	"file": "/workspace/logs/trading_bot.log"
 }
+
+# Environment validation helpers
+REQUIRED_ENV_VARS = ["TELEGRAM_BOT_TOKEN", "TELEGRAM_USER_ID"]
+
+def environment_validation():
+	"""Return a dict with validation of critical environment variables."""
+	return {
+		"TELEGRAM_BOT_TOKEN": bool(TELEGRAM_BOT_TOKEN and len(TELEGRAM_BOT_TOKEN) >= 20),
+		"TELEGRAM_USER_ID": bool(TELEGRAM_USER_ID and str(TELEGRAM_USER_ID).isdigit()),
+		"POCKET_OPTION_SSID": bool(POCKET_OPTION_SSID and len(POCKET_OPTION_SSID) >= 10)
+	}
 
 # Market Hours
 MARKET_HOURS = {

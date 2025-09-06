@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  trading-system:
+    build: .
+    container_name: ultimate_trading_system
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/workspace/logs
+      - ./data:/workspace/data
+      - ./models:/workspace/models
+      - ./backup:/workspace/backup
+    command: ["python", "universal_trading_launcher.py", "--mode", "ultimate", "--deployment", "production"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; print('ok')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+

@@ -342,7 +342,11 @@ class UnifiedTradingSystem:
                 if await self.risk_manager.validate_trade(signal, 1000.0):  # Default balance
                     # Execute trade via Pocket Option
                     if self.pocket_api:
-                        await self.pocket_api.execute_trade(signal)
+                        # Execute trade via Pocket Option (synchronous stub)
+                        try:
+                            self.pocket_api.execute_trade(signal)
+                        except Exception as e:
+                            self.logger.error(f"Trade execution failed: {e}")
                     
                     # Update performance tracking
                     if self.performance_tracker:
